@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_008",
+  "scenario": {
+    "scenario_id": "cold_008",
+    "tier": "COLD",
+    "student_name": "Amit",
+    "city": "Kolkata",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 23,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! This is Priya from PhysicsWallah sales team. Am I speaking with Amit?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Amit. But I'm quite busy right now..."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand Amit, I'll keep this brief. I'm calling regarding your interest in our JEE courses. Could you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 11... but I'm just exploring options, not really ready to decide anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, no pressure at all! Exploration is important. Since you're in 11th, you have good time for JEE 2027. Are you specifically targeting JEE Main or Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main mostly... but I don't know, there are so many coaching options. Why should I choose online over offline classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a valid concern! Online gives you flexibility to study anytime, plus our JEE Lakshya 2027 batch has live classes with top faculty like Alakh Sir. You get same quality at much lower cost than traditional coaching. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm average I guess... but honestly I need to discuss this with my parents first. They handle all these decisions."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely right! Parents should definitely be involved. Our JEE Lakshya is ₹35,999 or just ₹3,499 per month EMI - that's less than most offline coaching monthly fees. When would be a good time to call back and speak with your parents too?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm not sure about the timing... and ₹35,999 sounds like a lot. Are there any cheaper options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! We have JEE Arjuna 2027 at ₹19,999 - that's just ₹1,999 per month EMI. It has all essential features for JEE Main prep. Both courses have same quality teaching, Arjuna is more focused on JEE Main specifically."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... I still need time to think. There are other platforms too like Unacademy, Vedantu. How is PW different?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! PW focuses on affordable quality education - same experienced faculty but at fraction of cost. Plus we have PW Pay with 0% EMI, no hidden charges. Our success rate for JEE is also very high. Should I call you back tomorrow evening to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I'm still in exploration phase. Can you send me some details on WhatsApp instead? I'll discuss and then decide if we need a call."
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure Amit, I'll send complete course details on WhatsApp. Take your time to discuss with parents. Can I follow up with you next week to see if you have any questions after reviewing?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, next week should be fine. But no pressure please, I really need to compare all options first."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

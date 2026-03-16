@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_031",
+  "scenario": {
+    "scenario_id": "cold_031",
+    "tier": "COLD",
+    "student_name": "Rahul",
+    "city": "Pune",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 28,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Rahul? Hi, this is Priya from PhysicsWallah. I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE preparation courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I'm Rahul. I'm okay... I did check your website but just looking around, you know."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great, Rahul! I'm glad you're exploring your options. Can you tell me which class you're currently in? And are you specifically interested in JEE preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th standard right now. Haan, JEE... but I'm not sure about everything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Rahul! Starting JEE prep after 10th is actually ideal. Are you targeting JEE Main or JEE Advanced? And when do you plan to appear for the exam - 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced actually... 2027 sounds right. But honestly, I'm just checking different options right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, it's smart to research properly! For JEE Advanced 2027, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for serious aspirants like you. The course is ₹35,999 but we have 0% EMI options. What's your budget range for coaching, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999? That's... that's quite expensive. I wasn't expecting it to be this much. Let me think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand, Rahul. But think of it this way - it's just ₹3,499 per month through PW Pay, that's less than what most families spend on daily chai! Plus you get 28 months of comprehensive preparation. Are you the one who will be making this decision, or would you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself, but still... ₹3,499 every month is a lot for my family. Do you have something cheaper?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! We have JEE Arjuna 2027 at ₹19,999 - that's just ₹1,999 per month. It covers all essential topics for JEE Advanced with quality faculty. The content is excellent, just fewer doubt-clearing sessions compared to Lakshya. Would this work better for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 is better but... I'm still not sure. What if I don't like the teaching style or something? This is a big commitment."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a valid concern, Rahul. We offer a 7-day free trial where you can attend live classes, check faculty teaching style, and explore the app. Plus, we have a satisfaction guarantee. Why don't you start with the trial? If you like it, we can enroll you in Arjuna batch. Sounds fair?"
+    },
+    {
+      "speaker": "student",
+      "text": "Trial sounds okay... but I'm really not in any hurry to decide today. Can I take some time to think about it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Rahul! No pressure at all. Let me share the trial link with you right now, and you can start whenever you're ready. I'll also send you the detailed syllabus and batch timings. Can I get your WhatsApp number to send these details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that's fine. My number is 9876543210. But I'll only look at it when I have time, theek hai?"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_013",
+  "scenario": {
+    "scenario_id": "cold_013",
+    "tier": "COLD",
+    "student_name": "Trisha",
+    "city": "Bhopal",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 27,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon. Am I speaking with Trisha? Hi, main Priya bol rahi hun PhysicsWallah sales team se. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, main Trisha. I'm okay... actually I was just browsing your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! Bilkul right time pe call kiya maine. Tell me Trisha, which class are you currently in? And are you preparing for any competitive exams?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 10 right now. Haan, I'm thinking about JEE... but I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 10 se preparation start karna is actually the best strategy for JEE. So you have almost 2.5 years for JEE Main 2027, which gives you a great advantage. Have you started any preparation already?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really... thoda bahut school mein. But I don't know where to start properly. There are so many options everywhere."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Trisha. That's exactly why I called - to make things clear for you. For JEE 2027, we have two amazing courses. Our JEE Lakshya 2027 is our premium batch with small batch size, and JEE Arjuna 2027 is perfect for self-motivated students. Dono mein world-class faculty hai. What's your current comfort level with Physics, Chemistry, Math?"
+    },
+    {
+      "speaker": "student",
+      "text": "Math is okay, Physics thoda weak hai. But main concern is... these courses must be very expensive, right? My parents will ask about fees first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Arrey Trisha, cost ki tension bilkul mat lo! JEE Arjuna 2027 is just ₹19,999 for the complete 2.5 years - that's less than what offline coaching charges in 6 months. And we offer 0% EMI starting at just ₹1999 per month through PW Pay. That's less than what most families spend on daily chai! Your parents will be happy with this affordability."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... ₹1999 per month sounds reasonable. But I'll need to discuss with my parents first. Can you tell me what exactly is included in this Arjuna batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! In JEE Arjuna 2027, you get complete NCERT + JEE syllabus coverage, live classes, recorded lectures for revision, doubt solving sessions, regular tests, and study material. Plus our top faculty like Alakh Sir teaches Physics. Since you mentioned Physics is weak, our structured approach will definitely help you improve. When can you discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "They come home by evening... around 7 PM. But I have so many doubts still. How do I know if online classes will work for me? I've never done online coaching before."
+    },
+    {
+      "speaker": "agent",
+      "text": "Very valid concern, Trisha! That's why we offer demo classes first. You can attend 2-3 free classes to see our teaching style and platform. Many students from Bhopal are already with us and loving it. Plus, recorded lectures means agar kuch miss ho gaya, you can always re-watch. Shall I arrange a demo class for you this weekend?"
+    },
+    {
+      "speaker": "student",
+      "text": "Demo class sounds good... but let me talk to my parents first about the whole online coaching thing. Can you call me back tomorrow evening? Around 7:30 PM? I should have discussed with them by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I'll call you tomorrow at 7:30 PM sharp. Meanwhile, main aapko demo class ka link WhatsApp kar dungi - you can check it out if you get time. And Trisha, don't worry about online coaching - thousands of students clear JEE with PW every year. Your success is our responsibility!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that works. Send me the demo link. I'll try to attend if I get time and discuss everything with my parents. Thank you for explaining everything clearly."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Trisha! I'm sending the demo link right after this call. Remember - early start is the key to JEE success, and you're already on the right track. Talk to your parents, attend the demo, and I'll call you tomorrow 7:30 PM. All the best! Take care."
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

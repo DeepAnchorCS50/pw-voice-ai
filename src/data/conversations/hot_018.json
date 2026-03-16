@@ -1,0 +1,137 @@
+{
+  "conversation_id": "hot_018",
+  "scenario": {
+    "scenario_id": "hot_018",
+    "tier": "HOT",
+    "student_name": "Priya",
+    "city": "Kolkata",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 3,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, main Priya bol rahi hun PhysicsWallah sales team se. Aap kaise hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, main bhi Priya hun! Main theek hun, thank you. Actually maine aapke courses ke baare mein inquire kiya tha."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh wonderful! Same name, how nice. Haan bilkul, main aapki help kar sakti hun. Pehle ye bataiye, aap currently kaunsi class mein hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Main abhi Class 12 mein hun, Kolkata se hun."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Kolkata se, very nice. Aur aapka target exam kya hai - JEE ya NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced ka plan hai. Actually main quite serious hun about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced - that's excellent. Aur kitne months left hain aapke exam mein approximately?"
+    },
+    {
+      "speaker": "student",
+      "text": "Sirf 3 months left hain. I know it's quite less time, but I want to give my best shot."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, 3 months intensive preparation ke liye perfect hai! Abhi bhi time hai agar focused approach ho. Parents bhi aware hain aapke plans ke baare mein?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan bilkul, actually my parents want me to start immediately. They're quite supportive."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful support! Kya parents abhi nearby hain? Main unse bhi baat kar sakti hun if needed. Aur budget ke liye koi specific range mind mein hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Papa yahan hain actually. Budget ke liye no major concern hai, but obviously value for money chahiye na."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samjha! Value for money toh PW ka forte hai. For JEE Advanced with 3 months intensive prep, main suggest karungi JEE Lakshya 2027 - comprehensive course with live classes, doubt solving, test series."
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds good. What's the fee structure? Aur kya included hota hai exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "JEE Lakshya 2027 is ₹35,999. Includes live interactive classes, recorded lectures, study material, test series, doubt clearing sessions. EMI option bhi hai - ₹3,499 per month through PW Pay at 0% interest."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reasonable. Papa wants to know about the success rate and faculty quality."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! PW ke faculty experts hain like Alakh Sir himself, and our JEE results speak for themselves - thousands of students crack JEE every year. Live doubt sessions mein direct interaction milti hai teachers se."
+    },
+    {
+      "speaker": "student",
+      "text": "Papa is asking if there's any trial or demo available? We want to see the teaching quality first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Demo classes available hain. Aap 2-3 demo lectures attend kar sakte hain before final decision. Quality check karne ke liye ye best way hai."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! How do we proceed with the demo? Aur agar we're satisfied, then enrollment process kya hai?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Main aapko demo link share kar dungi after this call. Enrollment ke liye online payment gateway hai, ya PW Pay EMI option. Document sirf basic details chahiye - name, contact, class details."
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds very straightforward. My parents are convinced about the EMI option. When can we start the demo classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Demo classes aap kal se hi start kar sakte hain! Main abhi aapka registration kar deti hun demo ke liye, aur enrollment link bhi send kar dungi. Ready to proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, absolutely! We're ready to start. Please go ahead with the demo registration."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! Welcome to PW family, Priya! Main aapko WhatsApp pe demo links aur enrollment details send kar rahi hun. All the best for your JEE preparation!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! Really excited to start. Thanks for explaining everything so clearly."
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure! Aap demo attend kariye, and any doubts ho toh directly call kar sakte hain. Best of luck, and see you in PW classes soon!"
+    },
+    {
+      "speaker": "student",
+      "text": "Definitely will do! Thanks again Priya. Have a great day!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You too! Take care and happy learning with PhysicsWallah!"
+    }
+  ],
+  "total_turns": 29,
+  "tier_label": "HOT"
+}

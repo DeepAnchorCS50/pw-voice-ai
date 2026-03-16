@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_021",
+  "scenario": {
+    "scenario_id": "cold_021",
+    "tier": "COLD",
+    "student_name": "Amit",
+    "city": "Indore",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 24,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Amit? Hi, main Priya bol rahi hun PhysicsWallah se. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I'm Amit. I'm okay... actually I was just browsing your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! Bilkul sahi time pe call kiya. Tell me, which class are you currently in? And are you preparing for any competitive exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 10th right now. I'm thinking about JEE... but I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE ke liye it's actually the best time to start preparation. Since you're in 10th, you have around 2 years for JEE Main 2027, right? Have you thought about which type of coaching would work best for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, 2 years hai. But honestly, I haven't decided anything yet. There are so many options out there."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Amit. Bahut confusion hota hai. At PW, we have JEE Lakshya 2027 and JEE Arjuna 2027 - both designed specifically for students like you. The main difference is the level of personalized attention. What's your current comfort level with Physics, Chemistry, and Math?"
+    },
+    {
+      "speaker": "student",
+      "text": "Math is okay, Physics is average, Chemistry mujhe thoda tough lagta hai. But what about the fees? I mean, what's the cost for these courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good that you asked! JEE Arjuna 2027 is ₹19,999 and JEE Lakshya 2027 is ₹35,999. But don't worry about paying everything at once - we offer 0% EMI starting at just ₹1999/month for Arjuna. That's less than what most families spend on daily chai! Would this budget work for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... I'm not sure. I'll have to ask my parents about this. Can you call me back after a few days?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Amit! That's completely understandable. Parents ki permission lena is very important. Before I call back, can you tell me - would you prefer to discuss this with them first, or would you like me to explain the courses to them as well when I call back?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'll talk to them first. But I have one more question - are there any hidden charges or is this the final price?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! No hidden charges at all, Amit. This is the complete course fee including all study material, recorded lectures, live classes, doubt clearing sessions - sab kuch included hai. When would be a good time for me to call you back? And should I call on this same number?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, same number is fine. Maybe call after 3-4 days? I need some time to think and discuss with my parents."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main Thursday ko call karungi around this same time. Meanwhile, I'll send you a WhatsApp message with course details so you can show your parents. Is that okay? And Amit, feel free to call me if you have any questions before that."
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, that sounds good. WhatsApp message bhej dena. Thanks for explaining everything, Priya."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

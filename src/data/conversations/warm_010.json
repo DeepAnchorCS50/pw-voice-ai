@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_010",
+  "scenario": {
+    "scenario_id": "warm_010",
+    "tier": "WARM",
+    "student_name": "Swati",
+    "city": "Jaipur",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 13,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good evening, this is Priya from PhysicsWallah. Am I speaking with Swati? I hope I'm not disturbing you at this time."
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, yes this is Swati. No, it's fine. I had filled some form online for NEET courses, so I was expecting a call."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you for showing interest in PW. I can see you're interested in NEET preparation. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Just started a few months back. I'm from Jaipur."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Class 11 is actually the perfect time to start NEET preparation. You have good time to build strong foundation. So you're targeting NEET 2027, right? That gives you around 17-18 months which is excellent."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, NEET 2027. But I want to start but not sure about the timing... like should I start now or wait for Class 12? And there are so many batches, I'm a bit confused."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid concern hai! But trust me, starting in Class 11 is the best decision. Our NEET Yakeen 2027 batch is specially designed for students like you. It covers Class 11 and 12 both systematically. Have you looked at any other coaching options or online platforms?"
+    },
+    {
+      "speaker": "student",
+      "text": "I checked a few local coaching centers here in Jaipur, but they're quite expensive. My parents are supportive but I want to make sure we choose the right option. What exactly does the Yakeen batch include?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand! NEET Yakeen 2027 is our comprehensive program - complete syllabus coverage, live classes, recorded lectures, test series, doubt solving, and dedicated mentorship. It's priced at ₹33,999 and we offer 0% EMI at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai! Much more affordable than offline coaching."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reasonable actually. But are there any other options? Like something more basic to start with? I want to see how online learning works for me first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Smart thinking! We do have alternatives. There's our Foundation course, but since you're already in Class 11, I'd recommend starting with Yakeen only because it's specifically designed for your timeline. However, we have 7-day free trial where you can attend live classes and see if it suits your learning style. Would that help you decide?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be helpful! The free trial sounds good. But I'll need to discuss this with my parents first before taking any final decision. Can you call me back in a day or two?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! That's completely understandable. I'll call you back day after tomorrow around this same time. Meanwhile, I'll send you the free trial access on WhatsApp so you can explore. Is this the best number to reach you on? And any specific time that works better for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. Evening time around 7-8 PM works best for me. Thank you for explaining everything, Priya. I'll try the trial and discuss with my parents."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Swati! I'll call you day after tomorrow around 7 PM. Do try attending at least 2-3 live classes during the trial to get the real feel. Feel free to WhatsApp me if you have any questions before that. All the best, and thank you for your time!"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure, I will. Thanks for being so patient with all my questions. Looking forward to trying the classes. Have a good evening!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

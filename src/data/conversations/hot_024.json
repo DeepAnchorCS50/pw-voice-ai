@@ -1,0 +1,121 @@
+{
+  "conversation_id": "hot_024",
+  "scenario": {
+    "scenario_id": "hot_024",
+    "tier": "HOT",
+    "student_name": "Sahil",
+    "city": "Vijayawada",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 7,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Sahil?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Sahil! I've been watching Alakh sir's videos and I'm really interested in joining PW. His teaching style is amazing!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful to hear! Alakh sir has helped lakhs of students achieve their dreams. Tell me, which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. I've been following PW for a while and I'm super excited about the structured courses you offer."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 12 is such an important year. Which competitive exam are you preparing for - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm preparing for NEET. I want to become a doctor and I know PW has excellent NEET courses. Can you tell me more about them?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! We have fantastic NEET courses. When is your NEET exam? Is it in 2025 or are you planning for 2026?"
+    },
+    {
+      "speaker": "student",
+      "text": "My NEET exam is in May 2025, so I have about 7 months left. I know it's getting close but I'm very motivated to work hard!"
+    },
+    {
+      "speaker": "agent",
+      "text": "7 months is actually a good amount of time with focused preparation! For NEET 2025, I'd recommend our NEET Yakeen 2027 batch - wait, sorry, for your timeline, we have specialized crash courses. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've covered most of the syllabus through school and self-study, but I need structured revision and practice. I've heard great things about PW's test series and doubt clearing sessions."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, our test series is really comprehensive! We have NEET Yakeen 2027 which is ₹33,999 with complete study material, live classes, and test series. But since your exam is in 7 months, let me check what specialized batches we have."
+    },
+    {
+      "speaker": "student",
+      "text": "₹33,999 sounds reasonable for all that content! But will this batch be suitable for my timeline? I don't want to waste time on basic concepts I already know."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! The Yakeen batch has advanced modules perfect for revision phase. Plus, you get lifetime access, so even if you need to reappear, you're covered. What's your budget range, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me. My parents are very supportive. I just want the best preparation possible. Can I make this decision today itself?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's amazing that you have such supportive parents and decision-making authority! The NEET Yakeen batch includes live classes by Alakh sir and top faculty, detailed study material, and weekly tests. We also offer EMI at ₹3299/month through PW Pay."
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds perfect! I love that Alakh sir will be teaching. What exactly is included in the study material? And how many mock tests are there?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You get comprehensive notes for Physics, Chemistry, and Biology, previous year question papers, and over 100+ mock tests with detailed solutions. Plus 24/7 doubt clearing support through the app."
+    },
+    {
+      "speaker": "student",
+      "text": "Wow, 100+ mock tests! That's exactly what I need for practice. And the doubt clearing feature sounds great. How do I enroll? Can we complete the process right now?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I can help you enroll right now. You can pay the full amount ₹33,999 or choose EMI of ₹3299/month. Which option would you prefer?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'll go with the full payment option. My parents already gave me permission to invest in good coaching. What's the next step?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you the payment link right after this call. Once payment is done, you'll get immediate access to the course on PW app. You'll also receive a welcome email with all course details. Ready to start your NEET journey with us?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I'm absolutely ready! This is so exciting. I can't wait to start studying with Alakh sir's structured approach. Thank you so much for explaining everything clearly!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Sahil! I'm so happy we could help you today. You'll receive the payment link in 2 minutes, and our student support team will call you once enrollment is complete. Best of luck for your NEET preparation!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you Priya! I really appreciate your help. Looking forward to starting my PW journey. Have a great day!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You too Sahil! Welcome to the PW family. See you in the classes soon!"
+    }
+  ],
+  "total_turns": 25,
+  "tier_label": "HOT"
+}

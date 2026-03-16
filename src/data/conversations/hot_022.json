@@ -1,0 +1,113 @@
+{
+  "conversation_id": "hot_022",
+  "scenario": {
+    "scenario_id": "hot_022",
+    "tier": "HOT",
+    "student_name": "Harsh",
+    "city": "Pune",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, this is Priya from PhysicsWallah sales team. Am I speaking with Harsh?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, yes this is Harsh speaking."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you for your time Harsh. I'm calling regarding your interest in our NEET courses. Can you tell me a bit about yourself - which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper right now. I gave NEET last year but didn't clear it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh I see, dropper student. That's completely fine Harsh, many of our successful students are droppers. So you're preparing for NEET 2025 then?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly. I failed last year and must crack it this time. Can't afford to waste another year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun. The pressure is real for dropper students. How much time do you have left for your exam preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Around 6 months are left. That's why I'm looking for a structured course now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Harsh! 6 months is good enough if you have the right guidance. For dropper students like you, we have NEET Sankalp 2027 - it's specifically designed for repeat aspirants. Have you heard about it?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I haven't. What's special about this Sankalp batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Sankalp is our premium dropper batch with intensive revision modules, previous year analysis, and most importantly - psychological support for dropper students. It addresses the specific challenges you face."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. What about the fees structure? I need to know the investment required."
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure Harsh. NEET Sankalp 2027 is priced at ₹44,999. But here's the good news - we offer 0% EMI through PW Pay starting at just ₹4,499 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹4,499 per month sounds manageable. What all is included in this course exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! You get complete video lectures, live doubt sessions, test series, study material, and dedicated dropper mentorship. Plus 24/7 doubt resolution. Everything you need to crack NEET in one package."
+    },
+    {
+      "speaker": "student",
+      "text": "This seems comprehensive. Can I make this decision myself or do I need to discuss with parents first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's entirely up to you Harsh. Since you're a dropper, I understand you might have more autonomy in these decisions. What do you feel comfortable with?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide this myself. My parents have given me the responsibility since it's my second attempt."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear! Shows the trust they have in you. Since you have 6 months and the course fits your budget, shall I help you enroll in NEET Sankalp 2027 today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I think this is the right course for me. How do we proceed with the enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful Harsh! I'll share the enrollment link on your WhatsApp right after this call. You can complete the payment through PW Pay EMI option. Your NEET journey starts today!"
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect Priya. Thank you for explaining everything so clearly. I'm feeling confident about this decision."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Harsh! I'm sure with dedication and our Sankalp batch, you'll definitely crack NEET this time. All the best for your preparation!"
+    }
+  ],
+  "total_turns": 23,
+  "tier_label": "HOT"
+}

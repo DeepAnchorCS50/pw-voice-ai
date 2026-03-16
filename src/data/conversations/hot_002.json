@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_002",
+  "scenario": {
+    "scenario_id": "hot_002",
+    "tier": "HOT",
+    "student_name": "Pallavi",
+    "city": "Bhopal",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Pallavi? Hi, this is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, yes this is Pallavi. I'm okay, thank you. Actually I was looking at some courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear! I'm glad you reached out to us. Can you tell me a bit about yourself - which class are you currently in and which exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper right now. I'm preparing for NEET. I failed last year and must crack it this time - it's really important for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Pallavi, and don't worry - many of our successful students were droppers too! When is your NEET exam scheduled? How much time do we have to prepare?"
+    },
+    {
+      "speaker": "student",
+      "text": "The exam is in May, so I have about 5 months left. I really want to make the most of this time and need proper guidance."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! 5 months is actually a good amount of time with the right strategy. For NEET droppers, we have our NEET Sankalp 2027 batch which is specifically designed for students like you. Have you taken any coaching before?"
+    },
+    {
+      "speaker": "student",
+      "text": "I did take some local coaching last year but it wasn't very effective. What makes your Sankalp batch different? And what's the fee structure like?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Our NEET Sankalp batch focuses on intensive revision, exam strategy, and filling knowledge gaps that droppers typically have. The course is ₹44,999, but we offer 0% EMI at just ₹4,499 per month through PW Pay. Are you the one who will be making this decision or do you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "The EMI sounds reasonable. I can make this decision myself actually - my parents have given me the freedom to choose what's best for my preparation. What all is included in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that your parents trust your judgment! The Sankalp batch includes complete syllabus coverage, daily practice sessions, weekly tests, doubt clearing sessions, and most importantly - a structured study plan designed specifically for droppers. You'll also get access to our mobile app for studying anywhere."
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds exactly what I need. The structured approach is what I was missing last year. When can I start, and will I be able to cover everything properly in 5 months?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul Pallavi! You can start immediately - even today if you want. Our Sankalp batch is specifically timed for 5-6 months intensive preparation. Many of our dropper students have successfully cleared NEET with this exact timeline. Should I help you get enrolled right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I think I'm ready to enroll. This feels like the right decision for my preparation. What's the next step?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision Pallavi! I'll send you a payment link right after this call. You can choose the EMI option during payment. Once done, you'll get immediate access to all study materials and live classes. You'll also receive a welcome call from our academic team within 24 hours. Koi aur questions?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think you've covered everything well. Thank you so much Priya! I'm feeling much more confident about my NEET preparation now. Looking forward to starting with PhysicsWallah!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

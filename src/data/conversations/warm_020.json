@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_020",
+  "scenario": {
+    "scenario_id": "warm_020",
+    "tier": "WARM",
+    "student_name": "Kavya",
+    "city": "Ahmedabad",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 15,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning! Am I speaking with Kavya? Main Priya bol rahi hun PhysicsWallah sales team se. I hope I'm not disturbing you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! No no, it's fine. I was actually expecting your call. I had filled up some form on your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! I can see that here. Thank you for showing interest in PW. So Kavya, can you tell me which class are you currently in and what exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, just started a few months back. I want to prepare for JEE Advanced... you know, targeting IIT and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's fantastic! IIT is a great goal. So you have around 15-16 months for JEE Advanced, right? Perfect timing to start structured preparation. Have you started any coaching already or looking to begin fresh?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually I tried local coaching here in Ahmedabad but honestly the quality wasn't that great. That's why I'm looking at online options now. How is PW different from others?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! See Kavya, PW ke saath you get Alakh Sir's proven teaching methodology - same quality that has produced AIR 1 students, but at very affordable prices. For JEE 2027, I'd recommend our JEE Lakshya batch - complete 2-year program with live classes, doubt solving, and mock tests. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Umm... budget is a bit of a concern actually. My parents said around 20-25k would be okay. Is that possible? And also, I want to compare a few options first before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely understandable! Smart decision to compare. For your budget, JEE Arjuna 2027 would be perfect - it's just ₹19,999 and covers everything you need. Plus we have 0% EMI option through PW Pay - just ₹1999 per month. That's less than what families spend on daily chai! Are you the one making this decision or would you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually my parents have given me the authority to decide since I know what's best for my studies. The EMI option sounds good... but what exactly is the difference between Lakshya and Arjuna batches?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good that you can decide! So Kavya, both have same quality teaching and syllabus coverage. Lakshya at ₹35,999 includes extra features like personalized mentorship, advanced problem-solving sessions, and priority doubt clearing. Arjuna at ₹19,999 has all core features - live classes, recordings, tests, basic doubt support. For someone focused like you, Arjuna should work perfectly!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, that does sound reasonable. But I'm also looking at some other platforms like Unacademy and Vedantu. How do I know PW is the right choice for me?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid concern! See, other platforms charge 60k-80k for similar courses. PW gives you the same quality at fraction of cost because we believe education should be affordable. Plus Alakh Sir's chemistry is legendary - students say even organic becomes easy! Why don't we enroll you in Arjuna batch and if you're not satisfied in first 30 days, we have money-back guarantee?"
+    },
+    {
+      "speaker": "student",
+      "text": "30-day money back guarantee? That actually gives me confidence. And the EMI is ₹1999 per month, right? When can I start the classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan exactly! ₹1999 per month for 10 months, 0% interest. Classes start from Monday itself - you'll get access to live sessions, previous recordings, and study material immediately. Shall I go ahead and get you enrolled in JEE Arjuna 2027? I can process everything right now and send you login details within 30 minutes!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay Priya, this sounds good. Let's do it! How do I make the payment? And will I get all the study materials digitally?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect choice Kavya! I'll send you a secure payment link right after this call. You can pay first EMI of ₹1999 today. Yes, everything is digital - PDF notes, video lectures, test series, all accessible through PW app. Welcome to the PW family! Your IIT dream starts now. Any last questions?"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

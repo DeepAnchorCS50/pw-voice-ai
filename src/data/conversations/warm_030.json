@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_030",
+  "scenario": {
+    "scenario_id": "warm_030",
+    "tier": "WARM",
+    "student_name": "Rahul",
+    "city": "Kolkata",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 13,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Rahul? Hi, this is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your interest in our NEET preparation courses. Do you have 2-3 minutes to talk?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... haan, I'm Rahul. Actually I was just browsing your website yesterday. I have some time now, you can go ahead."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you Rahul. So I see you're interested in NEET preparation. That's great! Can you tell me which class you're currently in? And are you from Kolkata?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I'm from Kolkata. I'm in class 11 right now. I want to start preparing for NEET but I'm not sure about the timing, you know?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, I understand your concern about timing. Actually, class 11 is the perfect time to start NEET preparation - you have almost 18 months which is ideal. Are you looking to start immediately or thinking of joining from next academic session?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to start soon, maybe within this month. But I'm confused between different courses. What options do you have? And are there any alternatives if I want something less intensive?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! For NEET 2027, we have two main courses - NEET Yakeen 2027 which is our comprehensive program at ₹33,999, and we also have foundation courses. Since you're in class 11, Yakeen would be perfect as it covers both 11th and 12th syllabus thoroughly. What's your budget range, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable actually. But I'll need to discuss this with my parents first. Can you tell me more about what's included? And is there any EMI option available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! NEET Yakeen includes live classes, recorded lectures, doubt clearing sessions, test series, and study materials. And haan, we have 0% EMI through PW Pay - just ₹3,299 per month. That's less than what most families spend on daily chai! When do you think you can discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "That EMI option sounds good. I can talk to them today evening. But can I ask - what if I want to start with something basic first? Are there any trial classes or shorter courses to test the waters?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Smart thinking, Rahul! We do offer demo classes so you can experience our teaching quality first. Also, you can start with our foundation modules and then upgrade to the full course. But honestly, since you have 17-18 months, starting with Yakeen directly would be most beneficial. Shall I arrange a callback tomorrow after you've spoken to your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be perfect. Can you call me tomorrow around 7 PM? I should have discussed everything with them by then. Also, will the same price be available tomorrow or is there any deadline?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM sharp. Don't worry about pricing - the offer will remain same. Meanwhile, I'll also send you a WhatsApp message with course details and demo class links so you can show your parents. Is this the best number to reach you - the one I'm calling on right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is the right number. Please do send those details on WhatsApp. And thank you for being so patient with all my questions. I'm really interested, just want to make sure I make the right decision."
+    },
+    {
+      "speaker": "agent",
+      "text": "Arre Rahul, no problem at all! It's a big decision and you should be 100% sure. I really appreciate that you want to start early - that's the key to NEET success. I'll send all details in next 10 minutes. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'm good for now. Looking forward to those materials and your call tomorrow. Thank you so much, Priya. Have a good day!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

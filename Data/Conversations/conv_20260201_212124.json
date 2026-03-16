@@ -1,0 +1,104 @@
+{
+  "conversation_id": "conv_20260201_212124",
+  "timestamp": "2026-02-01T21:21:24.246831",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": true,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I was looking at your website and wanted to know more about the courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Rahul! Starting JEE preparation in 11th gives you a great advantage. Are you planning to appear for JEE Main and Advanced in 2026?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that's the plan. But I'm a bit worried about managing both board exams and JEE prep together."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a very common concern, and you're smart to think about it early. Our 11th-12th integrated program is specifically designed to balance both. We cover NCERT thoroughly for boards while building the strong foundation needed for JEE. Have you started any preparation yet?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really, just school studies mostly. I've been trying to solve some extra problems in physics and maths on my own."
+    },
+    {
+      "speaker": "agent",
+      "text": "That shows good initiative! Now, to recommend the best program for you, I'd like to understand your budget range. Are your parents supportive of investing in JEE coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, they're supportive, but we need to be careful about the cost. What are your fee structures like?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand budget is important. Our regular 2-year JEE program is ₹30,000, but we have several scholarship options. Students who score well in our entrance test can get up to 50% scholarship. Would you be interested in taking our scholarship test?"
+    },
+    {
+      "speaker": "student",
+      "text": "50% scholarship sounds good! What does the test cover? And what if I don't score well enough for the scholarship?"
+    },
+    {
+      "speaker": "agent",
+      "text": "The test covers 11th level Physics, Chemistry, and Maths - mostly NCERT based with some application questions. Even if you don't get 50%, we have scholarships starting from 20% for decent scores. Plus, we offer EMI options to make it more affordable. When would be a good time for you to take the test?"
+    },
+    {
+      "speaker": "student",
+      "text": "This weekend would work. But can you tell me more about what exactly I'll get in the course? Like study material, doubt clearing, all that?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! You'll get comprehensive study material for both 11th and 12th, live classes with our expert faculty, recorded lectures you can watch anytime, regular tests and assessments, and 24/7 doubt clearing through our app. We also provide previous years' JEE questions and mock tests. Does this sound like what you're looking for?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that sounds comprehensive. My parents will definitely want to know about the success rate and faculty background though."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great questions! Our students have achieved a 92% success rate in JEE Main qualification, and our faculty includes IIT graduates with 10+ years of teaching experience. I can arrange a demo class this week so you and your parents can experience our teaching quality firsthand. Would Friday evening work for a demo class?"
+    },
+    {
+      "speaker": "student",
+      "text": "Friday evening should be fine. Let me confirm with my parents tonight. How do I register for both the demo class and the scholarship test?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you a WhatsApp message with links for both registrations right after this call. The demo class is free, and the scholarship test is also free. Can I have your WhatsApp number to send these details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure, it's 9876543210. And if I like the demo class and do okay on the scholarship test, when can I start the regular classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! I'll send everything to 9876543210. If you're satisfied after the demo and test, you can start immediately - we have a fresh batch starting next Monday. I'll also include our detailed brochure and fee structure in the message. Is there anything else you'd like to know right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think that covers everything for now. Thanks for explaining everything clearly, Priya. I'll discuss with my parents and register for the demo class today."
+    }
+  ],
+  "total_turns": 22,
+  "duration_seconds": 550
+}

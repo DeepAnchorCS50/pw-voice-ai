@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_003",
+  "scenario": {
+    "scenario_id": "warm_003",
+    "tier": "WARM",
+    "student_name": "Saurabh",
+    "city": "Hyderabad",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Saurabh? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, haan yes this is Saurabh. I'm good, thanks. Actually I was looking at your courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear! I'm glad you're exploring our courses. Can you tell me which class you're currently in and what exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 12th standard right now. I want to prepare for JEE Main, but I'm not sure which course would be right for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Main is a great goal. Since you're in 12th, you have around 11 months for preparation, right? For students like you, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for 12th students targeting JEE."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that sounds good. But I'm concerned about the fees. My family has a limited budget. What's the pricing for this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, I understand budget is important. JEE Lakshya 2027 is priced at ₹35,999. But here's the good news - we offer 0% EMI starting at just ₹3,499 per month through PW Pay. That's less than what most families spend on daily chai! Is there a specific budget range you had in mind?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, ₹3,499 per month... that's still quite a bit for us. Do you have any other options? Can you tell me about EMI options for other courses too?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! I have a more affordable option - JEE Arjuna 2027 at ₹19,999 with EMI of just ₹1,999 per month. It covers all essential topics for JEE Main with quality video lectures and practice materials. Would this fit better within your budget, Saurabh?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more reasonable. But I'll need to discuss this with my parents first. What exactly is included in the Arjuna batch compared to Lakshya?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, that's completely understandable! Arjuna includes comprehensive video lectures, DPPs, test series, and doubt support. Lakshya has additional features like live classes and more intensive mentoring. Both will definitely help you crack JEE Main. When would be a good time to call you back after you've discussed with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I can talk to them tonight. Maybe you can call me tomorrow evening around 6 PM? Also, is there any discount or offer running currently?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 6 PM. And yes, we do have ongoing offers occasionally. When we speak tomorrow, I can check what's available at that time. Meanwhile, you can also show your parents our course details on the PW app or website. Does that sound good?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that works for me. I'll definitely check the app and discuss with my parents. Thanks for explaining everything clearly, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Saurabh! I'm really glad I could help. Just remember, with 11 months left, this is the perfect time to start structured preparation. I'll call you tomorrow at 6 PM sharp. All the best, and looking forward to speaking with you again!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! I'll be ready with my parents' feedback tomorrow. Have a good day!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

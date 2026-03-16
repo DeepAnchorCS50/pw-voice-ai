@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_019",
+  "scenario": {
+    "scenario_id": "cold_019",
+    "tier": "COLD",
+    "student_name": "Meera",
+    "city": "Bangalore",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 27,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, this is Priya calling from PhysicsWallah. Am I speaking with Meera?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Meera. What's this about?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Meera! I hope I'm not disturbing you. I'm calling regarding your interest in our courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 10 right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Class 10 is actually the perfect time to start preparing. Which exam are you targeting - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE... but I'm not sure about all this yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, it's natural to have doubts. JEE Advanced ya Main? And haan, since you're in Class 10, you have good time - almost 27 months for preparation. That's actually an advantage!"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced. But these courses are probably very expensive, right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand budget is a concern, Meera. Let me suggest JEE Lakshya 2027 - it's our comprehensive program for ₹35,999. But here's the good news - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999? That's still too expensive for us. I need to think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Meera. What if I tell you about JEE Arjuna 2027? It's ₹19,999 with EMI of just ₹1,999 per month. It covers all essential topics for JEE Advanced. Would this work better for your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I can't decide right now. My parents aren't home."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's perfectly fine! But can I ask - do you generally have the freedom to make decisions about your studies, or do you always need to check with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "Usually I can decide about my studies... but this is a big amount."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand completely, Meera. Tell you what - since you're serious about JEE Advanced and have good time to prepare, why don't you take today to think? I can call you tomorrow same time. Meanwhile, you can also check our free classes on the PW app. Theek hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that sounds better. Yes, call me tomorrow."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at the same time. And Meera, remember - starting early in Class 10 gives you a huge advantage. Don't let this opportunity slip away. Have a great day!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

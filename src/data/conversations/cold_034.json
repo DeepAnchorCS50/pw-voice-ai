@@ -1,0 +1,157 @@
+{
+  "conversation_id": "cold_034",
+  "scenario": {
+    "scenario_id": "cold_034",
+    "tier": "COLD",
+    "student_name": "Sahil",
+    "city": "Ahmedabad",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 18,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! This is Priya calling from PhysicsWallah. Am I speaking with Sahil?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Sahil."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I hope you're doing well. I'm calling regarding your inquiry about our courses. How can I help you today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my friend told me to call. I'm not sure I'm ready for anything right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "No problem at all, Sahil! It's good that you're exploring your options. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 11."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! And which exam are you preparing for - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... but I'm still figuring things out."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's completely fine, Sahil. NEET preparation is a big decision. Are you currently taking any coaching classes or studying on your own?"
+    },
+    {
+      "speaker": "student",
+      "text": "Just self-study mostly. Some local tuitions."
+    },
+    {
+      "speaker": "agent",
+      "text": "I see. Self-study shows great dedication! Since you're in Class 11, you have about 18 months for NEET 2027, which is actually a good timeline. What specific challenges are you facing in your preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "I don't know... everything seems difficult. Chemistry especially."
+    },
+    {
+      "speaker": "agent",
+      "text": "Chemistry can be tricky initially, but with the right guidance it becomes much easier. At PW, we have experienced faculty who make complex topics simple. Our NEET Yakeen 2027 batch is specifically designed for students like you in Class 11."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... how much does it cost though?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! The NEET Yakeen 2027 course is ₹33,999. But here's the good news - we offer 0% EMI starting at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "That's still quite expensive for us. My parents will have concerns about the cost."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Sahil. It's natural for parents to be concerned about investment in education. But think of it this way - this one-time investment can secure your medical career. Have you discussed your NEET aspirations with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, they support me but we need to be careful about money."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's very responsible thinking. Would it help if I could arrange a call with your parents as well? I can explain how our course structure and results justify the investment, and also discuss the EMI options in detail."
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I need to talk to them first. Can you call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! When would be a good time to call back? And should I call you directly or would you prefer if your parents are also available?"
+    },
+    {
+      "speaker": "student",
+      "text": "Call me tomorrow evening around 7 PM. I'll talk to my parents by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM. Meanwhile, I'll send you some information about our NEET Yakeen batch and success stories on WhatsApp. What's your number?"
+    },
+    {
+      "speaker": "student",
+      "text": "This same number is fine."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Sahil, one last thing - what's your biggest concern about starting NEET preparation right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm just worried if I can handle the pressure and if it's worth the money."
+    },
+    {
+      "speaker": "agent",
+      "text": "Those are very valid concerns, and it shows you're thinking seriously about your future. Our structured approach actually reduces pressure by breaking down the syllabus systematically. Plus, we have mentorship support throughout."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... I'll think about it and discuss with my parents."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Take your time to discuss. I'll send you the course details and some sample classes so you can get a feel for our teaching style. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that's all for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you the information shortly and call you tomorrow at 7 PM. Feel free to call me if you have any questions before that. Have a great day, Sahil!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you, bye."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bye! Take care and all the best with your studies!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thanks."
+    }
+  ],
+  "total_turns": 34,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_009",
+  "scenario": {
+    "scenario_id": "hot_009",
+    "tier": "HOT",
+    "student_name": "Kavya",
+    "city": "Pune",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! This is Priya from PhysicsWallah sales team. Am I speaking with Kavya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan yes, this is Kavya speaking! I've been watching Alakh sir's videos and I really want to join PhysicsWallah. Main bohot impressed hun unse!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful Kavya! Alakh sir ke students ko hamesha best results milte hain. Tell me, which class are you in currently and which exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now and preparing for NEET. Actually, I'm really serious about getting into medical college. Can you tell me about the NEET courses available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET ke liye we have excellent courses. But first, when is your NEET exam? Kitne months preparation time hai tumhare paas?"
+    },
+    {
+      "speaker": "student",
+      "text": "My exam is in about 6 months. I know it's getting close, but I'm ready to put in all the hard work needed. What course would you recommend for me at this stage?"
+    },
+    {
+      "speaker": "agent",
+      "text": "6 months is perfect timing! For Class 12 students, I'd recommend our NEET Yakeen 2027 course - ₹33999 with comprehensive coverage of all subjects. It has live classes, recorded lectures, test series, and doubt clearing sessions. Sounds good?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds amazing! Can you tell me more details about what's included? Like how many hours of content, test series details, and also about the faculty? I want to make sure I get the best preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Yakeen includes 400+ hours of live classes, 1000+ recorded lectures, weekly tests, monthly full syllabus tests, and PYQ practice. Faculty includes Alakh sir for Physics, Tarun sir for Chemistry, and Shivani ma'am for Biology. All top-rated teachers!"
+    },
+    {
+      "speaker": "student",
+      "text": "Wow, that's comprehensive! I'm really excited about this. What about doubt clearing? And can I access everything on mobile app also? I sometimes study while traveling."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan definitely! 24/7 doubt clearing through app, live doubt sessions, and everything accessible on PW app - mobile, tablet, laptop sabpe. You can download lectures for offline viewing bhi. Budget wise koi concern hai Kavya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me. My parents are very supportive of my medical dreams. But still, do you have any EMI options? It might be easier for monthly payments."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! We offer 0% EMI starting at just ₹3299/month through PW Pay. That's less than what most families spend on daily chai! Very convenient for parents also. Are you the one making this decision or should I speak with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my parents have already told me to choose whatever course I feel is best for my preparation. They trust my judgment completely. So yes, I can make this decision right now on this call itself!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's fantastic Kavya! Your parents sound very supportive. So shall we proceed with NEET Yakeen 2027 enrollment? I can help you complete the process right now and you can start classes from tomorrow itself!"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes absolutely! I'm ready to enroll right now. This sounds perfect for my NEET preparation. Please guide me through the process. I'm so excited to start learning from Alakh sir and the entire PW faculty team!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

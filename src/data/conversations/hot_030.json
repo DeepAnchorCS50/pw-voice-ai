@@ -1,0 +1,89 @@
+{
+  "conversation_id": "hot_030",
+  "scenario": {
+    "scenario_id": "hot_030",
+    "tier": "HOT",
+    "student_name": "Aditi",
+    "city": "Bhopal",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 4,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Main Priya bol rahi hun PhysicsWallah se. Am I speaking with Aditi? I hope maine aapko koi busy time mein call nahi kiya hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, main Aditi. No no, it's fine. Actually I was expecting your call. I had inquired about JEE courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you so much for showing interest in PW. Aditi, just to understand your requirements better - aap currently which class mein ho? Aur JEE Main ya Advanced - which one are you targeting?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually... main dropper hun. I gave JEE last year but results weren't good. This time I'm targeting JEE Main. This is my last chance, you know."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Aditi. Don't worry - bahut sare students second attempt mein better perform karte hain. JEE Main kab hai? I mean, kitna time hai preparation ke liye?"
+    },
+    {
+      "speaker": "student",
+      "text": "Around 4 months left for the exam. I'm really tensed about the time. Is it possible to cover everything in 4 months? Will your course help?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul possible hai! 4 months is actually good time agar right strategy ho. For droppers, humara NEET Sankalp 2027 batch hai - wait, sorry, for JEE we have JEE Lakshya batch which is perfect for your timeline. It has crash courses, revision modules, and extensive test series. What's your budget range, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue. My parents are supportive. But main thing is - will I be able to decide today itself? I mean, can I take admission right now on call? I don't want to delay further."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! You can enroll right now on this call itself. I really appreciate ki you want to start immediately - that's the right mindset. For JEE preparation with 4 months timeline, JEE Lakshya 2027 would be perfect at ₹35,999. It includes live classes, recorded lectures, DPPs, and mock tests. Shall I tell you more about the features?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan please, tell me about the features. Also, are the teachers good? I've heard Alakh sir is really good but will I get to learn from experienced faculty?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Yes, Alakh sir leads the team, and you'll have access to all his recorded masterclasses. Plus live classes by expert faculty like Pankaj Sijairya sir for Maths, Amit Gupta sir for Physics. You get daily practice problems, weekly tests, and 24/7 doubt solving. For crash course, there are special rapid revision modules too. Sounds good?"
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds really comprehensive. I think this is exactly what I need for my preparation. How do I make the payment? Can I pay the full amount right now?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Aditi! I'm so happy you're ready to start your journey with PW. You can pay the full ₹35,999 right now, or if you prefer, we also have 0% EMI at ₹3,499 per month through PW Pay. I'll send you the payment link on WhatsApp, and once payment is done, you'll get immediate access. Shall I proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please! I'll pay the full amount. Please send me the WhatsApp link. I'm really excited to start. Thank you so much for explaining everything clearly, Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Aditi! I'm sending the payment link right now on WhatsApp. Once payment is successful, you'll receive login credentials within 5 minutes. All the best for your JEE preparation - I'm confident you'll crack it this time! Any other questions I can help with?"
+    },
+    {
+      "speaker": "student",
+      "text": "No questions as of now. I'll reach out if I need any help during the course. Thanks again, Priya. This call was really helpful!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Welcome to the PW family, Aditi! Remember, we're always here to support you. Wishing you all the best for your JEE journey. Study hard and make your dreams come true! Have a great day!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "HOT"
+}

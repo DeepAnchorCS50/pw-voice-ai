@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_025",
+  "scenario": {
+    "scenario_id": "hot_025",
+    "tier": "HOT",
+    "student_name": "Neha",
+    "city": "Jaipur",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Is this Neha? Main Priya bol rahi hun PhysicsWallah se. I hope I'm not disturbing you. Actually, you had shown interest in our JEE courses, so I thought I'd give you a quick call to see how I can help you with your preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I did check out your website. Actually I'm quite stressed about my preparation right now. I'm really looking for some guidance."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Neha. Bilkul natural hai to feel this way. Can you tell me a bit about where you are in your journey right now? Which class are you in currently?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper. I gave JEE last year but didn't get the rank I wanted. So I'm preparing again this year. This is my last chance, you know?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally get it, Neha. Many of our most successful students are droppers who came back stronger. That determination is already half the battle won! How much time do you have left for JEE Main?"
+    },
+    {
+      "speaker": "student",
+      "text": "The exam is in about 5 months. I know it's getting close and that's why I'm panicking a bit. I need proper structured guidance now."
+    },
+    {
+      "speaker": "agent",
+      "text": "5 months is actually a good amount of time if you have the right strategy and guidance. For droppers like you, we have our NEET Sankalp batch... oh wait, you're preparing for JEE, right? So our JEE Lakshya would be perfect. But first, budget-wise, is there any specific range you're looking at?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me right now. My parents are supportive and they've said whatever it takes for good preparation. I just want the best course that can help me crack JEE this time."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful support from your family, Neha! For serious JEE aspirants like you, I'd recommend our JEE Lakshya 2027 batch. It's our premium course at ₹35,999 with complete live classes, doubt solving, test series, and personal mentorship. The success rate among droppers in this batch is really impressive. Are you the one who'll be making this decision, or do you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide this myself. My parents have already given me the go-ahead to choose whatever course I feel is right. But can you tell me what exactly makes Lakshya different from your other courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya is our most comprehensive program. You get live interactive classes with top faculty, unlimited doubt resolution, weekly mentorship calls, advanced test series that simulates actual JEE pattern, and most importantly - personalized study plans based on your weak areas. Plus, being a dropper batch, you'll be with students who have the same hunger and determination as you."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds really good. The personalized attention part is exactly what I need. I made some silly mistakes in my previous attempt that I can't afford to repeat. How soon can I start if I enroll today?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can start immediately, Neha! In fact, I can get you enrolled right now and you'll get access within the next 2 hours. Given that you're serious about this and time is crucial, should we go ahead and secure your spot in JEE Lakshya? I can also set up the payment through PW Pay if you'd like - it's completely secure."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do this! I don't want to waste any more time. How do we proceed with the enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Neha! I'm so excited for your journey. I'll send you a payment link right after this call, and once the payment is confirmed, you'll receive all your login details and the study schedule. You're going to do amazing this time - I can feel that determination in your voice!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I'm feeling much more confident now. I'll make the payment as soon as I get the link. Really appreciate your help!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

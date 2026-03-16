@@ -1,0 +1,179 @@
+{
+  "conversation_id": "voice_hot_005",
+  "tier": "HOT",
+  "region": "south",
+  "scenario": {
+    "id": "voice_hot_005",
+    "tier": "HOT",
+    "region": "south",
+    "name": "Divya",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 4,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "key_situation": "Mother on call, missed by 12 marks last year, very motivated"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! Good evening. Am I speaking with Divya?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hello, actually this is Divya's mother speaking. She is studying right now, but I can talk on her behalf.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Oh wonderful! Thank you so much for taking the time. I'm Priya from PhysicsWallah. I understand Divya is interested in our NEET preparation courses. Could you tell me a bit about her current situation?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Yes, yes. Actually Divya wrote NEET last year but missed by just 12 marks only. She is taking drop this year and very determined to crack it. We are looking for best coaching for her.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "I can understand how disappointing that must have been - just 12 marks! But it shows she's already very close to her goal. That's actually a great position to be in for a dropper. How is she feeling about attempting again?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "She is very motivated actually. Every day she is studying from morning 6 AM itself. But we want proper guidance and structured course. How many months are left for next NEET?",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "That's wonderful to hear about her dedication! NEET 2024 will be in approximately 4 months, so there's definitely good time for focused preparation. With her existing foundation, this timeline can work very well. Which subjects does she feel she needs the most support in?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Physics is her weakest area. Biology she is good, Chemistry is okay-okay. But Physics concepts are not clear properly. She is getting confused in numericals.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "Physics numericals can be tricky, but the good news is that with the right approach, students often see rapid improvement in Physics. Our NEET courses have separate focus on numerical problem-solving. Has Divya been studying at home or did she join any coaching previously?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Last year she went to local coaching here in Chennai, but teachers were not that good. This time we want online only because she can study at her own pace and repeat the lectures if needed.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "That makes perfect sense! Online definitely gives that flexibility. At PhysicsWallah, all our lectures are recorded so students can revisit them anytime. For a motivated dropper like Divya with 4 months left, I would recommend our NEET Lakshya batch specifically designed for serious aspirants.",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Lakshya batch? What exactly is included in this? And will it be suitable for someone who has already studied the syllabus once?",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Absolutely! Lakshya is perfect for droppers. It includes complete syllabus coverage with advanced problem-solving, daily practice questions, weekly tests, and most importantly - detailed Physics numericals sessions. Since Divya has base knowledge, she can focus on strengthening weak areas and mastering exam strategies.",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "Sounds good. What about doubt clearing? If she gets stuck in some problem, how will she get help immediately?",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "Great question! We have dedicated doubt clearing sessions and also a doubt forum where students can post questions. Our faculty responds within 24 hours usually. Plus, each topic has multiple practice problems with detailed solutions, so most doubts get cleared while practicing itself.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "That's helpful. And what about test series? She needs lots of practice tests to improve her speed and accuracy.",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "The Lakshya batch includes comprehensive test series - both chapter-wise and full syllabus tests. We also provide previous year papers with detailed analysis. Given that she missed by just 12 marks, regular testing will definitely help her cross that line this time.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "How much does this Lakshya batch cost? We are ready to invest in her future, but want to know the fee structure.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "I completely understand. The Lakshya batch is priced at ₹15,999 for the complete 4-month program, which includes everything I mentioned - live lectures, recordings, tests, doubt support, and study materials. We also have EMI options if that helps with planning.",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "That seems reasonable compared to offline coaching fees. Can she start immediately? And is there any trial or demo available so she can see the teaching quality first?",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "Yes, she can start from tomorrow itself! And absolutely, we have free demo lectures available. I can share the login details so Divya can attend 2-3 classes and see if she's comfortable with our teaching methodology before enrolling.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "Perfect! That would be great. She can try for 2 days and then we will decide. How do I get these demo access details?",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "I'll send the demo access link to your registered number right after this call. The demo includes one Physics numerical session which will be perfect for Divya to evaluate. Shall I also schedule a brief call with Divya directly tomorrow so she can ask any specific questions about the course?",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "Yes, that would be excellent. She will be free around 7 PM tomorrow. Thank you so much for explaining everything clearly, Priya. We are quite confident about PhysicsWallah now.",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Thank you so much for your time and trust! I'm really excited to help Divya achieve her NEET goal this year. With her determination and our structured approach, I'm confident she'll not just clear but score really well. I'll send all the details shortly and call tomorrow at 7 PM. Have a great evening!",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "Thank you so much, Priya. Looking forward to working with PhysicsWallah. Good evening!",
+      "audio_file": "msg_025_student.mp3"
+    }
+  ],
+  "total_messages": 26,
+  "language": "english"
+}

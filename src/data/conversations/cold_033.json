@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_033",
+  "scenario": {
+    "scenario_id": "cold_033",
+    "tier": "COLD",
+    "student_name": "Rahul",
+    "city": "Dehradun",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 25,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. I believe you showed interest in our JEE courses. May I know your good name?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... uh, I'm Rahul. From Dehradun."
+    },
+    {
+      "speaker": "agent",
+      "text": "Nice to meet you Rahul! So you're looking at JEE preparation, that's great. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th right now. Just... you know, exploring options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE prep after 10th is ideal. So you'll be targeting JEE Main 2027, right? That gives you good 2+ years to prepare properly."
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, 2027. But I'm just looking at different options for now, nothing final."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, it's smart to research properly! For JEE 2027, we have two excellent courses - JEE Lakshya at ₹35,999 and JEE Arjuna at ₹19,999. Both have complete syllabus coverage. What's your approximate budget range?"
+    },
+    {
+      "speaker": "student",
+      "text": "Umm... that sounds expensive. My parents haven't decided on budget yet. What's the difference between these two?"
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries about budget - we offer 0% EMI! Arjuna starts at just ₹1,999/month, that's less than what families spend on daily chai! Arjuna has core content while Lakshya has additional doubt sessions and mentorship. When can you discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I need to talk to them first. Can you call back maybe next week? I'm not sure they'll agree to any course right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! I understand parents' involvement is important. Would you like me to speak with them directly to explain the course benefits? Many parents appreciate hearing about the structured approach and results."
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I'll talk to them first. They don't like random calls. Maybe I'll call you back if they're interested."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, no problem at all! Let me share my number - you can WhatsApp me anytime. Also, would you like me to send some sample lectures so you can see the teaching quality?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, you can send some samples. But I'm still just looking around at different coaching options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you some Physics and Maths sample classes right after this call. Take your time to evaluate. Shall I follow up with you next Friday to see how your discussion with parents went?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh... maybe not next Friday. I'll call you back when I'm ready. Thanks for the information though."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

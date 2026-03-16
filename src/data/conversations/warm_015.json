@@ -1,0 +1,93 @@
+{
+  "conversation_id": "warm_015",
+  "scenario": {
+    "scenario_id": "warm_015",
+    "tier": "WARM",
+    "student_name": "Ravi",
+    "city": "Jaipur",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 9,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, am I speaking with Ravi? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Ravi. I'm good, thank you. Actually I was expecting your call, I had inquired about JEE coaching online."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Great to connect with you Ravi. I can see you're interested in our JEE courses. Can you tell me which class you're currently in and when you're planning to appear for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, and I'll be giving JEE Main next year. So I have around 9 months left for preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent timing Ravi! 9 months is a good duration for focused preparation. For students like you, our JEE Lakshya 2027 batch would be perfect - it's our comprehensive program with live classes, doubt solving, and complete study material. How has your JEE preparation been going so far?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's been okay, but I feel I need more structured guidance. The thing is, I'm also concerned about the fees. My family has a limited budget, so can you tell me about the pricing?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, I completely understand your concern Ravi. The JEE Lakshya course is ₹35,999 for the complete program. But here's the good news - we offer 0% EMI through PW Pay starting at just ₹3,499 per month. That's less than what most families spend on daily chai! Would this EMI option work better for your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "That EMI sounds more manageable. Can you tell me about EMI options? Like what are the terms and do you have any other courses that might be more affordable?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! For EMI, there's no extra interest - it's genuine 0% EMI for 10 months. We also have JEE Arjuna 2027 at ₹19,999 with EMI of ₹1,999 per month. It has recorded lectures with doubt support. Both courses cover complete JEE syllabus, but Lakshya has live classes. Which format do you prefer - live or recorded classes?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think live classes would be better for me as I can ask doubts immediately. The ₹3,499 EMI seems reasonable, but I'll need to discuss this with my parents first before making any decision."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's absolutely fine Ravi! It's always good to discuss with parents. The live classes in Lakshya also have recorded backup, so you won't miss anything. Plus you get access to our test series and PW app. Would you like me to call you back after you've spoken with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great. How much time do I have to decide? And when do the batches start? I want to make sure I don't miss out."
+    },
+    {
+      "speaker": "agent",
+      "text": "The next batch starts in 15 days, and we have seats available for another week. I can hold a seat for you for 2-3 days while you discuss with your family. Shall I call you back tomorrow evening around this same time? That should give you enough time to talk with your parents."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Tomorrow evening around 7 PM would be good for me. By then I'll have a clear answer from my parents about the budget and EMI option."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful Ravi! I'll call you tomorrow at 7 PM. Meanwhile, I'll send you a WhatsApp message with all the course details and EMI breakdown so you can show your parents. Is this the best number to reach you on?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is my number. Thank you so much Priya for explaining everything clearly. I'll discuss with my parents and we can finalize tomorrow. Looking forward to your call!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Ravi! I'm confident PhysicsWallah will be the right choice for your JEE preparation. Take care and I'll speak with you tomorrow evening. All the best!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! Have a great day. Bye!"
+    }
+  ],
+  "total_turns": 18,
+  "tier_label": "WARM"
+}

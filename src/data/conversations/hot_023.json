@@ -1,0 +1,125 @@
+{
+  "conversation_id": "hot_023",
+  "scenario": {
+    "scenario_id": "hot_023",
+    "tier": "HOT",
+    "student_name": "Suresh",
+    "city": "Varanasi",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 5,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! This is Priya from PhysicsWallah sales team. Am I speaking with Suresh?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Suresh. I had filled a form on your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you for showing interest in PW. Suresh, which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 12th right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! And which entrance exam are you preparing for - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced. I want to get into IIT."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! JEE Advanced ke liye kitna time hai aapke paas? When is your exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "About 5 months left. January mein JEE Main hai, then Advanced in May."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, so you need intensive preparation. Are you currently taking coaching somewhere or self-studying?"
+    },
+    {
+      "speaker": "student",
+      "text": "I was in local coaching but it's not very good. That's why looking for online options."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. For JEE Advanced in 5 months, I would recommend our JEE Lakshya 2027 course. It has intensive revision, mock tests, and doubt clearing sessions. Have you heard about it?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, can you tell me more about what's included in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! JEE Lakshya includes live classes by Alakh Sir and top faculty, recorded lectures for revision, daily practice problems, weekly mock tests, and 24/7 doubt support. It's specifically designed for serious JEE aspirants."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. What about the price? My parents want to know the cost."
+    },
+    {
+      "speaker": "agent",
+      "text": "The JEE Lakshya 2027 course is ₹35,999. But we offer 0% EMI through PW Pay - just ₹3,499 per month. That's less than what most families spend on daily chai! Are your parents available to discuss?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, my father is here. Papa wants to ask something. *background voice* Papa is asking about the success rate and faculty quality."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Please tell uncle that PW has produced thousands of IIT selections. Our faculty includes IIT graduates and Alakh Sir himself teaches Physics. We have 95% student satisfaction rate. Would uncle like to speak directly?"
+    },
+    {
+      "speaker": "student",
+      "text": "He's saying the price seems reasonable for IIT preparation. But he wants to know if there's any guarantee or refund policy."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We have a 7-day money-back guarantee if you're not satisfied. Plus, our track record speaks for itself. Many students from Varanasi have cracked JEE through PW courses. Are you convinced about starting?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, it looks good. My parents want me to start immediately since time is less. How do we proceed?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I can enroll you right now. You'll get immediate access to all course materials. I'll send you the payment link via WhatsApp. You can choose full payment or EMI option. Shall I proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please. Send the link. We'll go with the EMI option for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision Suresh! I'm sending the enrollment link now. Welcome to the PW family! You'll receive course access within 2 hours. Any other questions before we finish?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think we're good. Thank you Priya. Looking forward to starting the preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Suresh! Best of luck for your IIT journey. Feel free to call if you need any help. Have a great day!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! Bye."
+    }
+  ],
+  "total_turns": 26,
+  "tier_label": "HOT"
+}

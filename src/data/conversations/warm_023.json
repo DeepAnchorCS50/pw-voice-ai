@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_023",
+  "scenario": {
+    "scenario_id": "warm_023",
+    "tier": "WARM",
+    "student_name": "Pallavi",
+    "city": "Delhi",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 8,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking with Pallavi?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Pallavi. I had inquired about JEE courses on your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you for showing interest in PW. Pallavi, could you tell me which class you're currently in and when are you planning to appear for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Planning to give JEE Main this year only, so around 8 months left I think."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! 8 months is actually good time if you start with proper guidance. Have you been preparing on your own till now, or taking any coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "I was going to local coaching but honestly it's not that effective. That's why looking for online options now. What courses do you have for someone like me?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul sahi decision! For Class 12 students targeting JEE 2027, I'd recommend our JEE Lakshya 2027 batch - it's comprehensive with live classes, doubt solving, and mock tests. The fee is ₹35,999. We also have JEE Arjuna at ₹19,999 which is more focused."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, the price seems a bit high for my family. Can you tell me about EMI options? And what's the difference between these two courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! We offer 0% EMI through PW Pay. Lakshya EMI is just ₹3,499/month and Arjuna is ₹1,999/month - that's less than what most families spend on daily chai! Lakshya has more comprehensive coverage with extra practice sessions, while Arjuna covers all essential topics efficiently."
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more reasonable. But I'll need to discuss this with my parents first. Can you call me back tomorrow evening?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! That's completely understandable. Let me share the course details on WhatsApp so you can show your parents. What time would be convenient tomorrow evening?"
+    },
+    {
+      "speaker": "student",
+      "text": "Around 7 PM would be good. Also, do you have any trial classes or demo so I can see the teaching quality first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Yes, we have free demo classes. I'll send you the link along with course details. You can attend today's Physics class at 4 PM. Shall I schedule a call for tomorrow 7 PM then?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that works. Please send everything on WhatsApp. I'll discuss with parents and attend the demo class today."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful Pallavi! I'm sending all details right now. Attend the demo, discuss with family, and I'll call you tomorrow at 7 PM. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that covers everything. Thank you Priya! I'll check the demo class and talk to you tomorrow."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

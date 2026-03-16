@@ -1,0 +1,105 @@
+{
+  "conversation_id": "hot_015",
+  "scenario": {
+    "scenario_id": "hot_015",
+    "tier": "HOT",
+    "student_name": "Amit",
+    "city": "Allahabad",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Amit?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Amit. I had inquired about JEE courses on your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thanks for showing interest in PW. Amit, can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper. I appeared for JEE last year but didn't get the rank I wanted."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai Amit. Many successful students take a drop year. So you're targeting JEE Main 2025, right?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, JEE Main 2025. This is my last chance, so I want to make sure I choose the right coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand the pressure. Don't worry, we'll help you succeed! How much time do you have for preparation - when is your exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "The exam is in about 6 months. I know it's getting close, but I'm ready to put in the hard work."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! 6 months is good time if you prepare strategically. For droppers targeting JEE, our JEE Arjuna 2027 batch would be ideal. It's specifically designed for focused preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Arjuna sounds good. What does it include exactly? And what about the faculty?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! JEE Arjuna includes live classes by Alakh Sir and top PW faculty, recorded lectures, DPPs, test series, and doubt solving. It's our most popular JEE course. The fee is ₹19,999."
+    },
+    {
+      "speaker": "student",
+      "text": "₹19,999 sounds reasonable. Can I pay this in installments? Also, will I get enough practice questions for revision?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We offer 0% EMI through PW Pay - just ₹1,999 per month. That's less than what families spend on daily chai! And yes, you'll get thousands of practice questions and mock tests."
+    },
+    {
+      "speaker": "student",
+      "text": "That EMI option is really helpful. How soon can I start if I enroll today?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can start immediately after enrollment! All materials will be available within 2 hours. Amit, do you have the authority to make this decision today, or do you need to discuss with family?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide myself. My parents have given me full freedom to choose what's best for my preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Since time is crucial for your preparation, shall I help you complete the enrollment for JEE Arjuna 2027 right now? I can guide you through the process."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do it. I'm convinced this is the right choice for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision Amit! I'm sending you the enrollment link on WhatsApp. Choose the EMI option during payment. Once done, you'll receive login credentials within 2 hours."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Thank you so much Priya. I'm feeling much more confident about my preparation now."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Amit! Remember, this is your time to shine. Work hard for these 6 months and success will be yours. All the best for your JEE journey!"
+    }
+  ],
+  "total_turns": 21,
+  "tier_label": "HOT"
+}

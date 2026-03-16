@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_013",
+  "scenario": {
+    "scenario_id": "hot_013",
+    "tier": "HOT",
+    "student_name": "Divya",
+    "city": "Surat",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 3,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking with Divya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, yes this is Divya. I was expecting your call."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you for showing interest in PW courses. To help you better, can you tell me which class you're currently in and which exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 12th right now and preparing for JEE Advanced. Actually my board exams are also coming up."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced - that's amazing. So you're appearing for JEE this year itself, right? How much time do you have for preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, the exam is in about 3 months. I'm quite tensed because time is really short now and I need proper guidance."
+    },
+    {
+      "speaker": "agent",
+      "text": "Don't worry Divya, 3 months is sufficient time with proper strategy! Our JEE Lakshya 2027 course is perfect for serious aspirants like you. It includes complete syllabus coverage, test series, and doubt solving. Are your parents also involved in this decision?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually yes, my mom is sitting right here with me. Mom has some questions too about the course structure and fees."
+    },
+    {
+      "speaker": "agent",
+      "text": "Namaste aunty! I'm happy to answer all your questions. The JEE Lakshya course is our premium offering at ₹35,999. It includes live classes, recorded lectures, test series, and personal mentorship. We also have EMI options available. What's your budget range for Divya's coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable for what you're offering. My parents are okay with investing in good education. But can you tell me about the success rate and faculty quality?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Our faculty includes IITians and top educators. Last year, over 15,000 PW students cleared JEE Advanced. All our teachers have 10+ years experience. Plus you get 24/7 doubt support and regular performance analysis. Bilkul comprehensive hai!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds really good. One more question - since time is short, when can I start the classes? And will I be able to cover the full syllabus in 3 months?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect question! You can start immediately - even today if you want. For 3 months, we have intensive crash course modules that focus on high-weightage topics and previous year patterns. Plus recorded lectures will help you study at your own pace. Theek hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that makes sense. My parents want me to start immediately because we've already lost some time. How do we proceed with the enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision! I'll send you the payment link right now via SMS. You can pay the full amount or choose EMI of ₹3,499 per month through PW Pay at 0% interest. Once payment is done, you'll get login credentials within 30 minutes. Shall I process this?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please, send me the details. We'll make the payment today itself and I want to start from tomorrow morning. Thank you so much Priya!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_010",
+  "scenario": {
+    "scenario_id": "cold_010",
+    "tier": "COLD",
+    "student_name": "Tanvi",
+    "city": "Delhi",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, this is Priya from PhysicsWallah. Am I speaking to Tanvi? I believe you had inquired about our NEET courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh... hi. Actually, my friend told me to call, I'm not sure I'm ready. I mean, I just wanted to know what courses you have."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, bilkul! No pressure at all, Tanvi. I'm here to help you understand our courses. Can you tell me which class you're in right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 11... just started actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! So you have good time to prepare. You mentioned NEET - is that the exam you're targeting? Or are you still deciding between JEE and NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET only. But I don't know... there are so many coaching options. How do I know which one is right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a very valid concern, Tanvi. At PW, we focus on affordable, quality education. For Class 11 NEET students like you, we have NEET Yakeen 2027 - it's a comprehensive 2-year program with live classes, doubt solving, and regular tests. The fee is ₹33,999 for the complete course. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹33,999? That sounds expensive... I need to check with my parents first. They haven't decided on budget yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand, Tanvi. But actually, we offer 0% EMI through PW Pay - that's just ₹3,299 per month. That's less than what most families spend on daily chai! Plus you get 2 full years of coaching. Would you like me to call you back after you discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I'm still not sure if online coaching will work for me. What if I can't keep up with live classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! All our live classes get recorded, so you can watch them anytime. Plus we have dedicated doubt-clearing sessions and mentors to guide you. Many of our Delhi students like you have cracked NEET with our online format. When would be a good time for me to call you back after you speak with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Um... maybe in 2-3 days? I need time to think and discuss. Can you call me back then?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Tanvi! I'll call you back in 3 days. Meanwhile, I'll send you a WhatsApp with course details and some sample videos so you can see our teaching style. Is this the best number to reach you on?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. But please don't call too many times... I'll let you know when I'm ready."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, I respect that completely. Just one follow-up call in 3 days, and I'll share those videos today. Take your time to discuss with family. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, that's all for now. Thanks for the information."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

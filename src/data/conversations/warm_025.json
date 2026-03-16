@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_025",
+  "scenario": {
+    "scenario_id": "warm_025",
+    "tier": "WARM",
+    "student_name": "Tanvi",
+    "city": "Coimbatore",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Tanvi? Hi, this is Priya calling from PhysicsWallah. I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE preparation courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Tanvi. I'm doing well, thank you. Actually, I was looking at some online coaching options, so your call is well-timed."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Tanvi! I'm so glad to connect with you. Can you tell me which class you're currently in? And have you already decided on JEE as your target exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I'm in Class 11 right now. And haan, I'm definitely targeting JEE Main. I'm a bit confused about which coaching to choose though - there are so many options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, I completely understand the confusion! You're at the perfect time to start your JEE preparation. Since you're in Class 11, you have good time to build a strong foundation. Tell me, when are you planning to appear for JEE Main?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'll be giving JEE Main next year - so around 11 months from now. I want to make sure I'm well-prepared, but I'm also looking for something that's not too expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Tanvi! For students like you, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for Class 11 students with comprehensive coverage. It's priced at ₹35,999, but we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! What's your budget range?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, ₹35,999 sounds a bit high for my family. Are there any other options that might be more affordable? I'm interested but need something within a lower budget range."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Tanvi! I completely understand budget constraints. We have JEE Arjuna 2027 at ₹19,999 with EMI of just ₹1,999 per month. It covers all essential topics for JEE Main with quality teaching. The content is excellent and many students have cracked JEE through this batch. Would this fit better within your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds more reasonable. ₹19,999 seems manageable. But I'll need to discuss this with my parents first before making any decision. Can you tell me what exactly is included in the Arjuna batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Tanvi! JEE Arjuna includes complete syllabus coverage, recorded lectures you can watch anytime, practice questions, mock tests, and doubt-solving support. You get everything needed for JEE Main preparation. Since you need to discuss with parents, shall I call you back tomorrow? What would be a good time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great. Can you call me around this same time tomorrow evening? I should have spoken to my parents by then and can give you a proper answer."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow evening around this time. Meanwhile, I'll send you some details about the Arjuna batch on WhatsApp so you can show your parents exactly what's included. Is the number I'm calling you on your WhatsApp number as well?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is my WhatsApp number too. Please send the details - that will really help when I'm explaining to my parents. Thank you so much for being so understanding about the budget and timeline."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Tanvi! I completely understand - it's an important decision and involving parents is absolutely the right approach. I'll send all the course details shortly, and we'll talk tomorrow. Best of luck with your parents' discussion!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I really appreciate your help and patience. I'll be waiting for your call tomorrow. Have a great evening!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

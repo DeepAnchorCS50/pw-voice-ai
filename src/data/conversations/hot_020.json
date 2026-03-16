@@ -1,0 +1,89 @@
+{
+  "conversation_id": "hot_020",
+  "scenario": {
+    "scenario_id": "hot_020",
+    "tier": "HOT",
+    "student_name": "Nandini",
+    "city": "Patna",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, am I speaking with Nandini? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Nandini. I'm okay... actually I was looking at some courses on your website. I'm preparing for JEE."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful Nandini! JEE preparation is a great step. Can you tell me which class you're currently in? And are you targeting JEE Main or Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually... I'm a dropper right now. Gave JEE last year but didn't get the rank I wanted. So I'm targeting JEE Main this time - this is my last chance, you know?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun Nandini! Many of our most successful students are from dropper batches. When is your exam - JEE Main 2025 in January? That means we have about 6 months for solid preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes exactly, January 2025. I really need to crack it this time. What kind of course would you suggest for someone like me? I need something comprehensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! For JEE droppers with 6 months, I'd highly recommend our JEE Lakshya 2027 batch - wait sorry, for 2025 we have specialized dropper batches. The course covers complete syllabus with intensive practice. Before I suggest the best fit, what's your budget range for the course?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue for me. My parents are supportive since this is my second attempt. I just want the best preparation possible. What are the options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great support from your family! For serious JEE preparation, I'd recommend our premium dropper batch at ₹35,999. It includes live classes, recorded lectures, test series, and personal mentorship. The best part - you can take EMI at just ₹3,499 per month through PW Pay with 0% interest. Are you the one making this decision or would you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide this myself - my parents have already told me to choose whatever I think is best. The EMI option sounds good. But I have one question - how different is this from self-study with just books?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent question Nandini! Self-study with books won't give you the structured approach you need in just 6 months. Our course provides daily live doubt sessions, weekly tests to track progress, and most importantly - exam strategy and time management techniques. Since this is your last chance, you need expert guidance to avoid the mistakes from last attempt. Does this sound like what you're looking for?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that makes sense. The structured approach is exactly what I was missing last time. And the doubt sessions sound really helpful. How soon can I start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Fantastic! You can start immediately - today itself if you want. I'll send you the enrollment link and course details right after this call. The next batch starts this Monday, so perfect timing. Should I go ahead and get you enrolled in the JEE premium dropper batch for ₹35,999?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do it! I'm ready to enroll. This sounds like exactly what I need for my preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful Nandini! I'm so excited for your JEE journey with PW. I'll send you the payment link via SMS in the next 2 minutes, and you'll get course access within 1 hour of payment. You're going to do amazing this time - I can feel your determination! Any last questions?"
+    },
+    {
+      "speaker": "student",
+      "text": "No questions right now. Thank you so much Priya! I'm feeling really positive about this. Looking forward to starting the course."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Nandini! Your positive attitude is your biggest strength. Welcome to the PW family! I'll personally follow up next week to see how your first classes went. All the best, and remember - this IS your time to shine! Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "HOT"
+}

@@ -1,0 +1,96 @@
+{
+  "conversation_id": "conv_20260201_205659",
+  "timestamp": "2026-02-01T20:56:59.005654",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": true,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I was looking at your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE preparation in 11th gives you a strong foundation. What's your target - JEE Main or JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "Both actually. I want to get into IIT if possible. But I'm a bit worried about the fees... my parents are supportive but we need to be careful about the budget."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Rahul. The good news is we have several scholarship programs specifically for deserving students like you. Have you taken any competitive exams recently where you performed well?"
+    },
+    {
+      "speaker": "student",
+      "text": "I scored 94% in my 10th boards and came 2nd in my school. But I haven't taken any competitive exams yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent academic record! With your 10th performance, you'd likely qualify for our merit scholarship which can give you up to 50% discount. We also have a scholarship test next week. When would you prefer to start your preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'd like to start as soon as possible, but... what would be the total fee structure? And can you tell me more about this scholarship test?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Our comprehensive 2-year JEE program is ₹40,000, but with merit scholarship it could come down to ₹20,000. The scholarship test is free and covers Physics, Chemistry, and Maths basics. It's this Sunday at 10 AM. Would that work for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds much better! ₹20,000 is definitely manageable. What exactly is included in the program? And do I need to prepare anything specific for the scholarship test?"
+    },
+    {
+      "speaker": "agent",
+      "text": "The program includes live classes, recorded lectures, study material, regular tests, and doubt clearing sessions. For the scholarship test, just revise your 10th syllabus - it's designed to test your foundation, not advanced concepts. Should I register you for Sunday's test?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, please register me. But I should check with my parents once about the timing. Can I confirm by tomorrow?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I'll hold a spot for you. Let me share the test center details on WhatsApp. Also, I'll send you a sample question paper so you know what to expect. What's the best number to reach you?"
+    },
+    {
+      "speaker": "student",
+      "text": "You can use this same number. And yes, please send the sample papers. This would really help me prepare better."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send everything within the next hour. Rahul, I'm confident with your academic background, you'll do great. Any other questions about our program or the scholarship process?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not right now, but can I call you back if I have any doubts after going through the materials?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! You have my direct number now. I'm available till 8 PM on weekdays. Good luck with your preparation, and I look forward to hearing from you tomorrow about the test confirmation!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya. You've been really helpful. I'll definitely call you tomorrow after talking to my parents."
+    }
+  ],
+  "total_turns": 20,
+  "duration_seconds": 500
+}

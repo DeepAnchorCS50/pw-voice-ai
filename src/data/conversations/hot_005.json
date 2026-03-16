@@ -1,0 +1,129 @@
+{
+  "conversation_id": "hot_005",
+  "scenario": {
+    "scenario_id": "hot_005",
+    "tier": "HOT",
+    "student_name": "Trisha",
+    "city": "Pune",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon, this is Priya from PhysicsWallah sales team. Am I speaking with Trisha?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Trisha. Hi!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Trisha! I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE courses. Are you currently preparing for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, actually I am. I'm looking for some good coaching options."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! Can you tell me which class you're currently in? Are you in 11th, 12th, or are you a dropper?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm actually a dropper. I gave JEE last year but didn't get the result I wanted."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand, Trisha. Many students take a drop year to achieve their dream college - it shows your dedication! So you're targeting JEE Main 2025 then?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly. JEE Main 2025. This is my last chance, so I really want to make it count this time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! I completely understand the pressure. Since it's already August, you have about 5 months for preparation. Have you started studying or are you looking to join a structured program?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've been doing some self-study but I think I need proper guidance and structure. That's why I'm looking at coaching options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! For dropper students like you, we have our JEE Arjuna 2025 batch which is specifically designed for focused preparation. It covers the complete syllabus with intensive practice. Are you familiar with PhysicsWallah's teaching methodology?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've heard good things about PW, especially about Alakh sir's teaching. What exactly does the Arjuna batch include?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! JEE Arjuna includes live classes by our expert faculty, recorded lectures for revision, comprehensive study material, regular mock tests, and doubt clearing sessions. Plus you get access to our PW app with all resources. The best part is it's very affordable compared to offline coaching."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. What about the pricing? I want to make sure it fits my budget."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! JEE Arjuna 2025 is priced at just ₹19,999 for the complete course. And if paying the full amount at once is a concern, we offer 0% EMI through PW Pay at just ₹1,999 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "Wow, that's actually quite reasonable! ₹1,999 per month sounds very manageable. When do the classes start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm glad you find it reasonable! The current batch is already running, but don't worry - all previous recorded lectures are available so you can catch up quickly. You can start immediately after enrollment. Would you like to enroll today itself?"
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds really good. I think I can make this decision. Do I need to discuss with anyone or can I go ahead?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's entirely up to you, Trisha! Since you're a dropper, I assume you can make this decision independently. Many students your age do. The important thing is not to lose any more time since JEE is just 5 months away."
+    },
+    {
+      "speaker": "student",
+      "text": "You're right about the time factor. I think I should go ahead with this. How do I enroll?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision, Trisha! I can help you enroll right now. I'll share a payment link on your WhatsApp. You can choose the EMI option during checkout. Once payment is done, you'll get immediate access to all classes and materials. Shall I proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, please go ahead. I'm ready to start my preparation with PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'm sending the link now. Trisha, I'm confident that with PW's guidance and your determination, you'll definitely crack JEE this time. We'll be with you throughout this journey. All the best!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I'm feeling really positive about this decision. Looking forward to starting the classes."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's the spirit! Once you enroll, you'll receive a welcome email with all the details. If you have any doubts later, feel free to call our support team. Welcome to the PW family, Trisha!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you! I'll complete the enrollment right away. Have a great day!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You too, Trisha! Best of luck with your JEE preparation. See you in the PW classes soon. Bye!"
+    }
+  ],
+  "total_turns": 27,
+  "tier_label": "HOT"
+}

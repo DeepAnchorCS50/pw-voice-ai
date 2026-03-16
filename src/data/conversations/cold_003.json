@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_003",
+  "scenario": {
+    "scenario_id": "cold_003",
+    "tier": "COLD",
+    "student_name": "Varun",
+    "city": "Bangalore",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 26,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon, am I speaking with Varun? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... yeah, I'm Varun. I'm okay, I guess."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great to connect with you Varun! I see you've shown interest in our courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 10 right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 10 is actually the best time to start preparing. Which competitive exam are you targeting - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE... I want to get into IIT eventually."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice, Varun! JEE Advanced for IIT - that's a great goal. Since you're in class 10, you have around 26 months to prepare, which is perfect timing. For JEE preparation, I'd recommend our JEE Lakshya 2027 batch - it's comprehensive with live classes, recorded lectures, and doubt solving. The fee is ₹35,999, but we have 0% EMI options starting at just ₹3,499 per month through PW Pay."
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999? That's... that's quite expensive. I'm not sure about this."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern, Varun. But think of it this way - ₹3,499 per month is less than what most families spend on daily chai and snacks! We also have JEE Arjuna 2027 at ₹19,999 with EMI of just ₹1,999 per month. This is a 2.5 year investment for your IIT dream. Are you able to make this decision yourself, or do you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself, but... I don't know. It's still a lot of money. What if I don't crack JEE?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Varun, I totally get that fear - it's natural! But here's the thing - with proper guidance and our proven track record, your chances increase significantly. Haan, bilkul there's no guarantee in life, but PW students have consistently cracked JEE Advanced. Plus, the Arjuna batch at ₹1,999/month is really affordable. Would you like me to share some success stories of our students?"
+    },
+    {
+      "speaker": "student",
+      "text": "I mean... maybe. But I still think it's too expensive. Let me think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai Varun, I understand you want to think. But let me tell you - we have a limited-time offer running. If you enroll today, you'll get additional study materials worth ₹5,000 absolutely free. Plus, you can always start with a smaller payment and see the quality. What specific concerns do you have about the course content?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm just not ready to commit right now. Can I call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Varun! No pressure at all. But since you're serious about IIT, don't let this opportunity slip away. The batch is filling up fast, and early starters always have an advantage. Can I at least book a free demo class for you? You can experience our teaching quality first-hand, and then decide. What do you say?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... maybe a demo class would be fine. But I'm still not promising anything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Varun! No commitment needed for the demo. I'll schedule a free JEE demo class for you this weekend. You'll get to see our teaching methodology and interact with our expert faculty. I'll send you the details on WhatsApp. And remember, your IIT journey starts with the first step. Thanks for your time today!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

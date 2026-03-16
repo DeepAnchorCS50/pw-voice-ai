@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_009",
+  "scenario": {
+    "scenario_id": "cold_009",
+    "tier": "COLD",
+    "student_name": "Ayush",
+    "city": "Bhopal",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 26,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Main Priya bol rahi hun PhysicsWallah sales team se. Aapne humari courses ke baare mein inquiry ki thi, right? May I know your good name please?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan... main Ayush hun. Actually I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Ayush! Bilkul, options explore karna important hai. Aap currently which class mein ho and which exam ke liye prepare kar rahe ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "Main class 10th mein hun... JEE ke liye soch raha hun but abhi sure nahi hun."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great choice! JEE ke liye class 10th se start karna bahut smart decision hai. Toh aapka target JEE Main 2027 hoga, that gives you good 26 months preparation time. Koi coaching already join ki hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi abhi kuch nahi kiya... bas online dekh raha hun different options. Fees kitni hoti hai generally?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Dekho Ayush, humara JEE Lakshya 2027 batch hai complete foundation se advanced tak - that's ₹35,999. Lekin agar budget concern hai toh JEE Arjuna 2027 bhi hai ₹19,999 mein. 0% EMI bhi available hai sirf ₹1999 per month se!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... ₹20000 bhi thoda zyada lag raha hai. Mujhe parents se puchna padega. Aur kya difference hai dono batches mein?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samjh sakti hun! Lakshya mein live doubt solving, personal mentorship aur extra problem sheets milte hain. Lekin Arjuna bhi complete syllabus cover karta hai with recorded lectures. EMI think karo - ₹1999 monthly matlab daily sirf ₹66, ek chai ke paas ka amount!"
+    },
+    {
+      "speaker": "student",
+      "text": "Theek hai... but main abhi decide nahi kar sakta. Parents permission leni padegi. Aap kab call back kar sakte ho?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Ayush! Family discussion important hai for such decisions. Main kal evening around 6 PM call karun? Tab tak aap parents se baat kar lena. Koi specific questions unke liye prepare karun?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan 6 PM theek hai. Woh puchenge ki teachers kaun hain aur results kaise hain probably."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main Alakh Sir ke background aur PW ke success stories ki details ready rakhungi. Ek quick question - aapka WhatsApp number same hai jis pe call kiya? Course details share kar dun?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan same number hai... but abhi details mat bhejo, pehle parents se baat karke bataunga."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely fine! Main kal 6 PM sharp call karungi. Tab tak aap family ke saath discuss kar lena. All the best Ayush, and don't worry - hum affordable education believe karte hain!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay Priya ma'am. Thank you... kal baat karte hain. Bye."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

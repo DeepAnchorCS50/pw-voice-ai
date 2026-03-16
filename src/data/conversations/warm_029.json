@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_029",
+  "scenario": {
+    "scenario_id": "warm_029",
+    "tier": "WARM",
+    "student_name": "Ayush",
+    "city": "Bangalore",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Is this Ayush? Hi, I'm Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your interest in our JEE preparation courses. Kya aap abhi baat kar sakte hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, hello Priya. Yes, I had filled some form online. I'm free to talk right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you Ayush. So I can see you're from Bangalore. Can you tell me which class you're currently in and when are you planning to appear for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Planning to give JEE Main next year after 12th. So that would be in about 11 months I think."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is actually the best time to start serious JEE prep. Bilkul right time hai. Are you currently taking any coaching or preparing on your own?"
+    },
+    {
+      "speaker": "student",
+      "text": "I was going to local coaching but honestly it's not that great. The teachers are okay but I feel like I need something more comprehensive. That's why I was looking at online options."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand. Many students face this issue with local coaching. At PW, we have JEE Lakshya 2027 which is perfect for Class 11 students like you - it's our most comprehensive program with live classes, recorded lectures, and personal mentoring. Have you checked our courses online?"
+    },
+    {
+      "speaker": "student",
+      "text": "I saw some videos on YouTube but didn't check the courses in detail. What's the difference between the different JEE courses you have? And... what about the pricing?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! We have JEE Lakshya 2027 at ₹35,999 - our premium course with everything included, and JEE Arjuna 2027 at ₹19,999 which is also great but with fewer features. Don't worry about payment - we offer 0% EMI. Lakshya comes to just ₹3,499 per month through PW Pay. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, ₹35,999 is quite a lot for us actually. The EMI sounds better but still... What exactly extra do I get in Lakshya compared to Arjuna? Is the cheaper one sufficient for JEE Main?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid concern hai Ayush. JEE Arjuna at ₹19,999 is actually very good for JEE Main - it has all core lectures, practice tests, and doubt solving. Lakshya has additional features like one-on-one mentoring and advanced problem solving sessions. For JEE Main focus, Arjuna can definitely work. That's just ₹1,999 per month EMI."
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more reasonable. But I'll need to discuss this with my parents first, you know. They handle all the education expenses. Can you give me some time to talk to them?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! That's completely understandable. Family decision hai, definitely discuss with your parents. I can share all the course details on WhatsApp so you can show them everything clearly. When would be a good time for me to follow up with you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Can you call me back tomorrow evening? Around 6 PM? By then I would have discussed with them and can give you a proper answer. Also please send those details on WhatsApp."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 6 PM and will send all JEE Arjuna course details on your WhatsApp right after this call. Take your time to discuss with your parents. Do you have any other questions I should include in the details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Just include everything about what's covered in the syllabus and maybe some success stories if you have. That would help convince my parents. Thank you so much Priya!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

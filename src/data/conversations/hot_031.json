@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_031",
+  "scenario": {
+    "scenario_id": "hot_031",
+    "tier": "HOT",
+    "student_name": "Sahil",
+    "city": "Patna",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 3,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Sahil?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Sahil. I got your call regarding JEE preparation courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great Sahil! I see you're interested in our JEE courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Actually I'm quite worried about JEE preparation at this stage."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul understandable! Class 12 mein pressure hota hai. When is your JEE Main exam scheduled? Kab hai aapka exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's in about 3 months. That's why I'm looking for some intensive coaching. Do you have any crash courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Sahil! For 3 months intensive prep, our JEE Arjuna 2027 batch is ideal - it's designed for exactly your situation. Daily live classes, doubt clearing sessions, and mock tests. The fee is ₹19,999 with EMI option of ₹1,999 per month. Budget kya hai aapka?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹20,000 sounds reasonable. My parents have given me the budget for coaching. Can you tell me more about what's included in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! JEE Arjuna includes daily live classes by top faculty, recorded lectures for revision, weekly mock tests, doubt clearing sessions, and study material. Plus you get access to PW app with all previous year questions. Theek hai? Any specific subjects you need extra focus on?"
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds good. I'm particularly weak in Physics and need extra practice. Will I get personal attention for doubts?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Sahil! We have dedicated doubt clearing sessions every day, plus you can ask questions directly during live classes. Physics ke liye special focus sessions bhi hote hain. Are you the one who will be making the enrollment decision, ya parents se discuss karna padega?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, my parents have already given me the authority to decide. They trust my judgment for my studies."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! That makes it easier. With just 3 months left, starting immediately would be best. We can get you enrolled today itself through our 0% EMI option - just ₹1,999 per month through PW Pay. When would you like to start classes?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I need to enroll this week only. Time is running short and I can't afford to waste any more days. Can I start from Monday?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Sahil! Monday se classes start kar sakte hain. I'll send you the enrollment link right after this call. You'll get immediate access to app, study material, and class schedule. Shall I proceed with JEE Arjuna 2027 enrollment for ₹19,999?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, please go ahead. Send me all the details and payment link. I'm ready to start my preparation seriously now."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

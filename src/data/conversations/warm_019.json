@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_019",
+  "scenario": {
+    "scenario_id": "warm_019",
+    "tier": "WARM",
+    "student_name": "Arjun",
+    "city": "Delhi",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 8,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Arjun? This is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE courses. Do you have 2-3 minutes to discuss?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Arjun. Actually I was looking at your website yesterday only. I have some time to talk."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! So Arjun, first tell me - which class are you currently in and what's your target exam? JEE Main ya JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Main target is JEE Main, but if I get good rank then definitely will try for Advanced also."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 12 means you have around 8 months for JEE Main 2025, right? That's actually good time to prepare well. Are you currently taking any coaching or self-studying?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, around 8 months. I was in local coaching till now but honestly not satisfied with the quality. That's why looking at online options like PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand! Many students face this issue with local coaching. For your timeline and target, I'd recommend our JEE Lakshya 2027 batch - it has comprehensive coverage with live classes, recorded lectures, and regular tests. The fee is ₹35,999. What's your budget range, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 sounds a bit high for my family. Is there any cheaper alternative? And can you tell me about EMI options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! We have JEE Arjuna 2027 at ₹19,999 - it's equally effective with recorded lectures and doubt support. And yes, we offer 0% EMI through PW Pay - for Arjuna it's just ₹1,999/month. That's less than what most families spend on daily chai! Would this work better?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds much more reasonable. But what's the difference between Lakshya and Arjuna batches? Will I get same quality of education?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Both have same expert faculty and study material. Lakshya has live classes with direct interaction, while Arjuna focuses on high-quality recorded lectures. Many students actually prefer recorded as they can study at their own pace and repeat difficult topics. Quality-wise, no compromise at all!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. But Priya, I'll need to discuss this with my parents before taking any decision. They handle all the fees and everything. Can you call me back tomorrow evening?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Arjun! Family discussion is important for such decisions. I'll call you tomorrow around 6-7 PM. Meanwhile, I'll WhatsApp you the detailed brochure and EMI breakdown so you can show your parents. Is this number good for WhatsApp?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is perfect for WhatsApp. Please send all the details. And Priya, one last thing - if I join, when can I start the classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can start immediately after enrollment! Within 2 hours you'll get login credentials and access to all lectures. Plus there's a special batch starting next Monday specifically for Class 12 students. Perfect timing for you!"
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds perfect! Thanks for explaining everything so clearly. I'll discuss with parents today and we can finalize tomorrow when you call. Looking forward to it!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

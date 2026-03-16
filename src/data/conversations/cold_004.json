@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_004",
+  "scenario": {
+    "scenario_id": "cold_004",
+    "tier": "COLD",
+    "student_name": "Amit",
+    "city": "Hyderabad",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 22,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! This is Priya from PhysicsWallah. Am I speaking with Amit? I hope I'm not disturbing you at a bad time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, this is Amit. It's okay, I can talk for a few minutes."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you for your time, Amit. I'm calling because you showed interest in our JEE courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is the ideal time to start JEE preparation. Are you targeting JEE Main or JEE Advanced, or both?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main mainly. But I'm just exploring options right now, not ready to decide anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, exploring is important! No pressure at all. For JEE Main from Class 11, our JEE Lakshya 2027 batch is very popular - it covers everything systematically. Have you started any coaching currently?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really... I mean, I'm doing some self-study. But honestly, I'm not sure about online coaching. Will it really work?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern, Amit. Many students feel the same initially. But our Lakshya batch has live classes, doubt clearing sessions, and personal mentoring. Plus you get recorded lectures for revision. The fee is ₹35,999 or just ₹3,499 per month EMI. How does that sound budget-wise?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems okay I guess, but I'll need to discuss with my parents first. They handle all the fee decisions."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely makes sense! Parents should definitely be involved in such decisions. Would you like me to call back when you're with your parents, or would you prefer to discuss with them first and then we connect?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'll talk to them first. But I have some doubts... like what if I don't like the teaching style? Can I get a refund?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! We have a 7-day free trial where you can attend live classes and see if it suits you. Plus, we offer a money-back guarantee within the first month if you're not satisfied. Would you like me to arrange the free trial for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I'm really just exploring right now. I don't want to commit to anything today. Can you call me back next week?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Amit! No problem at all. I'll call you back next week. Meanwhile, I'll send you some sample lectures on WhatsApp so you can get a feel for our teaching. Is that okay?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, that sounds fine. You can send some materials. Thanks for calling, Priya."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_021",
+  "scenario": {
+    "scenario_id": "warm_021",
+    "tier": "WARM",
+    "student_name": "Pallavi",
+    "city": "Allahabad",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 10,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Main Priya bol rahi hun PhysicsWallah se. Aapne recently hamare JEE courses ke baare mein inquiry ki thi. Am I speaking with Pallavi?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Pallavi. Actually I had filled some form online for JEE preparation. But I'm not sure if I can afford the courses right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all, Pallavi! Main bilkul samajh sakti hun. Pehle bataiye aap currently which class mein ho? Aur JEE ki preparation kab se start karna chahte ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. JEE Main dena hai next year... matlab around 10 months left hai. But main worried hun about the fees and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing hai, Pallavi! Class 11 se start karna is ideal. Aur fees ki tension bilkul mat lo - we have very affordable options. Hamare JEE Arjuna 2027 batch mein you can start with just ₹1999 per month EMI. That's less than ₹70 per day!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1999 per month? That sounds reasonable... but what's the total cost? Aur kya difference hai different batches mein? I want to make sure I choose the right one."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! JEE Arjuna 2027 total cost is ₹19,999 with complete JEE Main coverage. If you want JEE Advanced bhi, then JEE Lakshya 2027 hai at ₹35,999 with ₹3,499 monthly EMI. Arjuna mein you get recorded lectures, tests, and doubt solving. Lakshya mein live classes bhi included hai."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, sounds good but I think I need to discuss this with my parents first. Can you call me back tomorrow? I want to show them these options and get their approval before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Pallavi! Family discussion is important for such decisions. Main kal same time call kar dungi. Meanwhile, main aapko WhatsApp pe course details send kar deti hun. Would that help in discussing with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be perfect! Send me the details on WhatsApp. Also, agar main decide kar lun to kya immediately start kar sakti hun? Ya koi waiting period hai?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can start immediately after enrollment, Pallavi! Saare materials and lectures instantly accessible ho jaate hain. Aur agar aap kal tak decide kar leti ho, main aapko additional study material bhi free mein include karwa dungi as a special offer."
+    },
+    {
+      "speaker": "student",
+      "text": "That's really nice of you, Priya. I think JEE Arjuna sounds suitable for my budget. Let me talk to my parents tonight and I'll give you a proper answer tomorrow when you call."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Pallavi! Main excited hun aapko PW family mein welcome karne ke liye. Kal main definitely call karungi around this same time. Tab tak aap parents ke saath discuss kar lena. Any other questions I can answer right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I have all the information I need for now. Thanks for being so patient and explaining everything clearly, Priya. I'll wait for your call tomorrow."
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you so much, Pallavi! It was lovely talking to you. Main kal zaroor call karungi and hopefully we can get you started on your JEE journey. Take care and have a great day!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you, Priya! You too have a great day. See you tomorrow on call. Bye!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

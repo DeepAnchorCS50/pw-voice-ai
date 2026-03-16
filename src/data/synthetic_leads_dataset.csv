@@ -1,0 +1,101 @@
+conversation_id,full_name,current_class,target_exam,exam_year,months_to_exam,location,urgency_level,budget_concern,decision_maker,engagement_level,score,predicted_tier,tier_label,qa_valid,qa_score,extraction_confidence
+cold_001,Saurabh,10,JEE Main,2027,0,Kota,low,TRUE,parent_later,medium,33,COLD,COLD,TRUE,90,high
+cold_002,Rahul,11,NEET,2027,20,Pune,low,TRUE,parent_later,low,35,COLD,COLD,TRUE,100,high
+cold_003,Varun,10,JEE Advanced,2027,26,unknown,low,TRUE,self,medium,32,WARM,COLD,TRUE,100,high
+cold_004,Amit,11,JEE Main,2027,0,unknown,low,FALSE,parent_later,medium,37,WARM,COLD,TRUE,90,high
+cold_005,Sahil,10,JEE Main,2027,30,Kota,low,TRUE,parent_later,medium,36,COLD,COLD,TRUE,100,high
+cold_006,Ravi,11,NEET,2027,18,unknown,low,TRUE,parent_later,low,45,COLD,COLD,TRUE,100,high
+cold_007,Pallavi,10,JEE Advanced,2027,0,Patna,low,TRUE,parent_later,medium,36,COLD,COLD,TRUE,90,high
+cold_008,Amit,11,JEE Main,2027,0,unknown,low,TRUE,parent_later,low,30,COLD,COLD,TRUE,90,high
+cold_009,Ayush,10,JEE Main,2027,26,unknown,low,TRUE,parent_later,medium,30,COLD,COLD,TRUE,100,high
+cold_010,Tanvi,11,NEET,2027,0,Delhi,low,TRUE,parent_later,low,29,COLD,COLD,TRUE,90,high
+cold_011,Rahul,10,JEE Advanced,2027,26,unknown,low,TRUE,self,medium,38,WARM,COLD,TRUE,100,high
+cold_012,Divya,11,JEE Main,2027,20,Thiruvananthapuram,low,TRUE,parent_later,medium,30,COLD,COLD,TRUE,100,high
+cold_013,Trisha,10,JEE Main,2027,30,Bhopal,low,TRUE,parent_later,medium,33,COLD,COLD,TRUE,100,high
+cold_014,Kavya,11,NEET,2027,19,unknown,low,TRUE,parent_later,medium,37,COLD,COLD,TRUE,100,high
+cold_015,Rohan,10,JEE Advanced,2027,28,unknown,low,TRUE,self,medium,30,WARM,COLD,TRUE,100,high
+cold_016,Arjun,11,JEE Main,2027,24,unknown,low,FALSE,parent_later,medium,32,WARM,COLD,TRUE,100,high
+cold_017,Kavya,10,JEE Main,2027,0,unknown,low,TRUE,parent_later,medium,24,COLD,COLD,TRUE,90,high
+cold_018,Shruti,11,NEET,2027,18,Patna,low,TRUE,parent_later,medium,28,COLD,COLD,TRUE,100,high
+cold_019,Meera,10,JEE Advanced,2027,27,unknown,low,TRUE,parent_later,medium,30,COLD,COLD,TRUE,100,high
+cold_020,Arjun,11,JEE Main,2027,20,unknown,low,TRUE,parent_later,low,35,COLD,COLD,TRUE,100,high
+cold_021,Amit,10,JEE Main,2027,24,unknown,low,TRUE,parent_later,medium,39,COLD,COLD,TRUE,100,high
+cold_022,Swati,11,NEET,2027,19,Coimbatore,low,TRUE,parent_later,medium,33,COLD,COLD,TRUE,100,high
+cold_023,Pallavi,10,JEE Advanced,2027,26,unknown,low,TRUE,self,medium,35,WARM,COLD,TRUE,100,high
+cold_024,Ishita,11,JEE Main,2027,0,unknown,low,TRUE,parent_later,low,34,COLD,COLD,TRUE,90,high
+cold_025,Varun,10,JEE Main,2027,0,Ahmedabad,low,TRUE,parent_later,medium,39,COLD,COLD,TRUE,90,high
+cold_026,Sneha,11,NEET,2027,21,unknown,low,TRUE,parent_later,low,38,COLD,COLD,TRUE,100,high
+cold_027,Suresh,10,JEE Advanced,2027,29,Delhi,low,TRUE,self,medium,35,WARM,COLD,TRUE,100,high
+cold_028,Ankit,11,JEE Main,2027,21,unknown,low,TRUE,parent_later,medium,28,COLD,COLD,TRUE,100,high
+cold_029,Priya,10,JEE Main,2027,0,unknown,low,TRUE,parent_later,medium,38,COLD,COLD,TRUE,90,high
+cold_030,Suresh,11,NEET,2027,20,Ranchi,low,TRUE,parent_later,medium,35,COLD,COLD,TRUE,100,high
+cold_031,Rahul,10,JEE Advanced,2027,0,unknown,low,TRUE,self,medium,39,WARM,COLD,TRUE,90,high
+cold_032,Sahil,11,JEE Main,2027,20,unknown,low,FALSE,parent_later,low,33,COLD,COLD,TRUE,100,high
+cold_033,Rahul,10,JEE Main,2027,0,Dehradun,low,TRUE,parent_later,low,43,COLD,COLD,TRUE,90,high
+cold_034,Priya,11,NEET,2027,21,unknown,low,TRUE,parent_later,low,31,COLD,COLD,TRUE,100,high
+hot_001,Meera,12,JEE Main,2025,3,unknown,high,FALSE,self,high,82,HOT,HOT,TRUE,100,high
+hot_002,Pallavi,dropper,NEET,2025,5,unknown,high,FALSE,self,high,82,HOT,HOT,TRUE,100,high
+hot_003,Rahul,12,JEE Advanced,2025,4,unknown,high,FALSE,parent_present,high,83,HOT,HOT,TRUE,100,high
+hot_004,Suresh,12,NEET,2025,5,unknown,high,FALSE,self,high,86,HOT,HOT,TRUE,100,high
+hot_005,Divya,dropper,JEE Main,2025,4,unknown,high,FALSE,self,high,82,HOT,HOT,TRUE,100,high
+hot_006,Swati,12,JEE Main,2025,2,unknown,high,FALSE,self,high,77,HOT,HOT,TRUE,100,high
+hot_007,Swati,dropper,NEET,2025,6,unknown,high,FALSE,self,high,84,HOT,HOT,TRUE,100,high
+hot_008,Ayush,12,JEE Advanced,2025,3,unknown,high,FALSE,parent_present,high,82,HOT,HOT,TRUE,100,high
+hot_009,Kavya,12,NEET,2025,6,unknown,high,FALSE,self,high,82,HOT,HOT,TRUE,100,high
+hot_010,Pallavi,dropper,JEE Main,2025,6,unknown,high,FALSE,self,high,83,HOT,HOT,TRUE,100,high
+hot_011,Nikhil,12,JEE Main,2025,4,unknown,high,FALSE,self,high,84,HOT,HOT,TRUE,100,high
+hot_012,Karthik,dropper,NEET,2025,4,unknown,high,FALSE,self,high,88,HOT,HOT,TRUE,100,high
+hot_013,Divya,12,JEE Advanced,2025,3,unknown,high,FALSE,parent_present,high,86,HOT,HOT,TRUE,100,high
+hot_014,Pallavi,12,NEET,2025,5,Bhopal,high,FALSE,self,high,83,HOT,HOT,TRUE,100,high
+hot_015,Swati,dropper,JEE Main,2025,5,unknown,high,FALSE,self,high,80,HOT,HOT,TRUE,100,high
+hot_016,Aditi,12,JEE Main,2025,3,unknown,high,FALSE,self,high,79,HOT,HOT,TRUE,100,high
+hot_017,Priya,dropper,NEET,2025,5,Coimbatore,high,FALSE,self,high,84,HOT,HOT,TRUE,100,high
+hot_018,Nandini,12,JEE Advanced,2025,3,unknown,high,FALSE,parent_present,high,88,HOT,HOT,TRUE,100,high
+hot_019,Aarti,12,NEET,2025,6,unknown,high,FALSE,self,high,83,HOT,HOT,TRUE,100,high
+hot_020,Nandini,dropper,JEE Main,2025,6,unknown,high,FALSE,self,high,83,HOT,HOT,TRUE,100,high
+hot_021,Karthik,12,JEE Main,2025,2,unknown,high,FALSE,self,high,85,HOT,HOT,TRUE,100,high
+hot_022,Meera,dropper,NEET,2025,5,unknown,high,FALSE,self,high,77,HOT,HOT,TRUE,100,high
+hot_023,Riya,12,JEE Advanced,2025,3,unknown,high,FALSE,parent_present,high,82,HOT,HOT,TRUE,100,high
+hot_024,Pallavi,12,NEET,2025,6,unknown,high,FALSE,self,high,85,HOT,HOT,TRUE,100,high
+hot_025,Neha,dropper,JEE Main,2025,5,unknown,high,FALSE,self,high,86,HOT,HOT,TRUE,100,high
+hot_026,Neha,12,JEE Main,2025,2,unknown,high,FALSE,self,high,82,HOT,HOT,TRUE,100,high
+hot_027,Riya,dropper,NEET,2027,5,Bhubaneswar,high,FALSE,self,high,85,HOT,HOT,TRUE,100,high
+hot_028,Trisha,12,JEE Advanced,2025,3,unknown,high,FALSE,parent_present,high,84,HOT,HOT,TRUE,100,high
+hot_029,Aditi,12,NEET,2025,5,Indore,high,FALSE,self,high,86,HOT,HOT,TRUE,100,high
+hot_030,Aditi,dropper,JEE Main,2025,4,unknown,high,FALSE,self,high,79,HOT,HOT,TRUE,100,high
+hot_031,Sahil,12,JEE Main,2025,3,unknown,high,FALSE,self,high,85,HOT,HOT,TRUE,100,high
+hot_032,Mohit,dropper,NEET,2025,6,unknown,high,FALSE,self,high,77,HOT,HOT,TRUE,100,high
+hot_033,Jyoti,12,JEE Advanced,2025,4,unknown,high,FALSE,parent_present,high,73,HOT,HOT,TRUE,100,high
+warm_001,Pallavi,11,JEE Main,2026,18,Vijayawada,medium,TRUE,parent_later,high,55,WARM,WARM,TRUE,100,high
+warm_002,Ishita,11,NEET,2027,18,unknown,medium,FALSE,parent_later,high,54,WARM,WARM,TRUE,100,high
+warm_003,Saurabh,12,JEE Main,2027,11,unknown,medium,TRUE,parent_later,high,61,WARM,WARM,TRUE,100,high
+warm_004,Divya,11,JEE Advanced,2027,16,unknown,medium,TRUE,self,high,60,WARM,WARM,TRUE,100,high
+warm_005,Tanvi,11,JEE Main,2027,18,unknown,medium,TRUE,parent_later,high,53,WARM,WARM,TRUE,100,high
+warm_006,Pooja,11,NEET,2026,18,unknown,medium,FALSE,parent_later,high,61,HOT,WARM,TRUE,100,high
+warm_007,Amit,12,JEE Main,2025,8,unknown,medium,TRUE,parent_later,high,54,HOT,WARM,TRUE,100,high
+warm_008,Prateek,11,JEE Advanced,2027,0,unknown,medium,TRUE,self,high,57,WARM,WARM,TRUE,100,high
+warm_009,Sneha,11,JEE Main,2025,12,unknown,medium,TRUE,parent_later,high,56,WARM,WARM,TRUE,100,high
+warm_010,Swati,11,NEET,2027,18,Jaipur,medium,TRUE,parent_later,high,58,WARM,WARM,TRUE,100,high
+warm_011,Sneha,12,JEE Main,2025,11,unknown,medium,TRUE,parent_later,high,61,HOT,WARM,TRUE,100,high
+warm_012,Sneha,11,JEE Advanced,2027,15,Bhubaneswar,medium,TRUE,self,high,60,WARM,WARM,TRUE,100,high
+warm_013,Shruti,11,JEE Main,2027,18,unknown,medium,TRUE,parent_later,high,59,WARM,WARM,TRUE,100,high
+warm_014,Ishita,11,NEET,2027,14,Varanasi,medium,TRUE,parent_later,high,60,WARM,WARM,TRUE,100,high
+warm_015,Ravi,12,JEE Main,2025,9,unknown,medium,TRUE,parent_later,high,59,HOT,WARM,TRUE,100,high
+warm_016,Rohan,11,JEE Advanced,2027,16,unknown,low,TRUE,self,high,55,WARM,WARM,TRUE,100,high
+warm_017,Rahul,11,JEE Main,2026,18,Chandigarh,medium,TRUE,parent_later,high,55,WARM,WARM,TRUE,100,high
+warm_018,Aarti,11,NEET,2027,14,unknown,medium,FALSE,parent_later,high,56,WARM,WARM,TRUE,100,high
+warm_019,Arjun,12,JEE Main,2025,8,unknown,medium,TRUE,parent_later,high,59,HOT,WARM,TRUE,100,high
+warm_020,Kavya,11,JEE Advanced,2027,16,Ahmedabad,medium,TRUE,self,high,57,WARM,WARM,TRUE,100,high
+warm_021,Pallavi,11,JEE Main,2027,10,unknown,medium,TRUE,parent_later,high,66,WARM,WARM,TRUE,100,high
+warm_022,Saurabh,11,NEET,2027,0,Ranchi,medium,TRUE,parent_later,high,54,WARM,WARM,TRUE,100,high
+warm_023,Pallavi,12,JEE Main,2025,8,unknown,high,TRUE,parent_later,high,53,HOT,WARM,TRUE,100,high
+warm_024,Jyoti,11,JEE Advanced,2027,18,unknown,medium,TRUE,self,high,60,WARM,WARM,TRUE,100,high
+warm_025,Tanvi,11,JEE Main,2025,11,unknown,medium,TRUE,parent_later,high,63,WARM,WARM,TRUE,100,high
+warm_026,Mohit,11,NEET,2027,11,unknown,medium,FALSE,parent_later,high,59,WARM,WARM,TRUE,100,high
+warm_027,Jyoti,12,JEE Main,2027,10,unknown,medium,TRUE,parent_later,high,61,WARM,WARM,TRUE,100,high
+warm_028,Deepak,11,JEE Advanced,2027,17,Mumbai,medium,TRUE,self,medium,63,WARM,WARM,TRUE,100,high
+warm_029,Ayush,11,JEE Main,2027,11,Bangalore,medium,TRUE,parent_later,high,57,WARM,WARM,TRUE,100,high
+warm_030,Rahul,11,NEET,2027,18,Kolkata,medium,FALSE,parent_later,high,52,WARM,WARM,TRUE,100,high
+warm_031,Jyoti,12,JEE Main,2025,10,Bangalore,medium,TRUE,parent_later,high,55,HOT,WARM,TRUE,100,high
+warm_032,Sneha,11,JEE Advanced,2027,14,Vijayawada,high,TRUE,self,high,61,WARM,WARM,TRUE,100,high
+warm_033,Ravi,11,JEE Main,2027,11,unknown,medium,TRUE,parent_later,high,52,WARM,WARM,TRUE,100,high

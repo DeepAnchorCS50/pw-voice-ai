@@ -1,0 +1,443 @@
+{
+  "_meta": {
+    "description": "Synthetic PhysicsWallah knowledge base for AI Lead Scoring Agent capstone",
+    "note": "Realistic but fictional data based on Indian edtech industry patterns. Not actual PW data.",
+    "version": "1.0",
+    "created": "2026-02-21",
+    "purpose": "RAG-lite context for conversation generation and agent pipeline"
+  },
+
+  "company": {
+    "name": "PhysicsWallah",
+    "short_name": "PW",
+    "tagline": "Making quality education affordable and accessible",
+    "founded": 2020,
+    "founder": "Alakh Pandey",
+    "headquarters": "Noida, Uttar Pradesh",
+    "students_enrolled": "10M+",
+    "youtube_subscribers": "20M+",
+    "app_downloads": "35M+",
+    "faculty_count": "500+",
+    "centers": "100+ offline centers across India",
+    "languages": ["English", "Hindi", "Hinglish"],
+    "usp": [
+      "Most affordable premium coaching in India",
+      "Founded by India's most popular physics teacher",
+      "Hybrid online + offline model",
+      "AI-powered personalized learning",
+      "Proven results — 10,000+ IIT/NEET selections"
+    ]
+  },
+
+  "courses": {
+    "jee": [
+      {
+        "name": "Lakshya",
+        "full_name": "JEE Lakshya 2027",
+        "target_exam": "JEE Main + Advanced",
+        "target_class": ["11", "12"],
+        "duration": "12 months",
+        "mode": "Live Online + Recorded",
+        "description": "Comprehensive JEE preparation with daily live classes, weekly tests, and doubt sessions",
+        "features": [
+          "6 live classes per week (2 hrs each)",
+          "Daily Practice Problems (DPP)",
+          "Weekly full-length mock tests",
+          "24/7 doubt solving via app",
+          "Personal mentor assigned",
+          "Performance analytics dashboard",
+          "Study material (PDF + printed)"
+        ],
+        "pricing": {
+          "full_price": 45999,
+          "discounted_price": 35999,
+          "emi_available": true,
+          "emi_monthly": 3499,
+          "emi_duration_months": 12,
+          "early_bird_discount": 5000,
+          "early_bird_deadline": "2026-04-30"
+        },
+        "batch_timings": [
+          {"name": "Morning Batch", "time": "6:00 AM - 8:00 AM", "days": "Mon-Sat"},
+          {"name": "Evening Batch", "time": "5:00 PM - 7:00 PM", "days": "Mon-Sat"},
+          {"name": "Weekend Batch", "time": "9:00 AM - 1:00 PM", "days": "Sat-Sun"}
+        ],
+        "next_batch_start": "2026-03-15",
+        "faculty_highlights": [
+          "Alakh Pandey (Physics)",
+          "Pankaj Sijairya (Chemistry)",
+          "Amit Mahajan (Mathematics)"
+        ],
+        "results": {
+          "selections_last_year": 3500,
+          "top_100_count": 12,
+          "average_percentile_improvement": 35
+        }
+      },
+      {
+        "name": "Arjuna",
+        "full_name": "JEE Arjuna 2027",
+        "target_exam": "JEE Main only",
+        "target_class": ["11", "12"],
+        "duration": "12 months",
+        "mode": "Live Online",
+        "description": "Focused JEE Main preparation for students targeting NITs, IIITs, and top engineering colleges",
+        "features": [
+          "4 live classes per week (1.5 hrs each)",
+          "Topic-wise practice sets",
+          "Bi-weekly mock tests",
+          "Doubt solving sessions (scheduled)",
+          "Study material (PDF only)",
+          "Previous year paper analysis"
+        ],
+        "pricing": {
+          "full_price": 25999,
+          "discounted_price": 19999,
+          "emi_available": true,
+          "emi_monthly": 1999,
+          "emi_duration_months": 12,
+          "early_bird_discount": 3000,
+          "early_bird_deadline": "2026-04-30"
+        },
+        "batch_timings": [
+          {"name": "Evening Batch", "time": "6:00 PM - 7:30 PM", "days": "Mon, Wed, Fri, Sat"}
+        ],
+        "next_batch_start": "2026-03-01",
+        "faculty_highlights": [
+          "Senior faculty team",
+          "Guest lectures by Alakh Pandey"
+        ],
+        "results": {
+          "selections_last_year": 8200,
+          "average_percentile_improvement": 28
+        }
+      },
+      {
+        "name": "Prayas",
+        "full_name": "JEE Prayas 2028",
+        "target_exam": "JEE Main + Advanced",
+        "target_class": ["9", "10"],
+        "duration": "24 months (foundation course)",
+        "mode": "Live Online + Recorded",
+        "description": "Early start foundation program for Class 9-10 students building towards JEE",
+        "features": [
+          "3 classes per week (1.5 hrs each)",
+          "School board + competitive exam coverage",
+          "Monthly assessments",
+          "Foundation building in PCM",
+          "Olympiad preparation included",
+          "Study material (PDF)"
+        ],
+        "pricing": {
+          "full_price": 18999,
+          "discounted_price": 14999,
+          "emi_available": true,
+          "emi_monthly": 1499,
+          "emi_duration_months": 12,
+          "early_bird_discount": 2000,
+          "early_bird_deadline": "2026-05-31"
+        },
+        "batch_timings": [
+          {"name": "Evening Batch", "time": "4:00 PM - 5:30 PM", "days": "Mon, Wed, Fri"}
+        ],
+        "next_batch_start": "2026-04-01",
+        "faculty_highlights": ["Dedicated foundation faculty team"],
+        "results": {
+          "students_moved_to_lakshya": "75% continue to Lakshya/Arjuna"
+        }
+      }
+    ],
+    "neet": [
+      {
+        "name": "Yakeen",
+        "full_name": "NEET Yakeen 2027",
+        "target_exam": "NEET UG",
+        "target_class": ["11", "12"],
+        "duration": "12 months",
+        "mode": "Live Online + Recorded",
+        "description": "Complete NEET preparation covering Physics, Chemistry, and Biology",
+        "features": [
+          "6 live classes per week",
+          "NCERT line-by-line coverage",
+          "Weekly NEET pattern tests",
+          "24/7 doubt solving",
+          "Personal mentor",
+          "Previous 10 years solved papers",
+          "Biology specimen videos"
+        ],
+        "pricing": {
+          "full_price": 42999,
+          "discounted_price": 33999,
+          "emi_available": true,
+          "emi_monthly": 3299,
+          "emi_duration_months": 12,
+          "early_bird_discount": 4000,
+          "early_bird_deadline": "2026-04-30"
+        },
+        "batch_timings": [
+          {"name": "Morning Batch", "time": "6:00 AM - 8:00 AM", "days": "Mon-Sat"},
+          {"name": "Afternoon Batch", "time": "2:00 PM - 4:00 PM", "days": "Mon-Sat"}
+        ],
+        "next_batch_start": "2026-03-15",
+        "faculty_highlights": [
+          "Alakh Pandey (Physics)",
+          "Dr. Anand Mani (Biology)",
+          "Pankaj Sijairya (Chemistry)"
+        ],
+        "results": {
+          "selections_last_year": 5200,
+          "top_1000_count": 45,
+          "average_score_improvement": 120
+        }
+      },
+      {
+        "name": "Sankalp",
+        "full_name": "NEET Sankalp 2027 (Dropper Batch)",
+        "target_exam": "NEET UG",
+        "target_class": ["dropper", "repeater"],
+        "duration": "10 months (intensive)",
+        "mode": "Live Online + Offline Centers",
+        "description": "Intensive NEET preparation for students re-attempting the exam",
+        "features": [
+          "8 classes per week (intensive schedule)",
+          "Daily practice problems",
+          "3 full-length tests per week",
+          "One-on-one mentoring",
+          "Weakness analysis and targeted practice",
+          "Offline test centers available"
+        ],
+        "pricing": {
+          "full_price": 55999,
+          "discounted_price": 44999,
+          "emi_available": true,
+          "emi_monthly": 4499,
+          "emi_duration_months": 10,
+          "early_bird_discount": 6000,
+          "early_bird_deadline": "2026-03-31"
+        },
+        "batch_timings": [
+          {"name": "Full Day Batch", "time": "8:00 AM - 4:00 PM", "days": "Mon-Sat"}
+        ],
+        "next_batch_start": "2026-03-01",
+        "faculty_highlights": ["Senior faculty + personal mentors"],
+        "results": {
+          "improvement_rate": "85% improve by 100+ marks",
+          "selection_rate": "42% qualify NEET"
+        }
+      }
+    ],
+    "boards": [
+      {
+        "name": "Udaan",
+        "full_name": "Board Exam Udaan 2026",
+        "target_exam": "CBSE/State Board Class 12",
+        "target_class": ["12"],
+        "duration": "6 months",
+        "mode": "Recorded + Live Doubt Sessions",
+        "description": "Board exam focused preparation with NCERT coverage",
+        "features": [
+          "Complete NCERT coverage",
+          "Chapter-wise recorded lectures",
+          "Weekly live doubt sessions",
+          "Sample paper practice",
+          "Board exam tips and strategies"
+        ],
+        "pricing": {
+          "full_price": 8999,
+          "discounted_price": 5999,
+          "emi_available": false,
+          "emi_monthly": null,
+          "emi_duration_months": null,
+          "early_bird_discount": 1000,
+          "early_bird_deadline": "2026-03-15"
+        },
+        "batch_timings": [
+          {"name": "Self-paced", "time": "Access anytime", "days": "Recorded content"}
+        ],
+        "next_batch_start": "Available now",
+        "faculty_highlights": ["Board exam specialist faculty"],
+        "results": {
+          "average_score": "85%+ average board score",
+          "above_90_percent": "40% students score 90%+"
+        }
+      }
+    ]
+  },
+
+  "financial_options": {
+    "emi_plans": [
+      {
+        "provider": "PW Pay (in-house)",
+        "min_amount": 5000,
+        "max_duration_months": 12,
+        "interest": "0% interest on 3-month plans",
+        "processing_fee": "₹199 one-time"
+      },
+      {
+        "provider": "Partner Banks (HDFC, ICICI, SBI)",
+        "min_amount": 10000,
+        "max_duration_months": 24,
+        "interest": "Starting 8.5% p.a.",
+        "processing_fee": "Varies by bank"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "PW Scholarship Test (PWST)",
+        "description": "Online scholarship exam — score-based tuition waiver",
+        "discount_range": "10% to 90% tuition waiver",
+        "eligibility": "All students, no age restriction",
+        "frequency": "Monthly",
+        "next_date": "2026-03-10",
+        "how_to_apply": "Register on PW app or website"
+      },
+      {
+        "name": "Merit Scholarship",
+        "description": "For students with 90%+ in previous board exams",
+        "discount_range": "25% to 50% off",
+        "eligibility": "90%+ in Class 10 or 11 boards",
+        "frequency": "Auto-applied at enrollment",
+        "how_to_apply": "Upload marksheet during enrollment"
+      },
+      {
+        "name": "Financial Need Scholarship",
+        "description": "For students from economically weaker sections",
+        "discount_range": "Up to 100% tuition waiver",
+        "eligibility": "Family income below ₹3 lakh/year",
+        "frequency": "Application-based",
+        "how_to_apply": "Submit income certificate and application"
+      }
+    ],
+    "refund_policy": {
+      "full_refund_period": "7 days from enrollment",
+      "partial_refund": "Pro-rata for first 30 days",
+      "no_refund_after": "30 days from enrollment",
+      "processing_time": "7-10 business days"
+    }
+  },
+
+  "competitors_context": {
+    "note": "Used when student mentions competitor coaching — agent should acknowledge and differentiate",
+    "common_competitors": [
+      {
+        "name": "Allen",
+        "student_perception": "Traditional, offline-focused, expensive",
+        "pw_differentiator": "PW offers same quality at 1/3rd the price with hybrid model"
+      },
+      {
+        "name": "FIITJEE",
+        "student_perception": "Premium, high-pressure, very expensive",
+        "pw_differentiator": "PW focuses on understanding concepts, not rote learning"
+      },
+      {
+        "name": "Unacademy",
+        "student_perception": "Online-only, many teachers, inconsistent quality",
+        "pw_differentiator": "PW has curated faculty and structured programs, not marketplace model"
+      },
+      {
+        "name": "BYJU'S",
+        "student_perception": "App-based, expensive, aggressive sales",
+        "pw_differentiator": "PW is student-first, no pressure selling, transparent pricing"
+      },
+      {
+        "name": "Aakash",
+        "student_perception": "NEET-focused, traditional, center-based",
+        "pw_differentiator": "PW offers flexibility with online + offline options"
+      }
+    ]
+  },
+
+  "student_demographics": {
+    "note": "Typical student profiles for realistic conversation generation",
+    "common_cities": [
+      "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai", "Kolkata",
+      "Pune", "Jaipur", "Lucknow", "Patna", "Kota", "Chandigarh",
+      "Bhopal", "Indore", "Ranchi", "Guwahati", "Bhubaneswar",
+      "Nagpur", "Varanasi", "Allahabad", "Dehradun", "Vijayawada",
+      "Coimbatore", "Thiruvananthapuram", "Surat", "Ahmedabad"
+    ],
+    "common_names": {
+      "male": ["Rahul", "Amit", "Arjun", "Vikram", "Karthik", "Rohan", "Aditya", "Saurabh", "Harsh", "Nikhil", "Prateek", "Ayush", "Deepak", "Manish", "Ankit", "Ravi", "Suresh", "Mohit", "Varun", "Sahil"],
+      "female": ["Priya", "Ananya", "Sneha", "Riya", "Pooja", "Neha", "Kavya", "Ishita", "Shruti", "Divya", "Tanvi", "Aarti", "Meera", "Nandini", "Pallavi", "Simran", "Trisha", "Jyoti", "Swati", "Aditi"]
+    },
+    "exam_distribution": {
+      "jee_main_only": "40%",
+      "jee_main_advanced": "30%",
+      "neet": "25%",
+      "boards_only": "5%"
+    },
+    "class_distribution": {
+      "class_9": "5%",
+      "class_10": "10%",
+      "class_11": "35%",
+      "class_12": "35%",
+      "dropper": "15%"
+    },
+    "typical_budget_ranges": {
+      "comfortable": {"range": "₹30,000-50,000/year", "percentage": "30%"},
+      "moderate": {"range": "₹15,000-30,000/year", "percentage": "40%"},
+      "budget_conscious": {"range": "Below ₹15,000/year", "percentage": "20%"},
+      "price_not_factor": {"range": "Any amount", "percentage": "10%"}
+    }
+  },
+
+  "objection_handling_context": {
+    "pricing_objections": {
+      "emi_pitch": "We offer 0% EMI starting at just ₹{emi_amount}/month through PW Pay. That's less than what most families spend on a daily chai!",
+      "scholarship_pitch": "We have monthly scholarship tests where you can earn up to 90% tuition waiver based on your score. The next one is on {next_scholarship_date}.",
+      "comparison_pitch": "Compared to Allen at ₹1.5-2 lakh or FIITJEE at ₹2-3 lakh, our {course_name} at ₹{price} gives you the same quality faculty at a fraction of the cost.",
+      "value_pitch": "When you break it down, ₹{daily_cost}/day for world-class faculty and AI-powered learning — that's less than a plate of samosa!"
+    },
+    "competition_objections": {
+      "already_enrolled": "Many students supplement their current coaching with PW for specific subjects or doubt solving. Our {course_name} can work alongside your current preparation.",
+      "comparing_options": "That's smart! We encourage students to compare. What factors matter most to you — pricing, faculty quality, flexibility, or results?"
+    },
+    "timing_objections": {
+      "too_early": "Starting early actually gives you an advantage. Our {course_name} foundation course builds strong basics so you're ahead when the real preparation begins.",
+      "too_late": "It's never too late! Our {course_name} intensive batch is designed for exactly this situation — focused, high-yield preparation in a shorter timeframe.",
+      "need_to_think": "Absolutely, take your time. Can I send you some information on WhatsApp so you can review it with your family?"
+    },
+    "parent_objections": {
+      "need_parent_approval": "That's completely understandable. Would it help if I scheduled a call when your parents are available? Or I can send a detailed brochure they can review at their convenience.",
+      "parent_skeptical": "Many parents have similar concerns initially. We have a parent testimonial section on our website, and I can also arrange a call with parents of students who've achieved great results with PW."
+    }
+  },
+
+  "agent_persona": {
+    "name": "Priya",
+    "role": "AI Sales Assistant",
+    "personality_traits": [
+      "Warm and friendly but professional",
+      "Patient — never rushes the student",
+      "Knowledgeable about all PW courses",
+      "Empathetic to budget concerns",
+      "Encouraging but never pushy",
+      "Uses mix of English and Hindi naturally"
+    ],
+    "conversation_guidelines": [
+      "Always greet by name if available",
+      "Ask permission for time at start of call",
+      "Maximum 10 minutes per call",
+      "Cover all Tier 1 questions before moving to Tier 2",
+      "Handle objections with empathy, not pressure",
+      "End with clear next steps",
+      "Send information via WhatsApp after call"
+    ],
+    "phrases_to_use": [
+      "That's a great question!",
+      "I completely understand.",
+      "Many students feel the same way initially.",
+      "Let me share something that might help.",
+      "Would you like me to explain more about that?",
+      "That's wonderful to hear!",
+      "No pressure at all — take your time."
+    ],
+    "phrases_to_avoid": [
+      "You should enroll now before it's too late",
+      "This offer expires today",
+      "Everyone is choosing PW",
+      "You'll regret not joining",
+      "Other coaching institutes are bad"
+    ]
+  }
+}

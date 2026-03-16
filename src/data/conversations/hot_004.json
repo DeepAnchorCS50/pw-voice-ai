@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_004",
+  "scenario": {
+    "scenario_id": "hot_004",
+    "tier": "HOT",
+    "student_name": "Suresh",
+    "city": "Nagpur",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Suresh?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan yes, this is Suresh. I've been watching Alakh sir's videos on YouTube and I'm really interested in joining PW for my preparation!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful to hear! Alakh sir ki videos really help students a lot. Can you tell me which class you're currently in and what exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now and preparing for NEET. Alakh sir ke physics concepts are so clear, but I need more structured preparation for all subjects."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET preparation ke liye humara NEET Yakeen batch bahut popular hai. When is your NEET exam? Is it this year in 2025 or next year?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's this year only - in May 2025. So I have around 5 months left. I'm quite worried about the time, but I'm very motivated to study hard!"
+    },
+    {
+      "speaker": "agent",
+      "text": "5 months is actually good time if you study consistently! For NEET 2025, I'd recommend our NEET Yakeen batch - it has structured lectures, test series, and doubt solving. What's your budget range for the course?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue for me. My parents are supportive and we can invest in good coaching. What all does the NEET Yakeen batch include exactly? And how much does it cost?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Yakeen 2027 batch costs ₹33,999 with EMI option of ₹3,299/month through PW Pay. It includes complete Physics, Chemistry, Biology lectures, weekly tests, previous year papers, and 24x7 doubt support. All subjects are covered comprehensively."
+    },
+    {
+      "speaker": "student",
+      "text": "Wait, you said 2027 batch - but I need it for 2025! Do you have a batch specifically for 2025 NEET? And can I access it immediately after enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh sorry for the confusion! Yes, we absolutely have NEET 2025 batches available. The crash course for NEET 2025 with 5 months intensive preparation would be perfect for you. It's ₹24,999 and you get immediate access. Theek hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds great! ₹24,999 is totally fine. Can I make the decision right now? I don't need to ask anyone else - my parents already told me to choose whatever course I feel is best."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! I'm so happy you're taking charge of your preparation. Since you can decide independently, shall I help you with the enrollment process right now? You'll get login details within 15 minutes and can start studying today itself!"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes absolutely! I'm very excited to start. How do I make the payment? Can I pay the full amount right now or should I go with EMI? What's the next step?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! You can pay full amount or choose EMI of ₹2,499/month. I'll send you a payment link on WhatsApp right after this call. Once payment is done, you'll get welcome email with login details. Ready to become a PW student?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I'm ready! I'll go with the full payment of ₹24,999. Please send me the WhatsApp link. Thank you so much Priya, I'm really excited to start my NEET journey with PW!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

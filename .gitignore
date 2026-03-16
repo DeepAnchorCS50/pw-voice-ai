@@ -1,0 +1,50 @@
+# ── Credentials — NEVER push these ──────────────────────────────────────────
+config/
+*.json.key
+google_credentials.json
+service_account.json
+.env
+secrets/
+
+# ── Large model files ─────────────────────────────────────────────────────────
+*.pkl
+*.h5
+*.model
+
+# ── Generated audio files ─────────────────────────────────────────────────────
+*.wav
+*.mp3
+*.ogg
+audio_cache/
+temp_audio/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Streamlit cache ───────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+Data/google_sheets_creds.json 

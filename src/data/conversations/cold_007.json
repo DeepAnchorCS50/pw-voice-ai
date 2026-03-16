@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_007",
+  "scenario": {
+    "scenario_id": "cold_007",
+    "tier": "COLD",
+    "student_name": "Pallavi",
+    "city": "Patna",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 26,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning! Main Priya bol rahi hun PhysicsWallah se. Aapka naam kya hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... main Pallavi hun."
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Pallavi! Patna se ho na? Bahut accha! Aap currently kis class mein ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 10 mein hun abhi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Toh aap engineering ya medical ki preparation karna chahte ho? Kya target hai aapka?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced clear karna hai... but abhi toh 10th complete karna hai pehle."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul sahi thinking hai Pallavi! Early start bohot important hai. Toh 2027 mein JEE denge na? Hamare paas JEE Lakshya 2027 batch hai - 2 saal ka complete foundation with advanced level prep. Kya budget range socha hai aapne?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan 2027 mein... but budget ka problem hai. Parents ko paise ki tension rehti hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "Main samajh sakti hun Pallavi. Dekho, JEE Lakshya 2027 is ₹35,999 for complete 2 years. But hum 0% EMI dete hain PW Pay se - sirf ₹3,499 per month. Daily chai-paani se bhi kam! Aur decision aap le sakti ho ya parents se puchna padega?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,499 monthly? That's still a lot... mummy-papa se baat karni padegi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, main suggest karun? JEE Arjuna 2027 batch bhi hai - ₹19,999 complete course, EMI sirf ₹1,999 monthly. Same quality teaching by Alakh Sir's team. Aur parents ko confidence dene ke liye, humara success rate dekh sakte hain - lakhs of students crack JEE through PW."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... ₹1,999 better lagta hai but still expensive hai. Let me think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Pallavi, main ek baat kahun? Jo log class 10 se start karte hain, unka success rate 80% higher hota hai. Aur delay karne se competition badhta jaata hai. Today decide karo toh main special discount bhi arrange kar sakti hun. Shall I book your Arjuna batch right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi yaar... too expensive lagta hai abhi. Ghar pe discuss karna padega. Can I call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure Pallavi! But seats limited hain is batch mein. Main aapko evening tak hold kar deti hun. Aur koi doubt ho toh call karna - this is the best time to start your JEE journey. All the best!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... thanks. I'll think and let you know."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

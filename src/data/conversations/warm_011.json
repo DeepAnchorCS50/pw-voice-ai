@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_011",
+  "scenario": {
+    "scenario_id": "warm_011",
+    "tier": "WARM",
+    "student_name": "Sneha",
+    "city": "Patna",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Sneha? I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE courses."
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Sneha. Actually I was looking at some JEE courses online, but I haven't made any inquiry yet. How did you get my number?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh, my apologies Sneha! We sometimes get leads from various sources. But since I have you on the line, I'd love to help you with JEE preparation. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 12th right now. Actually I am a bit confused about which course to choose. There are so many options everywhere."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun! Class 12th is crucial time. So you're targeting JEE Main 2025 then? And have you started your preparation already or looking to begin seriously now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, JEE Main 2025. I have been studying but not in a structured way. I think I need proper guidance now. What courses do you have for someone like me?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Sneha! For JEE 2025 aspirants like you, we have JEE Lakshya 2027 - wait sorry, that's for 2027. For you, we have our JEE Arjuna batch which is perfect for class 12th students. It covers complete syllabus with regular tests and doubt clearing. Are you looking for something comprehensive or focused on specific subjects?"
+    },
+    {
+      "speaker": "student",
+      "text": "I need comprehensive preparation definitely. But I'm also worried about the fees. My parents are already spending a lot on my coaching. Can you tell me about EMI options? What's the total cost?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Sneha. The JEE Arjuna course is ₹19,999 for the complete program. But here's the good news - we offer 0% EMI through PW Pay starting at just ₹1,999 per month. That's less than what most families spend on daily chai! Your parents won't feel the burden at all. Does this sound manageable?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds much better than paying everything at once. But I'll need to discuss this with my parents first. They handle all the education expenses. Are there any other alternatives with lower fees?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Sneha! Family discussion is important. We also have some subject-wise courses or you could check our previous year batches at discounted rates. But honestly, for comprehensive JEE preparation with just 11 months left, Arjuna gives you the best value. When do you think you can discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can talk to them today evening when papa comes home. They usually want to know all the details - course content, faculty, success rate, all that. Do you have some material I can show them?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I'll share a detailed brochure on WhatsApp with course curriculum, faculty profiles, and our JEE success stories. Plus I can arrange a free demo class for you. Would tomorrow evening work for a follow-up call after you've discussed with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great! Tomorrow evening around 7 PM should work. Please send me all the details on WhatsApp. My parents will definitely want to see the track record and faculty details before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Sneha! I'll send everything on WhatsApp within the next hour. And I'll call you tomorrow at 7 PM sharp. Meanwhile, if you have any urgent questions, feel free to call me back. Best of luck with your parents' discussion!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! You've been really helpful. I'll go through all the material and discuss with my family. Talk to you tomorrow evening then. Bye!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

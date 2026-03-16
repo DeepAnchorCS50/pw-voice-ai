@@ -1,0 +1,89 @@
+{
+  "conversation_id": "hot_012",
+  "scenario": {
+    "scenario_id": "hot_012",
+    "tier": "HOT",
+    "student_name": "Karthik",
+    "city": "Thiruvananthapuram",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 4,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Karthik? Hi, this is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your inquiry about our NEET courses. Do you have 2-3 minutes to discuss?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I have time. Actually I was looking at your courses online. I need some guidance about NEET preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great Karthik! I'd be happy to help you. First, let me understand your current situation - which class are you in right now and when are you planning to appear for NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper. I failed last year and must crack it this time. The exam is in May, so I have around 4 months left. Time is really running out."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Karthik, and don't worry - 4 months is definitely sufficient time with the right strategy! For droppers like you, we have our NEET Sankalp 2027 batch which is specifically designed for students who are taking a second attempt. Have you been preparing on your own or joined any coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "I tried self-study for a few months but it's not working out. I'm lacking proper guidance and structured approach. That's why I'm looking for online coaching now. What does your Sankalp batch include exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET Sankalp 2027 is our most comprehensive dropper batch. It includes live classes by top faculty, recorded lectures for revision, daily practice questions, weekly tests, doubt clearing sessions, and complete study material. The best part is our teachers understand dropper psychology and motivation challenges. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me. My parents are supportive and want me to get the best preparation possible. But I want to make sure the investment is worth it. How much does the Sankalp batch cost?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful support from your family! NEET Sankalp 2027 is priced at ₹44,999. But here's the good news - we offer 0% EMI at just ₹4,499 per month through PW Pay. That's less than what most families spend on daily chai! Plus, considering it's a complete package with live classes and personal mentoring, it's quite reasonable. Are you the one who will be making this decision?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, my parents have given me full authority to choose the right course. The EMI option sounds good. But I have one concern - since I'm starting in January and exam is in May, will I be able to complete the entire syllabus in time?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul Karthik! That's a very valid concern. For January joiners, we have a special accelerated schedule that covers the complete syllabus by March, leaving April-May for intensive revision and test series. Plus, you'll get access to all previous recorded lectures immediately, so you can catch up on topics covered earlier. Our success rate for 4-month droppers is quite impressive!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reassuring. And what about doubt clearing? Since it's online, will I get personal attention when I'm stuck with difficult concepts?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We have dedicated doubt clearing sessions every day where you can directly interact with teachers. Plus, there's a doubt forum where you can post questions 24/7 and get responses within hours. Our faculty-to-student ratio ensures everyone gets personal attention. Many of our dropper students have cracked NEET with similar timelines. Shall I enroll you in NEET Sankalp 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan Priya, this sounds like exactly what I need. The structured approach and doubt support will really help me. Let's go ahead with the enrollment. How do we proceed with the EMI option?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision Karthik! I'm confident this will be the turning point for your NEET journey. I'll send you a payment link right after this call where you can choose the EMI option through PW Pay. Once payment is done, you'll get instant access to all materials and can join classes from tomorrow itself. Is the number I'm calling on your WhatsApp number?"
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Yes, this is my WhatsApp number. Please send the link here. I'm really excited to start this journey with PhysicsWallah. Thank you so much for explaining everything clearly."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Karthik! I'm sending the enrollment link right now. Welcome to the PW family! Remember, this is your year to crack NEET. If you have any questions during your preparation, feel free to call me. All the best and see you in class tomorrow! Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "HOT"
+}

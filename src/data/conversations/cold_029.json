@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_029",
+  "scenario": {
+    "scenario_id": "cold_029",
+    "tier": "COLD",
+    "student_name": "Priya",
+    "city": "Dehradun",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 27,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! Am I speaking with Priya? This is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your inquiry about our courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... haan, I'm Priya. I'm okay. Actually, I was just looking at some options online for coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! I'm so glad you're exploring your options early. Can you tell me which class you're currently in? And what exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 10th right now. I'm thinking about JEE... but I'm not really sure yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai! Class 10 is actually the perfect time to start thinking about JEE preparation. You have good time ahead. So you're targeting JEE Main, right? When do you plan to appear for the exam - 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, 2027. But honestly, I'm just looking at different options right now. Haven't decided anything concrete."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand! It's smart to research properly before making any decision. For JEE 2027, we have two excellent courses - JEE Lakshya and JEE Arjuna. Have you looked at any specific budget range for coaching? What are your parents thinking about investment in coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Umm... I haven't really discussed budget with my parents yet. What are the fees for these courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! Our JEE Arjuna 2027 is ₹19,999 and JEE Lakshya 2027 is ₹35,999. But here's the good news - we offer 0% EMI through PW Pay! Arjuna comes to just ₹1,999 per month and Lakshya to ₹3,499 per month. That's less than what most families spend on daily chai! Quite affordable, na?"
+    },
+    {
+      "speaker": "student",
+      "text": "Oh... that's still quite expensive for us. I'll need to talk to my parents first about this. What's the difference between these two courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern about budget. Lakshya is our premium course with more personalized attention, doubt-solving sessions, and additional test series. Arjuna covers all JEE syllabus comprehensively too but with slightly fewer features. Both have excellent success rates. When do you think you can discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm not sure... maybe in a few days. Can you call me back next week? I need time to think and discuss with them properly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! No pressure at all. I'll be happy to call you back next week. Should I call you on the same number? And would Tuesday or Wednesday work better for you? Also, do you have any other questions I can answer today to help your discussion with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, same number is fine. Wednesday would be better, maybe evening time. No more questions for now, I think I have enough information to discuss with them."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you this Wednesday evening around 6 PM. Is that timing okay? And Priya, don't worry about the fees - we can always work something out. PW believes every student deserves quality education. Take care and have a good discussion with your parents!"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, 6 PM is fine. Thank you for the information. I'll talk to you next week then."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

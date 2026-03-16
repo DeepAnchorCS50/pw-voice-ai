@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_030",
+  "scenario": {
+    "scenario_id": "cold_030",
+    "tier": "COLD",
+    "student_name": "Suresh",
+    "city": "Ranchi",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Suresh? How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, this is Suresh. I'm okay... actually my friend told me to call, but I'm not sure I'm ready for this."
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all Suresh! It's completely normal to feel that way. Can you tell me which class you're currently in? Just want to understand your situation better."
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11... in Ranchi. But I don't know if I really need coaching right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, Class 11 is actually the perfect time to start! Which exam are you preparing for - JEE or NEET? Ya abhi decide nahi kiya hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... but I'm just starting to think about it seriously. Do I really need to start so early?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET mein early start bohot important hai. You have around 20 months which is perfect timing. Our NEET Yakeen 2027 batch is specially designed for students like you. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "Very basic... I mean I study from school books only. But these courses must be very expensive, right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern about pricing. Our NEET Yakeen 2027 is ₹33,999, but we offer 0% EMI starting at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai! Would this work for your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,299 per month... I don't know. I'll have to ask my parents first. This is a big decision."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! It's definitely a family decision. Would you like me to call back after you've discussed with your parents? Or would you prefer if I speak with them as well to explain the course details?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I'll talk to them first. But what exactly do I get in this course? Is it really worth it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! NEET Yakeen 2027 includes live classes by top faculty, recorded lectures, study material, test series, doubt solving sessions, and personal mentorship. Students typically see 40-50% improvement in scores. When should I call you back?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... in 2-3 days? I need time to think and discuss. But I'm still not 100% sure about starting coaching now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely fine Suresh! Take your time. Starting early gives you a huge advantage - you can build strong fundamentals without rushing. Shall I call you this Thursday evening around 7 PM? Would that work?"
+    },
+    {
+      "speaker": "student",
+      "text": "Thursday 7 PM should be okay. But please don't pressure me if I'm still not ready, okay?"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

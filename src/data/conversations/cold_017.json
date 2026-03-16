@@ -1,0 +1,77 @@
+{
+  "conversation_id": "cold_017",
+  "scenario": {
+    "scenario_id": "cold_017",
+    "tier": "COLD",
+    "student_name": "Kavya",
+    "city": "Bhopal",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 25,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking with Kavya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Kavya... but I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, no pressure at all! Main bas samjhana chahti hun ki aap kis class mein ho and what are you preparing for? Just to understand your requirements better."
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th standard right now... thinking about JEE preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! JEE preparation ke liye 10th se start karna is really smart. So you're targeting JEE Main 2027, right? That gives you good 2+ years to prepare properly."
+    },
+    {
+      "speaker": "student",
+      "text": "Haan... but I'm not sure about online coaching yet. And fees bhi concern hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Kavya. Budget is important for every family. Our JEE Arjuna 2027 batch is specially designed for students like you - it's just ₹19,999 for the complete course. We also have EMI options starting at ₹1,999 per month through PW Pay."
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month... that's still quite a lot. What exactly do we get in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! You get complete JEE syllabus coverage, live classes, recorded lectures, doubt solving sessions, regular tests, and study material - everything you need for JEE prep. Think about it - ₹1,999 is less than what most families spend on tuition per subject locally. Yahan complete package mil raha hai."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... sounds okay but I'll need to discuss with my parents first. Can you call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family discussion is very important for such decisions. When would be a good time to call back? And should I speak with you or would your parents also like to join the call?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe call tomorrow evening around 6 PM? And yes, my dad would want to know the details too."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Kavya! I'll call you tomorrow at 6 PM and can explain everything to your dad as well. Meanwhile, I'll share some course details on WhatsApp. Just think about your goals - JEE 2027 mein acha rank lane ke liye consistent preparation chahiye. We'll help you achieve that!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that works. Thank you for the information, Priya."
+    }
+  ],
+  "total_turns": 14,
+  "tier_label": "COLD"
+}

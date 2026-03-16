@@ -1,0 +1,100 @@
+{
+  "conversation_id": "conv_20260126_232807",
+  "timestamp": "2026-01-26T23:28:07.683958",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": true,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I was looking at your courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE preparation in 11th gives you a great advantage. Are you targeting JEE Main or JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "Well, ultimately JEE Advanced I guess. I want to get into IIT, but I'm not sure if that's realistic for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's absolutely realistic with proper guidance! Many of our students crack JEE Advanced. What's your current preparation status - are you taking any coaching currently?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, not really. I've been studying on my own but it's getting overwhelming. My parents are supportive but... um, we're also concerned about the fees."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand the fee concern. The good news is we have various scholarship programs and our fees are quite reasonable compared to other institutes. What's your budget range, if you don't mind me asking?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents said around 30-40 thousand for the whole program. Is that... is that enough? I've heard coaching can be really expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "Actually, that's great news! Our comprehensive 2-year JEE program is within your budget, and we also have scholarship tests that can reduce fees by up to 90%. When would you be able to take a scholarship test?"
+    },
+    {
+      "speaker": "student",
+      "text": "Really? 90% scholarship? That sounds too good to be true. What's the catch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "No catch at all! It's merit-based. You take a simple test covering 11th syllabus, and based on your performance, you get the scholarship. We believe in making quality education accessible. Are you confident with your 11th concepts so far?"
+    },
+    {
+      "speaker": "student",
+      "text": "I mean, I'm decent in Physics and Maths, but Chemistry is a bit weak. When is this test? Do I need to prepare specifically for it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "The test happens every weekend, and it covers basic 11th concepts - nothing beyond your current syllabus. Even if Chemistry is weak, your strong Physics and Maths can help. Plus, we'll provide detailed study material once you enroll. Shall I book your test for this Saturday?"
+    },
+    {
+      "speaker": "student",
+      "text": "This Saturday? That's quite soon. Let me check with my parents first. Also, what if I don't get a good scholarship? What are the regular fees?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, discuss with your parents! Our regular 2-year program is 45,000, but even a 50% scholarship brings it to 22,500 - well within your budget. Most students get at least 30-40% scholarship. Should I send you all the details on WhatsApp?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, please send the details. And maybe some sample questions from the test? I want to see what level it is."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I'll send everything right now. Also, I'll include success stories of students from similar backgrounds. Can I call you tomorrow evening to know your parents' thoughts and confirm your test slot?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that works. Call me around 6 PM tomorrow. And thank you for being so helpful, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Rahul! I'm excited to help you achieve your IIT dream. Expect my WhatsApp message in 5 minutes, and I'll call you tomorrow at 6 PM sharp. Have a great day!"
+    }
+  ],
+  "total_turns": 21,
+  "duration_seconds": 525
+}

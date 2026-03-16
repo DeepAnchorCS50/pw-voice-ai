@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_008",
+  "scenario": {
+    "scenario_id": "warm_008",
+    "tier": "WARM",
+    "student_name": "Prateek",
+    "city": "Jaipur",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 15,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon! This is Priya calling from PhysicsWallah. Am I speaking with Prateek?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Prateek. Good afternoon."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Prateek, I'm calling regarding your inquiry about our JEE preparation courses. First of all, congratulations on taking this important step! Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you. I'm in Class 11 right now, just started a few months back."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is the ideal time to start JEE preparation. So you're targeting JEE Main and Advanced, right? And that means you'll be appearing in 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly. JEE Advanced is my main goal. I want to get into IIT, so I'm looking for comprehensive preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! That's a great target, Prateek. For JEE Advanced preparation from Class 11, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for students like you with IIT dreams. It covers the complete syllabus with advanced problem-solving. Have you looked at any other coaching options?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've checked a few online platforms, but honestly the pricing is quite high everywhere. What's the fee structure for this Lakshya batch? And I want to compare a few options first before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Prateek. Smart decision to compare! JEE Lakshya 2027 is priced at ₹35,999 for the complete 2-year program. But here's the good news - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! We also have JEE Arjuna 2027 at ₹19,999 if budget is a concern."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, the EMI option sounds reasonable. But what's the difference between Lakshya and Arjuna? I want to make sure I'm getting the right course for my goals."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya is our premium batch with live doubt resolution, advanced problem sheets, and dedicated mentorship for JEE Advanced. Arjuna covers JEE Main thoroughly but has limited Advanced content. Since your goal is IIT, Lakshya would be perfect. The EMI makes it very affordable, na?"
+    },
+    {
+      "speaker": "student",
+      "text": "The Lakshya batch does sound good for my needs. But I'm still a bit hesitant about committing right now. Can I get some time to think about it and maybe discuss with my family?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Prateek! But let me ask - are you the one making this decision, or do your parents need to be involved? Also, just so you know, we're offering an additional discount this month, but I want to make sure you're comfortable with your choice first."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my parents have already agreed that I can choose the coaching myself - they trust my judgment. It's more about me being sure this is the right fit. What kind of additional discount are we talking about?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that your parents trust you! The additional discount brings down the EMI to just ₹2,999 per month for this month. Plus, you get a 7-day free trial to experience the teaching quality. If you're not satisfied, we'll refund completely. This way you can try before fully committing. Sounds fair?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, the trial period does make it less risky. And ₹2,999 per month is definitely manageable. Alright, let's go ahead with the JEE Lakshya 2027 batch. How do we proceed with the enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice, Prateek! I'm confident you'll love the experience. I'll send you a WhatsApp link right now with the enrollment details. You can start your classes from tomorrow itself. Welcome to the PW family, and all the best for your IIT journey!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

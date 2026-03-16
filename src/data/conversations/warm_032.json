@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_032",
+  "scenario": {
+    "scenario_id": "warm_032",
+    "tier": "WARM",
+    "student_name": "Sneha",
+    "city": "Vijayawada",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 13,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good evening, this is Priya from PhysicsWallah sales team. Am I speaking to Sneha? I hope I'm not disturbing you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... yes, this is Sneha. No, it's fine. I had filled some form online I think for JEE preparation courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! Thank you for showing interest in PW. I'm here to help you with the best course options. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. I want to prepare for JEE Advanced specifically, not just Mains."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced is a great goal. Since you're in Class 11, you have around 13-14 months for preparation which is actually ideal timing. Are you looking to start immediately or planning for next session?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to start as soon as possible. But honestly, I'm a bit worried about the fees. My parents have a budget constraint, so I need something affordable."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Sneha. PW is known for making quality education affordable. For JEE 2027, we have two excellent options - our Lakshya batch at ₹35,999 and Arjuna batch at ₹19,999. Both cover Advanced level preparation. Would you like me to explain the difference?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 sounds quite expensive. What's the difference between these two? And is there any EMI option available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We offer 0% EMI through PW Pay. Lakshya EMI is just ₹3,499/month and Arjuna is ₹1,999/month - that's less than what most families spend on daily chai! Lakshya has more live classes and personal mentoring, while Arjuna focuses on recorded lectures with doubt support. Both guarantee Advanced level preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more manageable. But I want to compare a few options first before deciding. Can I get some time to think about this?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Sneha! But let me ask - are you the one who will be making this decision, or do you need to discuss with your parents first? Also, I can share some demo classes right now so you can see the quality before deciding."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my parents have given me the authority to decide since it's about my career. They trust my judgment. Can you tell me what exactly I'll get in the Arjuna batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that they trust you! In Arjuna 2027, you get complete recorded video lectures for Physics, Chemistry, Maths by our top faculty, chapter-wise tests, previous year solutions, doubt resolution through app, and study material delivered to Vijayawada. Plus lifetime access even after your exam!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. The lifetime access is good. But I'm still a bit hesitant... what if I don't like the teaching style after enrolling?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Valid concern! We offer a 7-day money-back guarantee if you're not satisfied. Plus Sneha, our Arjuna faculty includes Alakh Sir himself for Physics - over 2 crore students trust his teaching. Why don't I send you demo access right now? You can experience it tonight itself."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that 7-day guarantee gives me confidence. And ₹1,999 monthly is definitely within my budget. Can you help me enroll in the Arjuna batch? How do I proceed?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice Sneha! I'll send you the enrollment link on WhatsApp right after this call. You can pay the first EMI of ₹1,999 to activate everything immediately. Your study material will reach Vijayawada in 3-4 days. Shall I also add my number for any future support you might need?"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

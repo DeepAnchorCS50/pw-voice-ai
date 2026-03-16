@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_022",
+  "scenario": {
+    "scenario_id": "cold_022",
+    "tier": "COLD",
+    "student_name": "Swati",
+    "city": "Coimbatore",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 19,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Swati? I believe you showed interest in our courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... yes, this is Swati. Actually, my friend told me to call, I'm not sure I'm ready. I'm just looking around."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's perfectly fine, Swati! No pressure at all. Your friend gave you good advice - it's always smart to explore options early. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11... but I'm still confused about everything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, Class 11 mein confusion hona is very normal! You have good time to plan properly. Are you preparing for JEE or NEET? Or maybe you haven't decided yet?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... I think. But I don't know if online coaching will work for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern, Swati. Many students from Coimbatore have felt the same initially. Our NEET Yakeen 2027 batch has live classes with doubt clearing sessions - it's not just recorded videos. You have around 19 months for NEET, which is actually perfect timing. Have you started any preparation yet?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really... just school. And I'm worried about the cost also. These courses are expensive, right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid concern hai, Swati! But let me share something - our NEET Yakeen 2027 is ₹33,999 for the complete course till your exam. And we offer 0% EMI starting at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai! Would this EMI option make it more manageable?"
+    },
+    {
+      "speaker": "student",
+      "text": "That's still a lot for my family... and I need to ask my parents first before deciding anything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Swati! Family ki permission is most important. I completely understand. Would it help if I call back after you've discussed with your parents? When would be a good time for them to be available so they can also ask any questions?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I'm still not sure about online classes. What if I can't keep up?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a fair worry, but here's the thing - our NEET Yakeen batch has personal mentors, weekly tests, and you can rewatch classes anytime. Plus, students from Coimbatore have cracked NEET with us! We also have a free trial class. Would you like to attend one before making any decision?"
+    },
+    {
+      "speaker": "student",
+      "text": "Free trial sounds okay... but I really need to talk to my parents first. Can you call back next week?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Swati! I'll call you back next week. Meanwhile, I'll send you the trial class link on WhatsApp. Take your time, discuss with parents, and maybe attend the trial. What day next week works best - weekday evening or weekend?"
+    },
+    {
+      "speaker": "student",
+      "text": "Weekend would be better... Saturday evening maybe?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you this Saturday evening around 6 PM. Take care, Swati, and don't worry - we'll figure out the best path for your NEET preparation together. Any other questions for now?"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

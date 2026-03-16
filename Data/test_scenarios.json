@@ -1,0 +1,52 @@
+{
+  "scenarios": [
+    {
+      "name": "HOT_LEAD_SCENARIO",
+      "description": "Class 12 student, exam in 6 months, self-decides, highly engaged",
+      "expected_tier": "HOT",
+      "expected_score_range": [80, 100],
+      "data": {
+        "full_name": "Rites Raman",
+        "current_class": "12",
+        "target_exam": "JEE Main",
+        "exam_year": "2026",
+        "urgency_level": "high",
+        "budget_concern": false,
+        "decision_maker": "self",
+        "engagement_level": "high"
+      }
+    },
+    {
+      "name": "WARM_LEAD_SCENARIO",
+      "description": "Class 11 student, exam in 18 months, parent decides, engaged",
+      "expected_tier": "WARM",
+      "expected_score_range": [60, 79],
+      "data": {
+        "full_name": "Abhishek Kumar",
+        "current_class": "11",
+        "target_exam": "JEE",
+        "exam_year": "2027",
+        "urgency_level": "medium",
+        "budget_concern": false,
+        "decision_maker": "parent",
+        "engagement_level": "high"
+      }
+    },
+    {
+      "name": "COLD_LEAD_SCENARIO",
+      "description": "Class 9 student, exam in 3 years, parent decides, low engagement",
+      "expected_tier": "COLD",
+      "expected_score_range": [0, 59],
+      "data": {
+        "full_name": "Veena Singh",
+        "current_class": "9",
+        "target_exam": "JEE",
+        "exam_year": "2029",
+        "urgency_level": "low",
+        "budget_concern": true,
+        "decision_maker": "parent",
+        "engagement_level": "low"
+      }
+    }
+  ]
+}

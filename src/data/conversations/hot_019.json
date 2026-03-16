@@ -1,0 +1,77 @@
+{
+  "conversation_id": "hot_019",
+  "scenario": {
+    "scenario_id": "hot_019",
+    "tier": "HOT",
+    "student_name": "Aarti",
+    "city": "Indore",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Aarti?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, hi Priya! I've been watching Alakh sir's videos and I'm really interested in joining PW. His teaching style is amazing!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful to hear! Alakh sir ka teaching bilkul unique hai. Can you tell me which class you're currently in and which exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now and preparing for NEET. I really need proper guidance now because the exam is getting closer and I want to crack it in first attempt!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET preparation mein hum bahut strong hain. How much time do you have left for your NEET exam? And are you planning to take it in 2025?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly! I have about 6 months left for NEET 2025. I'm quite serious about this and want the best preparation possible. What courses do you have for someone like me?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great timing! For NEET 2025 with 6 months left, our NEET Yakeen 2027 batch would be perfect for you. It's our comprehensive program with live classes, doubt solving, and test series. The fee is ₹33,999. Is budget a concern for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, budget isn't a major issue for us. My parents are supportive and ready to invest in good education. Can you tell me more details about what's included in this course? Like how many hours of classes, test series, study material?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Yakeen includes daily live classes, comprehensive study material, weekly tests, previous year question practice, and 24/7 doubt support. Plus you get access to recorded lectures bhi. Are you the one making this decision or do you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents have already given me the authority to decide. They trust my judgment completely. This sounds really good! How do I enroll? And when do the classes start? I don't want to waste any more time!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's fantastic, Aarti! I can see you're really motivated. Classes start from next Monday itself. For enrollment, I can process it right now on this call. We accept payment through cards, UPI, or if you prefer, we have 0% EMI option at just ₹3,299 per month through PW Pay."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! I think EMI would be better for managing the payments. ₹3,299 per month sounds very reasonable. How do we proceed with the enrollment process? Do I need to submit any documents?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! For enrollment, I just need your basic details and we can complete the payment. For documents, just your Class 10th marksheet photo for verification later. Shall I start the enrollment process now? I'll share the payment link on your WhatsApp."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, absolutely! Please go ahead. I'm really excited to start this journey with PW. This is exactly what I was looking for. My WhatsApp number is the same as this call number."
+    }
+  ],
+  "total_turns": 14,
+  "tier_label": "HOT"
+}

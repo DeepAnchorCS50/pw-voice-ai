@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_012",
+  "scenario": {
+    "scenario_id": "cold_012",
+    "tier": "COLD",
+    "student_name": "Divya",
+    "city": "Thiruvananthapuram",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Divya? I hope I'm not disturbing you at a bad time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... yes, this is Divya. Actually I was just studying, but it's okay."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear you're studying! I won't take much of your time. I'm calling because you showed interest in our JEE courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 11... but I'm just exploring options right now, not really ready to decide anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, exploring is important! Class 11 is actually the perfect time to start serious JEE preparation. So you're targeting JEE Main, right? When are you planning to appear for the exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, JEE Main... I think in 2027. But honestly, I'm not sure about coaching yet. There are so many options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, I understand the confusion. JEE 2027 means you have almost 20 months - that's actually a good timeline! At PW, we have JEE Lakshya 2027 and JEE Arjuna 2027 specifically for students like you. Have you looked at any online courses before?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really... I mean, I've heard about online coaching but I'm not convinced it works as well as offline. Also, my parents haven't decided on the budget yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a valid concern! Many parents initially think the same. Our courses are designed to be as effective as offline coaching but more affordable. JEE Arjuna 2027 is just ₹19,999 - that's ₹1,999 per month EMI. Even JEE Lakshya with premium features is ₹35,999. Do you think this range works for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "I... I'm not sure. I'll have to discuss with my parents first. They handle all the financial decisions. Can you call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! I completely understand - these are important family decisions. Before I call back, can you tell me what specific concerns you or your parents might have? Is it about the online format, the pricing, or something else?"
+    },
+    {
+      "speaker": "student",
+      "text": "Well... my parents are worried about online classes being effective. And they want to compare with local coaching institutes in Thiruvananthapuram first."
+    },
+    {
+      "speaker": "agent",
+      "text": "That makes perfect sense! Local comparison is important. You know what, let me share some demo classes with you so you can experience our teaching quality firsthand. When would be a good time to call you back after you've discussed with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... in a week? I need time to show them the demos and discuss properly. Is that okay?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! One week is perfect. I'll send you the demo links on WhatsApp today itself. Should I call you next Friday around this same time? And just confirm - this number is the best way to reach you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, next Friday works. And yes, this number is fine. Thank you for understanding that I need to discuss with my parents first."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

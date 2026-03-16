@@ -1,0 +1,105 @@
+{
+  "conversation_id": "hot_014",
+  "scenario": {
+    "scenario_id": "hot_014",
+    "tier": "HOT",
+    "student_name": "Amit",
+    "city": "Thiruvananthapuram",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking with Amit?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Amit speaking! I've been waiting for your call. I'm really excited about joining PW!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful to hear Amit! Thank you for showing interest in PhysicsWallah. Pehle main aapko congratulate karna chahti hun for taking this step towards your dreams. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Actually, I've been watching Alakh sir's videos for months and I really want to join PW for my preparation!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul perfect! Alakh sir ke videos bahut helpful hain na. Since you're in Class 12, which competitive exam are you targeting - JEE ya NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm targeting NEET! I want to become a doctor. Can you tell me more about the NEET courses? What all is included in them?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice Amit! NEET ke liye humara sabse popular course hai NEET Yakeen 2027. Isme complete Physics, Chemistry, Biology coverage hai with live classes, recorded lectures, test series, and doubt solving sessions. When is your NEET exam scheduled?"
+    },
+    {
+      "speaker": "student",
+      "text": "My exam is in about 5 months. I know it's getting close but I'm really motivated to work hard. What's the difference between the different NEET courses you offer?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, 5 months is good time agar aap dedicated preparation karo! We have NEET Yakeen 2027 for ₹33,999 which is our comprehensive course, and NEET Sankalp 2027 for ₹44,999 which is specially designed for droppers with extra support. Since you're in Class 12, Yakeen would be perfect for you."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds great! Can you tell me more about what exactly is covered in NEET Yakeen? Like how many hours of content and what kind of tests?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Yakeen mein aapko milega - 700+ hours of video lectures, 200+ live classes, complete NCERT coverage, 50+ full length tests, chapter-wise tests, previous year questions, and 24/7 doubt support. Plus Alakh sir personally takes many important topics!"
+    },
+    {
+      "speaker": "student",
+      "text": "Wow, that's comprehensive! And the ₹33,999 - can I pay this in installments? Also, do you provide study material or is it all online?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan absolutely! We have 0% EMI option through PW Pay - sirf ₹3,299 per month. That's less than what most families spend daily! And yes, aapko physical study material bhi milega along with digital access. Everything is designed keeping students' convenience in mind."
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,299 per month sounds very reasonable! I'm really impressed. Can I start immediately after enrollment? And will I get access to all the recorded lectures right away?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul Amit! Enrollment ke immediately after, aapko complete access mil jayega - all recorded lectures, live classes, tests, everything. You can start your preparation today itself! Are you in a position to make this decision today or do you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide myself! My parents have already given me permission to choose whatever course I think is best for my NEET preparation. I'm ready to enroll!"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's fantastic Amit! Main bahut khush hun ki aap itne determined ho. So shall we proceed with NEET Yakeen 2027 for ₹33,999 with EMI option of ₹3,299 per month? I'll share the payment link with you right now."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, absolutely! Please go ahead and share the payment link. I'm really excited to start my journey with PhysicsWallah and work towards my dream of becoming a doctor!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Amit! I'm sharing the secure payment link on your registered mobile number. Once payment is done, you'll get instant access. Welcome to the PW family! Aapka doctor banne ka sapna zaroor pura hoga with proper guidance and your dedication."
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! You've been really helpful. I'll make the payment right now. Looking forward to starting my NEET preparation with PW!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Amit! It was wonderful talking to you. After enrollment, you'll receive a welcome email with all details. Best of luck for your preparation! Feel free to call us anytime if you need any help. All the best!"
+    }
+  ],
+  "total_turns": 21,
+  "tier_label": "HOT"
+}

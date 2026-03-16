@@ -1,0 +1,89 @@
+{
+  "conversation_id": "hot_027",
+  "scenario": {
+    "scenario_id": "hot_027",
+    "tier": "HOT",
+    "student_name": "Riya",
+    "city": "Bhubaneswar",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Riya? Hi, this is Priya from PhysicsWallah. I hope I'm not disturbing you. I'm calling regarding your inquiry about our NEET courses. Do you have 2-3 minutes to talk?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Yes, this is Riya. Haan, I have some time. Actually I was looking into your courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great Riya! So you're preparing for NEET, right? Can you tell me a bit about yourself - which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper right now. I failed last year and must crack it this time. The pressure is really high, you know."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Riya, and don't worry - many of our toppers are droppers who came back stronger! That's exactly why we have our NEET Sankalp batch designed specifically for droppers like you. When is your NEET exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's in May, so I have about 5 months left. I'm really worried if that's enough time to cover everything properly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul enough time hai Riya! 5 months is actually a good timeline if you follow the right strategy. Our NEET Sankalp 2027 batch is perfect for this - it's intensive, covers the complete syllabus with revision, and includes dropper-specific doubt sessions. Have you taken any coaching before?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I went to a local coaching in Bhubaneswar last year, but the teaching wasn't that effective. That's why I'm looking at online options now. What makes PW different?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! PW has India's best NEET faculty like Alakh Sir, and our Sankalp batch gives you live classes, recorded lectures for revision, DPPs, test series, and personal mentorship. Plus it's much more affordable than traditional coaching. Are you the one making this decision or would you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, my parents have given me full freedom to choose. They just want me to crack NEET this time. What's the fee structure like?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! So NEET Sankalp 2027 is ₹44,999 for the complete course. But Riya, we also offer 0% EMI through PW Pay - just ₹4,499 per month. That's less than what most families spend on daily expenses, and much cheaper than offline coaching."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reasonable actually. But I want to make sure the course will really help me improve from last year. Do you have any success stories from droppers?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Riya! Last year, 65% of our NEET qualifiers were droppers. We have students like Ananya from Kolkata who scored 680+ after dropping a year, and Rohit from Delhi who got into AIIMS. The key is our structured approach and continuous mentorship for droppers."
+    },
+    {
+      "speaker": "student",
+      "text": "That's encouraging! Okay, I think I'm convinced. How do I enroll? And when do the classes start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful decision Riya! Classes are already running, but don't worry - you'll get access to all previous recorded lectures. I can help you enroll right now through our app or website. You can start with the EMI option - shall I guide you through the enrollment process?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please! Guide me through it. I'm ready to start immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Riya! I'm sharing the enrollment link on WhatsApp right now. Once you complete the payment, you'll get instant access. Welcome to the PW family! I'm confident you'll crack NEET this time. All the best, and feel free to call me if you need any help during your preparation!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "HOT"
+}

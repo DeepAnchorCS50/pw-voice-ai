@@ -1,0 +1,215 @@
+{
+  "conversation_id": "voice_warm_004",
+  "tier": "WARM",
+  "region": "south",
+  "scenario": {
+    "id": "voice_warm_004",
+    "tier": "WARM",
+    "region": "south",
+    "name": "Karthik",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 15,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "key_situation": "Good engagement, needs parent approval before enrolling"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. I hope you're doing well today. Am I speaking with Karthik?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Yes, this is Karthik. Good afternoon, Priya ma'am.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Good afternoon, Karthik! Thank you for showing interest in PhysicsWallah. I understand you're preparing for JEE. Could you tell me which class you're currently in?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, ma'am. Just started this academic year actually.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "Perfect timing, Karthik! Class 11 is when the real JEE preparation begins. Are you targeting JEE Main or JEE Advanced?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "JEE Main is my primary target, ma'am. Though if I do well, I might consider Advanced also.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "That's a great approach! So you have about 15 months for your first attempt. Are you currently enrolled in any coaching institute or studying on your own?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "I was going to a local coaching center here in Hyderabad, but honestly, the teaching quality is not that great. My friends suggested I should look at online options.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "I understand. Many students from Hyderabad have had similar experiences. What subjects are you finding most challenging right now?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Physics and Mathematics are quite tough, ma'am. Chemistry is okay, but Physics concepts are very confusing sometimes. The way they teach in my current coaching, it's very theoretical only.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "That's exactly what we focus on at PW - making Physics concepts crystal clear with practical applications. Tell me, how many hours are you currently dedicating to JEE preparation daily?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Around 4-5 hours after school, ma'am. Sometimes more on weekends. But I feel like I'm not utilizing the time properly.",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "That's actually good dedication, Karthik. With proper guidance, that time can be much more effective. Based on your profile, I'd recommend our Arjuna JEE batch for Class 11. It's specifically designed for JEE Main aspirants with comprehensive coverage and doubt resolution.",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "Arjuna batch? Can you tell me more about it, ma'am? What exactly does it include?",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "Absolutely! The Arjuna JEE batch includes live interactive classes, recorded lectures for revision, comprehensive study material, regular tests, and most importantly - unlimited doubt clearing sessions. Our Physics faculty explains concepts with real-world examples, not just theory.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "That sounds really good, ma'am. The doubt clearing part is very important for me. How does that work exactly?",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "We have dedicated doubt clearing sessions where you can directly interact with faculty. Plus, there's a doubt forum where you can post questions anytime and get responses within 24 hours. Many Hyderabad students find this very helpful.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "Impressive! What about the test series? How frequently are the tests conducted?",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "We conduct weekly chapter tests and monthly full syllabus tests. The test series follows the exact JEE Main pattern, so you'll be completely familiar with the exam format by the time you appear for the actual exam.",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "This is sounding very comprehensive, ma'am. What would be the fee structure for this Arjuna batch?",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "The Arjuna JEE batch for the complete program is ₹15,999. This includes everything I mentioned - live classes, recordings, study material, tests, and doubt support for the entire duration until your JEE Main exam.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "That's quite reasonable compared to what I'm paying for my current coaching. Ma'am, this all sounds very good, but I'll need to discuss this with my parents first. They handle all my education decisions.",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "Of course, Karthik! That's completely understandable. Family involvement in education decisions is very important. Would you like me to arrange a call with your parents to explain the program details?",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "That would be helpful, ma'am. My father usually comes home by 7 PM. Would evening time work for a call?",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Absolutely! I can call tomorrow evening around 7:30 PM. Meanwhile, I'll send you a detailed brochure about the Arjuna batch and some sample video lectures so you can show your parents the teaching quality.",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "That's perfect, ma'am. I think seeing the actual teaching style will help convince them. The sample videos are a great idea.",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "Wonderful! I'll WhatsApp you the details right after this call. Is there anything specific you'd like me to emphasize when I speak with your parents tomorrow?",
+      "audio_file": "msg_026_agent.mp3"
+    },
+    {
+      "index": 27,
+      "speaker": "student",
+      "text": "Please mention about the doubt clearing support and the success rate of students from Telangana. My parents always ask about regional success stories.",
+      "audio_file": "msg_027_student.mp3"
+    },
+    {
+      "index": 28,
+      "speaker": "agent",
+      "text": "Perfect points, Karthik! We have excellent success stories from Hyderabad and Telangana students. I'll definitely highlight those. So I'll call tomorrow at 7:30 PM, and meanwhile you'll receive the study material and videos.",
+      "audio_file": "msg_028_agent.mp3"
+    },
+    {
+      "index": 29,
+      "speaker": "student",
+      "text": "Thank you so much, Priya ma'am. I'm quite excited about this opportunity. Looking forward to tomorrow's call with my parents.",
+      "audio_file": "msg_029_student.mp3"
+    },
+    {
+      "index": 30,
+      "speaker": "agent",
+      "text": "Thank you, Karthik! I'm confident this will be a great step for your JEE preparation. Have a wonderful evening, and see you tomorrow on the call!",
+      "audio_file": "msg_030_agent.mp3"
+    },
+    {
+      "index": 31,
+      "speaker": "student",
+      "text": "Thank you, ma'am. Have a good evening!",
+      "audio_file": "msg_031_student.mp3"
+    }
+  ],
+  "total_messages": 32,
+  "language": "english"
+}

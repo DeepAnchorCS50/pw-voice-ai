@@ -1,0 +1,191 @@
+{
+  "conversation_id": "voice_hot_001",
+  "tier": "HOT",
+  "region": "north",
+  "scenario": {
+    "id": "voice_hot_001",
+    "tier": "HOT",
+    "region": "north",
+    "name": "Arjun",
+    "city": "Delhi",
+    "state": "Delhi",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 4,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "key_situation": "Dropped Aakash coaching, looking for better online option urgently"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello Arjun! Main Priya bol rahi hoon PhysicsWallah se. Aapne humari courses ke baare mein inquiry ki thi. Kaise hain aap?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hi Priya! Haan main theek hoon. Actually main JEE Advanced ki preparation kar raha hoon aur kuch confusion mein hoon coaching ke baare mein.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Samajh gaya Arjun. JEE Advanced ki preparation challenging hoti hai. Aap currently class 12th mein ho? Aur exam kab hai aapka?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Haan class 12th mein hoon. JEE Advanced March mein hai, matlab sirf 4 months bache hain. Time bahut kam lag raha hai.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "4 months mein bhi bahut kuch ho sakta hai Arjun, bilkul tension mat lo. Abhi tak aap koi coaching le rahe the ya self-study kar rahe hain?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "Actually main Aakash mein tha but recently drop kar diya. Faculty achhi nahi thi aur doubt clearing proper nahi ho raha tha. Ab urgently koi good online option chahiye.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "Oh I see. Aakash drop karne ka decision tough raha hoga. Online shift karne ka koi specific reason hai ya convenience ke liye?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Bhai honestly offline coaching mein time waste bahut ho raha tha. Travel time, batch timings - sab issues the. Online mein flexibility chahiye ab. Plus PW ke baare mein bahut suna hai.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "Bilkul sahi kaha Arjun. PW mein flexibility ke saath quality bhi milti hai. Aapka JEE Main ka result kaisa raha? Ya abhi diya nahi hai?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Main ne January attempt diya tha, 92 percentile aaya. Not bad but Advanced ke liye aur improve karna padega. Especially Physics aur Maths mein.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "student",
+      "text": "Priya, PW mein koi specific JEE Advanced course hai? Kya 4 months mein complete ho jayega syllabus?",
+      "audio_file": "msg_010_student.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "text": "92 percentile achha hai Arjun! Advanced ke liye bilkul scope hai. Haan, humara 'Arjuna JEE' batch hai specifically JEE Advanced ke liye. Complete structured course hai with Alakh sir aur top faculty.",
+      "audio_file": "msg_011_agent.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "student",
+      "text": "Arjuna JEE sounds good! Isme kya kya include hota hai? Aur live classes hoti hain ya recorded?",
+      "audio_file": "msg_012_student.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "text": "Arjuna JEE mein live classes hoti hain daily, complete JEE Advanced syllabus coverage, DPPs, test series, doubt sessions - sab kuch hai. Plus recorded lectures bhi access mil jaata hai revision ke liye.",
+      "audio_file": "msg_013_agent.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "student",
+      "text": "Wah! Doubt sessions important hain mere liye kyunki Aakash mein yahi problem thi. Faculty available nahi rehte the. PW mein kaise hota hai doubt clearing?",
+      "audio_file": "msg_014_student.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "text": "PW mein dedicated doubt sessions hote hain har week. Plus live chat mein bhi doubts puch sakte ho classes ke during. Faculty bahut responsive hain, especially advanced level ke questions ke liye.",
+      "audio_file": "msg_015_agent.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "student",
+      "text": "Perfect! Aur test series kaisi hai? Mock tests JEE Advanced pattern ke hain na? Analysis bhi milta hai?",
+      "audio_file": "msg_016_student.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "text": "Haan bilkul! Complete JEE Advanced pattern ki test series hai. Detailed analysis milta hai - topic wise, difficulty wise, time management - everything. All India rank bhi pata chal jaata hai.",
+      "audio_file": "msg_017_agent.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "student",
+      "text": "Ye sab sun kar achha lag raha hai. Pricing kya hai is course ki? Main decision maker hoon so budget discuss kar sakte hain.",
+      "audio_file": "msg_018_student.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "text": "Great! Arjuna JEE course 4999 mein mil raha hai for 4 months. Isme sab kuch included hai jo maine bataya. Other coaching institutes se bahut affordable hai.",
+      "audio_file": "msg_019_agent.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "student",
+      "text": "4999 for 4 months? Bhai ye to bahut reasonable hai! Aakash mein monthly 8000 de raha tha main. PW mein quality compromise to nahi hoti na?",
+      "audio_file": "msg_020_student.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "text": "Bilkul nahi Arjun! PW ka motto hi hai quality education at affordable price. Alakh sir ka teaching style dekha hai? Concepts crystal clear hote hain. Plus student community bhi bahut supportive hai.",
+      "audio_file": "msg_021_agent.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "student",
+      "text": "Haan YouTube pe dekha hai Alakh sir ko, teaching style achha lagta hai. Priya, main interested hoon. Enrollment kaise kar sakta hoon? Aur kab start kar sakta hoon?",
+      "audio_file": "msg_022_student.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "agent",
+      "text": "Wonderful Arjun! Main aapko enrollment link share kar dungi. Payment ke baad immediately access mil jaayega. Next batch Monday se start ho raha hai, perfect timing hai aapke liye.",
+      "audio_file": "msg_023_agent.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "student",
+      "text": "Monday se start? That's great! Main time waste nahi karna chahta ab. Link share karo, main abhi enroll kar leta hoon.",
+      "audio_file": "msg_024_student.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "agent",
+      "text": "Perfect Arjun! Main WhatsApp pe link share kar rahi hoon with complete details. Enroll hone ke baad orientation session attend karna, schedule mil jaayega. All the best for your JEE Advanced journey!",
+      "audio_file": "msg_025_agent.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "student",
+      "text": "Thanks a lot Priya! Bahut helpful rahi tum. PW mein shift karne ka decision sahi lag raha hai. Link ka wait kar raha hoon.",
+      "audio_file": "msg_026_student.mp3"
+    },
+    {
+      "index": 27,
+      "speaker": "agent",
+      "text": "Most welcome Arjun! Link send kar diya hai. Koi bhi doubt ho to call kar sakte ho. PW family mein welcome hai aap. 4 months mein JEE Advanced crack kar lenge! Best of luck!",
+      "audio_file": "msg_027_agent.mp3"
+    }
+  ],
+  "total_messages": 28,
+  "language": "hinglish"
+}

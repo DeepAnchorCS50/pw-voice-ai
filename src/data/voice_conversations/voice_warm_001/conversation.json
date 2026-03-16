@@ -1,0 +1,209 @@
+{
+  "conversation_id": "voice_warm_001",
+  "tier": "WARM",
+  "region": "north",
+  "scenario": {
+    "id": "voice_warm_001",
+    "tier": "WARM",
+    "region": "north",
+    "name": "Sneha",
+    "city": "Lucknow",
+    "state": "UP",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 14,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "key_situation": "Interested but wants to discuss fees with parents tonight"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! Main Priya bol rahi hoon PhysicsWallah se. Aapne humari NEET ki course ke baare mein inquiry ki thi. Am I speaking to Sneha?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Haan ji, main Sneha. Actually maine form fill kiya tha online NEET course ke liye.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Great Sneha! Main aapki help kar sakti hoon. Pehle ye batayiye - aap abhi kaun se class mein ho aur NEET kab dena hai?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Main class 11 mein hoon, toh NEET 2026 mein dunga. Abhi 14 months ka time hai lagbhag.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "Perfect timing hai Sneha! Class 11 se start karna bohot achha decision hai. Abhi koi coaching join ki hai ya self-study kar rahe ho?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "Abhi tak koi proper coaching nahi li. Bas school ke saath thoda self-study kar rahi thi. But lagta hai systematic approach chahiye.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "Bilkul sahi keh rahe ho. NEET mein structured preparation bohot important hai. Biology, Chemistry aur Physics - teeno subjects mein kaisi grip hai currently?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Biology mein thik hoon, Chemistry average hai. Physics mein thoda weak hoon. Calculations mein problem aati hai.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "No worries Sneha! Physics mein calculations ki problem bohot common hai. Hamare teachers step-by-step approach sikhate hain. Aap Lucknow mein ho na? Online classes prefer karogi ya offline bhi consider kar sakte ho?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Haan Lucknow mein hoon. Online classes better lagti hain because flexible hoti hain. Aur travel time bhi bach jata hai.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "Smart choice! Hamare online classes live hoti hain with doubt clearing sessions. Aur recordings bhi mil jaati hain revision ke liye. Daily kitne ghante study kar sakti ho NEET preparation ke liye?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "School ke baad around 4-5 hours dedicate kar sakti hoon. Weekends mein thoda zyada time mil jata hai.",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Excellent! 4-5 hours daily sufficient hai if properly planned. Main aapke liye LAKSHYA batch recommend karungi - ye specifically Class 11 students ke liye hai jo 2026 NEET target kar rahe hain.",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "LAKSHYA batch? Isme kya kya include hota hai? Aur fees kya hai iska?",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "LAKSHYA mein complete NCERT coverage, previous year questions, mock tests, doubt clearing sessions - sab kuch hai. Plus weekly tests bhi hain ranking ke saath. Fees ki baat karein toh total course 25,000 hai, but EMI options bhi available hain.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "25,000... hmm. Ye thoda zyada lag raha hai. Koi discount ya scholarship option hai kya?",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "Main samajh sakti hoon Sneha. Actually abhi Early Bird offer chal raha hai - 20% discount mil raha hai, so 20,000 ho jaega. Aur 3 months ki EMI bhi kar sakte hain - around 6,700 per month.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "EMI option achha hai. But main parents se discuss karna chahungi fees ke baare mein. Unki permission leni padegi.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "Bilkul right approach hai Sneha! Parents ki consent important hai. Aap unse discuss karo. Main aapko course ka detailed brochure WhatsApp kar deti hoon - unhe bhi dikha sakti ho.",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "Haan please send kar dijiye. Aur ye Early Bird offer kab tak valid hai? Tonight parents se baat karungi.",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "Offer is valid till this month end, so aapke paas good time hai. Main brochure send kar rahi hoon aur ek demo class ka link bhi - aap parents ke saath dekh sakte ho teaching quality.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "That's helpful. Demo class dekhne ke baad better idea mil jaega. Agar parents agree kar jaen toh kaise enroll karna hai?",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "Very simple process hai. Online payment kar sakte ho ya phir bank transfer. Payment ke baad immediately access mil jata hai. Classes Monday se start ho rahi hain new batch ki.",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "Ok perfect timing. Agar parents haan kar den tonight toh kal payment kar dungi. Aapka direct number hai kya contact ke liye?",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Haan bilkul! Main apna WhatsApp number message kar rahi hoon. Aur Sneha, agar parents ka koi question ho toh main unse bhi baat kar sakti hoon - no pressure, just information sharing.",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "That would be great actually. Papa thode detail mein jaate hain courses ke baare mein. Unhe teacher qualifications aur success rate ke baare mein pata karna hoga.",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "Perfect! Main un sab details ka document ready kar deti hoon. Hamare faculty IITians aur doctors hain, aur last year 95% students qualify kiye hain NEET mein from LAKSHYA batch.",
+      "audio_file": "msg_026_agent.mp3"
+    },
+    {
+      "index": 27,
+      "speaker": "student",
+      "text": "Wow, 95% success rate impressive hai! Ok Priya, main parents se discuss karti hoon aur kal tak aapko update de dungi.",
+      "audio_file": "msg_027_student.mp3"
+    },
+    {
+      "index": 28,
+      "speaker": "agent",
+      "text": "Sounds great Sneha! Main aapka response wait karungi. All the best for your discussion, and remember - main yahaan hoon agar koi bhi questions hain. Take care!",
+      "audio_file": "msg_028_agent.mp3"
+    },
+    {
+      "index": 29,
+      "speaker": "student",
+      "text": "Thank you so much Priya! Aap bohot helpful hain. Kal baat karti hoon. Bye!",
+      "audio_file": "msg_029_student.mp3"
+    },
+    {
+      "index": 30,
+      "speaker": "agent",
+      "text": "Most welcome Sneha! Looking forward to having you in LAKSHYA batch. Good luck and bye!",
+      "audio_file": "msg_030_agent.mp3"
+    }
+  ],
+  "total_messages": 31,
+  "language": "hinglish"
+}

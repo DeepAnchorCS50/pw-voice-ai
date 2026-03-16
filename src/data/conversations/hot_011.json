@@ -1,0 +1,133 @@
+{
+  "conversation_id": "hot_011",
+  "scenario": {
+    "scenario_id": "hot_011",
+    "tier": "HOT",
+    "student_name": "Suresh",
+    "city": "Delhi",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 3,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Suresh? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya, haan main Suresh bol raha hun. I'm good, thanks. Actually I was looking into PW courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great to hear! I'm glad you're considering PhysicsWallah. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, final year hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! And which exam are you preparing for? JEE, NEET, or boards?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main ke liye prepare kar raha hun. Engineering mein interest hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! JEE Main is a great opportunity. When is your exam scheduled? How much time do we have for preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's in about 3 months. January mein hai exam. That's why I need to enroll this week actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand the urgency, Suresh. 3 months is good time for focused preparation. For JEE, we have two excellent courses - JEE Lakshya 2027 and JEE Arjuna 2027. Both are designed for intensive preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "What's the difference between these two courses? And what about the pricing?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! JEE Lakshya 2027 is our premium course at ₹35,999 with comprehensive coverage, doubt clearing, and personal mentorship. JEE Arjuna 2027 at ₹19,999 covers all topics thoroughly but with slightly less personal attention. Both have excellent success rates."
+    },
+    {
+      "speaker": "student",
+      "text": "The Lakshya course sounds good. ₹35,999 is manageable for me. What all is included in it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Lakshya includes live classes, recorded lectures, daily practice problems, weekly tests, doubt clearing sessions, and one-on-one mentorship. Plus you get access to our mobile app for studying on-the-go."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. Can I start immediately after enrollment? Time is really crucial for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Once you enroll, you get instant access to all materials and can join live classes from the very next day. We also provide a personalized 3-month study plan for your timeline."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! How do I make the payment? Do you have any EMI options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! We offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! You can also pay full amount upfront if you prefer."
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'll go with the full payment. Can you help me enroll right now?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! I'm so excited to have you join PW family, Suresh. Are you the one making this decision or do you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide this myself. My parents have already given me the go-ahead for coaching. Let's proceed."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! I'll send you the enrollment link right after this call. You'll receive a confirmation email with all course details and your login credentials within 30 minutes."
+    },
+    {
+      "speaker": "student",
+      "text": "Great! Will I also get some kind of welcome kit or study materials?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes definitely! You'll receive digital study materials immediately, and we'll courier physical books and materials to your Delhi address within 2-3 working days. Everything will be ready for your intensive preparation."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect Priya! This sounds exactly what I needed. I'm really glad I called PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm so happy we could help you, Suresh! With your dedication and our guidance, I'm confident you'll crack JEE Main. Welcome to PhysicsWallah! I'll send that enrollment link in 2 minutes."
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much for your help! Looking forward to starting my JEE preparation journey with PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome! Best of luck for your preparation, and remember - our support team is always there if you need any help. Jai Hind!"
+    },
+    {
+      "speaker": "student",
+      "text": "Jai Hind! Thanks again Priya. Have a great day!"
+    }
+  ],
+  "total_turns": 28,
+  "tier_label": "HOT"
+}

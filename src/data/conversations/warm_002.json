@@ -1,0 +1,109 @@
+{
+  "conversation_id": "warm_002",
+  "scenario": {
+    "scenario_id": "warm_002",
+    "tier": "WARM",
+    "student_name": "Ankit",
+    "city": "Patna",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 13,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Ankit? This is Priya from PhysicsWallah. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Ankit. I'm good, thank you. You called regarding the courses, right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! I understand you've shown interest in our courses. First, congratulations on taking this step towards your future! Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Just started a few months back."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is the ideal time to start serious preparation. Which exam are you targeting - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to go for NEET. Medicine mein interest hai, but I'm not sure about the timing to start coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Ankit! Medicine is a noble field. And you know what? Starting in Class 11 gives you a huge advantage - you'll have almost 18 months for thorough preparation. Are you currently taking any coaching or self-studying?"
+    },
+    {
+      "speaker": "student",
+      "text": "Right now I'm just following school syllabus. Some friends suggested to start coaching, but I want to start but not sure about timing. Is it too early?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Not at all! In fact, students who start in Class 11 have a much higher success rate. Our NEET Yakeen 2027 batch is specifically designed for students like you. It covers both 11th and 12th syllabus systematically. What's your current academic performance like in PCB subjects?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm doing okay in school - around 80-85% in science subjects. But NEET level preparation is different, na? How does PW approach work?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely right! NEET requires deeper conceptual understanding. PW's approach is unique - we start from basics, build strong foundations, then gradually increase difficulty. Our Yakeen batch includes live classes, recorded lectures, test series, and doubt clearing sessions. Have you heard about our success stories?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I've seen some videos on YouTube. The teaching looks good. But what if I can't keep up with the pace? Are there any alternatives?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! That's why we have recorded lectures too - you can revisit any topic anytime. Plus our faculty is very supportive. We also have different batches based on your preparation level. The Yakeen batch is comprehensive at ₹33,999 with EMI options. What's your budget consideration for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable compared to offline coaching. But I'll need to discuss with my parents first. Can you tell me more about what exactly is included?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! The Yakeen 2027 includes complete 11th-12th syllabus, 500+ hours of live classes, unlimited doubt clearing, weekly tests, full-length mock tests, and study material. Plus lifetime access to recordings. We also offer 0% EMI at just ₹3299/month - that's less than what families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. The EMI option is good. But I want to be sure before committing. Can you call me back tomorrow evening? I'll discuss with my parents tonight."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Ankit! I completely understand - this is an important decision and parents' guidance matters. I'll call you tomorrow around 7 PM. Meanwhile, I'll share some sample videos and success stories on WhatsApp. What's the best number for that?"
+    },
+    {
+      "speaker": "student",
+      "text": "Same number is fine. And Priya, one last thing - if I join now, when do the classes actually start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! The next batch starts from Monday itself, but don't worry - if you join later, you'll get access to all previous recorded lectures. Plus we have a catch-up plan for new joiners. I'll call you tomorrow at 7 PM sharp. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that covers everything. I'll discuss with my parents and be ready with questions tomorrow. Thanks for explaining everything clearly, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure, Ankit! I'm excited to help you start your NEET journey. Do discuss with your parents, and I'll call you tomorrow with any additional details you need. All the best, and see you tomorrow!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! Looking forward to your call tomorrow. Have a good day!"
+    }
+  ],
+  "total_turns": 22,
+  "tier_label": "WARM"
+}

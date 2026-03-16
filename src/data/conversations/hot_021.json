@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_021",
+  "scenario": {
+    "scenario_id": "hot_021",
+    "tier": "HOT",
+    "student_name": "Karthik",
+    "city": "Bangalore",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 2,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Karthik? How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Yes, this is Karthik. I'm doing well, thanks. I filled out a form on your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thanks for your interest in PW. Can you tell me which class you're currently in and what exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, and I'm preparing for JEE Main. I've been looking at different coaching options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Main is a great choice. When is your exam scheduled? Are you appearing in the upcoming session?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, my exam is in about 2 months. I know it's quite close, but I want to make sure I'm fully prepared. Do you have any crash courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! 2 months is still good time if you study smartly. We have JEE Arjuna 2027 at ₹19999 - it's perfect for focused preparation. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹19999 sounds reasonable. I can manage that. What exactly does this course include? And how do the classes work?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! JEE Arjuna includes live classes, recorded lectures, practice tests, and doubt solving sessions. All classes are online with our top faculty. Do you need to discuss this with your parents or can you make the decision yourself?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself - my parents have given me the budget for coaching. But I have one more question - will 2 months be enough to complete the syllabus?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, absolutely! Our Arjuna batch is designed for quick revision and intensive practice. You'll get personalized study plans too. The EMI option is ₹1999/month through PW Pay if that helps."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds perfect. I'm quite interested. I actually need to enroll this week because I want to start immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent! I can see you're serious about your preparation. Let me get you enrolled right away. I'll send you the payment link and course details on your registered mobile number."
+    },
+    {
+      "speaker": "student",
+      "text": "Great! Just to confirm - I'll get access to all the study materials immediately after payment, right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, bilkul! You'll get instant access to everything - live classes, recorded videos, test series, everything. I'm processing your enrollment now. Welcome to the PW family, Karthik!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I'm excited to start. I'll make the payment as soon as I receive the link."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

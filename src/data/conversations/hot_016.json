@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_016",
+  "scenario": {
+    "scenario_id": "hot_016",
+    "tier": "HOT",
+    "student_name": "Aditi",
+    "city": "Ahmedabad",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 3,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, this is Priya from PhysicsWallah sales team. Am I speaking with Aditi?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Aditi. I had inquired about JEE courses on your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Aditi! Thank you for showing interest in PW. I'm here to help you find the best course for your JEE preparation. Could you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, appearing for boards soon and then JEE Main."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! So you're targeting JEE Main this year. That's wonderful. When is your JEE Main exam scheduled? Do you have around 3-4 months left?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes exactly, about 3 months left. I need some focused preparation now because I feel like I'm not fully ready."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Aditi. 3 months is actually a good time for intensive preparation if you have the right guidance. For your timeline, our JEE Lakshya 2027 would be perfect - it has crash course modules and intensive practice sessions. The investment is ₹35,999. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 sounds reasonable. My parents have kept aside money for coaching. But is this course really effective for someone with just 3 months left?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul effective hai Aditi! The Lakshya batch is specifically designed for students like you. You get daily live classes, previous year question banks, and most importantly - our expert faculty will guide you on high-weightage topics for maximum score improvement. Plus we have 0% EMI option at just ₹3,499 per month through PW Pay if needed."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. I really like that it focuses on high-weightage topics. Can I make this decision myself or do I need to discuss with parents first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's completely up to you Aditi. Many students prefer discussing with parents, but if you're comfortable making the decision, we can proceed. The course starts within 2-3 days of enrollment, so you won't lose any time."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my parents already told me to choose whatever I think is best. I need to enroll this week itself because time is running out."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Aditi! I'm glad your parents are so supportive. Let me get your enrollment started right away. I'll share the payment link and course details on your registered number. You'll get immediate access to the study material and class schedule."
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds great Priya! Please share the details. I'm ready to start my preparation with PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent Aditi! I'm sharing the enrollment link right now via SMS. Once payment is done, you'll receive login credentials within 30 minutes. Welcome to the PW family! I'm confident you'll see great improvement in these 3 months."
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'm really excited to start. I'll complete the payment today itself."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_022",
+  "scenario": {
+    "scenario_id": "warm_022",
+    "tier": "WARM",
+    "student_name": "Saurabh",
+    "city": "Ranchi",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 14,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! Main Priya bol rahi hun PhysicsWallah se. Aapka call connect ho gaya hai regarding our courses. May I know your good name please?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, main Saurabh hun. Actually maine form fill kiya tha online, so you called me back."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Saurabh! Thank you for showing interest in PW. Main Ranchi se hun actually, aap kahan se belong karte hain? And currently which class mein hain aap?"
+    },
+    {
+      "speaker": "student",
+      "text": "Oh nice, main bhi Ranchi se hun! Currently 11th mein hun. Medical line mein interested hun but thoda confused hun about coaching and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "Arre waah! Same city! That's great Saurabh. So NEET ki preparation kar rahe hain aap. Bilkul sahi time hai - 11th se start karna. Kya aap already koi coaching join kiye hain ya thinking about it?"
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi abhi kuch nahi join kiya. Actually I want to start but not sure about timing. Kya 11th mein hi start karna chahiye ya 12th mein bhi time hai?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul right question hai Saurabh! 11th se start karna is the best decision. Hamare NEET Yakeen 2027 batch mein jo students 11th se start karte hain, unka success rate 12th walo se kaafi zyada hai. Aapka exam 2027 mein hoga na?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan 2027 mein. Lekin fee ka kya scene hai? Parents se puchna padega budget ke liye. Koi alternatives bhi hain kya different price range mein?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! Dekho Saurabh, NEET Yakeen 2027 comprehensive course hai - ₹33,999 mein. But agar budget concern hai toh hum 0% EMI dete hain through PW Pay - sirf ₹3,299 per month. That's less than daily chai-nashta ka kharcha! Aur parents se discuss karna bilkul natural hai."
+    },
+    {
+      "speaker": "student",
+      "text": "Oh EMI option hai? That sounds reasonable. Par main decide nahi kar sakta abhi - parents ko batana padega. Can you call back later? Maybe tomorrow evening?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Saurabh! Family ke saath discuss karna bahut important hai. Main kal evening around 6-7 PM call kar sakti hun? Meanwhile, aap course details PW app pe dekh sakte hain. Koi specific doubt hai jo main clear kar sakun?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan 7 PM would be perfect. Actually one more thing - is the course quality really good? I mean online mein properly samajh aa jayega na biology and chemistry?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Saurabh! PW ke teachers like Alakh Sir, Pankaj Sir are top-notch. Live classes hain, doubt sessions, test series - bilkul offline coaching jaisa experience. Plus recorded lectures bhi available rehte hain for revision. Ranchi mein bahut students already enrolled hain and doing great!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay that's convincing. Main parents se baat karke decide karunga. Tomorrow 7 PM call kar dena, I'll have an answer ready by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Saurabh! Main definitely call karungi kal 7 PM. Meanwhile aap PW app download karke free content dekh sakte hain. All the best for your NEET preparation! Take care and see you tomorrow on call!"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure Priya didi! Thanks for explaining everything clearly. Will discuss with family today. Kal baat karte hain. Bye!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

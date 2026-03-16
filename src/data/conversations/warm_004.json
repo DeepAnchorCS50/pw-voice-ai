@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_004",
+  "scenario": {
+    "scenario_id": "warm_004",
+    "tier": "WARM",
+    "student_name": "Divya",
+    "city": "Thiruvananthapuram",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 16,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Divya? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Yes, this is Divya. I'm doing well, thank you. I got your call regarding the courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Haan, I'm calling because you showed interest in our JEE preparation courses. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. I'm preparing for JEE Advanced actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced - that's excellent. So you have around 16 months for your preparation, which is actually a great timeline. Are you taking any coaching currently?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I'm not taking any coaching right now. I've been self-studying but I feel I need more structured guidance. That's why I'm exploring options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, structured guidance makes a huge difference! For JEE Advanced preparation, I would recommend our JEE Lakshya 2027 batch - it's specifically designed for students like you. It includes live classes, doubt clearing, test series, everything you need. The investment is ₹35,999."
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999... that sounds quite expensive. Are there any other options? I want to compare a few options first before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! I understand budget is important. We also have JEE Arjuna 2027 at ₹19,999 - it has recorded lectures with doubt support. Plus, we offer 0% EMI through PW Pay. For Lakshya, it's just ₹3,499 per month - that's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "The EMI option sounds helpful. What's the main difference between Lakshya and Arjuna? I want to make sure I choose the right one."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya has live interactive classes with Alakh Sir and other top faculty, immediate doubt resolution, and personalized attention. Arjuna has high-quality recorded lectures with doubt support but no live interaction. For JEE Advanced, live classes give you that extra edge."
+    },
+    {
+      "speaker": "student",
+      "text": "That makes sense. The live classes do sound better for Advanced preparation. Can I get some time to think about this? I want to discuss with my parents as well."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! But let me ask - when it comes to your education decisions, do you usually make the choice yourself or do your parents need to be involved in the final decision?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, my parents trust my judgment when it comes to studies. They've told me to choose what I think is best for my preparation. So I can decide on my own."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that they trust you! Divya, considering you have 16 months and want the best preparation for Advanced, Lakshya would be perfect. We also have a money-back guarantee if you're not satisfied. Shall I help you enroll today? You can start with just ₹3,499 EMI."
+    },
+    {
+      "speaker": "student",
+      "text": "You know what, Priya, you've explained everything really well. The EMI option makes it affordable and the live classes seem worth it. Yes, let's go ahead with JEE Lakshya 2027. How do we proceed?"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

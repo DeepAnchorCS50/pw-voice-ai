@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_002",
+  "scenario": {
+    "scenario_id": "cold_002",
+    "tier": "COLD",
+    "student_name": "Rahul",
+    "city": "Pune",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, mera naam Priya hai PhysicsWallah se. Maine suna hai aapne humse contact kiya tha regarding our courses. May I know your good name?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... umm, main Rahul hun. Actually my friend told me to call, I'm not sure I'm ready or anything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan Rahul, bilkul no problem! It's good that your friend recommended us. Sirf casual conversation kar lete hain. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard... in Pune."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! 11th mein ho toh perfect timing hai. Are you planning for any competitive exam like JEE or NEET? Ya sirf boards ke liye prepare kar rahe ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... but I haven't really started serious preparation yet. I mean, I'm just thinking about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's completely fine Rahul! NEET 2027 ke liye you still have good time - around 20 months. Early start karna is always better. Have you looked into any coaching options before, or would this be your first time?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, haven't joined anywhere yet. But honestly, I'm worried about the fees and all. My parents haven't really discussed budget with me."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Rahul. Good news yeh hai ki we offer very affordable options. Our NEET Yakeen 2027 batch is ₹33999, but we have 0% EMI at just ₹3299 per month through PW Pay - that's less than what most families spend daily on chai! Would you like to know what's included?"
+    },
+    {
+      "speaker": "student",
+      "text": "Umm... maybe. But I can't decide anything right now. I need to talk to my parents first about all this."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai Rahul! Family se discuss karna is very important for such decisions. Main aapko ek quick overview de deta hun, then you can share with your parents. Deal?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... but just briefly. I have to go for tuition also."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, sirf 2 minutes! NEET Yakeen mein you get complete syllabus coverage, daily practice questions, mock tests, and doubt clearing sessions. Plus Alakh Sir's recorded lectures bhi milte hain. Should I call you back when you're free to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah... that would be better. Can you call tomorrow evening? Around 6 PM maybe? I'll talk to my mom and dad by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Rahul! Main kal 6 PM call karunga. Meanwhile, I'll send you a WhatsApp message with course details jo aap parents ko dikha sakte ho. All the best for your tuition today!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, thanks Priya. Will check the message and discuss at home. See you... I mean, talk to you tomorrow."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

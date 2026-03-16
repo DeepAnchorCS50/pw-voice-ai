@@ -1,0 +1,209 @@
+{
+  "conversation_id": "voice_warm_005",
+  "tier": "WARM",
+  "region": "south",
+  "scenario": {
+    "id": "voice_warm_005",
+    "tier": "WARM",
+    "region": "south",
+    "name": "Lakshmi",
+    "city": "Kochi",
+    "state": "Kerala",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 14,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "key_situation": "Interested but comparing with local coaching institutes"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. I hope you're doing well today. I understand you've shown some interest in our NEET courses. Could you please tell me your name and which class you're currently in?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hi Priya. I'm Lakshmi from Kochi. I'm currently in Class 11 and I'm preparing for NEET.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Nice to meet you, Lakshmi! Kochi is such a beautiful city. So you're starting your NEET preparation in Class 11 - that's really smart planning. When are you targeting to take the NEET exam?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "I'm planning to take NEET in 2025, so I have about 14 months left for preparation. I wanted to start early so I don't feel rushed later.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "That's excellent thinking, Lakshmi! 14 months is a good timeline for thorough preparation. Are you currently taking any coaching classes, or would this be your first structured NEET preparation?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "Actually, I've been looking at a few options. There are some local coaching institutes here in Kochi that my friends are attending. But I've heard good things about PhysicsWallah, so I wanted to explore what you offer.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "I appreciate you considering us! It's always wise to compare your options. Can you tell me what specifically attracted you to PhysicsWallah? And what are the local institutes offering that you're comparing with?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Well, I've seen Alakh Sir's videos on YouTube and they're really good. The way he explains concepts is very clear. The local institutes here are more traditional classroom-based, and they're quite expensive - around 1.5-2 lakhs for the two-year program.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "Yes, Alakh Sir has helped millions of students with his teaching style! I understand cost is definitely a factor to consider. Are you the one making the decision about which coaching to join, or will your parents be involved in the final decision?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "My parents have given me the freedom to choose, but obviously the budget is something we need to be careful about. My father works in a private company and my mother is a teacher, so we have to be practical about expenses.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "I completely understand, Lakshmi. Education is an investment, but it shouldn't put undue financial pressure on the family. Let me ask - what are your strongest and weakest subjects among Physics, Chemistry, and Biology?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Biology is my strongest subject, I really enjoy it. Physics is okay, but Chemistry... that's where I struggle the most, especially organic chemistry. I get confused with all the reactions and mechanisms.",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Chemistry can be tricky initially, but with the right approach, it becomes much clearer. Our teachers break down organic chemistry in a very systematic way. Now, are you looking for a complete package covering all three subjects, or would you prefer subject-wise flexibility?",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "I think I need all three subjects covered. But I'm a bit confused about online vs offline coaching. The local institutes say that classroom interaction is better for doubt-clearing. What's your take on this?",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "That's a valid concern, and I'm glad you brought it up. Our online courses aren't just recorded videos - we have live classes where you can ask questions in real-time. Plus, we have dedicated doubt-clearing sessions and you can post questions anytime on our app. Many of our Kochi students have found this more convenient than traveling to coaching centers daily.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "That sounds interesting. But what about test series and performance tracking? The local institute mentioned they have weekly tests and detailed analysis.",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "Absolutely! We have comprehensive test series with detailed analysis and performance tracking. You'll get all-India rankings, subject-wise performance breakdown, and personalized recommendations for improvement. In fact, our test series is used by students from various coaching institutes too. Would you like me to show you a demo of how this works?",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "Yes, that would be helpful. Also, can you tell me about the pricing? I want to see how it compares with the local options.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "Of course! For Class 11 starting students like you, our Lakshya batch is perfect. It's a complete 2-year program covering NCERT + NEET preparation for all three subjects. The entire program costs around ₹15,000-20,000, which is significantly less than what you mentioned for local coaching.",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "Wow, that's much more affordable! But I'm wondering... if it's so much cheaper, is the quality comparable? I don't want to compromise on my NEET preparation just to save money.",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "I understand your concern, Lakshmi, and it's a smart question to ask. Our lower cost doesn't mean lower quality - it's because we reach lakhs of students online, so we can offer premium education at affordable prices. Our NEET results speak for themselves - thousands of students have cleared NEET with good ranks. Would you like me to share some success stories from Kerala students?",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "Yes, that would be great. It would help me understand better if students from Kerala have done well with PW's online approach.",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "Absolutely! We have students from Kochi, Trivandrum, and Kozhikode who've secured ranks under 1000 in NEET. One student from Ernakulam, Arjun, secured AIR 847 last year. The key is consistency and following our structured approach. What matters most is your dedication, and we provide all the tools and guidance you need.",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "That's encouraging to hear. Can I get some time to think about it? Maybe try a few classes first? I want to discuss with my parents and also see how comfortable I am with the online format.",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Of course, Lakshmi! That's a wise approach. We have a 7-day free trial where you can attend live classes, access study materials, and get a feel for our teaching methodology. This way, you can make an informed decision. Would you like me to set that up for you?",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "Yes, please! That sounds perfect. If I'm satisfied with the trial, how quickly can I enroll in the full program?",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "Wonderful! I'll set up your free trial access right away. After the trial, if you decide to join, the enrollment process takes just a few minutes online. Since you're starting in Class 11, you'll be perfectly positioned to complete the entire syllabus comfortably. Let me take your email ID to send the trial access details.",
+      "audio_file": "msg_026_agent.mp3"
+    },
+    {
+      "index": 27,
+      "speaker": "student",
+      "text": "My email is lakshmi.nair2025@gmail.com. Thank you so much, Priya. You've been really helpful and patient with all my questions.",
+      "audio_file": "msg_027_student.mp3"
+    },
+    {
+      "index": 28,
+      "speaker": "agent",
+      "text": "You're most welcome, Lakshmi! I'm here to help you make the best decision for your NEET preparation. I'll send the trial access details within the next hour. Feel free to call me if you have any questions during your trial period. Wishing you all the best for your NEET journey!",
+      "audio_file": "msg_028_agent.mp3"
+    },
+    {
+      "index": 29,
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I'll definitely try the classes and get back to you. Have a great day!",
+      "audio_file": "msg_029_student.mp3"
+    },
+    {
+      "index": 30,
+      "speaker": "agent",
+      "text": "Thank you, Lakshmi! Looking forward to hearing about your trial experience. Take care and happy learning!",
+      "audio_file": "msg_030_agent.mp3"
+    }
+  ],
+  "total_messages": 31,
+  "language": "english"
+}

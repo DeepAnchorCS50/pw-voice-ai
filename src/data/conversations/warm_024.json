@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_024",
+  "scenario": {
+    "scenario_id": "warm_024",
+    "tier": "WARM",
+    "student_name": "Jyoti",
+    "city": "Indore",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 13,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon! Am I speaking with Jyoti? Hi, this is Priya calling from PhysicsWallah. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Jyoti. I'm doing good, thank you. Actually I had filled some form online for JEE preparation, I think that's why you're calling?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Exactly right! Great to connect with you Jyoti. So you're interested in JEE preparation - that's wonderful! Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Just started a few months back. I'm really serious about cracking JEE Advanced, but honestly I'm a bit confused about which coaching to choose."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Jyoti! Class 11 is the ideal time to start serious JEE prep. You have around 18 months for JEE Advanced, which is great. Tell me, have you started any preparation already or would this be your first structured course?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've been doing some self-study, but nothing structured. I really need proper guidance now. But I'm also worried about the fees - coaching is so expensive these days. What are your course options and pricing?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Jyoti. That's exactly why we created PW - affordable quality education! For JEE Advanced prep, I'd recommend our JEE Lakshya 2027 batch at ₹35,999 or JEE Arjuna 2027 at ₹19,999. Both cover complete syllabus with live classes, recorded lectures, and doubt solving. We also offer 0% EMI - Lakshya comes to just ₹3,499/month!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, ₹35,999 is still quite a lot for my family. What's the main difference between Lakshya and Arjuna? And can I really make this decision right now, or should I discuss with my parents first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid question! Lakshya has more live classes, additional practice sessions, and personalized mentorship. Arjuna covers the same syllabus but with fewer live sessions - still excellent for serious students. At ₹1,999/month EMI, it's less than most families spend on chai and snacks daily! Are you comfortable making educational decisions, or do you usually discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents trust me with these decisions since it's about my future. The ₹1,999 EMI for Arjuna sounds more reasonable. But I want to be sure - can I compare this with a few other options first before deciding?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Jyoti, it's a smart approach to compare! But let me tell you what makes PW special - Alakh Sir's teaching, 6+ lakh successful students, and most importantly, no compromise on quality despite affordable pricing. Plus, we have a 7-day free trial. Why don't you start the trial today and see the difference yourself?"
+    },
+    {
+      "speaker": "student",
+      "text": "7-day free trial sounds good! That way I can experience the teaching quality myself. How does the trial work exactly? And if I like it, can I enroll in Arjuna batch directly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll set up your free trial right away. You'll get access to live classes, recorded lectures, study material - everything! If you're satisfied, you can directly upgrade to JEE Arjuna 2027. I just need to confirm your details and can activate it within 2 hours. Should I proceed with the trial setup?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do the trial! That sounds like the best way to decide. I'm quite excited to see what PhysicsWallah offers. Thank you for being so patient with all my questions, Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Jyoti! Your questions show you're serious about your preparation, and that's exactly the attitude needed for JEE Advanced. I'm confident you'll love our teaching methodology. I'll send the trial access details on your registered number within 2 hours. All the best for your JEE journey!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'll definitely try out the classes and see how it goes. Looking forward to starting this preparation journey with PhysicsWallah. Have a great day!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you Jyoti! I'm excited for you to start this journey. Feel free to call me if you have any questions during the trial. Remember, JEE Advanced is definitely achievable with the right preparation. Take care and happy studying!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

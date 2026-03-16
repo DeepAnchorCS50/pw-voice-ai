@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_014",
+  "scenario": {
+    "scenario_id": "cold_014",
+    "tier": "COLD",
+    "student_name": "Kavya",
+    "city": "Mumbai",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 19,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Thank you for showing interest in our courses. Main aapki kaise help kar sakti hun today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... umm, actually my friend told me to call. I'm not really sure I'm ready for this yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all! It's completely normal to feel that way. Bilkul koi pressure nahi hai. Can you tell me your name and which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm Kavya... I'm in class 11 right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Nice to meet you Kavya! Class 11 is actually the perfect time to start thinking about your future. Are you preparing for any competitive exam like JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, NEET... but I haven't really started serious preparation yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's absolutely fine! You still have good time - around 19 months for NEET 2027. Haan, so what's making you hesitant about starting your preparation? Koi specific concern hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "I don't know... there are so many coaching options and they're all so expensive. I'm not sure if online coaching will work for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern about cost, Kavya. That's exactly why PW exists - quality education at affordable prices. Our NEET Yakeen 2027 batch is just ₹33,999, and we offer 0% EMI at ₹3,299/month. That's less than what most families spend on daily chai! Online mein doubt clearing sessions bhi hote hain."
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,299 per month... that's still quite a lot. And I'm not sure about online classes. What if I don't understand something?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Valid point! We have live doubt clearing sessions, recorded lectures you can replay anytime, and dedicated mentors. Plus DPPs and test series for practice. Kavya, would you be the one making this decision, or would you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I definitely need to talk to my parents first. They handle all the fees and stuff. Can someone call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! That's very sensible. Family ke saath discuss karna important hai. When would be a good time for me to call back? And should I speak with you or would your parents prefer a direct conversation about the course details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe call back tomorrow evening? Around 7 PM? You can talk to me first, then my parents if they want to ask anything."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main tomorrow 7 PM call karungi. Meanwhile, I'll send you some sample videos and course details on WhatsApp so you can show your parents. Kavya, just remember - starting early gives you a huge advantage. Koi aur questions abhi?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that's it for now. Thank you for explaining everything. I'll discuss with my parents tonight."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Take your time to discuss. I'll call you tomorrow at 7 PM sharp. All the best, Kavya! And remember, we're here to support your NEET journey whenever you're ready. Have a great day!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_005",
+  "scenario": {
+    "scenario_id": "warm_005",
+    "tier": "WARM",
+    "student_name": "Tanvi",
+    "city": "Lucknow",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 9,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Tanvi? Hi, main Priya bol rahi hun PhysicsWallah se. Aapne hamare JEE courses ke baare mein inquiry ki thi, so I thought I'd give you a quick call. Is this a good time to talk?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, this is Tanvi. Actually I was just browsing your website yesterday. I have some time now, so we can talk."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! So Tanvi, main dekh rahi hun you're interested in JEE preparation. Can you tell me which class you're currently in? And have you started your prep already?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Maine thoda sa self-study start kiya hai, but I think I need proper guidance now. JEE Main is my target."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great timing! Class 11 mein start karna is actually perfect for JEE Main. You have good time to build strong fundamentals. So aapka exam 2027 mein hoga, right? That gives you almost 18 months of solid preparation time."
+    },
+    {
+      "speaker": "student",
+      "text": "Haan exactly, 2027 batch. But honestly, I'm a bit confused about which course would be right for me. And also, budget is a concern for my family. What options do you have?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun! For JEE 2027, hamare paas do main courses hain. JEE Lakshya 2027 is our comprehensive program at ₹35,999 with all advanced features. Or JEE Arjuna 2027 at ₹19,999 which covers all essentials perfectly. Both have excellent faculty and results. Budget ke liye, we offer 0% EMI bhi - Arjuna ke liye sirf ₹1,999 per month!"
+    },
+    {
+      "speaker": "student",
+      "text": "Oh, the EMI option sounds helpful! ₹1,999 per month seems more manageable. But what's the difference between Lakshya and Arjuna? I want to make sure I'm choosing the right one."
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! Arjuna covers all JEE Main topics thoroughly with live classes, recorded lectures, and practice tests. Lakshya has additional features like more advanced problem solving sessions, extra doubt clearing, and some JEE Advanced prep too. For JEE Main focus, Arjuna is actually perfect and very popular among students. ₹1,999 per month is less than what most families spend on outside coaching per month!"
+    },
+    {
+      "speaker": "student",
+      "text": "That makes sense. The Arjuna course does sound good for my needs. But I'll need to discuss this with my parents first before making any decision. Can you call me back maybe tomorrow or day after?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family ke saath discuss karna is very important for such decisions. Main definitely call back kar sakti hun. Would you prefer morning or evening call? And meanwhile, should I send you some course details on WhatsApp so you can show your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Evening would be better, maybe around 7 PM? And haan, please send the details on WhatsApp. My number is the same one you called on. It will help me explain everything to them properly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main aaj evening tak JEE Arjuna 2027 ki complete details send kar dungi - course structure, faculty info, EMI details sab kuch. And I'll call you tomorrow evening around 7 PM. Koi specific questions hai jo main address kar sakun when we speak next?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, are there any demo classes available? My parents might want to see the teaching quality first. And also, what if the course doesn't work out for me - is there any refund policy?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We have free demo classes available - main uska link bhi send kar dungi. You can attend 2-3 demos before deciding. And haan, we do have a refund policy within first 7 days if you're not satisfied. But honestly, once students attend our classes, they rarely want refund - our Alakh Sir and other faculty are amazing! I'll include all these details in the WhatsApp message."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds really good! Okay, so you'll send all the details today, and call me tomorrow around 7 PM. I'll discuss everything with my parents by then. Thank you so much for explaining everything clearly, Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Tanvi! Main abhi course details, demo links, aur EMI information - sab send kar rahi hun. Take your time to discuss with family, and main kal 7 PM sharp call karungi. All the best for your JEE preparation, and looking forward to having you in the PW family soon! Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

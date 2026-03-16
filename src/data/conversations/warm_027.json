@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_027",
+  "scenario": {
+    "scenario_id": "warm_027",
+    "tier": "WARM",
+    "student_name": "Jyoti",
+    "city": "Bangalore",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 10,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Jyoti? This is Priya from PhysicsWallah. I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Yes, this is Jyoti. I'm doing well, thank you. Haan, I did inquire about JEE courses on your website. I'm looking for some guidance actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Jyoti! I'm here to help you. Can you tell me which class you're currently in? And are you specifically preparing for JEE Main or JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. I'm targeting JEE Main primarily, but if I do well, then maybe Advanced bhi try karunga. The thing is, my exam is in about 10 months, so I'm a bit worried about the time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai, Jyoti! 10 months is actually a good amount of time for focused preparation. For JEE 2027, I'd recommend our JEE Lakshya batch - it's specifically designed for students like you. The course includes comprehensive coverage, doubt solving, and regular tests. What's your current preparation level like?"
+    },
+    {
+      "speaker": "student",
+      "text": "My preparation is okay, I think. I've covered most of Physics and Math, but Chemistry mein thoda weak hun. The Lakshya course sounds good, but I'm concerned about the fees. Can you tell me about the pricing and EMI options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! The JEE Lakshya 2027 course is priced at ₹35,999. But don't worry about paying it all at once - we offer 0% EMI through PW Pay starting at just ₹3,499 per month. That's less than what most families spend on daily chai! We also have JEE Arjuna at ₹19,999 with EMI of ₹1,999 per month if budget is a concern."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, even the Arjuna course EMI is quite a bit for my family. What's the difference between Lakshya and Arjuna? And do you have any other alternatives that might be more affordable?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern, Jyoti. Lakshya is our premium batch with live classes, personalized doubt solving, and more practice material. Arjuna covers all essential topics but with recorded lectures and standard support. Both are excellent for JEE prep. The investment is really worth it - our students have great success rates. Would you like to discuss this with your parents before deciding?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be helpful. I definitely need to talk to my parents about this. The courses sound good, but it's a big decision financially. Can you call me back tomorrow evening? I should have discussed it with them by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Jyoti! That's completely understandable. I'll call you tomorrow evening around this time. Meanwhile, I'll send you detailed course brochures on WhatsApp so you can show your parents exactly what's included. What's the best time to call you tomorrow - around 7 PM theek hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "7 PM sounds perfect. Please do send the brochures - that will help me explain everything to my parents properly. One quick question though - if I join, when would the classes start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Classes are already running, but don't worry - you can access all previous recorded lectures immediately after enrollment. Plus, we provide catch-up sessions for new joiners. I'll include the class schedule in the brochure. Anything else you'd like to know before I call you tomorrow?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think that covers everything for now. Thank you so much for explaining everything clearly, Priya. I'll discuss with my parents and wait for your call tomorrow at 7 PM."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Jyoti! Thank you for your time today. I'll send you the brochures within the next hour, and I'll call you tomorrow at 7 PM sharp. Best of luck with your preparation, and I'm confident we can find the right solution for you. Take care!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! Looking forward to your call tomorrow. Have a good day!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

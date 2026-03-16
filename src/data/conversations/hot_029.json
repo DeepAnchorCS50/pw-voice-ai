@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_029",
+  "scenario": {
+    "scenario_id": "hot_029",
+    "tier": "HOT",
+    "student_name": "Aditi",
+    "city": "Indore",
+    "class": "12",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "very_high",
+    "key_phrase": "I've been watching Alakh sir's videos and want to join",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Thank you for showing interest in our courses. Main aapki kaise help kar sakti hun?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! I've been watching Alakh sir's videos on YouTube and I'm really impressed. Main NEET ki preparation kar rahi hun and I want to join PW for structured coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! Alakh sir ki videos bahut helpful hain. May I know your good name and which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm Aditi from Indore, and I'm in Class 12th right now. Main medical field mein jaana chahti hun, that's why NEET is my target."
+    },
+    {
+      "speaker": "agent",
+      "text": "Nice to meet you Aditi! Class 12th mein ho toh NEET 2025 appear kar rahi ho? And how is your preparation going so far?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, NEET 2025! I have about 5 months left for the exam. My preparation is okay but I feel I need more structured guidance, especially for Physics and Chemistry. Biology mein main theek hun."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Aditi! For NEET 2025 with 5 months left, our NEET Yakeen 2027 batch would be ideal - wait sorry, for your timeline, we have intensive crash courses. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me. My parents are very supportive. I just want the best preparation possible. Can you tell me more about what courses you have for my situation? I need something comprehensive with good test series."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great Aditi! For NEET with 5 months intensive prep, I'd recommend our crash course program. It includes complete syllabus coverage, weekly tests, doubt clearing sessions, and Alakh sir's exclusive lectures. The fee is ₹25,999. Kya ye suitable lagta hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹25,999 sounds reasonable. But I want to know more details - kitne hours daily classes honge? And what about doubt clearing? Also, will I get access to previous years' question papers and mock tests?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Daily 4-5 hours classes with recorded lectures for revision. 24/7 doubt clearing through app, weekly full-length mock tests, and complete PYQ bank from last 15 years. Plus personal mentorship for exam strategy. Are you the decision maker or should I speak with your parents too?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide myself. My parents trust my judgment completely. This sounds exactly what I need! The 24/7 doubt clearing is really important for me. How do I enroll? And when can I start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent Aditi! You can start immediately after enrollment. Payment ke liye we accept all methods - card, UPI, net banking. I can send you the enrollment link right now. Shall I process your admission for the NEET intensive batch?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please! I'm ready to enroll right now. Please send me the link. One last question - agar koi technical issue aaye toh support milega na? I don't want to waste any time during these crucial months."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Aditi! 24/7 technical support team hai. I'm sharing the enrollment link on your WhatsApp right now. Welcome to PW family! You'll receive login credentials within 30 minutes of payment. Best of luck for your NEET preparation!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'm really excited to start. I'll make the payment right away. Thank you for being so helpful and patient with all my questions. Looking forward to joining PW!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

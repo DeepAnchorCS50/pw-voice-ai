@@ -1,0 +1,6 @@
+streamlit>=1.31.0
+pandas
+scikit-learn
+joblib
+google-cloud-texttospeech
+anthropic

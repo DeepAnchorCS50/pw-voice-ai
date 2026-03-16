@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_028",
+  "scenario": {
+    "scenario_id": "cold_028",
+    "tier": "COLD",
+    "student_name": "Ankit",
+    "city": "Dehradun",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 21,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Aapne humari JEE courses ke baare mein inquiry ki thi. Am I speaking with Ankit?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes... main Ankit. But actually I was just exploring options, not really decided yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai Ankit! Exploring is good. Tell me, aap currently which class mein ho? And JEE preparation ke liye kya plan hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th right now... JEE Main target hai but I'm not sure about coaching and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 se start karna is ideal. Toh aapke paas almost 21 months hai JEE Main ke liye. Have you started any preparation or looking for structured guidance?"
+    },
+    {
+      "speaker": "student",
+      "text": "Thoda sa self-study kar raha hun... but structured course ki need feel kar raha hun. Though I need to check with parents first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Smart approach! Parents ke saath discuss karna important hai. Budget ke baare mein koi particular range mind mein hai? We have options starting from ₹19,999 with easy EMIs."
+    },
+    {
+      "speaker": "student",
+      "text": "EMI kitna hota hai? And honestly I'm still comparing different platforms... not in any rush to decide."
+    },
+    {
+      "speaker": "agent",
+      "text": "No pressure at all! Our JEE Arjuna 2027 is ₹19,999 with EMI of just ₹1999/month - that's less than most families spend on daily chai! JEE Lakshya 2027 is ₹35,999 at ₹3,499/month for more comprehensive coverage."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... but what's the difference between these two? And can I get some time to think about it?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Lakshya has more advanced problem solving, doubt clearing sessions, and additional test series. Arjuna covers all basics thoroughly. Take your time - would you like me to call back after you discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, that would be better. Maybe call back in 2-3 days? I need to discuss properly and also check other options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you back on Wednesday. Meanwhile, I'll share course details on WhatsApp. And Ankit, if any urgent questions come up, feel free to call back anytime, okay?"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure, that works. Send the details, I'll go through them. Thanks for understanding that I need time to decide."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Taking informed decisions is always better. I'll send everything in 5 minutes. All the best with your preparation, and talk to you on Wednesday!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thanks Priya. Will check the materials and discuss with family. Speak soon!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

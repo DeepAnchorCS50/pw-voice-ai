@@ -1,0 +1,89 @@
+{
+  "conversation_id": "warm_033",
+  "scenario": {
+    "scenario_id": "warm_033",
+    "tier": "WARM",
+    "student_name": "Ravi",
+    "city": "Pune",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Ravi? Hi, this is Priya calling from PhysicsWallah. I hope I'm not disturbing you. We received your inquiry about our JEE preparation courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya... haan, I had filled some form online. Actually I'm okay, just a bit busy with studies. What exactly is this about?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I can see you're serious about your studies. That's great, Ravi. I'm calling to help you understand our JEE preparation programs better. First, can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Just started actually, so I thought maybe it's a good time to look into coaching options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely right timing, Ravi! Class 11 is the perfect time to start. So you're targeting JEE Main, right? Are you also considering JEE Advanced, or any other exams like NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "Mainly JEE Main for now. I want to get into a good engineering college. JEE Advanced... I'm not sure yet, depends on how well I do. What courses do you have for this?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great choice! For JEE 2027, we have two excellent programs - JEE Lakshya which is our comprehensive course with live classes, doubt solving, and personal mentorship. We also have JEE Arjuna which covers all topics with recorded lectures. Both have helped thousands of students crack JEE. What's your current preparation level like?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm just starting really. Haven't joined any coaching yet, was just doing school studies. What's the difference between these two courses? And... what about the fees? That's something I need to know."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Let me explain - JEE Lakshya at ₹35,999 includes live interactive classes, 24/7 doubt support, and regular tests. JEE Arjuna at ₹19,999 has excellent video lectures and study material. Don't worry about the fees - we offer 0% EMI! Lakshya comes to just ₹3,499 per month, and Arjuna is only ₹1,999 per month. That's less than what families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "Oh okay, EMI option is good. But still, this is a big decision for me. I'll need to discuss this with my parents first, you know? They handle all the fee payments and stuff. Can you tell me more about what exactly I'll get?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Ravi! Family discussion is very important for such decisions. In both courses, you get complete JEE syllabus coverage, previous year questions, mock tests, and study material. Lakshya also gives you direct access to teachers for doubts. Since you have 11 months for JEE 2027, either course will work well. Would you like me to send you a detailed brochure?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be helpful. But I'm still confused between the two. Is the cheaper one good enough? I don't want to compromise on quality just to save money."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! JEE Arjuna is definitely high quality - same experienced teachers, same comprehensive content. The main difference is live classes in Lakshya vs recorded in Arjuna. Many toppers have used Arjuna successfully. Since you're in Class 11, you have good time to plan. Why don't I call you back after you discuss with your parents? When would be a good time?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. I think I need to talk to them this evening. Maybe you can call me tomorrow around this time? I should have an answer by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Ravi! I'll call you tomorrow at the same time. Meanwhile, I'll WhatsApp you the course details and some sample lectures so you and your parents can review everything. Is this the best number to reach you on?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. And WhatsApp bhi same number pe kar dena. Thanks for explaining everything clearly, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure, Ravi! I'm sending the details right after this call. Remember, with your timeline and dedication, JEE 2027 is definitely achievable. I'll speak to you tomorrow. All the best with your discussion, and feel free to call if you have any urgent questions. Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "WARM"
+}

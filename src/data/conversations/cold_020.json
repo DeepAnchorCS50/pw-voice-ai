@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_020",
+  "scenario": {
+    "scenario_id": "cold_020",
+    "tier": "COLD",
+    "student_name": "Arjun",
+    "city": "Nagpur",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Am I speaking with Arjun? This is Priya from PhysicsWallah. I hope I'm not disturbing you. I'm calling regarding your interest in our JEE courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh, hi. Yeah, I'm Arjun. I'm okay, I guess. Actually, I was just browsing your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! I'm glad you're exploring our courses. So Arjun, which class are you currently in? And are you preparing for JEE specifically?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th right now. Yeah, JEE Main mostly. But I'm just... you know, looking around at different options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, it's smart to research properly! Since you're in 11th, you have good time - around 20 months for JEE Main 2027, right? That's actually perfect timing. Have you started any structured preparation yet?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really. I mean, I'm doing some self-study and coaching classes locally. But I don't know... there are so many options. It's confusing."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Arjun. The good news is you're thinking about this at the right time. For JEE 2027, we have two excellent courses - JEE Lakshya at ₹35,999 and JEE Arjuna at ₹19,999. Both have live classes, doubt solving, and complete study material. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Umm, I haven't really discussed budget with my parents yet. But honestly, I'm not ready to decide anything right now. I'm still exploring different platforms."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, that's totally fine! No pressure at all. These are important decisions. Just so you know, we offer 0% EMI options too - like Arjuna course comes to just ₹1,999 per month. That's less than what most families spend on daily chai! Would you like me to call you back after you've discussed with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe... but I really need more time to think. There are other coaching institutes I want to check out too. Can I get back to you if I'm interested?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Arjun! I respect that you want to make an informed choice. Just remember, with PW you get Alakh Sir's proven teaching methodology at the most affordable prices. Can I at least send you our course brochure on WhatsApp so you have all the details?"
+    },
+    {
+      "speaker": "student",
+      "text": "I already have most of the information from your website. Look, I appreciate the call, but I'm really not in a rush to decide anything right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, no worries at all! Your education is a big decision and should not be rushed. How about this - can I call you back in a week or two? That might give you enough time to explore other options and discuss with your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, maybe. But please don't call too frequently. If I'm interested, I'll reach out. Is that okay?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai, Arjun! I'll make a note of that. Just remember, we're here whenever you're ready. Our admission team is available if you have any questions later. All the best for your preparation!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thanks, Priya. I'll keep that in mind. Have a good day."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

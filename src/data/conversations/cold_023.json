@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_023",
+  "scenario": {
+    "scenario_id": "cold_023",
+    "tier": "COLD",
+    "student_name": "Pallavi",
+    "city": "Allahabad",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 26,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Is this Pallavi? Main Priya bol rahi hun PhysicsWallah se. Aapne hamare courses ke baare mein inquiry ki thi. Am I speaking at the right time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan... yes, I'm Pallavi. Actually I was just looking at your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thanks for showing interest in PW. Pallavi, could you tell me which class you're currently in? This will help me suggest the best course for you."
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 10th right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 10th se preparation start karna is really smart. Which entrance exam are you targeting - JEE ya NEET? Ya abhi decide nahi kiya hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE... but I want JEE Advanced actually. Engineering mein interest hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice, Pallavi! JEE Advanced ke liye early start bohot important hai. Since you're in 10th, you have around 26 months for preparation. For JEE Advanced, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for ambitious students like you. Have you checked any other coaching institutes?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, not really. But maine suna hai coaching bahut expensive hoti hai. What's the fee structure?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Pallavi. That's exactly why PW was created - affordable quality education. JEE Lakshya 2027 is ₹35,999 for the complete course till JEE Advanced. But here's the best part - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! Kya yeh budget mein manageable lagta hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999? That's still quite expensive for us. Let me think about it... maybe there are some cheaper options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, main samajh sakti hun. We also have JEE Arjuna 2027 at ₹19,999 with EMI of just ₹1,999 per month. It covers all JEE syllabus with excellent faculty. Pallavi, when it comes to making this decision, would you be able to decide today, or do you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself... but ₹20,000 is also a big amount. Are there any discounts or scholarships available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I appreciate your concern about the investment, Pallavi. While these are already our most affordable prices in the market, let me check if there are any current offers. But think about it this way - ₹1,999 per month for 26 months of comprehensive JEE preparation with India's best faculty. That's just ₹66 per day! Aap daily kitna pocket money use karte ho? This investment can change your entire career trajectory."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... I understand what you're saying, but it's still a lot of money. Can I get some time to think about it? Maybe compare with other options also?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Pallavi! This is an important decision and you should be completely sure. But let me tell you - seats in our best batches fill up quickly, especially for JEE Advanced preparation. How about this - can I hold a seat for you for 24 hours? In the meantime, you can check our free lectures on the app and see the quality yourself. Would that work for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... that sounds fair. I'll check the free lectures tonight and decide by tomorrow. Can you send me the details on WhatsApp?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Pallavi! I'll send you all the course details, faculty information, and sample lectures on WhatsApp right after this call. I'm holding a seat in JEE Arjuna 2027 for you till tomorrow evening. Feel free to call me back if you have any questions. Best of luck with your preparation - you're going to do great! Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_011",
+  "scenario": {
+    "scenario_id": "cold_011",
+    "tier": "COLD",
+    "student_name": "Rahul",
+    "city": "Nagpur",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 26,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Rahul? Hi, main Priya bol rahi hun PhysicsWallah se. Thank you for showing interest in our courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I'm Rahul. I'm okay... actually I was just looking at your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! So Rahul, which class are you currently in? And what exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th standard right now. I want to prepare for JEE Advanced."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! JEE Advanced is tough but very achievable with right guidance. So you'll be appearing in 2027, right? That gives you good 26 months to prepare - perfect timing actually!"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, 2027. But I'm not sure... there are so many coaching options and all are very expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Rahul. Budget is important factor for every family. Tell me, what's your approximate budget range for the complete course? And are you the one taking this decision or would you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents said I can decide myself if it's reasonable. But these courses cost like 50-60 thousand... that's too much."
+    },
+    {
+      "speaker": "agent",
+      "text": "Rahul, I have great news! Our JEE Lakshya 2027 is just ₹35,999 - much less than those expensive offline coachings. Plus we offer 0% EMI starting at just ₹3,499 per month through PW Pay. That's less than what most families spend on daily chai and snacks!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 is still a lot... and monthly ₹3,499 also seems high. Do you have something cheaper?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! We have JEE Arjuna 2027 batch at just ₹19,999 with EMI of ₹1,999 per month. It covers complete JEE syllabus with our top faculty. Rahul, think about it - ₹1,999 monthly for your entire JEE preparation with Alakh Sir's guidance!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... ₹20,000 sounds better. But what if I don't like the teaching style? What's the difference between Lakshya and Arjuna?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya has more personalized doubt support and additional practice sessions, while Arjuna covers all core concepts thoroughly. Both have same quality content from Alakh Sir. And don't worry - we have 7-day free trial! You can experience everything first."
+    },
+    {
+      "speaker": "student",
+      "text": "7-day trial sounds good... but still ₹20,000 is expensive for my family. Let me think about it and discuss once more."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand Rahul, but think long-term - this investment can change your entire future! Other coachings charge 80-90k easily. How about this - if you enroll today, I can check with my manager for any additional discount. Should I put you on a brief hold?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, don't put on hold. I really need to think about it properly. Can you send me the details on WhatsApp? I'll decide in a day or two."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

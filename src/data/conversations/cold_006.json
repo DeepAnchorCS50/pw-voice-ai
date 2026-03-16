@@ -1,0 +1,129 @@
+{
+  "conversation_id": "cold_006",
+  "scenario": {
+    "scenario_id": "cold_006",
+    "tier": "COLD",
+    "student_name": "Shruti",
+    "city": "Mumbai",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 19,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Shruti?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes... actually my friend told me to call, I'm not sure I'm ready"
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all! Your friend must have recommended PW for a good reason. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 11... but I don't know if I need coaching right now"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's perfectly fine to feel unsure! Class 11 is actually the perfect time to start. Are you preparing for JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... but I'm just starting to think about it"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great choice! NEET ki preparation early start karna bahut smart decision hai. You have good time - almost 19 months for NEET 2027. Are you currently taking any coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, nothing yet. I'm still in school only"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! School ke saath-saath structured NEET preparation start karna will give you a huge advantage. Have you thought about what kind of budget you're comfortable with for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually... I don't know. How much does it cost? My parents haven't decided anything yet"
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand! Let me tell you about our NEET Yakeen 2027 batch - it's ₹33,999 for the complete course. But we have EMI options starting at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds expensive... I need to ask my parents first"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! It's important to discuss with parents. But think about it - ₹3,299 per month for complete NEET preparation with India's best teachers. Other coaching institutes charge 2-3 lakhs easily!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... what exactly do we get in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! You get complete syllabus coverage for Physics, Chemistry, Biology, live classes, recorded lectures, test series, doubt solving sessions, and personal mentorship. Everything you need for NEET success!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay... but I'm still not sure if I'm ready to commit"
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally understand your hesitation. Tell me, what are your main concerns about starting NEET preparation right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "I don't know if I can manage school and coaching together... and the money thing"
+    },
+    {
+      "speaker": "agent",
+      "text": "These are very valid concerns! Our course is designed keeping school students in mind. Classes are scheduled to not interfere with school, and recorded lectures mean you can study at your own pace. About money, we have 0% EMI - no extra charges!"
+    },
+    {
+      "speaker": "student",
+      "text": "Can I think about it and call you back? I really need to talk to my parents"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family discussion is very important. Can I call you back tomorrow evening after you've spoken with your parents? What would be a good time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe around 7 PM tomorrow? But I can't promise anything right now"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM. Take your time to discuss with your parents. Remember, starting early in Class 11 gives you the best chance for NEET success. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that's all. I'll talk to my parents tonight"
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! I'll call you tomorrow at 7 PM then. Don't worry, we'll find the right solution for you. Have a great day, Shruti!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you, bye"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bye! Take care!"
+    }
+  ],
+  "total_turns": 27,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_007",
+  "scenario": {
+    "scenario_id": "warm_007",
+    "tier": "WARM",
+    "student_name": "Amit",
+    "city": "Bangalore",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 8,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, am I speaking with Amit? This is Priya from PhysicsWallah sales team. I hope I'm not disturbing you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya, haan no problem. I had inquired about your courses online yesterday actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh wonderful! Thank you for your interest in PW. Can you tell me which class you're currently in and what exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 12th standard right now, preparing for JEE Main. But honestly I'm a bit confused about which course would be best for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Amit! Since you're in 12th, you have around 8 months for JEE Main 2025, right? For students like you, I'd recommend our JEE Lakshya 2027 or JEE Arjuna 2027. Lakshya is our premium course with more features. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, around 8 months left. My preparation is okay but I need more structured guidance. What's the difference between these two courses? And honestly, budget is also a concern for my family."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul understandable Amit! JEE Lakshya at ₹35,999 includes premium features like doubt solving, test series, and personal mentorship. JEE Arjuna at ₹19,999 covers all core concepts with good test series. Can you tell me about EMI options? We have 0% EMI through PW Pay!"
+    },
+    {
+      "speaker": "student",
+      "text": "EMI sounds good! Can you tell me more about the EMI options? What would be the monthly amount for both courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! For JEE Lakshya, it's just ₹3,499 per month, and for JEE Arjuna, it's ₹1,999 per month with 0% interest. That's less than what most families spend on daily chai and snacks! Both courses will give you complete JEE preparation. Which one feels more suitable for your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more manageable for us. But I'll need to discuss this with my parents first before making any decision. Can you call me back tomorrow evening?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Amit! That's completely fine. Family discussion is important for such decisions. Should I call you around the same time tomorrow? Also, do you have any other questions I can answer to help you discuss better with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, same time tomorrow works. Just one thing - if I take Arjuna course, will I get the same quality of teaching as the premium one? I don't want to compromise on that."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Amit! Both courses have the same top-quality teaching by Alakh Sir and our expert faculty. The core content and video lectures are identical. Lakshya just has additional features like 1-on-1 doubt sessions. But Arjuna definitely covers everything needed for JEE Main success!"
+    },
+    {
+      "speaker": "student",
+      "text": "That's reassuring! Theek hai Priya, I'll discuss with my parents tonight and you can call me tomorrow around 11 AM. Thank you for explaining everything clearly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Amit! I'll call you tomorrow at 11 AM. Meanwhile, you can also check our free demo classes on the PW app to show your parents the teaching quality. Best of luck with the discussion, and see you tomorrow!"
+    },
+    {
+      "speaker": "student",
+      "text": "Great idea about the demo classes! I'll definitely check those out. Thanks Priya, talk to you tomorrow. Bye!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

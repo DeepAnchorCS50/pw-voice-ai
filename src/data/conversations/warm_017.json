@@ -1,0 +1,137 @@
+{
+  "conversation_id": "warm_017",
+  "scenario": {
+    "scenario_id": "warm_017",
+    "tier": "WARM",
+    "student_name": "Aarti",
+    "city": "Vijayawada",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Aarti? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, yes this is Aarti. I'm good, thank you. Actually I was looking at your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! I'm glad you're exploring PW. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, just started this year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! And what exam are you preparing for? JEE, NEET, or boards?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main. I want to get into a good engineering college, but honestly the competition is so tough."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! JEE is competitive, but with proper guidance you can definitely crack it. You have good time - almost 18 months for preparation. Are you currently taking any coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "I go to a local coaching center here in Vijayawada, but I feel like I need more practice and better explanation of concepts."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Many students feel that gap. Our JEE Lakshya 2027 batch is perfect for students like you - it has comprehensive concept building plus tons of practice. Have you checked any specific courses on our platform?"
+    },
+    {
+      "speaker": "student",
+      "text": "I saw a few courses but there are so many options. What's the difference between Lakshya and the other JEE courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya is our premium JEE course with live classes, doubt solving, test series, and personal mentorship. Arjuna is more affordable with recorded lectures and basic support. For serious JEE prep, I'd recommend Lakshya."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good, but what about the fees? My family is a bit concerned about the cost."
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally understand the concern. JEE Lakshya 2027 is ₹35,999, but here's the good part - we offer 0% EMI through PW Pay. That's just ₹3,499 per month. Less than what most families spend on daily chai and snacks!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,499 per month... that's still quite a bit for us. Is there any cheaper alternative that's still good quality?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! JEE Arjuna 2027 might be perfect for you - it's ₹19,999 total, which is ₹1,999 per month on EMI. You still get quality content from our top faculty, just with recorded classes instead of live ones."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds more reasonable. But will recorded classes be enough? I sometimes need to ask doubts immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "Valid concern! Even in Arjuna, you get doubt clearing sessions and can post questions on our platform. Plus you can rewatch difficult topics multiple times. Many of our toppers have used this course successfully."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, that's reassuring. Can you tell me more about what exactly is included in the Arjuna course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! Arjuna includes complete JEE syllabus videos by Alakh Sir and top faculty, chapter-wise tests, previous year questions, study material PDFs, and doubt support. Basically everything you need for JEE prep."
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds interesting, but I'll need to discuss with my parents first. They handle all the financial decisions at home."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! That's completely understandable. Family discussion is important for such decisions. Would you like me to call back after you've spoken with them? When would be a good time?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great. Can you call tomorrow evening around 7 PM? My parents will be home by then and we can discuss together."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM. Meanwhile, you can show them our website and maybe watch a few free videos to get a feel for our teaching style. Does that sound good?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that's a great idea. I'll definitely check out some free content and discuss the Arjuna course with them."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Just to confirm - I have your number ending with the digits I called on. Is this the best number to reach you tomorrow?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is the right number. You can call on this tomorrow evening."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I'll speak with you and your parents tomorrow at 7 PM. Meanwhile, feel free to WhatsApp me if you have any questions. Have a good day, Aarti!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! You've been really helpful. I'll talk to my parents and see you tomorrow. Bye!"
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure! Looking forward to speaking with your family tomorrow. Take care and bye!"
+    }
+  ],
+  "total_turns": 29,
+  "tier_label": "WARM"
+}

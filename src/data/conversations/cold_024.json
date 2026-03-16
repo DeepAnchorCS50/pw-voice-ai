@@ -1,0 +1,117 @@
+{
+  "conversation_id": "cold_024",
+  "scenario": {
+    "scenario_id": "cold_024",
+    "tier": "COLD",
+    "student_name": "Deepak",
+    "city": "Lucknow",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 21,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! This is Priya from PhysicsWallah sales team. Am I speaking with Deepak?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Deepak."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thanks for showing interest in PW courses. Main samaj sakti hun you're looking for some guidance with your studies. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 11."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 11 is the right time to start serious preparation. Are you targeting JEE or NEET, ya koi aur exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main... but I'm just exploring options right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, exploring is good! JEE Main ke liye you have around 21 months, which is excellent timing. Have you started any preparation already or looking to begin?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've started a bit... but not very structured."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's completely normal! Most students face this. At PW, we have structured courses specifically for JEE 2027. Our JEE Lakshya 2027 batch is very comprehensive with live classes, doubt solving, and regular tests. Have you heard about our courses before?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've seen some videos on YouTube... but I don't know much about paid courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, our YouTube content is great for basics! But paid courses offer much more - live interactive classes, personal mentorship, regular assessments, and structured study plans. The JEE Lakshya 2027 is our premium batch at ₹35,999, and we also have JEE Arjuna 2027 at ₹19,999. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "I... I need to check with my parents about budget. What's the difference between these courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Parent approval is important. Lakshya has more live classes per week, additional doubt sessions, and personal mentorship. Arjuna covers all syllabus but with fewer live sessions. Both have same quality teaching. Would you like me to explain the EMI options too? It makes it very affordable."
+    },
+    {
+      "speaker": "student",
+      "text": "EMI... how does that work?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Through PW Pay, you can get 0% EMI! For Lakshya, it's just ₹3,499 per month, and for Arjuna, it's ₹1,999 per month. That's less than what most families spend on daily chai! Makes it very manageable, right?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds... okay I guess. But I'm not ready to decide anything today."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely no pressure, Deepak! Main samajh sakti hun. Would you be the one making this decision, or do you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I definitely need to talk to my parents first. They handle all these decisions."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! That's very responsible of you. Can I call you back tomorrow evening after you've had a chance to discuss with them? I can also send you detailed course information on WhatsApp if you'd like."
+    },
+    {
+      "speaker": "student",
+      "text": "Um... maybe call after 2-3 days? I need some time to think and discuss properly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! No problem at all. I'll call you after 3 days. Meanwhile, main aapko course details WhatsApp kar deti hun. And Deepak, if you have any questions before that, feel free to call me anytime, okay?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that works. Thanks."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're welcome! Best of luck with your preparation, and I'll speak to you soon. Take care!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you, bye."
+    }
+  ],
+  "total_turns": 24,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_013",
+  "scenario": {
+    "scenario_id": "warm_013",
+    "tier": "WARM",
+    "student_name": "Shruti",
+    "city": "Dehradun",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 12,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking with Shruti? I hope maine aapko koi busy time mein disturb nahi kiya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, haan main Shruti hun. No it's okay, I'm free right now. Actually I had filled some form online for JEE preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you for your interest in PW. Main aapko JEE preparation ke baare mein help karna chahti hun. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, just started this year. I want to prepare for JEE Main but honestly I'm a bit confused about where to start."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great Shruti! Class 11 start karna is actually the perfect time. You have good 18 months for preparation. Are you looking at JEE Main only ya JEE Advanced bhi consider kar rahe ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "Right now mainly JEE Main, but if I do well then maybe Advanced bhi try karungi. But first let me see how the preparation goes. What kind of courses do you have?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek approach hai! For JEE Main, I would recommend our JEE Arjuna 2027 batch - it's specifically designed for students like you. It covers complete syllabus with proper schedule. Have you taken any coaching before or ye first time hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "This is my first time taking proper coaching. Local mein kuch options dekhe the but online seems more convenient. What's the fee structure for this Arjuna batch? Budget is a bit of a concern for my family."
+    },
+    {
+      "speaker": "agent",
+      "text": "Main samajh sakti hun Shruti. JEE Arjuna 2027 is ₹19,999 for complete course, but don't worry about budget - we offer 0% EMI at just ₹1,999 per month through PW Pay. That's less than what most families spend on daily chai! Would this work better for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Oh that EMI option sounds much better! ₹1,999 per month seems manageable. But what exactly is included in this course? And are there any other alternatives I should know about?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Arjuna includes live classes, recorded lectures, study material, regular tests, and doubt clearing sessions. If budget allows thoda sa more, JEE Lakshya 2027 at ₹35,999 has additional features like personal mentorship. But Arjuna is perfect for focused JEE Main prep. Kya lagta hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Arjuna sounds good for now. The EMI option definitely helps. But I think I should discuss this with my parents first before making any decision. Can someone call me back tomorrow evening?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Shruti! Family ke saath discuss karna is very important. Main kal evening around 6-7 PM call kar sakti hun? And meanwhile, should I send you detailed course information on WhatsApp so you can show your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, 6:30 PM would be perfect tomorrow. And please do send the details on WhatsApp - that will help me explain everything to mom and dad properly. My number is the same one you called on."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main abhi WhatsApp par complete details send kar dungi including EMI breakdown. Kal 6:30 PM I'll call you back. Parents ko bata dena that PW has helped lakhs of students crack JEE. Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No I think that covers everything for now. Thank you so much Priya, you've been really helpful. I'll go through the WhatsApp details and discuss with family. See you tomorrow on call!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

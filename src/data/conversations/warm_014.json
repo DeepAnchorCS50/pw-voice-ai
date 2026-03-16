@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_014",
+  "scenario": {
+    "scenario_id": "warm_014",
+    "tier": "WARM",
+    "student_name": "Ishita",
+    "city": "Varanasi",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 13,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning! Main Priya bol rahi hun PhysicsWallah se. Am I speaking with Ishita?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Ishita. Good morning."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Ishita, thank you for showing interest in PW courses. Main aapko call kiya hai to understand your requirements better. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Actually, I'm looking for some coaching options but not completely sure about everything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Ishita! Class 11 is the ideal time to start. Which exam are you preparing for - JEE ya NEET? And from which city are you?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm from Varanasi and preparing for NEET. But I want to start preparation but not sure about the timing... like should I start now or wait a bit?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul right time hai Ishita! NEET ke liye Class 11 se start karna is the best strategy. You have around 13-14 months for NEET 2027, which gives you perfect time for concept building. Have you checked any coaching options before?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've looked at a few local coaching centers in Varanasi, but they're quite expensive. My friends suggested online coaching might be better. What courses do you have for NEET?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great choice! For NEET 2027, we have NEET Yakeen batch at ₹33,999 with complete 2-year program, live classes, and doubt solving. It's much more affordable than traditional coaching. What's your budget range, if you don't mind sharing?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable compared to local coaching here. But I'm a bit confused between different online platforms. What makes PW different? And are there any other course options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! PW ke teachers like Alakh Sir are known for making concepts crystal clear. We also have scholarship programs and 0% EMI options - just ₹3,299 per month through PW Pay. Are you the one who will be taking the final decision or do you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I definitely need to discuss with my parents first. They handle all the major decisions regarding my education. Can you tell me if there are any alternatives to the Yakeen batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family decision is important. We also have foundation courses and you can always upgrade later. Ishita, shall I call you back tomorrow after you discuss with your parents? I can also send you some demo videos to show them PW's teaching quality."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great. Can you call me back tomorrow evening around 7 PM? By then I'll have discussed everything with my parents and can give you a proper answer."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM. Meanwhile, I'll WhatsApp you some demo videos and course details. All the best for your NEET preparation, Ishita! Any other questions for now?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think that covers everything for now. Thank you so much, Priya! I'll be waiting for your call tomorrow and will check the videos you send."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

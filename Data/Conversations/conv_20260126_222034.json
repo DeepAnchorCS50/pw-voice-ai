@@ -1,0 +1,104 @@
+{
+  "conversation_id": "conv_20260126_222034",
+  "timestamp": "2026-01-26T22:20:34.083216",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": true,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I was looking at your website yesterday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE preparation in 11th gives you a great advantage. What's your target - JEE Main or are you aiming for JEE Advanced as well?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to crack JEE Advanced actually. I'm hoping to get into IIT, but I'm not sure if I can manage it."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's an excellent goal, Rahul! With proper guidance, it's definitely achievable. Have you started any preparation yet, or would this be your first structured coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've been studying on my own, but it's getting really tough. My parents are also pushing me to join coaching soon."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand. Self-study has its limits, especially for JEE Advanced. Our comprehensive program covers the entire syllabus with expert faculty. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Um... that's actually a concern. My dad is worried about the fees. We've heard coaching can be really expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Rahul. The good news is that PhysicsWallah offers very affordable programs compared to other institutes. Plus, we have scholarship opportunities based on merit. Have you appeared for any competitive exams recently?"
+    },
+    {
+      "speaker": "student",
+      "text": "I gave NTSE last year and scored decent marks. But what kind of fees are we talking about here?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! NTSE performance shows you have the potential. Our 2-year JEE program starts from just ₹15,000 per year, and with your NTSE background, you might qualify for up to 50% scholarship. Would you like me to check your eligibility?"
+    },
+    {
+      "speaker": "student",
+      "text": "Really? That sounds much better than what I expected. How does the scholarship test work?"
+    },
+    {
+      "speaker": "agent",
+      "text": "We conduct a simple online scholarship test covering 11th syllabus - Physics, Chemistry, and Maths. Based on your score, we offer scholarships from 25% to 50%. The test is free and you can take it from home. When would be a good time for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "This weekend would work for me. But can you tell me more about the teaching quality? I've heard mixed reviews about online coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely valid concern! Our faculty includes Alakh Sir, who has taught lakhs of students. We provide live classes, recorded lectures, doubt-solving sessions, and regular tests. Plus, you get study material and previous year questions. We also have a 7-day free trial. Would you like to start with that?"
+    },
+    {
+      "speaker": "student",
+      "text": "A free trial sounds good. And if I take the scholarship test this weekend, when will I know the results?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Results are declared within 2 days of the test. I'll send you the trial access today and schedule your scholarship test for this Sunday. Can I get your email ID to send the details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, it's rahulkumar2024@gmail.com. Should I inform my parents about this or will you call them separately?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'll send all details to your email, and it would be great if you could discuss with your parents. I can also speak with them if they have any questions. Shall I call you on Monday to follow up after you've tried the classes and discussed with your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be perfect. Monday evening around 6 PM would work. Thank you so much, Priya!"
+    }
+  ],
+  "total_turns": 22,
+  "duration_seconds": 550
+}

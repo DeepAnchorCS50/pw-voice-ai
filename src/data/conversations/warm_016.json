@@ -1,0 +1,153 @@
+{
+  "conversation_id": "warm_016",
+  "scenario": {
+    "scenario_id": "warm_016",
+    "tier": "WARM",
+    "student_name": "Sahil",
+    "city": "Nagpur",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 14,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! This is Priya calling from PhysicsWallah. Am I speaking with Sahil?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Sahil. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Sahil, I hope you're doing well. I'm calling because you showed interest in our courses. Main aapko kuch details share karna chahti hun about our programs. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 11 is the ideal time to start serious preparation. And which exam are you targeting - JEE ya NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced. I want to get into IIT."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice, Sahil! IIT is a great goal. So you'll be appearing for JEE in 2027, right? That gives you around 14-15 months for preparation, which is actually perfect timing."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly. But honestly, I'm a bit confused about which coaching to choose. There are so many options."
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally understand, Sahil. It's a big decision. PhysicsWallah has helped lakhs of students crack JEE with our affordable, quality education. Tell me, have you looked into any coaching so far?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've checked a few online platforms and some local coaching centers in Nagpur. But the prices are quite high, to be honest."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, that's exactly why Alakh sir started PW - to make quality education affordable for everyone. For JEE 2027, we have two excellent programs - JEE Lakshya at ₹35,999 and JEE Arjuna at ₹19,999. Both are comprehensive courses."
+    },
+    {
+      "speaker": "student",
+      "text": "That's quite a range. What's the difference between these two courses?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! JEE Lakshya is our premium program with live classes, doubt solving, test series, and personalized mentoring. Arjuna has recorded lectures with test series - both are excellent but Lakshya has more interactive features."
+    },
+    {
+      "speaker": "student",
+      "text": "The Lakshya sounds good but ₹36,000 is still quite expensive for my family. Are there any payment options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! We offer 0% EMI through PW Pay. For Lakshya, it's just ₹3,499 per month - that's less than what most families spend on daily chai! And for Arjuna, it's only ₹1,999 per month."
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,499 per month does sound more manageable. But I want to compare a few options first before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Sahil! Comparison is important. But let me tell you - PW has the highest success rate in affordable coaching. Plus, you get Alakh sir's teaching directly. Are you the one making this decision or do you need to discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents trust my judgment on this. They said I can decide which coaching to take since I know what works best for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that your parents have such confidence in you! Sahil, many students who compare often come back to PW because of our proven track record. Would you like me to arrange a demo class for you today itself?"
+    },
+    {
+      "speaker": "student",
+      "text": "A demo class sounds good. But what if I don't like it after enrolling? Is there any refund policy?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Yes, we have a 7-day money-back guarantee. If you're not satisfied within the first week, you get a full refund. That shows how confident we are about our quality."
+    },
+    {
+      "speaker": "student",
+      "text": "That's reassuring. And the EMI option - is there any processing fee or hidden charges for that?"
+    },
+    {
+      "speaker": "agent",
+      "text": "No hidden charges at all, Sahil! It's genuine 0% EMI. What you pay in EMI equals exactly the course fee - no extra cost. Transparency is very important to us at PW."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that sounds fair. Can you tell me more about the doubt-solving support in Lakshya?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! In Lakshya, you get 24x7 doubt solving through our app, live doubt clearing sessions, and direct access to faculty. Plus weekly mentoring calls to track your progress and keep you motivated."
+    },
+    {
+      "speaker": "student",
+      "text": "The support system seems comprehensive. Let me think about this. When do the batches start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "New batches start every month, and there's one starting next Monday actually! Sahil, with 14 months left, starting early will give you a huge advantage. Shall I reserve your seat in JEE Lakshya 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm quite interested, but I really want to take the demo class first. Can we arrange that and then I'll decide by this weekend?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! I'll arrange your demo class for tomorrow evening. But Sahil, early bird students always perform better, and this month we have limited seats. Can I at least put you on our priority list?"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure, you can put me on the priority list. But I'll confirm after the demo class. If it's good, I'll definitely go with PW."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Sahil! I'm confident you'll love our teaching methodology. I'll send you the demo class link on WhatsApp tonight, and we'll connect again after your demo. All the best, and welcome to the PW family in advance!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I appreciate your help. Looking forward to the demo class tomorrow."
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure, Sahil! Any questions anytime, just call me. Kal demo ke baad we'll get you started on your IIT journey. Take care and see you tomorrow!"
+    }
+  ],
+  "total_turns": 33,
+  "tier_label": "WARM"
+}

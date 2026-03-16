@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_025",
+  "scenario": {
+    "scenario_id": "cold_025",
+    "tier": "COLD",
+    "student_name": "Varun",
+    "city": "Ahmedabad",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 25,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Varun? Hi, this is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your inquiry about our JEE courses. Kaise hai aap?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I'm Varun. It's okay, I was just... I mean, I did check your website but I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, that's perfectly fine Varun! It's great that you're exploring early. Can you tell me which class you're currently in? And where are you from?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 10 right now, from Ahmedabad. But I haven't really decided anything yet, you know..."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, Class 10 is actually the perfect time to start thinking about this! So you're targeting JEE, right? That means you have around 2+ years to prepare, which is excellent. Have you thought about when you want to start preparation seriously?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, JEE Main mostly. But I don't know... there are so many coaching institutes. And honestly, I'm not sure about the fees and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern about fees, Varun. But let me tell you, at PW we believe in affordable education. For someone like you in Class 10, our JEE Lakshya 2027 batch would be perfect - it's comprehensive preparation for ₹35,999. But we offer 0% EMI starting at just ₹3,499 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999... that's still quite a lot. My parents will definitely ask about this. Do you have something more... affordable maybe?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! We have JEE Arjuna 2027 for ₹19,999 with EMI of just ₹1,999 per month. It covers all essential topics with quality faculty. Varun, would you be the one making this decision, or would you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'll definitely need to talk to my parents first. They handle all the fee decisions. Can you... maybe call back later? I need some time to think and discuss."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Varun! That's completely reasonable. When would be a good time to call you back? And should I call you directly or would your parents also like to be part of the conversation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe in 2-3 days? And yeah, it would be better if you could explain everything to my parents too when you call back."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you back in 2-3 days and can definitely explain all the course details to your parents as well. Meanwhile, do check out our free classes on the PW app to get a feel of our teaching quality. Is this the best number to reach you on?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. And okay, I'll check the app. But no pressure, right? I'm still just exploring options."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul no pressure at all, Varun! Education is a big decision and you should take your time. I'll call back in 2-3 days, and meanwhile feel free to call me if you have any questions. My name is Priya. Take care!"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay Priya, thank you. I'll discuss with my parents and see. Thanks for calling, bye."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

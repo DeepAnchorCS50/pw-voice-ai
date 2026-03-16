@@ -1,0 +1,117 @@
+{
+  "conversation_id": "warm_031",
+  "scenario": {
+    "scenario_id": "warm_031",
+    "tier": "WARM",
+    "student_name": "Saurabh",
+    "city": "Bhopal",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 10,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "Can you tell me about EMI options?",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun PhysicsWallah se. Am I speaking to Saurabh?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, yes this is Saurabh. Good morning!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you for showing interest in PW courses! Saurabh, main aapko batana chahti hun ki hum India's most affordable EdTech platform hain. First, may I know which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, just started this year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Class 12 is a crucial year. Saurabh, which competitive exam are you targeting? JEE, NEET, ya koi aur exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm preparing for JEE Main. Engineering mein interest hai mera."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! JEE Main ke liye humara JEE Lakshya 2027 batch bilkul perfect hai aapke liye. Complete comprehensive course hai with live classes, recorded lectures, and practice tests. Aapka exam kab hai exactly?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main toh next year January mein hai, so around 10 months left hai preparation ke liye."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul, 10 months is good time agar systematic preparation karenge toh. Saurabh, currently aap koi coaching attend kar rahe hain ya self-study kar rahe hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, local coaching join kiya tha but teacher acha nahi hai. So I'm looking for better options now."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern. PW mein hmare top faculty hain like Alakh Sir jo Physics ko bilkul easy banate hain. JEE Lakshya 2027 mein complete syllabus coverage, daily practice questions, aur doubt clearing sessions bhi hain. Are you interested to know more about the course structure?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, please tell me about it. But I'm also concerned about the fees. Local coaching is already expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, main batati hun. JEE Lakshya 2027 is our premium batch with live classes, recorded content, test series, aur personal mentorship. The course fee is ₹35,999 for complete package. But Saurabh, hum EMI options bhi provide karte hain!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 sounds quite expensive for my family. Can you tell me about EMI options? Kya monthly payment kar sakte hain?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! We offer 0% EMI starting at just ₹3,499 per month through PW Pay. That's less than what most families spend on daily chai and snacks! No hidden charges, no interest. Aur agar budget tight hai toh JEE Arjuna 2027 batch bhi hai at ₹19,999 with EMI of ₹1,999 per month."
+    },
+    {
+      "speaker": "student",
+      "text": "₹1,999 per month sounds more manageable. What's the difference between Lakshya and Arjuna batch?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Good question! Lakshya has live classes with top faculty, personal mentorship, aur premium doubt support. Arjuna mein recorded lectures with live doubt sessions hain, complete test series, aur study material. Both cover full JEE syllabus, but Lakshya mein more personalized attention milta hai."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, Arjuna batch seems suitable for me. But I need to discuss with my parents before taking any decision. Can you call me back tomorrow?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family discussion is important for such decisions. Main kal same time call karungi. Saurabh, meanwhile aap PW app download kar sakte hain to check our free content and teaching style. Would that work for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that sounds good. I'll check the app and discuss with parents. What time should I expect your call tomorrow?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I'll call you tomorrow around 11 AM, is that convenient? Aur agar koi urgent questions hain toh you can WhatsApp me on this number. Take your time to discuss and check our content."
+    },
+    {
+      "speaker": "student",
+      "text": "11 AM tomorrow works perfectly. Thank you for explaining everything clearly, Priya. I'll definitely check the app today."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Saurabh! I'm confident that PW will help you crack JEE with flying colors. All the best, aur kal baat karte hain. Have a great day!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! Looking forward to your call tomorrow. Have a good day, Priya!"
+    }
+  ],
+  "total_turns": 24,
+  "tier_label": "WARM"
+}

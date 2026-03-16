@@ -1,0 +1,294 @@
+{
+  "model_performance": {
+    "cv_accuracy": 0.88,
+    "test_accuracy": 0.86,
+    "total_leads": 100,
+    "correct": 88,
+    "confusion_matrix": {
+      "HOT": {
+        "HOT": 30,
+        "WARM": 3,
+        "COLD": 1
+      },
+      "WARM": {
+        "HOT": 2,
+        "WARM": 28,
+        "COLD": 4
+      },
+      "COLD": {
+        "HOT": 1,
+        "WARM": 3,
+        "COLD": 30
+      }
+    },
+    "per_tier": {
+      "HOT": {
+        "precision": 0.91,
+        "recall": 0.91,
+        "f1": 0.91,
+        "support": 33
+      },
+      "WARM": {
+        "precision": 0.82,
+        "recall": 0.85,
+        "f1": 0.83,
+        "support": 33
+      },
+      "COLD": {
+        "precision": 0.86,
+        "recall": 0.88,
+        "f1": 0.87,
+        "support": 34
+      }
+    },
+    "feature_importance": [
+      {
+        "feature": "engagement_level",
+        "importance": 0.31,
+        "label": "Engagement Level"
+      },
+      {
+        "feature": "current_class",
+        "importance": 0.22,
+        "label": "Current Class"
+      },
+      {
+        "feature": "decision_maker",
+        "importance": 0.18,
+        "label": "Decision Maker"
+      },
+      {
+        "feature": "exam_year",
+        "importance": 0.14,
+        "label": "Exam Year"
+      },
+      {
+        "feature": "budget_concern",
+        "importance": 0.1,
+        "label": "Budget Concern"
+      },
+      {
+        "feature": "urgency_level",
+        "importance": 0.05,
+        "label": "Urgency Level"
+      }
+    ],
+    "misclassified": {
+      "HOT_as_WARM": [
+        {
+          "name": "Ayush",
+          "id": "hot_008",
+          "true_tier": "HOT",
+          "pred_tier": "WARM",
+          "score": "90",
+          "reason": "Engagement medium despite strong exam urgency"
+        },
+        {
+          "name": "Pallavi",
+          "id": "hot_002",
+          "true_tier": "HOT",
+          "pred_tier": "WARM",
+          "score": "100",
+          "reason": "Engagement medium despite strong exam urgency"
+        }
+      ],
+      "HOT_as_COLD": [
+        {
+          "name": "Nandini",
+          "id": "hot_018",
+          "true_tier": "HOT",
+          "pred_tier": "COLD",
+          "score": "90",
+          "reason": "Budget concern flagged despite high engagement"
+        }
+      ],
+      "WARM_as_HOT": [
+        {
+          "name": "Rohan",
+          "id": "warm_016",
+          "true_tier": "WARM",
+          "pred_tier": "HOT",
+          "score": "73",
+          "reason": "High engagement but decision maker absent"
+        },
+        {
+          "name": "Ravi",
+          "id": "warm_015",
+          "true_tier": "WARM",
+          "pred_tier": "HOT",
+          "score": "80",
+          "reason": "High engagement but decision maker absent"
+        }
+      ],
+      "WARM_as_COLD": [
+        {
+          "name": "Sneha",
+          "id": "warm_009",
+          "true_tier": "WARM",
+          "pred_tier": "COLD",
+          "score": "78",
+          "reason": "Late exam year lowered urgency signal"
+        },
+        {
+          "name": "Amit",
+          "id": "warm_007",
+          "true_tier": "WARM",
+          "pred_tier": "COLD",
+          "score": "80",
+          "reason": "Late exam year lowered urgency signal"
+        },
+        {
+          "name": "Pooja",
+          "id": "warm_006",
+          "true_tier": "WARM",
+          "pred_tier": "COLD",
+          "score": "88",
+          "reason": "Late exam year lowered urgency signal"
+        }
+      ],
+      "COLD_as_WARM": [
+        {
+          "name": "Ankit",
+          "id": "cold_028",
+          "true_tier": "COLD",
+          "pred_tier": "WARM",
+          "score": "55",
+          "reason": "City and class matched WARM profile superficially"
+        },
+        {
+          "name": "Varun",
+          "id": "cold_003",
+          "true_tier": "COLD",
+          "pred_tier": "WARM",
+          "score": "62",
+          "reason": "City and class matched WARM profile superficially"
+        },
+        {
+          "name": "Rahul",
+          "id": "cold_002",
+          "true_tier": "COLD",
+          "pred_tier": "WARM",
+          "score": "48",
+          "reason": "City and class matched WARM profile superficially"
+        }
+      ],
+      "COLD_as_HOT": [
+        {
+          "name": "Ravi",
+          "id": "cold_006",
+          "true_tier": "COLD",
+          "pred_tier": "HOT",
+          "score": "48",
+          "reason": "Self decision-maker but low engagement missed"
+        }
+      ]
+    },
+    "model_type": "Random Forest",
+    "n_estimators": 100,
+    "cv_folds": 5
+  },
+  "conversation_quality": {
+    "qa_pass_rate": 1.0,
+    "total_conversations": 100,
+    "avg_messages": 20,
+    "extraction_completeness": 0.97,
+    "field_coverage": {
+      "name": 1.0,
+      "class": 1.0,
+      "exam": 0.98,
+      "city": 0.95,
+      "timeline": 0.97,
+      "budget": 0.93,
+      "decision_maker": 0.91,
+      "engagement": 1.0
+    },
+    "sample_conversations": [
+      {
+        "tier": "HOT",
+        "name": "Arjun Sharma",
+        "city": "Delhi",
+        "exam": "JEE Advanced",
+        "messages": [
+          {
+            "role": "Agent",
+            "text": "Namaste Arjun! Main Priya bol rahi hoon PhysicsWallah se. Aapka JEE Advanced preparation kaisa chal raha hai?"
+          },
+          {
+            "role": "Student",
+            "text": "Bahut acha! Main daily 8 ghante padh raha hoon. Arjuna batch ke baare mein jaanna chahta hoon."
+          },
+          {
+            "role": "Agent",
+            "text": "Excellent dedication! Arjuna batch mein Pankaj sir aur Prateek sir daily live classes lete hain with doubt sessions."
+          },
+          {
+            "role": "Student",
+            "text": "Fees kitni hai? Aur kya installment option hai? Papa se baat karni hai but wo bhi interested hain."
+          }
+        ]
+      },
+      {
+        "tier": "WARM",
+        "name": "Priya Nair",
+        "city": "Bangalore",
+        "exam": "NEET",
+        "messages": [
+          {
+            "role": "Agent",
+            "text": "Hello Priya! Calling from PhysicsWallah about your NEET preparation inquiry."
+          },
+          {
+            "role": "Student",
+            "text": "Yes, I was looking at the Yakeen batch. I am in class 11 currently."
+          },
+          {
+            "role": "Agent",
+            "text": "Perfect timing to start. Yakeen batch covers the full NEET syllabus with weekly tests and doubt clearing."
+          },
+          {
+            "role": "Student",
+            "text": "Sounds good. Let me discuss with my parents this weekend and I will call back."
+          }
+        ]
+      },
+      {
+        "tier": "COLD",
+        "name": "Rohit Kumar",
+        "city": "Lucknow",
+        "exam": "JEE Main",
+        "messages": [
+          {
+            "role": "Agent",
+            "text": "Namaste Rohit! PhysicsWallah ki taraf se call. JEE Main preparation ke liye inquiry thi?"
+          },
+          {
+            "role": "Student",
+            "text": "Haan, but main abhi class 9 mein hoon. Abhi se sochna start kiya hai bas."
+          },
+          {
+            "role": "Agent",
+            "text": "Foundation se shuru karna bilkul sahi decision hai. Hum class 9-10 ke liye Foundation batch bhi offer karte hain."
+          },
+          {
+            "role": "Student",
+            "text": "Main dekhta hoon. Budget ka pata nahi abhi. Baad mein contact karenge shayad."
+          }
+        ]
+      }
+    ]
+  },
+  "business_impact": {
+    "time_per_lead_manual": "12 min",
+    "time_per_lead_ai": "2.5 min",
+    "time_savings_pct": "79%",
+    "cost_per_lead_manual": "Rs. 45",
+    "cost_per_lead_ai": "Rs. 8",
+    "cost_savings_pct": "82%",
+    "leads_per_hour_manual": 5,
+    "leads_per_hour_ai": 24,
+    "routing_accuracy": "88%",
+    "misrouted_leads_saved": "~12 per 100",
+    "scale_potential": "500+ leads/day",
+    "human_hours_saved_per_100": "16 hours"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_026",
+  "scenario": {
+    "scenario_id": "warm_026",
+    "tier": "WARM",
+    "student_name": "Mohit",
+    "city": "Nagpur",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 11,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Mohit? Hi, main Priya bol rahi hun PhysicsWallah sales team se. I hope I'm not disturbing you. Aap ne recently NEET courses ke baare mein inquiry ki thi, so I thought I'd give you a quick call to help you out. Kya aap free hain for 2-3 minutes?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, Mohit speaking. Yes I remember filling some form. I'm free right now, you can go ahead."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Mohit, pehle main ye jaan sakti hun ki aap currently which class mein hain? And NEET preparation ke liye kya timeline hai aapka?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 11 right now. NEET toh 2027 mein hai, so I have around 11 months left I think. But I want to start but not sure about timing... kya abhi start karna theek rahega?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul perfect timing hai Mohit! Class 11 se start karna is actually ideal for NEET. Haan, 11 months mein you can cover everything properly. Right now aap koi coaching le rahe hain ya self-study kar rahe hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Abhi main mostly self-study kar raha hun. Local coaching dekha tha but fees bahut zyada thi, and quality bhi not that great. That's why I was looking for online options."
+    },
+    {
+      "speaker": "agent",
+      "text": "That makes sense! PhysicsWallah mein exactly yahi problem solve karte hain - quality education at affordable prices. For you, I would recommend NEET Yakeen 2027 batch. It's our comprehensive course with live classes, recorded lectures, tests, and doubt solving. Complete package hai. Have you heard about our courses before?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've heard about PW, Alakh sir is quite famous. But I want to know more details... what's the fee structure? And kya koi alternatives bhi hain? I mean different course options?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan absolutely! NEET Yakeen 2027 is ₹33,999 for the complete course till your exam. But agar budget concern hai, we offer 0% EMI through PW Pay - just ₹3,299 per month. That's less than what most families spend on daily chai! We also have other options if you want to explore. Aapka budget kya hai roughly?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,299 per month sounds reasonable actually. Budget wise it should be okay I think. But I'll need to discuss with my parents first before taking any decision. Can you tell me what exactly is included in this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! NEET Yakeen includes live classes by top faculty, complete recorded lecture library, regular tests and assessments, doubt clearing sessions, study material, and performance analysis. Basically everything you need for NEET prep. Bilkul theek hai that you want to discuss with parents - it's a good decision. When do you think you can confirm?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I can discuss tonight with them and let you know by tomorrow. But one more thing - what if I want to start immediately? Kya abhi join kar sakta hun or next batch ka wait karna padega?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! You can start immediately Mohit. Yakeen batch is ongoing and you'll get access to all previous recorded lectures, so you won't miss anything. Plus immediate access to live classes from this week itself. Should I hold a seat for you till tomorrow? I can call you back once you've spoken to your parents."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be helpful. Please call me back tomorrow evening around 6 PM. By then I would have discussed everything with my parents and can give you a proper answer."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Main tomorrow 6 PM call karungi. Meanwhile, I'm sending you a WhatsApp message with course details and demo links so you can show your parents bhi. Is this the best number to reach you - the one I'm calling on right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is the right number. WhatsApp bhi same number pe hai. Thank you for the call Priya, I'll wait for your message and we'll talk tomorrow."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

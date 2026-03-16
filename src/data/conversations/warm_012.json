@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_012",
+  "scenario": {
+    "scenario_id": "warm_012",
+    "tier": "WARM",
+    "student_name": "Sneha",
+    "city": "Bhubaneswar",
+    "class": "11",
+    "exam": "JEE Advanced",
+    "months_to_exam": 15,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I want to compare a few options first",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, this is Priya calling from PhysicsWallah sales team. Am I speaking with Sneha?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Sneha. Hi Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you for your interest in PW courses. I see you're from Bhubaneswar - that's wonderful! Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. I was looking at some courses online but there are so many options, I got a bit confused."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, I understand! Class 11 is the perfect time to start serious preparation. Which exam are you targeting - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced. I want to get into IIT, but honestly I'm not sure about the timeline and all. When should I ideally start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! You're actually at the ideal time - with 15 months left for JEE 2027, starting now gives you perfect preparation time. For serious JEE Advanced prep, I'd recommend our JEE Lakshya 2027 course. Have you thought about your budget for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is definitely a concern for my family. What's the fee structure like? And honestly, I want to compare a few options first before deciding."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, I completely understand! JEE Lakshya 2027 is ₹35,999, but here's the good news - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! We also have JEE Arjuna 2027 at ₹19,999 if budget is tight. Would you like me to explain the differences?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,499 per month sounds more manageable than paying everything at once. But what's the difference between Lakshya and Arjuna? I want to make sure I'm getting the right course."
+    },
+    {
+      "speaker": "agent",
+      "text": "Smart question! Lakshya is our premium course with live doubt sessions, personalized mentoring, and advanced problem-solving modules specifically for JEE Advanced. Arjuna covers all JEE syllabus but with recorded doubt sessions. For IIT dreams, Lakshya gives you that extra edge. Are you able to make this decision yourself or do you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself actually. My parents trust my judgment for my studies. The EMI option does sound good, but I'm still thinking... are there any other alternatives I should consider?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I appreciate that you want to be thorough! Given your IIT goal and Class 11 timing, these are honestly the two best options. But tell you what - since you can decide independently and seem genuinely interested, would you like me to hold a special discount for you while you think? The EMI option makes it really affordable, and you can start immediately to not lose precious preparation time."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reasonable. Let me think about it for a day or two. Can I call back if I decide to go ahead with Lakshya? The ₹3,499 EMI option does seem doable."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Sneha! I'll keep this offer reserved for you. But remember, every day counts for JEE Advanced prep. I'll send you all the course details on WhatsApp right now. Do call me back by tomorrow so we can get you started. My number will be in the message. Sounds good?"
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Yes, please send the details. I'll review everything tonight and call you back tomorrow. Thank you so much for explaining everything clearly, Priya!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

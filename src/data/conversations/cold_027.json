@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_027",
+  "scenario": {
+    "scenario_id": "cold_027",
+    "tier": "COLD",
+    "student_name": "Suresh",
+    "city": "Delhi",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 29,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Suresh? Hi, this is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I'm calling regarding your interest in our JEE preparation courses. Kaise ho aap?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I'm Suresh. It's okay, I'm free right now. But I just filled some form online, didn't expect a call so soon."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh great! Bilkul, we try to connect with students quickly so we can help them plan their preparation properly. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 10th right now. Just finished my boards last month."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing, Suresh! So you have good time to prepare. And you're targeting JEE, right? JEE Main ya Advanced - what's your goal exactly?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Advanced. I want to get into IIT. But I'm not sure about coaching and all... it's all very confusing."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, I understand the confusion. But good news is you have almost 29 months for JEE Advanced 2027, which is excellent time! For students like you, we have JEE Lakshya 2027 batch - complete 2-year program with live classes, doubt solving, test series. Have you thought about budget for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is a big concern actually. My parents are already worried about the cost. What's the fee for this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally understand, Suresh. JEE Lakshya 2027 is ₹35,999 for the complete 2-year program. But here's the thing - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai! And think about it - it's investment for IIT, right?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999 sounds too expensive yaar. Even ₹3,499 per month... that's a lot for my family. Let me think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, I understand. But let me tell you about JEE Arjuna 2027 also - it's ₹19,999 total, EMI of just ₹1,999 per month. Same quality teaching, slightly different structure. Suresh, are you the one who will be making this decision, or do you need to discuss with parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself mostly. But still... ₹20,000 is also not small amount. What if I don't clear JEE? Then it's waste of money na?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid concern, Suresh! But see, with proper guidance and 29 months of preparation, your chances increase dramatically. Our students have 3x higher success rate. And even if JEE Advanced doesn't work out, you'll definitely clear JEE Main for good NITs. It's not waste - it's securing your future. What do you think?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm... the EMI option sounds better than paying full amount. But I'm still not sure. Can I get some time to think? Maybe talk to few PW students first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Suresh! Smart decision to research. I can connect you with our current students from Delhi if you want. But let me tell you - we have limited seats in Lakshya batch, and early admission has some benefits too. How about I hold a seat for you for 2-3 days? No pressure, just so you don't miss out?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds fair. Can you send me all the details on WhatsApp? Course structure, EMI details, everything? I'll discuss and get back to you in 2-3 days."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Suresh! I'll send complete details on WhatsApp within 30 minutes. Also sharing contact of 2 current students from Delhi. Take your time, discuss with family, and call me back. My number will be there in the message. Best of luck with your decision, and remember - your IIT dream is totally achievable with right preparation!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

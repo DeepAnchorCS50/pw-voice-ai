@@ -1,0 +1,121 @@
+{
+  "conversation_id": "warm_006",
+  "scenario": {
+    "scenario_id": "warm_006",
+    "tier": "WARM",
+    "student_name": "Shruti",
+    "city": "Vijayawada",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 13,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, am I speaking with Shruti? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, yes this is Shruti. I'm good, thank you. Actually I was expecting your call."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Thank you for showing interest in PhysicsWallah. Before we proceed, can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, just started this year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is actually the best time to start serious preparation. And which exam are you targeting - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to prepare for NEET. I'm planning to become a doctor."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Medicine is a great field. So you'll be appearing for NEET 2027, right? That gives you around 18 months for preparation which is excellent."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I think it's more like 13-14 months from now. But haan, 2027 batch."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're absolutely right! My apologies. So for NEET 2027, we have our NEET Yakeen batch which is specifically designed for Class 11 students like you. Have you started any preparation already?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've been doing some self-study but nothing structured. That's why I want to join a proper course. But I'm not sure about the timing - should I start now or wait?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul start now! Class 11 foundation is crucial for NEET success. Our NEET Yakeen 2027 covers the complete syllabus with live classes, recorded lectures, and regular tests. Starting early gives you multiple revisions."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good. What's the fee structure for this course? And are there any other options available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "NEET Yakeen 2027 is priced at ₹33,999. We also offer 0% EMI through PW Pay - just ₹3,299 per month. That's less than what most families spend on daily chai! Are you looking at any specific budget range?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable. Are there any other courses I can consider? Maybe something different in approach or pricing?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! Apart from Yakeen, we also have other NEET courses with different teaching methodologies. But for Class 11 students, Yakeen is our most comprehensive program. What specific features are you looking for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want good faculty, regular tests, and doubt clearing sessions. Also, flexibility to study at my own pace sometimes."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET Yakeen has all of this - top faculty like Alakh sir's team, weekly tests, dedicated doubt clearing sessions, and both live + recorded lectures for flexibility. You can study anytime, anywhere."
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds convincing. But I'll need to discuss this with my parents before making any decision. Can you call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family discussion is important for such decisions. When would be a good time to call back? And should I speak with your parents as well to explain the course details?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe tomorrow evening around 7 PM? And yes, my parents might want to speak with you directly about the course and fees."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call tomorrow at 7 PM. Meanwhile, I'll also send you a detailed brochure on WhatsApp. Is this the best number to reach you - and your parents - tomorrow?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. Please send the brochure, it will help me explain to my parents. Thank you so much, Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "My pleasure, Shruti! I'll send the details right away. Looking forward to speaking with you and your parents tomorrow. Have a great day and best of luck with your NEET preparation journey!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! See you tomorrow then. Bye!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bye Shruti! Take care!"
+    }
+  ],
+  "total_turns": 25,
+  "tier_label": "WARM"
+}

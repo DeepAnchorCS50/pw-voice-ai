@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_015",
+  "scenario": {
+    "scenario_id": "cold_015",
+    "tier": "COLD",
+    "student_name": "Rohan",
+    "city": "Coimbatore",
+    "class": "10",
+    "exam": "JEE Advanced",
+    "months_to_exam": 28,
+    "decision_maker": "self",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "Too expensive, let me think about it",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Rohan? Hi, this is Priya from PhysicsWallah sales team. I hope you're doing well! I'm calling because you showed interest in our JEE courses. Do you have 2-3 minutes to chat?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh, yeah... I guess. What is this about exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! So Rohan, I wanted to understand your preparation journey better. Can you tell me which class you're currently in and what exam you're targeting?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th standard right now. Looking at JEE Advanced eventually."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced - that's excellent, Rohan. So you have around 28 months for preparation, which is actually ideal timing. Are you currently taking any coaching or preparing on your own?"
+    },
+    {
+      "speaker": "student",
+      "text": "Not really doing much right now. Just school stuff mainly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai! Starting early is smart. For JEE Advanced preparation, I'd recommend our JEE Lakshya 2027 batch - it's specifically designed for students like you. It covers everything from basics to advanced level. Have you thought about what budget works for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget... well, how much does it cost? My parents are always worried about money."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Rohan. The JEE Lakshya 2027 is ₹35,999 for the complete course. But haan, we offer 0% EMI starting at just ₹3,499 per month through PW Pay. That's less than what most families spend on daily chai! Would this EMI option help?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹35,999? That sounds too expensive. And even ₹3,499 per month... I don't know. Let me think about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern, Rohan. But think about it - this is a complete 28-month program with live classes, doubt solving, test series, everything. We also have JEE Arjuna 2027 at ₹19,999 with EMI of just ₹1,999 per month. Would you be able to discuss this with your parents today itself?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe the cheaper one... but still, I'm not sure. Do I really need to decide right now?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Not at all, Rohan! No pressure. But I'll tell you what - if you're serious about JEE Advanced, starting early with structured preparation makes a huge difference. Are you someone who can make this decision or would you need to check with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide for myself mostly. But this is a big amount. What if I don't like the classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a fair question! We have a trial period where you can attend classes and see if it suits your learning style. Plus, Rohan, thousands of students from Tamil Nadu have cracked JEE through PW. The investment you make today will determine your future college. Shall I enroll you for JEE Arjuna 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm still not convinced. Can I get some time to think about it? Maybe talk to some people who have taken this course?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Rohan! Take your time. I'll share some student testimonials on WhatsApp and also send you a detailed brochure. Can I follow up with you in 2-3 days to see if you have any questions? What's the best time to reach you?"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_006",
+  "scenario": {
+    "scenario_id": "hot_006",
+    "tier": "HOT",
+    "student_name": "Swati",
+    "city": "Allahabad",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 2,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Swati? I hope I'm not disturbing you - do you have 2-3 minutes to discuss your exam preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Swati. Actually I was just thinking about getting some coaching help, so your timing is good. I have some time to talk."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Swati! I'm glad to help. Could you tell me which class you're currently in and which exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now and preparing for JEE Main. Actually I'm getting quite worried because the exam is coming up soon."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Swati. JEE Main is indeed approaching fast. When exactly is your exam scheduled? And how are you finding your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "My exam is in about 2 months only. I've been self-studying but I feel like I'm missing out on important concepts and problem-solving techniques. That's why I need proper guidance now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Swati! Two months is actually a crucial time where focused preparation can make a huge difference. For intensive JEE preparation at this stage, I'd recommend our JEE Arjuna 2027 batch - it's specifically designed for quick concept revision and problem-solving practice. Are you comfortable discussing the investment for your preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I can discuss the fees. My parents have told me to go ahead with whatever coaching I feel is best. What's the cost for this course and what exactly does it include?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great support from your parents, Swati! The JEE Arjuna 2027 course is ₹19,999 and includes complete concept videos, live doubt sessions, previous year question practice, and mock tests. If needed, we also have 0% EMI at just ₹1,999 per month through PW Pay. Given your timeline, would you be able to start immediately?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹19,999 sounds reasonable for everything included. I do have one question though - with only 2 months left, will I really be able to cover everything properly? I don't want to waste time if it's too rushed."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a very valid concern, Swati. Actually, 2 months is quite sufficient if you follow our structured approach. Our Arjuna batch focuses on high-yield topics and frequently asked concepts rather than everything from scratch. Plus, you'll get personalized guidance on which topics to prioritize based on your current level. Does this approach sound helpful to you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that sounds exactly what I need - focused preparation rather than trying to cover everything. I think this will really help me. I need to enroll this week itself because I can't afford to lose more time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Swati! I'm glad you're taking this decision promptly. Let me get your enrollment started right away. Can I confirm - will you be making this decision yourself or do you need to check with your parents once before we proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I can decide this myself. My parents have already given me the go-ahead to choose whatever coaching I need. Let's proceed with the enrollment for JEE Arjuna 2027."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect, Swati! I'll initiate your enrollment for JEE Arjuna 2027 right now. You'll receive access details within 30 minutes, and I'll personally follow up tomorrow to ensure everything is working smoothly for you. Would you prefer to pay the full amount or go with the EMI option?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'll go with the full payment of ₹19,999. Thank you so much, Priya! I'm really hoping this will help me crack JEE Main. When can I start accessing the course materials?"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_026",
+  "scenario": {
+    "scenario_id": "hot_026",
+    "tier": "HOT",
+    "student_name": "Neha",
+    "city": "Bhopal",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 2,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya calling from PhysicsWallah. Am I speaking with Neha? I hope I'm not disturbing you - do you have 2-3 minutes to talk about your exam preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Neha. Yes, I have some time. Actually I was just thinking about getting some help with my JEE prep."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing then! So Neha, which class are you currently in? And when is your JEE Main exam scheduled?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. My JEE Main is in April, so just about 2 months left. I'm getting a bit worried about the time crunch, you know?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand that feeling, Neha. Two months is actually a good amount of time for focused preparation if done right. Tell me, how has your preparation been so far? Are there any specific subjects you're struggling with?"
+    },
+    {
+      "speaker": "student",
+      "text": "Physics and Maths are okay, but Chemistry is really troubling me. Organic chemistry especially. I feel like I need structured guidance and practice for these last two months."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Chemistry can be tricky! For your timeline, our JEE Lakshya 2027 would be perfect - it has intensive doubt-solving sessions and topic-wise practice. The course is ₹35,999, but we have 0% EMI options starting at just ₹3,499 per month. Would budget be a concern for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price sounds reasonable. My parents have already set aside money for coaching, so budget shouldn't be an issue. But I need to make sure this will really help me in just 2 months. What exactly does the course include?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! The Lakshya course includes live classes, recorded lectures for revision, daily practice questions, weekly mock tests, and most importantly - dedicated doubt-clearing sessions for Chemistry. Plus you get access to our PW app with offline downloads. Since time is crucial, you can start immediately after enrollment. Are you the one making this decision or would you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, my parents have already told me to choose whatever coaching I feel is best. They trust my judgment. But I do have one question - will I get enough personal attention in these classes, or is it just recorded videos?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a very smart question, Neha! It's not just recorded content - you get live interactive classes where you can ask questions directly. Plus, we have dedicated mentors assigned who track your progress and help with weak areas. For Chemistry specifically, we have separate doubt-clearing sessions twice a week. Does this sound like what you're looking for?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this sounds exactly what I need! The live doubt sessions for Chemistry are perfect. I think this will really help me in these crucial 2 months. I need to enroll this week itself so I don't waste any more time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Neha! Starting this week is a great decision. I can get you enrolled right now if you'd like. The course will be activated within 2 hours, and you'll receive login details on your phone. Would you prefer to pay the full amount or start with the EMI option through PW Pay?"
+    },
+    {
+      "speaker": "student",
+      "text": "I think I'll go with the full payment since my parents have already arranged the money. How do I make the payment and get started?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you a secure payment link on WhatsApp right after this call. Once payment is done, you'll get your login credentials and can immediately access all materials. You'll also receive a welcome call from your assigned mentor within 24 hours. Anything else you'd like to know before we proceed?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I think you've covered everything. I'm excited to get started! Please send me that payment link, and thank you so much for explaining everything clearly, Priya."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

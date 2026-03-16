@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_018",
+  "scenario": {
+    "scenario_id": "cold_018",
+    "tier": "COLD",
+    "student_name": "Shruti",
+    "city": "Patna",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 18,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "My friend told me to call, I'm not sure I'm ready",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Shruti? Thank you for showing interest in our courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... haan, I'm Shruti. Actually, my friend told me to call, I'm not sure I'm ready. Just wanted to know about your courses."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's perfectly fine, Shruti! No pressure at all. Your friend gave you good advice - it's always smart to explore options early. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now... in Patna."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Class 11 is actually the perfect time to start planning. Are you preparing for JEE or NEET? Or maybe you're still deciding between the two?"
+    },
+    {
+      "speaker": "student",
+      "text": "NEET... I think. I want to become a doctor, but I'm not sure if I can manage it. The competition is so tough."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, NEET is competitive, but with proper guidance it's definitely achievable! Since you're in Class 11, you have almost 18 months to prepare - that's actually good time. Have you thought about your budget for coaching? What range would be comfortable for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget... that's the main problem. My parents are worried about the cost. Online courses are cheaper than offline coaching, right? But how much do they cost?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Online is much more affordable. Our NEET Yakeen 2027 batch is ₹33,999 for the complete course, but here's the good news - we offer 0% EMI at just ₹3,299 per month through PW Pay. That's less than what most families spend on daily chai! Would this EMI option work better?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,299 per month... that sounds better than paying everything at once. But I need to discuss with my parents first. They handle all money decisions."
+    },
+    {
+      "speaker": "agent",
+      "text": "That makes complete sense, Shruti! Family discussions are important for such decisions. Would it help if I call back when you and your parents are together? I can explain the course details and answer any questions they might have about the EMI options."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be better. But not today... maybe in 2-3 days? I need time to talk to them properly first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! No rush at all. How about I call you this Saturday evening around 7 PM? That way you'll have time to discuss with your parents, and I can answer any questions you all might have together. Does Saturday work?"
+    },
+    {
+      "speaker": "student",
+      "text": "Saturday 7 PM should be okay. But what if I have more questions before that? Can I call back?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! You have my number now, feel free to call anytime. Also, you can check out some free lectures on our app to get a feel for our teaching style. I'll send you the details on WhatsApp after this call. Sound good?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that sounds helpful. I'll try the free lectures and talk to my parents. Thank you for not pressuring me, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Shruti! Education decisions should never be rushed. I'll call you Saturday 7 PM, and meanwhile explore our free content. Take care, and all the best with your NEET preparation journey!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

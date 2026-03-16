@@ -1,0 +1,197 @@
+{
+  "conversation_id": "voice_cold_002",
+  "tier": "COLD",
+  "region": "south",
+  "scenario": {
+    "id": "voice_cold_002",
+    "tier": "COLD",
+    "region": "south",
+    "name": "Suresh",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 28,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "key_situation": "Too early, just checking options, no urgency"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. I understand you're interested in learning more about our courses. May I know your good name and which class you're currently in?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hi, I'm Suresh. I'm in Class 10 right now, studying in Thiruvananthapuram.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Nice to meet you, Suresh! Class 10 - that's a good time to start thinking ahead. Which competitive exam are you planning to target after Class 12?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Actually, I'm thinking about JEE Main. But it's still quite early, no? I'm just checking what options are available.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "Not early at all! It's actually smart to explore options now. Many successful students start their JEE preparation from Class 11. Are you particularly interested in any engineering field, or still exploring?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "I'm thinking maybe computer science or electronics. My cousin did engineering from NIT Calicut, so I thought I should also look into it.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "That's excellent! Both are great fields with lots of opportunities. Tell me, how are you finding your PCM subjects currently? Any particular strengths or areas where you feel you need more support?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Mathematics is okay for me. Physics is interesting but sometimes the concepts are bit confusing. Chemistry... honestly, I find it quite difficult.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "That's very honest feedback, and you're not alone - many students find Chemistry challenging initially. The good news is that with proper guidance, it becomes much clearer. Are you currently taking any coaching classes or self-studying?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Just regular school classes only. My father suggested I should look into coaching options, but we haven't decided anything yet.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "I see. So you'll be discussing with your father before making any decisions? That's wise. Can you tell me what factors are important for your family when choosing a coaching program?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Yes, definitely need to discuss with appa first. He's quite particular about the cost also. We want good quality teaching but... you know, budget is also a consideration.",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Absolutely understandable, Suresh. Quality education should be accessible, and that's exactly why PW was founded. We believe in providing top-quality coaching at very reasonable fees. When do you think you'd like to start serious JEE preparation?",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "Maybe from Class 11? I'm not really sure about the timing. There's still more than 2 years for JEE Main, so no immediate rush.",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "That timeline makes perfect sense. Starting from Class 11 gives you a solid 2-year foundation. Let me tell you about our Arjuna JEE batch - it's specifically designed for students like you who want comprehensive preparation from Class 11 onwards.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "Arjuna batch? Can you tell me more about what it includes?",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "Sure! The Arjuna JEE batch covers complete Class 11 and 12 syllabus with JEE focus. You get live classes, recorded lectures for revision, comprehensive study material, regular tests, and doubt-solving sessions. All this for just ₹15,000 for the complete 2-year program.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "₹15,000 for two years? That sounds quite reasonable compared to other coaching centers I've heard about. But I should discuss with my father first before deciding anything.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "Of course! Family discussion is important for such decisions. Would it help if I shared some detailed information about the course structure and faculty that you can show your father?",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "Yes, that would be helpful. But honestly, I'm still just exploring options right now. Not ready to commit to anything immediately.",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "That's perfectly fine, Suresh. Taking time to research is smart. I'll send you a detailed brochure and some sample lecture links so you and your father can see the teaching quality. No pressure at all.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "Thank you, that sounds good. When should I actually start thinking seriously about enrolling?",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "I'd suggest making a decision by the time you finish Class 10 boards, so you can start fresh with Class 11. That gives you a few months to research and decide. Would you like me to follow up with you in a couple of months?",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "Yes, maybe after my Class 10 exams are over. Right now I should focus on boards first.",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Absolutely right priority! Focus on your boards first. I'll make a note to connect with you around April-May. Meanwhile, if you or your father have any questions about PW, feel free to call this number anytime.",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "Sure, I'll keep that in mind. Thank you for the information, Priya.",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "You're most welcome, Suresh! I'll send those materials to your number via WhatsApp. Best of luck with your Class 10 preparations, and I look forward to speaking with you again soon!",
+      "audio_file": "msg_026_agent.mp3"
+    },
+    {
+      "index": 27,
+      "speaker": "student",
+      "text": "Thank you so much. Have a good day!",
+      "audio_file": "msg_027_student.mp3"
+    },
+    {
+      "index": 28,
+      "speaker": "agent",
+      "text": "You too, Suresh! Take care and study well!",
+      "audio_file": "msg_028_agent.mp3"
+    }
+  ],
+  "total_messages": 29,
+  "language": "english"
+}

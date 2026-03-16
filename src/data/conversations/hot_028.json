@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_028",
+  "scenario": {
+    "scenario_id": "hot_028",
+    "tier": "HOT",
+    "student_name": "Trisha",
+    "city": "Indore",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 3,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah sales team. Am I speaking with Trisha?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Trisha. Hi Priya! I've been hearing a lot about PW lately."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful to hear! Trisha, I'm calling to understand how we can help you with your studies. Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Actually, my parents are also here with me - they wanted to listen to this call as well."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! It's great that your parents are involved. So Trisha, which competitive exam are you preparing for - JEE or NEET?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm preparing for JEE Advanced. I really want to get into IIT, but I'm getting a bit worried about the time left."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great goal! Don't worry, we've helped many students crack JEE Advanced. How much time do you have left for your exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "Just about 3 months left. That's why I'm stressed. Do you think it's still possible to improve significantly? My parents want me to start immediately if we decide to go ahead."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul possible hai! 3 months is actually good time if you study smartly. For JEE Advanced prep, I'd recommend our JEE Lakshya 2027 course at ₹35,999. It has intensive modules perfect for your timeline. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm decent in Physics and Maths, but Chemistry is my weak point. The price sounds reasonable for what you're offering. What exactly does this course include?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! The Lakshya course includes live classes, recorded lectures, weekly tests, doubt solving sessions, and special Chemistry focus modules. We can start your Chemistry improvement right away. Are you comfortable with this investment, or would you like to know about EMI options?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, budget isn't a major concern for us. But I want to know - will I get enough personal attention? I really need help with organic chemistry concepts."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! You'll get dedicated doubt clearing sessions and our teachers are available for one-on-one guidance. For organic chemistry, we have special problem-solving sessions. Since your parents want you to start immediately, shall I enroll you today itself?"
+    },
+    {
+      "speaker": "student",
+      "text": "This sounds really good. My mom is nodding yes! But one last question - what if I need extra support in these 3 months?"
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all! We provide unlimited doubt support and if needed, we can arrange additional mentoring sessions. Plus, you get access to our crash course modules specifically designed for last-minute preparation. Should I go ahead and process your enrollment for JEE Lakshya 2027?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do it! My parents are convinced and honestly, I feel much more confident now. Please start the enrollment process."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

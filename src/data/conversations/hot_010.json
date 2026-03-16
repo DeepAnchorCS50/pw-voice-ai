@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_010",
+  "scenario": {
+    "scenario_id": "hot_010",
+    "tier": "HOT",
+    "student_name": "Pallavi",
+    "city": "Thiruvananthapuram",
+    "class": "dropper",
+    "exam": "JEE Main",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "This is my last chance",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Is this Pallavi? Hi, main Priya bol rahi hun PhysicsWallah sales team se. I hope I'm not disturbing you. Do you have 2-3 minutes to talk about your JEE preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Pallavi. Actually I was expecting your call. I'm really concerned about my preparation right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great to connect with you Pallavi! Don't worry, we're here to help. Can you tell me a bit about your current situation? Which class are you in right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I'm a dropper. I gave JEE last year but didn't get the result I wanted. So I'm preparing again this year."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand, Pallavi. Many of our most successful students are droppers who came back stronger. When is your next JEE attempt - JEE Main 2025?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, JEE Main 2025. I have around 6 months left and honestly, this is my last chance. My parents are supportive but I really need to crack it this time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, and 6 months is actually a good amount of time if you prepare strategically. For droppers like you, we have our JEE Lakshya 2025 batch which is specifically designed for focused preparation. What's your current preparation strategy?"
+    },
+    {
+      "speaker": "student",
+      "text": "Right now I'm just doing self-study and some online videos, but I feel like I need more structure and guidance. What does the Lakshya batch include exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect question! JEE Lakshya includes live classes by our top faculty, recorded lectures for revision, weekly tests, doubt solving sessions, and most importantly - a structured study plan for the next 6 months. The fee is ₹35,999 but we offer 0% EMI at just ₹3,499 per month through PW Pay. Would this investment be manageable for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "The EMI option sounds good. ₹3,499 per month seems reasonable. But I want to make sure this will really help me improve my rank significantly."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand your concern, Pallavi. Our Lakshya batch has helped thousands of droppers improve their ranks by 50,000+ positions. You'll get personalized attention and we track your progress weekly. Are you in a position to make this decision today, or would you need to discuss with your parents first?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I can decide on my own. My parents have given me the freedom to choose what's best for my preparation. They just want me to be serious about it."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Pallavi! It shows they really trust your judgment. Given that you have 6 months and this is such an important year for you, would you like me to enroll you in JEE Lakshya 2025 today? I can get you started with the classes from tomorrow itself."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I think this is exactly what I need right now. The structure and guidance will definitely help me stay on track. How do I proceed with the enrollment?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision, Pallavi! I'm confident this will be a game-changer for your preparation. I'll send you a payment link right after this call. You can choose the EMI option during payment. Once done, you'll get access to all materials and the class schedule within 2 hours."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Thank you so much, Priya. I'm feeling much more confident about my preparation now. I really appreciate your help."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

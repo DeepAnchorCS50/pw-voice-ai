@@ -1,0 +1,96 @@
+{
+  "conversation_id": "conv_20260215_165906",
+  "timestamp": "2026-02-15T16:59:06.083677",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": true,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I just started this academic year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE preparation in 11th gives you a solid advantage. What's your target - JEE Main or are you aiming for JEE Advanced as well?"
+    },
+    {
+      "speaker": "student",
+      "text": "I want to crack JEE Advanced actually. My dream is to get into IIT, but I'm a bit worried about the competition and... well, the fees for coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a great goal, Rahul! IIT is definitely achievable with the right preparation. I understand your concern about fees - many students face this. Can you tell me what budget range you're comfortable with for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Honestly, my parents are supportive but we're looking for something affordable. We can't spend like 2-3 lakhs on coaching. Is there any option under 50,000?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! PhysicsWallah is known for quality education at affordable prices. Our comprehensive 2-year JEE program is just ₹15,000, and we also have scholarship opportunities. Have you taken any competitive exams recently that we could consider for scholarships?"
+    },
+    {
+      "speaker": "student",
+      "text": "Wait, really? Only 15,000 for 2 years? That sounds too good to be true. What about scholarships? I scored 94% in my 10th boards."
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, it's genuine! That's our mission - democratizing education. With your 94% in 10th, you're eligible for our merit scholarship. You could get up to 50% off, bringing it down to just ₹7,500 for the full 2-year program. Would you like me to check your exact eligibility?"
+    },
+    {
+      "speaker": "student",
+      "text": "Wow, that's amazing! Yes, please check. But what exactly do I get in this program? I want to make sure the quality is good despite the low price."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! You get live classes by Alakh Sir and top faculty, recorded lectures for revision, comprehensive study material, regular tests with All India ranking, doubt clearing sessions, and 24/7 support. Over 10 lakh students have trusted us. Would you like me to arrange a free demo class?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. Yes, I'd like a demo class. But I should probably discuss this with my parents first. When do the batches start?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely right to involve your parents! We have a new batch starting next Monday. I can schedule your demo class for this weekend so you and your parents can experience our teaching quality. Also, if you enroll by this week, you'll get additional study materials worth ₹3,000 free. Shall I book your demo for Saturday?"
+    },
+    {
+      "speaker": "student",
+      "text": "Saturday works for me. Can you send me all the details on WhatsApp? I'll show everything to my parents and we'll decide. This really seems like a great opportunity."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you the complete program details, scholarship information, demo class link, and my contact details on WhatsApp right after this call. I'll also call you back on Sunday to address any questions you or your parents might have. Looking forward to welcoming you to the PW family, Rahul!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! This has been really helpful. I'm excited about the demo class. I'll discuss with my parents and get back to you soon."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Rahul! Remember, with your dedication and our guidance, IIT is definitely within reach. I'll send those details in 5 minutes. Have a great day, and see you in the demo class on Saturday!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you! Looking forward to it. Bye!"
+    }
+  ],
+  "total_turns": 20,
+  "duration_seconds": 500
+}

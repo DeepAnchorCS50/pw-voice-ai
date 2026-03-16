@@ -1,0 +1,85 @@
+{
+  "conversation_id": "warm_018",
+  "scenario": {
+    "scenario_id": "warm_018",
+    "tier": "WARM",
+    "student_name": "Aarti",
+    "city": "Jaipur",
+    "class": "11",
+    "exam": "NEET",
+    "months_to_exam": 14,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "medium",
+    "key_phrase": "I want to start but not sure about timing",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Aarti? Hi, main Priya bol rahi hun PhysicsWallah se. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... haan main Aarti. I'm good. Actually I was looking at some courses online, that's why you called right?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! That's great that you're exploring options. Can you tell me which class you're currently in and what exam you're preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now. Main NEET ki preparation karna chahti hun but I'm not sure about when to start properly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Aarti! Class 11 is actually the ideal time to start NEET preparation. With 14 months until NEET 2027, you have a solid foundation period. What's making you unsure about the timing?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually I want to start but not sure about timing... like should I wait for Class 12 or start now? And there are so many courses, I'm confused which one would be right for me."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand the confusion. Starting now is definitely better - you'll have time to build strong concepts. For NEET 2027, I'd recommend our NEET Yakeen batch at ₹33999. But before that, what's your budget range? Are you comfortable with EMI options?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue but I need to check with my parents first. Can you tell me what other NEET options you have? Maybe something different from Yakeen?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure! We also have NEET Sankalp 2027 for ₹44999 - that's more comprehensive with extra doubt sessions. For EMIs, Yakeen comes to just ₹3299/month through PW Pay - that's less than most families spend on daily chai! Would you like me to call you back after you discuss with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan that sounds reasonable. But can you explain the difference between Yakeen and Sankalp? I want to understand properly before I talk to my parents about this."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Yakeen covers all NEET syllabus with live classes, recorded lectures, and regular tests. Sankalp has everything in Yakeen PLUS extra doubt clearing sessions, more mock tests, and personalized mentoring. Since you're starting early from Class 11, Yakeen should be perfect for you."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay that makes sense. Yakeen sounds good for me. But I definitely need to discuss with my parents first. When can you call me back?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family discussion is important for such decisions. Would tomorrow evening around 6 PM work for you? I'll call you back and we can finalize everything. Meanwhile, you can also check out some free demo classes on our app."
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, tomorrow 6 PM is fine. I'll talk to my parents today itself. And haan, I'll definitely check the demo classes. Thank you so much Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Aarti! I'm excited to help you start your NEET journey. Do check those demos and discuss with your parents. I'll call you tomorrow at 6 PM sharp. All the best!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much! I'll be ready with my decision tomorrow. Have a good day!"
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "WARM"
+}

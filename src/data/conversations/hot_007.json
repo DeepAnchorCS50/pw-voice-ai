@@ -1,0 +1,109 @@
+{
+  "conversation_id": "hot_007",
+  "scenario": {
+    "scenario_id": "hot_007",
+    "tier": "HOT",
+    "student_name": "Manish",
+    "city": "Dehradun",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning! Am I speaking with Manish? This is Priya from PhysicsWallah sales team. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya, haan main Manish bol raha hun. I'm doing okay. What's this about?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great to connect with you Manish! I'm calling regarding your interest in our courses. Are you currently preparing for any competitive exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, I'm preparing for NEET. Actually, I failed last year and must crack it this time. The pressure is quite high."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Manish. Don't worry, many of our successful students have been in your exact situation. Which class are you in currently - are you a dropper or in 12th?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm a dropper now. Took a drop after 12th to focus completely on NEET preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a smart decision! Focused preparation really helps. How much time do you have left for your NEET exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "About 5 months left. Time is running out and I need proper guidance now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Manish! Our NEET Sankalp 2027 batch is specifically designed for droppers like you. It covers the complete syllabus with intensive practice in these crucial months. Have you heard about PhysicsWallah's NEET courses before?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I've heard good things about PW. But I want to know more about the course structure and faculty. Will it be enough for these 5 months?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Sankalp has Alakh Sir's proven methodology with subject experts. You'll get daily live classes, recorded lectures, test series, and doubt clearing sessions. Plus, our success rate for droppers is really impressive. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue for me. My parents are supportive. I just want the best preparation possible."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful support from your family! The NEET Sankalp 2027 course is ₹44,999 for the complete package. It includes everything - live classes, recorded content, test series, books, and personal mentorship. Sounds good?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems reasonable. But I have one concern - will I be able to keep up with the pace since I'm joining mid-way?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question Manish! Don't worry at all. You'll get access to all previous recorded lectures to catch up quickly. Plus, our faculty provides extra doubt sessions for students who join later. Many droppers join at this stage and do exceptionally well."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds reassuring. Can I make this decision right now or do I need to discuss with my parents first?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's completely up to you Manish! Since you mentioned your parents are supportive and budget isn't an issue, you can definitely enroll today if you feel confident about it. We can even set up EMI at ₹4,499 per month through PW Pay if that helps."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I think I'm ready to go ahead with this. The course sounds comprehensive and I really need to start serious preparation now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent decision Manish! I'm so happy you're taking this step. This is going to be a game-changer for your NEET preparation. Let me get your enrollment started right away. I'll send you the payment link and course details on WhatsApp."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Please send me all the details. When can I start attending the classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "You can start immediately after payment confirmation! Classes begin tomorrow itself, and you'll receive your login credentials within 30 minutes. Welcome to the PhysicsWallah family Manish! This time, NEET success is definitely yours!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'm feeling really confident about this decision. Looking forward to starting my preparation with PW!"
+    }
+  ],
+  "total_turns": 22,
+  "tier_label": "HOT"
+}

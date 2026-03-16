@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_017",
+  "scenario": {
+    "scenario_id": "hot_017",
+    "tier": "HOT",
+    "student_name": "Priya",
+    "city": "Coimbatore",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 5,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Main Priya bol rahi hun PhysicsWallah sales team se. Aapne hamare NEET courses ke baare mein inquiry ki thi. Am I speaking to the right person?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, main Priya hun Coimbatore se. Actually I was looking for some guidance about NEET preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great Priya! Nice to meet you. Tell me, aap currently which class mein ho? Aur NEET kab target kar rahe ho?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually main dropper hun. I failed last year and must crack it this time. NEET 2025 is my target, sirf 5 months left hain."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand Priya, and don't worry - bahut students second attempt mein clear karte hain with proper guidance. For droppers like you, humara NEET Sankalp 2027 batch perfect hai. What's your current preparation level?"
+    },
+    {
+      "speaker": "student",
+      "text": "Mera preparation average hai, some topics are strong but Physics aur Chemistry mein gaps hain. What does this Sankalp batch include exactly?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! NEET Sankalp is specially designed for droppers. You get complete syllabus coverage, daily practice sessions, weekly tests, and doubt clearing sessions. Plus Alakh Sir's recorded lectures with live doubt sessions. Budget ki koi constraint hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major issue if the course is really good. But I want to make sure it's worth it. What's the fee structure?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! NEET Sankalp 2027 is ₹44,999 for the complete package. But Priya, we have 0% EMI option through PW Pay - just ₹4,499 per month. That's less than what most families spend daily! Who takes decisions about your studies - you or do you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "I can decide myself, parents have given me full authority for my preparation. The EMI option sounds good. But will 5 months be enough to cover everything?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! 5 months is sufficient with focused preparation. Our Sankalp batch has crash course modules specifically for this timeline. Plus you'll get previous year analysis and high-yield topics focus. Many students have cracked NEET in similar timeframes with us."
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds promising. One more thing - will I get personal mentorship or doubt support? Because I struggled with self-study last time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul Priya! You get dedicated doubt clearing sessions, plus access to PW mentors. There's also a study group for droppers where you can interact with peers. We ensure no student feels alone in their journey. Shall I help you enroll today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, I think this is exactly what I need. Let's proceed with the enrollment. Can you guide me through the process?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Fantastic! I'm so happy to have you in PW family. I'll share the enrollment link on your WhatsApp right now. You can pay through PW Pay and start immediately. Your NEET 2025 success journey starts today! All the best!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'm feeling confident now. Please send the link, I'll complete the payment today itself."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

@@ -1,0 +1,89 @@
+{
+  "conversation_id": "cold_001",
+  "scenario": {
+    "scenario_id": "cold_001",
+    "tier": "COLD",
+    "student_name": "Saurabh",
+    "city": "Kota",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 25,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. I understand you showed interest in our JEE courses. May I know your good name please?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... uh, Saurabh. I'm from Kota."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great Saurabh! Kota - the coaching hub! So which class are you currently in? And are you preparing for JEE specifically?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th right now. Haan, JEE Main ke liye soch raha hun. But I'm just looking at options for now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 10 se start karna is actually ideal for JEE preparation. So you'll be appearing for JEE in 2027, right? That gives you good 2+ years to prepare properly."
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, 2027. But there are so many coaching options here in Kota already... why should I consider online?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul valid question! See, our JEE Lakshya 2027 batch combines the best of both - Kota level teaching quality but at much more affordable rates. Plus you get recorded lectures, so revision becomes easy. Have you checked any pricing for offline coaching there?"
+    },
+    {
+      "speaker": "student",
+      "text": "Offline coaching is quite expensive here... around 1.5-2 lakhs easily. What's your pricing like?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Exactly my point! Our JEE Lakshya 2027 is just ₹35,999 for the complete 2-year program. That's almost 4-5 times cheaper! And we offer 0% EMI at just ₹3,499 per month through PW Pay - that's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "That does sound reasonable... but I'll need to discuss with my parents first. Can you call back later?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Family decision hai, I totally understand. When would be a good time to call back? And should I speak directly with your parents as well to explain the course structure?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe tomorrow evening around 7 PM? And yes, you can talk to my father if needed. He handles these decisions mostly."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call tomorrow at 7 PM sharp. Meanwhile, I'll send you a detailed brochure on WhatsApp. What's your number? And Saurabh, any specific subjects you're particularly worried about for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "It's 98765-43210. Physics and Maths are okay, but Chemistry seems tough. Will your course cover everything from basics?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Our Lakshya batch starts from NCERT basics and gradually builds up to JEE Advanced level. Chemistry ke liye Alakh Sir's teaching method is amazing - students say it becomes their favorite subject! I'll share some demo videos too."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, sounds good. I'll check the videos and discuss with parents. Talk tomorrow then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Saurabh! I'll send everything on WhatsApp in 10 minutes. Tomorrow 7 PM confirmed. Have a great day and all the best for your JEE journey! Take care!"
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "COLD"
+}

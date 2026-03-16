@@ -1,0 +1,77 @@
+{
+  "conversation_id": "hot_008",
+  "scenario": {
+    "scenario_id": "hot_008",
+    "tier": "HOT",
+    "student_name": "Ayush",
+    "city": "Mumbai",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 3,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya calling from PhysicsWallah. Am I speaking with Ayush?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Ayush. I had inquired about JEE courses on your website."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Thank you for showing interest in PW. So Ayush, which class are you currently in and when are you planning to appear for JEE?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. Actually, I'm planning to give JEE Advanced this year itself - in about 3 months."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh great! So you're targeting JEE Advanced 2025. That's excellent timing. Tell me, how has your preparation been so far? Are you looking for comprehensive coverage or specific subject focus?"
+    },
+    {
+      "speaker": "student",
+      "text": "My preparation is okay but I feel I need more structured guidance, especially for Physics and Maths. I've heard good things about PW's teaching quality."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Our faculty is amazing. For your timeline, I'd recommend our JEE Lakshya program - it's our premium course with live classes, doubt clearing, and intensive practice sessions. The investment is ₹35,999 with 0% EMI at just ₹3,499 per month. Is budget a concern for your family?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price sounds reasonable. Actually, my parents are also here with me right now and they want to know about the course structure and if I can start immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! Please tell your parents that with Lakshya, Ayush gets live interactive classes, recorded lectures for revision, weekly tests, and dedicated mentorship. Since JEE Advanced is just 3 months away, we can get him started right away - even tomorrow if needed. Would you like me to explain the enrollment process?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be helpful. Also, my parents are asking - what if I need extra doubt clearing sessions? Is that included in the course fee?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Doubt clearing is completely included - we have dedicated doubt clearing sessions twice a week, plus our PW app has 24/7 doubt support. No hidden charges at all. For enrollment, we just need a small registration fee today and you can start attending classes. Should I send you the payment link?"
+    },
+    {
+      "speaker": "student",
+      "text": "My parents want me to start immediately since time is running short. Can you confirm what documents or things I'll need to get started today itself?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect decision! You'll just need your mobile number for login credentials and that's it. Once payment is done, you'll get your login details within 30 minutes and can join today's evening batch. The next intensive session starts at 6 PM. Shall I process your enrollment for JEE Lakshya 2025 right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's go ahead with it. This sounds exactly what I need for my JEE Advanced preparation."
+    }
+  ],
+  "total_turns": 14,
+  "tier_label": "HOT"
+}

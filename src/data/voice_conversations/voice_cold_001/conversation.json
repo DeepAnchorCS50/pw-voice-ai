@@ -1,0 +1,185 @@
+{
+  "conversation_id": "voice_cold_001",
+  "tier": "COLD",
+  "region": "north",
+  "scenario": {
+    "id": "voice_cold_001",
+    "tier": "COLD",
+    "region": "north",
+    "name": "Rohan",
+    "city": "Kanpur",
+    "state": "UP",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 26,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "key_situation": "Just exploring, parents not aware he called"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Hello! Main Priya bol rahi hun PhysicsWallah se. Aapne humari website pe inquiry ki thi. Kaise hai aap?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hello... haan main Rohan hun. Actually main bas dekh raha tha online courses ke baare mein.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Great Rohan! Aap kahan se ho aur currently kis class mein ho?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Main Kanpur se hun aur class 10th mein hun. Abhi boards bhi aane wale hain.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "Accha Kanpur se! Boards ke saath saath kya aap competitive exams ki bhi preparation soch rahe ho? JEE ya NEET?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "Haan bhaiya, main JEE ki taiyari karna chahta hun. Engineering mein interest hai. Par abhi toh bas explore kar raha hun options.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "That's excellent Rohan! JEE ki preparation 10th ke baad start karna bahut smart decision hai. Aapke ghar mein parents ko pata hai aapne call ki hai?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Actually nahi... main bas dekh raha tha ki kya options hain. Parents ko abhi bataya nahi hai. Pehle main samajhna chahta hun.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "Bilkul sahi approach hai! Pehle research kar lena chahiye. Batao, currently aap koi coaching join ki hai ya self-study kar rahe ho?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Abhi toh school ki padhai focus mein hai. Coaching ke liye socha hai but Kanpur mein ache institutes thode expensive hain.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "Haan, traditional coaching ka cost definitely high hota hai. PhysicsWallah mein hum quality education affordable mein provide karte hain. JEE Main ka target hai na aapka?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Haan JEE Main. Advanced ka nahi pata, pehle Main clear kar lun. Aapke courses kitne ka hota hai? Zyada expensive toh nahi?",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Dekho Rohan, humara Lakshya batch jo class 11th-12th ke liye hai, wo sirf Rs. 3999 for 2 years. Traditional coaching mein toh monthly 5000+ lagta hai!",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "Wow, that's quite reasonable! Par quality kaisi hai? Maine suna hai Alakh sir acche padhate hain.",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "Absolutely! Alakh sir personally Physics padhate hain, and we have experienced faculty for Chemistry aur Maths bhi. 50+ lakh students trust karte hain PW ko.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "Sounds good. Par main abhi 10th mein hun, toh kya 11th start hone ka wait karna chahiye?",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "Actually Rohan, humara Foundation course hai 10th ke students ke liye - 'Udaan'. It helps in smooth transition from 10th to 11th aur JEE preparation.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "Hmm interesting. But honestly, mujhe parents se discuss karna padega budget ke liye. They handle all financial decisions.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "Bilkul Rohan, that's very responsible of you. Parents ke saath discuss karna important hai. Kya main aapko course details WhatsApp pe send kar dun?",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "Haan that would be helpful. But abhi commitment nahi kar sakta. Pehle ghar mein baat karni hai ki budget kya hai coaching ke liye.",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "No pressure at all! Main aapko complete information send karunga. Aap parents ke saath discuss kar lena. Koi questions ho toh call kar sakte ho.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "Thank you Priya. Aap helpful ho. Main details dekhunga aur parents se baat karunga. Maybe kuch weeks mein clear picture hoga.",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "Perfect Rohan! Take your time. Education investment mein rush nahi karna chahiye. Main aapko study tips aur free resources bhi share karunga meanwhile.",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "That's great! Free resources help karega 10th boards ke liye bhi. Thank you for being so understanding.",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Anytime Rohan! Boards mein best of luck. Aur remember, JEE preparation mein consistency is key. Feel free to reach out whenever ready. Take care!",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "Thank you so much Priya! Will definitely keep in touch. Bye!",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "Bye Rohan! All the best for your boards aur future planning. Stay connected!",
+      "audio_file": "msg_026_agent.mp3"
+    }
+  ],
+  "total_messages": 27,
+  "language": "hinglish"
+}

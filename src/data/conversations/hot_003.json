@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_003",
+  "scenario": {
+    "scenario_id": "hot_003",
+    "tier": "HOT",
+    "student_name": "Rahul",
+    "city": "Guwahati",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 4,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Rahul? I hope I'm not disturbing you. I'm calling regarding your interest in our JEE preparation courses."
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Rahul. No, you're not disturbing. Actually, I was looking at your courses online and was quite interested."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful, Rahul! I'm glad to hear that. Could you tell me which class you're currently in and which exam you're targeting?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now, and I'm preparing for JEE Advanced. I've been studying on my own but feel like I need some structured guidance now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Advanced is definitely achievable with the right preparation. Since you're in 12th, I assume your exam is in about 4-5 months? And Rahul, are you the one making this decision or would your parents also be involved?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, exactly 4 months left. Actually, my parents want me to start immediately - they're quite concerned about the timeline. My father is also here with me right now if you want to speak with him."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great that your parents are supportive! For JEE Advanced preparation with 4 months left, I'd recommend our JEE Lakshya 2027 course at ₹35,999. It has intensive revision, advanced problem solving, and mock tests specifically for Advanced level. Bilkul perfect for your timeline."
+    },
+    {
+      "speaker": "student",
+      "text": "The course sounds good, but I wanted to ask - what exactly is covered in the Lakshya course? And is there any EMI option available? My parents are asking about the payment structure."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! JEE Lakshya covers complete syllabus revision, advanced numericals, previous year questions, and weekly mock tests. For payment, we have 0% EMI through PW Pay - just ₹3,499 per month. That's less than what most families spend on daily chai! Your parents can start today and you can begin classes immediately."
+    },
+    {
+      "speaker": "student",
+      "text": "That EMI option sounds very reasonable. My father is nodding in approval. When can I actually start the classes? And will I get access to all the study materials right away?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Fantastic! You can start today itself, Rahul. Once we complete the enrollment, you'll get immediate access to all video lectures, PDFs, DPPs, and test series. Plus our doubt clearing sessions are available 24/7. Shall I help you with the enrollment process right now?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, let's do it! My parents are saying to go ahead. Just one last question - if I face any technical issues or need help with the platform, is there support available?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, Rahul! We have dedicated tech support and academic mentors available round the clock. Plus you'll get my direct number for any urgent queries. Theek hai, let me share the enrollment link with you right now, and I'll stay on the call to guide you through each step."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Thank you so much, Priya. This sounds exactly what I needed. I'm ready to enroll now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful, Rahul! I'm so excited for your JEE Advanced journey with us. Let me process your enrollment for JEE Lakshya 2027 with the EMI option. You're going to do amazing! Welcome to the PW family!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much, Priya! I'm really looking forward to starting the preparation. My parents are also very happy with the decision."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

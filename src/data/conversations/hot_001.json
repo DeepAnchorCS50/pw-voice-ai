@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_001",
+  "scenario": {
+    "scenario_id": "hot_001",
+    "tier": "HOT",
+    "student_name": "Meera",
+    "city": "Indore",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 3,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I need to enroll this week",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good morning, main Priya bol rahi hun from PhysicsWallah sales team. I hope I'm not disturbing you. Am I speaking with Meera?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, yes this is Meera. Actually I was just looking at your website, so your call is perfectly timed!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh that's wonderful! Meera, may I know which class you're currently in and which exam are you preparing for?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in class 12th right now. I'm preparing for JEE Main basically. I've been studying on my own but I think I need some structured guidance now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh mein aa raha hai Meera. JEE Main is in just 3-4 months na? Are you looking for immediate enrollment or planning for later?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually that's the thing - JEE Main is in January so just 3 months left. I really need to enroll this week itself. Can you tell me what options you have for someone like me?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing Meera! For JEE 2025 with just 3 months left, our JEE Arjuna batch would be ideal - it's ₹19,999 with intensive revision and problem solving. We also have JEE Lakshya at ₹35,999 for more comprehensive coverage. What's your comfort level budget-wise?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for me. But I want to understand - what's the main difference between Arjuna and Lakshya? Which one would you recommend for my situation?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Since you have good budget flexibility and only 3 months left, I'd actually recommend JEE Lakshya 2025. It has more intensive doubt sessions, additional test series, and 1-on-1 mentoring calls which will be crucial for last-minute preparation. Are you comfortable making this decision today or do you need to discuss with parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "No no, I can decide on my own. My parents have already given me the go-ahead to choose whatever course I feel is best. The Lakshya batch sounds good - it has everything I need for these crucial months."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent Meera! So JEE Lakshya 2025 it is - ₹35,999. We can set up 0% EMI through PW Pay at just ₹3,499 per month if that works better for you. The batch starts immediately with live classes from Monday. Shall I proceed with the enrollment?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan bilkul! The EMI option sounds convenient. Can you just confirm what all is included in this Lakshya batch? I want to be completely sure before we finalize."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! JEE Lakshya includes daily live classes, recorded lectures access, weekly tests, all-India test series, doubt clearing sessions, study material PDFs, and monthly mentoring calls. Plus 24/7 support. You'll get everything you need for JEE prep, Meera."
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! That covers everything I was looking for. The mentoring calls will be really helpful for strategy in these last months. Please go ahead with the enrollment process."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful Meera! I'm so excited for your JEE journey with us. Let me quickly process your enrollment for JEE Lakshya 2025 with EMI option. I'll send you the payment link and course access details on your registered number. Welcome to the PW family!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! I'm really looking forward to starting the classes. This feels like exactly what I needed at the right time. Thanks for all the detailed information and for making this so smooth."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

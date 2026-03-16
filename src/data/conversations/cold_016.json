@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_016",
+  "scenario": {
+    "scenario_id": "cold_016",
+    "tier": "COLD",
+    "student_name": "Arjun",
+    "city": "Bangalore",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 23,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Good afternoon. This is Priya from PhysicsWallah sales team. Am I speaking with Arjun? I hope I'm not disturbing you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh, yes this is Arjun. I'm free right now, but I'm not really looking to buy anything immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries at all Arjun! I completely understand. I'm just calling to see if you need any guidance with your studies. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now."
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! Class 11 is such an important year. Are you preparing for any competitive exams like JEE or NEET? Or focusing mainly on boards?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, I'm thinking about JEE Main. But I'm just exploring options right now, not ready to decide anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai! It's smart to explore properly. Since you're in 11th, you have good time - almost 2 years for JEE Main 2027. Are you currently taking any coaching or self-studying?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm doing some self-study, but it's getting difficult. That's why I was looking at different platforms online."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, self-study can be challenging without proper guidance. At PW, we have structured courses specifically for JEE 2027. Have you checked our course structure? And just to understand better - what's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a huge issue, but I haven't really decided on a specific amount. I need to discuss with my parents first before making any decisions."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's very sensible Arjun! Family discussion is important for such decisions. We have courses like JEE Lakshya 2027 at ₹35,999 with complete 2-year guidance, or JEE Arjuna at ₹19,999. Both have EMI options starting ₹1999 per month. Would you like me to share details with you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe later. I'm still comparing different platforms. There are so many options available, it's confusing."
+    },
+    {
+      "speaker": "agent",
+      "text": "I totally understand the confusion! That's why I suggest - take a demo class first. No commitment needed. You can experience our teaching style and then decide. Would you be interested in a free trial? I can arrange it for this weekend."
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, I'm not sure about this weekend. I have some other commitments. Can you call me back next week? I'll have more clarity by then."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Arjun! I'll call you next week. Meanwhile, I'll WhatsApp you our course brochure and demo class links. You can check whenever you're free. What's a good time to call you next week?"
+    },
+    {
+      "speaker": "student",
+      "text": "Tuesday evening around 6 PM should work. And yes, please send the brochure on WhatsApp. I'll go through it and discuss with my parents."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

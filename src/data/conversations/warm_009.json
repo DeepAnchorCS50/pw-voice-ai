@@ -1,0 +1,133 @@
+{
+  "conversation_id": "warm_009",
+  "scenario": {
+    "scenario_id": "warm_009",
+    "tier": "WARM",
+    "student_name": "Ayush",
+    "city": "Ranchi",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 9,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "medium",
+    "key_phrase": "I'm interested but need to discuss with my parents",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! This is Priya from PhysicsWallah. Am I speaking with Ayush?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Ayush speaking."
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Ayush! I hope I'm not disturbing you. I'm calling regarding your interest in our JEE preparation courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm doing good. Actually I was looking at some online courses for JEE preparation, so this call is timely."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful! Can you tell me which class you're currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 11 right now, just started a few months back."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Class 11 is the ideal time to start JEE preparation. Are you targeting JEE Main or JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "Mainly JEE Main for now. I want to get into a good NIT or maybe IIIT."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice! NITs and IIITs are fantastic institutions. So you'll be appearing for JEE Main in 2027, right? That gives you about 15-16 months of solid preparation time."
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I was thinking more like 9-10 months of focused preparation. I want to cover the basics first in school."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's a smart approach, Ayush. Even with 9-10 months of focused prep, you can definitely crack JEE Main with the right guidance. Are you currently taking any coaching classes?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, not yet. I was comparing online vs offline options. Online seems more convenient and probably cheaper too."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Online coaching gives you flexibility and is definitely more affordable. At PW, we have our JEE Lakshya 2027 batch which is perfect for students like you - comprehensive coverage with live classes and recorded lectures."
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds good. What's the fee structure like? I need to make sure it fits our budget."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand budget is important. Our JEE Lakshya 2027 is priced at ₹35,999 for the complete course. But here's the good news - we offer 0% EMI through PW Pay at just ₹3,499 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "Hmm, that's still quite a bit for us. Do you have any other options that might be more affordable?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! We also have JEE Arjuna 2027 batch at ₹19,999 with EMI of just ₹1,999 per month. It covers all the essential topics with quality faculty. Would this work better for your budget?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds more reasonable. What's the difference between Lakshya and Arjuna batches?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Lakshya is our premium batch with additional features like more doubt-solving sessions, extra practice tests, and 1-on-1 mentorship. Arjuna covers all core topics comprehensively with live classes, but with slightly fewer additional features. Both have the same quality faculty though."
+    },
+    {
+      "speaker": "student",
+      "text": "The Arjuna batch seems suitable for me. But I'll need to discuss this with my parents before making any decision."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely, Ayush! That's very sensible. Family discussions are important for such decisions. Would you like me to call back after you've had a chance to talk with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that would be great. Can you call me back tomorrow evening? Around 7 PM would be good."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you tomorrow at 7 PM. Meanwhile, I'll send you a WhatsApp message with all the details about JEE Arjuna 2027 batch so you can share it with your parents. Sound good?"
+    },
+    {
+      "speaker": "student",
+      "text": "That's very helpful, thank you Priya. I'll discuss with my parents and we can talk tomorrow."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Just to confirm, I have your number ending with the digits you registered with. And if you have any urgent questions before tomorrow, feel free to WhatsApp me. All the best for your preparation, Ayush!"
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much. I'll wait for your message and talk to you tomorrow. Have a good day!"
+    },
+    {
+      "speaker": "agent",
+      "text": "You too, Ayush! Talk to you tomorrow at 7 PM. Bye!"
+    },
+    {
+      "speaker": "student",
+      "text": "Bye, thank you again!"
+    }
+  ],
+  "total_turns": 28,
+  "tier_label": "WARM"
+}

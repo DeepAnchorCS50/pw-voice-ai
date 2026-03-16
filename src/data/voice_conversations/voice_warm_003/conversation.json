@@ -1,0 +1,185 @@
+{
+  "conversation_id": "voice_warm_003",
+  "tier": "WARM",
+  "region": "north",
+  "scenario": {
+    "id": "voice_warm_003",
+    "tier": "WARM",
+    "region": "north",
+    "name": "Anjali",
+    "city": "Indore",
+    "state": "MP",
+    "class": "12",
+    "exam": "JEE Main",
+    "months_to_exam": 8,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "key_situation": "Wants to start but confused between online and offline"
+  },
+  "messages": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "text": "Namaste Anjali! Main Priya bol rahi hun PhysicsWallah se. Aapne humse JEE preparation ke liye contact kiya tha. Kaise hain aap?",
+      "audio_file": "msg_000_agent.mp3"
+    },
+    {
+      "index": 1,
+      "speaker": "student",
+      "text": "Hi Priya di! Haan main theek hun. Actually mujhe JEE ki preparation start karni hai, bas thoda confused hun kaise start karu.",
+      "audio_file": "msg_001_student.mp3"
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun main. Pehle ye bataiye, aap abhi class 12th mein hain na? Aur JEE Main ka exam kab hai aapka?",
+      "audio_file": "msg_002_agent.mp3"
+    },
+    {
+      "index": 3,
+      "speaker": "student",
+      "text": "Haan di, main class 12th mein hun. JEE Main January mein hai, matlab abhi 8 months hain mere paas preparation ke liye.",
+      "audio_file": "msg_003_student.mp3"
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "text": "Achha, ye to perfect timing hai Anjali! 8 months mein achi preparation ho sakti hai. Ek baat batayiye, aapne JEE ki preparation pehle se start ki hai ya bilkul fresh start kar rahe hain?",
+      "audio_file": "msg_004_agent.mp3"
+    },
+    {
+      "index": 5,
+      "speaker": "student",
+      "text": "Actually di, 11th mein thoda sa kiya tha but not properly. Ab seriously start karna chahti hun. Bas main confused hun ki online classes lu ya offline coaching join karu.",
+      "audio_file": "msg_005_student.mp3"
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "text": "Main samajh gayi. Ye confusion natural hai. Aap Indore se hain na? Wahan offline coaching options bhi honge. Batayiye, online aur offline dono ke bare mein aapko kya lagta hai?",
+      "audio_file": "msg_006_agent.mp3"
+    },
+    {
+      "index": 7,
+      "speaker": "student",
+      "text": "Haan di, Indore mein bahut coaching institutes hain. But online ki flexibility achhi lagti hai. Aur PW ke teachers ka naam suna hai, unke teaching style achhe hain. Offline mein travel time bhi waste hota hai.",
+      "audio_file": "msg_007_student.mp3"
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "text": "Bilkul sahi keh rahi hain aap! Online ki flexibility really helpful hoti hai especially when you have school bhi. Aur humari faculty like Alakh sir, Pankaj sir - unka teaching approach bahut clear hai. Aapko Physics, Chemistry, Maths mein se koi particular subject difficult lagta hai?",
+      "audio_file": "msg_008_agent.mp3"
+    },
+    {
+      "index": 9,
+      "speaker": "student",
+      "text": "Physics mujhe thoda tough lagti hai di. Chemistry organic part mein problem hoti hai. Maths okay hai comparatively. Main chahti hun ki concepts clear ho jaayein properly.",
+      "audio_file": "msg_009_student.mp3"
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "text": "Perfect! Actually ye subjects jo aapne mention kiye, exactly yahi areas hain jahan humari online classes sabse zyada helpful hoti hain. Alakh sir ki Physics bilkul basic se start hoti hai aur step by step concepts clear karte hain. Aapke paas laptop/phone hai na classes attend karne ke liye?",
+      "audio_file": "msg_010_agent.mp3"
+    },
+    {
+      "index": 11,
+      "speaker": "student",
+      "text": "Haan di, laptop hai mere paas aur internet connection bhi achha hai. But ek doubt hai - online mein doubt clearing kaise hoti hai? Offline mein to teacher se directly puch sakte hain.",
+      "audio_file": "msg_011_student.mp3"
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "text": "Ye bahut valid question hai Anjali! Humari online classes mein live doubt sessions hote hain regularly. Plus doubt discussion app hai where aap 24/7 doubts post kar sakte hain. Faculty members aur senior students help karte hain. Aur recorded lectures hain to aap repeat kar sakte hain jitni baar chahiye.",
+      "audio_file": "msg_012_agent.mp3"
+    },
+    {
+      "index": 13,
+      "speaker": "student",
+      "text": "Oh achha! Ye to offline se better flexibility hai. Ek aur baat - mock tests aur practice material kaisa hai? JEE mein to practice bahut important hai na.",
+      "audio_file": "msg_013_student.mp3"
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "text": "Absolutely! Humara test series bahut comprehensive hai Anjali. Weekly tests hote hain, monthly full syllabus tests, aur JEE Main pattern ke exact tests. Plus DPPs (Daily Practice Problems) milti hain. Performance analysis bhi detailed hoti hai ki kahan improve karna hai.",
+      "audio_file": "msg_014_agent.mp3"
+    },
+    {
+      "index": 15,
+      "speaker": "student",
+      "text": "Sounds good di! Course fees kya hai? Aur kya course recommend karogi aap mere liye with 8 months time?",
+      "audio_file": "msg_015_student.mp3"
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "text": "Aapke liye main 'Lakshya JEE Main 2024' course recommend karungi. Ye specifically 8-12 months ke timeline ke liye designed hai. Complete syllabus coverage with revision. Fees hai ₹8999 for full course with test series included. EMI options bhi available hain.",
+      "audio_file": "msg_016_agent.mp3"
+    },
+    {
+      "index": 17,
+      "speaker": "student",
+      "text": "Okay di, fees reasonable hai. But mujhe parents se discuss karna hoga. Main directly decision nahi le sakti. Unhe convince karna padega ki online better hai offline se.",
+      "audio_file": "msg_017_student.mp3"
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "text": "Bilkul Anjali, ye important decision hai aur parents se discuss karna chahiye. Main aapko kuch points suggest kar sakti hun - cost effective hai, time saving hai, aur flexibility hai. Aap chahiye to main parents se bhi baat kar sakti hun explain karne ke liye.",
+      "audio_file": "msg_018_agent.mp3"
+    },
+    {
+      "index": 19,
+      "speaker": "student",
+      "text": "Haan di, wo achha rahega. Papa ko thoda doubt hota hai online education pe. Agar aap unse baat kar sako to better hoga. Kya main unhe call pe bula sakti hun sometime?",
+      "audio_file": "msg_019_student.mp3"
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "text": "Definitely! Main unse baat kar sakti hun. Kal evening 6-7 baje ka time suit karega? Main unhe PhysicsWallah ke success stories, our teaching methodology aur online vs offline benefits explain kar dungi properly.",
+      "audio_file": "msg_020_agent.mp3"
+    },
+    {
+      "index": 21,
+      "speaker": "student",
+      "text": "Perfect di! Kal 6:30 pe main papa ko ready rakhugi. Aur kya main trial class le sakti hun pehle? Just to get a feel of online teaching style?",
+      "audio_file": "msg_021_student.mp3"
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "text": "Bilkul! Main aapko 3 days ka free trial access send kar dungi. Aap Physics, Chemistry, Maths - teeno subjects ki classes attend kar sakte hain. Demo lectures dekh kar better idea ho jayega.",
+      "audio_file": "msg_022_agent.mp3"
+    },
+    {
+      "index": 23,
+      "speaker": "student",
+      "text": "Great! Thanks di. Ye trial classes ke baad aur parents se discussion ke baad main final decision le lungi. Aap bahut helpful hain.",
+      "audio_file": "msg_023_student.mp3"
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "text": "Thank you so much Anjali! Main aapka trial access aaj hi activate kar dungi. Aur kal parents se detailed discussion karugi. Feel free to call me anytime if any questions. All the best for your JEE preparation!",
+      "audio_file": "msg_024_agent.mp3"
+    },
+    {
+      "index": 25,
+      "speaker": "student",
+      "text": "Thank you so much Priya di! Main trial classes attend karungi aur feedback dugi. Kal parents se baat ke baad connect karti hun. Bye!",
+      "audio_file": "msg_025_student.mp3"
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "text": "Perfect Anjali! Take care aur trial classes enjoy kariye. See you soon. Bye!",
+      "audio_file": "msg_026_agent.mp3"
+    }
+  ],
+  "total_messages": 27,
+  "language": "hinglish"
+}

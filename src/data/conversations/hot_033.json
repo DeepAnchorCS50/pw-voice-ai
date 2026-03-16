@@ -1,0 +1,85 @@
+{
+  "conversation_id": "hot_033",
+  "scenario": {
+    "scenario_id": "hot_033",
+    "tier": "HOT",
+    "student_name": "Jyoti",
+    "city": "Thiruvananthapuram",
+    "class": "12",
+    "exam": "JEE Advanced",
+    "months_to_exam": 4,
+    "decision_maker": "parent_present",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "My parents want me to start immediately",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaskar! Am I speaking with Jyoti? Main Priya bol rahi hun PhysicsWallah ke sales team se. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Hi Priya! Haan, I'm Jyoti. I'm doing well, thank you. Actually, I had inquired about your JEE courses online."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful Jyoti! Bilkul, I can see your inquiry here. Tell me, which class are you currently in? And JEE Main ya Advanced - kya target hai aapka?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in Class 12 right now. My target is JEE Advanced actually. I want to get into IIT, so I need proper guidance for that level."
+    },
+    {
+      "speaker": "agent",
+      "text": "Excellent choice Jyoti! IIT ka sapna bahut achha hai. JEE Advanced ke liye kitna time hai aapke paas? Board exams ke saath-saath preparation chal rahi hai kya?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I have about 4 months left for JEE Advanced. Boards are also there, so I'm quite tensed about managing both. That's why I need structured coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan, bilkul samajh sakti hun. 4 months mein focused preparation ke liye main aapko JEE Lakshya 2027 recommend karungi. It's specifically designed for Advanced level with intensive problem solving. What's your budget range for coaching?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget is not a major concern for us. My parents want quality education and they're ready to invest. Actually, my mother is also here with me right now. Can you tell us about this Lakshya course in detail?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! Namaste aunty ji! JEE Lakshya 2027 is our premium course at ₹35,999. It includes live classes by Alakh Sir's team, advanced problem sets, mock tests, and doubt clearing sessions. EMI option bhi hai - ₹3,499 per month through PW Pay. Kya aur details chahiye?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds good Priya. I have two questions - first, will the 4-month timeframe be enough with this course? And second, how are the doubt clearing sessions conducted?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul enough hai Jyoti! Humara crash course methodology 4 months mein complete Advanced syllabus cover karta hai with intensive practice. Doubt sessions are live - aap directly teachers se interact kar sakti hai. Plus recorded sessions bhi available rehte hain 24/7."
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that's reassuring. My parents want me to start immediately actually. They feel I shouldn't waste any more time. When can I begin the classes?"
+    },
+    {
+      "speaker": "agent",
+      "text": "That's the best decision aunty ji aur Jyoti! Classes kal se hi start kar sakti hain. I'll share the enrollment link right after this call. Payment PW Pay se kar sakte hain - very secure hai. Shall I proceed with the enrollment process?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes Priya, please go ahead. My mom is nodding yes too. We're convinced that this is the right step for my IIT preparation."
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Main abhi enrollment details share kar rahi hun. Welcome to PW family Jyoti! Aapka IIT ka sapna definitely pura hoga. All the best for your preparation! Koi aur questions ho to call kar sakti hain."
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! You've been really helpful. I'm excited to start this journey with PhysicsWallah. Will definitely reach out if I have any doubts."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "HOT"
+}

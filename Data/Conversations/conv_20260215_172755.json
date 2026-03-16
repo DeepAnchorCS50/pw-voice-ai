@@ -1,0 +1,100 @@
+{
+  "conversation_id": "conv_20260215_172755",
+  "timestamp": "2026-02-15T17:27:55.056298",
+  "scenario": {
+    "student_name": "Rites Raman",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "low",
+    "budget_concern": "True",
+    "parent_support": "False"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rites Raman?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rites. Hi."
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Rites! I understand you've shown interest in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. Just started this academic year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! 11th is the ideal time to start serious JEE preparation. So you're targeting JEE Main and Advanced for 2026, correct?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that's the plan. But I'm still exploring my options, you know. Not in any rush to decide immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand. It's good to research thoroughly. What's most important to you when choosing a coaching program - teaching quality, study material, or something else?"
+    },
+    {
+      "speaker": "student",
+      "text": "Well, teaching quality is important, but honestly... I'm also concerned about the fees. My family has a limited budget for coaching."
+    },
+    {
+      "speaker": "agent",
+      "text": "I appreciate your honesty, Rites. Many students face this challenge. The good news is we have various scholarship programs and affordable batch options. What's your approximate budget range, if you don't mind sharing?"
+    },
+    {
+      "speaker": "student",
+      "text": "Um, maybe around 30-40 thousand for the entire program? I know that might be low for good coaching. My parents aren't very supportive of expensive coaching either."
+    },
+    {
+      "speaker": "agent",
+      "text": "Actually, that's quite reasonable! Our Lakshya batch for 11th-12th JEE preparation is around 35,000, and we also have scholarship tests that can reduce fees by 25-75%. Have you appeared for any scholarship tests before?"
+    },
+    {
+      "speaker": "student",
+      "text": "No, I haven't. How do these scholarship tests work? And what if I don't score well enough?"
+    },
+    {
+      "speaker": "agent",
+      "text": "The scholarship test is based on your current academic level - 10th standard concepts mostly. Even if you don't get maximum scholarship, you still get some discount. Plus, we have EMI options to make it more manageable. Would you like me to schedule a free scholarship test for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds interesting. But I'd like to know more about the teaching faculty and study material first. Can you tell me about that?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Our faculty includes Alakh Sir himself for Physics, and IIT graduates for all subjects. You get comprehensive study material, recorded lectures you can replay anytime, and regular tests. We also provide doubt-clearing sessions. Would you like me to send you a demo video?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, a demo would be helpful. And when would I need to make a final decision? I want to discuss this with my family too."
+    },
+    {
+      "speaker": "agent",
+      "text": "Take your time, Rites. I'll send the demo videos and scholarship test details to your WhatsApp. You can take the test within the next 2 weeks, and we'll hold your discounted seat for 48 hours after results. Does that work for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds fair. Yes, please send me the details. I'll watch the demos and discuss with my parents before taking the scholarship test."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send everything within the next hour. Also, I'll follow up with you in 3-4 days to see if you have any questions after reviewing the material. Is this the best number to reach you on?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this number is fine. And WhatsApp too. Thanks for being understanding about the budget thing, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course, Rites! Education should be accessible to everyone. I'm confident we can find a solution that works for your family. Looking forward to helping you achieve your JEE goals. Have a great day!"
+    }
+  ],
+  "total_turns": 21,
+  "duration_seconds": 525
+}

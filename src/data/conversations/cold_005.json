@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_005",
+  "scenario": {
+    "scenario_id": "cold_005",
+    "tier": "COLD",
+    "student_name": "Sahil",
+    "city": "Kota",
+    "class": "10",
+    "exam": "JEE Main",
+    "months_to_exam": 25,
+    "decision_maker": "parent_later",
+    "budget_concern": true,
+    "engagement_level": "low",
+    "key_phrase": "I'm just looking at options for now",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Am I speaking with Sahil? Hi, this is Priya from PhysicsWallah sales team. I hope I'm not disturbing you. I see you've shown interest in our JEE courses. How are you doing today?"
+    },
+    {
+      "speaker": "student",
+      "text": "Uh, hi... haan I'm okay. Actually I was just browsing online, didn't expect a call so soon."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh no worries at all Sahil! I completely understand. We just like to connect with students personally to see how we can help. Can I quickly ask - which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 10th right now... just finished my boards actually."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great! Congratulations on completing 10th! So you must be thinking about your next steps now. Are you planning to prepare for JEE or any other competitive exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, JEE Main... but I'm just looking at options for now. Haven't really decided anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul, that's the smart approach Sahil! It's good to explore all options. Since you're starting after 10th, you have a good 2+ years for preparation which is perfect. Have you thought about when you'd like to start your preparation seriously?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe after joining 11th... but honestly I don't know much about these coaching things. And I'm sure they must be quite expensive."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern about the fees, Sahil. That's exactly why PhysicsWallah exists - to make quality education affordable! Our JEE Lakshya 2027 batch is ₹35,999 for the complete 2-year program, but here's the good part - we offer 0% EMI at just ₹3,499 per month. That's less than what most families spend on daily chai!"
+    },
+    {
+      "speaker": "student",
+      "text": "₹3,499 per month... hmm. That's still quite a bit. Is there any cheaper option? I mean, I'd have to discuss with my parents first anyway."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Sahil, discussing with parents is absolutely the right thing to do! We also have JEE Arjuna 2027 batch at ₹19,999 with EMI of just ₹1,999 per month. Both courses have excellent faculty and study material. Would you like me to share the course details with you so you can discuss properly with your parents?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yeah, that would be helpful I guess. But I'm not in any hurry to decide right now. Can you maybe call back after a few days?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Sahil! No pressure at all. I'll share the course brochure on your WhatsApp today, and you can take your time to go through it with your family. When would be a good time for me to follow up with you?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe after a week? I need to talk to my parents properly and also see what other options are there in Kota."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll call you next week then. Sahil, just one quick thing - since you're in Kota, you already know the importance of good coaching. With PW, you get the same quality education at a fraction of offline coaching costs, plus the flexibility to study from home. I'll send you some demo classes too, theek hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, that sounds fine. Send me the details and we'll see. Thanks for calling, Priya."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

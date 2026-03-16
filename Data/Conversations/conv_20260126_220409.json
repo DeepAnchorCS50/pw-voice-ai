@@ -1,0 +1,100 @@
+{
+  "conversation_id": "conv_20260126_220409",
+  "timestamp": "2026-01-26T22:04:09.007464",
+  "scenario": {
+    "student_name": "Rahul Kumar",
+    "class": "11th",
+    "exam": "JEE",
+    "urgency": "high",
+    "budget_concern": false,
+    "parent_support": true
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Good morning! This is Priya from PhysicsWallah. Am I speaking with Rahul?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, this is Rahul. Hi!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great! I understand you're interested in our JEE coaching program. Which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "I'm in 11th standard right now. I just started this academic year."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing! Starting JEE preparation from 11th gives you a solid foundation. Are you targeting JEE Main or JEE Advanced?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually, I want to crack JEE Advanced. I'm aiming for IIT. That's my dream."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's excellent! IIT is definitely achievable with proper guidance. How urgent is it for you to start? Are you looking to begin immediately?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, very urgent. My friends have already started coaching and I feel like I'm falling behind. I need to start as soon as possible."
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand that concern. Don't worry, we have many students who start mid-session and still excel. Have you discussed this with your parents? Do they support your IIT goal?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, my parents are very supportive. They want me to get the best coaching available. They said money is not an issue if it's for my future."
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful support from your family! Our comprehensive 2-year JEE Advanced program includes live classes, recorded lectures, study material, and regular tests. What specific subjects are you most concerned about?"
+    },
+    {
+      "speaker": "student",
+      "text": "Physics and Maths are okay, but Chemistry is really tough for me. I struggle with organic chemistry especially. Do you have specialized help for that?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Our Chemistry faculty specializes in making organic chemistry simple with easy tricks and mnemonics. We also provide doubt-clearing sessions. Would you like me to arrange a free demo class for you this week?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that sounds great! But um, what about the fees? I know my parents said they'll manage, but I still want to know the cost."
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Our complete 2-year JEE Advanced program is ₹45,000, which includes everything I mentioned. We also have installment options. Given your urgency, would you prefer to start with the demo class this Saturday?"
+    },
+    {
+      "speaker": "student",
+      "text": "₹45,000 for 2 years? That actually sounds reasonable compared to other institutes. Yes, I'd love to attend the demo class on Saturday."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll register you for Saturday's Physics demo class at 10 AM. You'll receive the link via SMS. Can I get your WhatsApp number to send you our study material sample?"
+    },
+    {
+      "speaker": "student",
+      "text": "Sure, my number is 9876543210. Will I get to meet other students too during the demo?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, you'll interact with current students and see our live classroom environment. After the demo, we can discuss enrollment and I'll connect you with our academic counselor for a personalized study plan. Does that work for you?"
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds perfect! I'm really excited about this. Thank you so much for explaining everything clearly, Priya."
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome, Rahul! I'll send you all the details on WhatsApp within an hour. See you on Saturday, and remember - your IIT dream is absolutely achievable with the right guidance. Have a great day!"
+    }
+  ],
+  "total_turns": 21,
+  "duration_seconds": 525
+}

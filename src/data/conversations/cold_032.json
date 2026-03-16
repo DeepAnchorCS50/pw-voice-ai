@@ -1,0 +1,85 @@
+{
+  "conversation_id": "cold_032",
+  "scenario": {
+    "scenario_id": "cold_032",
+    "tier": "COLD",
+    "student_name": "Sahil",
+    "city": "Chandigarh",
+    "class": "11",
+    "exam": "JEE Main",
+    "months_to_exam": 20,
+    "decision_maker": "parent_later",
+    "budget_concern": false,
+    "engagement_level": "low",
+    "key_phrase": "I'm exploring, not ready to decide yet",
+    "course_to_mention": "JEE Lakshya 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, this is Priya from PhysicsWallah. Am I speaking with Sahil?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, yes this is Sahil. But I'm a bit busy right now..."
+    },
+    {
+      "speaker": "agent",
+      "text": "Oh sorry for calling at a busy time! I'll be very quick. I'm calling because you showed interest in our JEE courses. Sahil, which class are you currently in?"
+    },
+    {
+      "speaker": "student",
+      "text": "Class 11... but I was just browsing online, not really looking to buy anything immediately."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul theek hai Sahil! Class 11 is actually the perfect time to start JEE prep. Are you targeting JEE Main or Advanced? And when are you planning to appear for the exam?"
+    },
+    {
+      "speaker": "student",
+      "text": "JEE Main probably... that would be in 2027 I think. But I'm still exploring options, not decided on coaching yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! JEE Main 2027 gives you almost 20 months - excellent timing. For JEE prep, we have two amazing batches - Lakshya and Arjuna. Have you looked at any online coaching before, or would this be your first?"
+    },
+    {
+      "speaker": "student",
+      "text": "I've looked at a few... but honestly, I'm not sure about online classes. And I don't know about the fees and all."
+    },
+    {
+      "speaker": "agent",
+      "text": "I understand your concern about online classes. But Sahil, our Arjuna batch for JEE 2027 is just ₹19,999 - that's ₹1999 per month EMI. It's less than what families spend on offline coaching per month! What's your budget range for JEE preparation?"
+    },
+    {
+      "speaker": "student",
+      "text": "The price seems okay I guess... but I can't decide right now. I need to discuss with my parents first."
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely right! Such decisions should definitely be taken with parents. Sahil, would you like me to call back when you're with your parents? Or would you prefer if I send you the course details on WhatsApp first?"
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe you can call back later? I'm really not in a rush to decide anything right now. Still have time."
+    },
+    {
+      "speaker": "agent",
+      "text": "Sure Sahil, no pressure at all! When would be a good time to call you back? And should I call on this same number? I'll also send you our course brochure so you can discuss with your parents."
+    },
+    {
+      "speaker": "student",
+      "text": "Maybe next week sometime? Yes, this number is fine. But I'm still just exploring options, not ready to commit to anything yet."
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Sahil! I'll call you next week. Meanwhile, I'm sending you all course details on WhatsApp. Take your time, discuss with parents, and if you have any questions, just call me back. Is that okay?"
+    },
+    {
+      "speaker": "student",
+      "text": "Yes, that sounds good. Thanks for calling, I'll check the details you send."
+    }
+  ],
+  "total_turns": 16,
+  "tier_label": "COLD"
+}

@@ -1,0 +1,89 @@
+{
+  "conversation_id": "hot_032",
+  "scenario": {
+    "scenario_id": "hot_032",
+    "tier": "HOT",
+    "student_name": "Mohit",
+    "city": "Ahmedabad",
+    "class": "dropper",
+    "exam": "NEET",
+    "months_to_exam": 6,
+    "decision_maker": "self",
+    "budget_concern": false,
+    "engagement_level": "high",
+    "key_phrase": "I failed last year and must crack it this time",
+    "course_to_mention": "NEET Yakeen 2027"
+  },
+  "messages": [
+    {
+      "speaker": "agent",
+      "text": "Hello! Namaste, main Priya bol rahi hun PhysicsWallah se. Aapne hamare courses ke baare mein inquiry ki thi. Am I speaking with Mohit?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, main Mohit. Actually maine NEET ke liye courses dekhe the online. Thoda confused hun ki kaun sa course lena chahiye."
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul samajh sakti hun Mohit. Pehle ye bataiye - aap currently kis class mein ho? Aur NEET kab dena hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Actually main dropper hun. Last year attempt kiya tha lekin clear nahi hua. Is saal May mein exam hai, matlab sirf 6 months bache hain."
+    },
+    {
+      "speaker": "agent",
+      "text": "Theek hai, don't worry yaar. Bahut students second attempt mein clear karte hain. 6 months mein proper planning se bilkul ho sakta hai. Last year kitne marks aaye the approximately?"
+    },
+    {
+      "speaker": "student",
+      "text": "Around 480 aaye the. Qualifying marks se thoda upar but rank achhi nahi aayi. Is baar I really need to crack it, family pressure bhi hai."
+    },
+    {
+      "speaker": "agent",
+      "text": "480 means foundation strong hai tumhara! Bas thoda intensive preparation chahiye. Hamare paas NEET Sankalp 2027 Dropper Batch hai specially droppers ke liye designed. Budget ka koi constraint hai?"
+    },
+    {
+      "speaker": "student",
+      "text": "Budget ki zyada problem nahi hai, but value for money chahiye. Kya milega is course mein? Aur teachers kaun se hain?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! NEET Sankalp mein Alakh Sir ki team ke best teachers hain - Physics mein Alakh Sir, Chemistry mein VKJ Sir, Biology mein Vipin Sharma Sir. Live classes, doubt sessions, test series, previous year solutions sab kuch included hai at ₹44,999. EMI bhi available hai ₹4,499 per month."
+    },
+    {
+      "speaker": "student",
+      "text": "Sounds good. Live classes ka schedule kaisa hota hai? Main flexible timing chahta hun because sometimes family commitments bhi hote hain."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! Live classes morning aur evening slots mein hote hain, plus recordings bhi milti hain lifetime access ke saath. Tum apne convenience ke according dekh sakte ho. Plus doubt clearing sessions separate se weekly hote hain."
+    },
+    {
+      "speaker": "student",
+      "text": "That's helpful. Test series kitni comprehensive hai? Mock tests regular hain na? Last time mujhe laga exam pattern mein thoda confusion hua tha."
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan yaar, test series bahut detailed hai! Weekly chapter-wise tests, monthly full syllabus mocks, plus NTA pattern ke exact tests milte hain. Analysis bhi detailed hoti hai ki kahan improve karna hai. Bilkul real exam jaisa feel milega."
+    },
+    {
+      "speaker": "student",
+      "text": "Achha lagta hai. Main le sakta hun ye course. Payment kaise karna hoga? Aur kab se start kar sakta hun?"
+    },
+    {
+      "speaker": "agent",
+      "text": "Great decision Mohit! Payment online kar sakte ho ya EMI through PW Pay - 0% interest hai. Course access immediately mil jayega. Shall I send you the payment link right now? Ya koi aur questions hain?"
+    },
+    {
+      "speaker": "student",
+      "text": "Haan bhej do payment link. Main abhi kar deta hun. Thanks for explaining everything clearly Priya!"
+    },
+    {
+      "speaker": "agent",
+      "text": "Most welcome Mohit! Link WhatsApp par bhej rahi hun. Course access milte hi study plan follow karna, 6 months mein definitely crack kar loge. All the best! Koi doubt ho to call kar lena."
+    }
+  ],
+  "total_turns": 17,
+  "tier_label": "HOT"
+}
