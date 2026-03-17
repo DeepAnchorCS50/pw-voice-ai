@@ -16,11 +16,11 @@ st.set_page_config(
 )
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
-sys.path.insert(0, r"C:\\Users\\kddipank\\Documents\\Documents\\Personal\\PMCurve\\PW_AI_Capstone")
+sys.path.insert(0, ROOT)
 from ui_utils import render_nav
 render_nav("Live Demo")
 
-ROOT = r"C:\Users\kddipank\Documents\Documents\Personal\PMCurve\PW_AI_Capstone"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 sys.path.insert(0, SRC)
 sys.path.insert(0, ROOT)

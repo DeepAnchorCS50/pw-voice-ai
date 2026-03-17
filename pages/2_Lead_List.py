@@ -10,7 +10,7 @@ import streamlit.components.v1 as components
 import pandas as pd
 import json, os, sys, random, datetime
 
-ROOT     = r"C:\Users\kddipank\Documents\Documents\Personal\PMCurve\PW_AI_Capstone"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC      = os.path.join(ROOT, "src")
 CSV_PATH = os.path.join(SRC, "data", "synthetic_leads_dataset.csv")
 

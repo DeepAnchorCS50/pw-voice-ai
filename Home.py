@@ -1,14 +1,9 @@
 """
 Home.py — PW Voice AI
-Entry point. Streamlit opens this first by default.
-Immediately redirects to Command Center.
+Entry point. Redirects immediately to Command Center.
 """
 
 import streamlit as st
-import sys, os
-
-ROOT = r"C:\Users\kddipank\Documents\Documents\Personal\PMCurve\PW_AI_Capstone"
-sys.path.insert(0, ROOT)
 
 st.set_page_config(
     page_title="PW Voice AI",
@@ -17,5 +12,4 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# Redirect immediately to Command Center
 st.switch_page("pages/1_Command_Center.py")

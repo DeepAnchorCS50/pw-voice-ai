@@ -10,7 +10,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import json, os, sys
 
-ROOT      = r"C:\Users\kddipank\Documents\Documents\Personal\PMCurve\PW_AI_Capstone"
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC       = os.path.join(ROOT, "src")
 EVAL_PATH = os.path.join(SRC, "data", "eval_metrics.json")
 
