@@ -18,6 +18,8 @@ st.set_page_config(
 # ── Paths ─────────────────────────────────────────────────────────────────────
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
+sys.path.insert(0, ROOT)
+sys.path.insert(0, SRC)
 
 # ── Cloud detection — show placeholder if not running locally ──────────────────
 IS_CLOUD = os.path.exists('/mount/src')
