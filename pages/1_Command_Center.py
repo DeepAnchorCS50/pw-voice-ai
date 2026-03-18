@@ -24,7 +24,8 @@ st.set_page_config(page_title="Command Center — PW Voice AI", page_icon="⚡",
 render_nav("Command Center")
 
 # ── Load + enrich data ─────────────────────────────────────────────────────────
-@st.cache_data
+@st.cache_data(ttl=3600)
+
 def load_leads():
     import random as rnd
     rnd.seed(42)
