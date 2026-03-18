@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# ── Paths ─────────────────────────────────────────────────────────────────────
+# ── Paths (cloud-compatible) ──────────────────────────────────────────────────
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 sys.path.insert(0, ROOT)
