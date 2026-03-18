@@ -1,3 +1,5 @@
+__pycache__/
+*.pyc
 # ── Credentials — NEVER push these ──────────────────────────────────────────
 config/
 *.json.key
