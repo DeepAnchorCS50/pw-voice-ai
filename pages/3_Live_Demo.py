@@ -19,10 +19,9 @@ st.set_page_config(
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 sys.path.insert(0, ROOT)
+sys.path.insert(0, SRC)
 from ui_utils import render_nav
 render_nav("Live Demo")
-sys.path.insert(0, SRC)
-sys.path.insert(0, ROOT)
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(ROOT, "config", "google_credentials.json")
 
