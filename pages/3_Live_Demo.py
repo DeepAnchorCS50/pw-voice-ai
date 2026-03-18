@@ -19,6 +19,67 @@ st.set_page_config(
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 
+# ── Cloud detection — show placeholder if not running locally ──────────────────
+IS_CLOUD = os.path.exists('/mount/src')
+if IS_CLOUD:
+    st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    .cloud-placeholder {
+        font-family: 'Inter', sans-serif;
+        max-width: 600px;
+        margin: 80px auto;
+        text-align: center;
+        padding: 40px;
+        background: #1a1d29;
+        border: 1px solid #2d3148;
+        border-radius: 16px;
+    }
+    .cp-icon { font-size: 48px; margin-bottom: 16px; }
+    .cp-title { font-size: 22px; font-weight: 700; color: #e6e8f0; margin-bottom: 12px; }
+    .cp-body { font-size: 14px; color: #8b8fa3; line-height: 1.6; margin-bottom: 24px; }
+    .cp-badge {
+        display: inline-block;
+        background: #6366f114;
+        border: 1px solid #6366f133;
+        color: #6366f1;
+        padding: 8px 20px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .cp-steps {
+        text-align: left;
+        margin-top: 24px;
+        padding: 16px 20px;
+        background: #0f1117;
+        border-radius: 8px;
+        font-size: 13px;
+        color: #8b8fa3;
+        line-height: 2;
+    }
+    </style>
+    <div class="cloud-placeholder">
+        <div class="cp-icon">📞</div>
+        <div class="cp-title">Live AI Call Demo</div>
+        <div class="cp-body">
+            This feature generates real-time voice conversations using
+            Google TTS and Claude AI, and requires local credentials
+            that cannot be hosted in the cloud for security reasons.
+        </div>
+        <div class="cp-badge">🎙️ Available on Local Setup</div>
+        <div class="cp-steps">
+            <strong style="color:#e6e8f0">To run the Live Demo locally:</strong><br>
+            1. Clone the repo to your machine<br>
+            2. Add your API credentials to <code>config/</code><br>
+            3. Run: <code>python -m streamlit run Home.py</code><br>
+            4. Navigate to the Live Demo tab
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    st.stop()
+
+
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.path.join(ROOT, "config", "google_credentials.json")
 
 KB_PATH      = os.path.join(ROOT, "pw_knowledge_base", "pw_knowledge_base.json")
