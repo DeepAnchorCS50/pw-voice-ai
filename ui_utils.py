@@ -160,7 +160,7 @@ def render_nav(active_page: str):
 
     # 2. Build nav using st.columns — this is real Streamlit layout
     #    Col 0: Brand (wide) | Cols 1-4: page links | Col 5: spacer
-    cols = st.columns([1.8, 1.1, 1, 1, 0.9, 2])
+    cols = st.columns([1.8, 1.1, 1, 0.9, 3])
 
     with cols[0]:
         st.markdown("""
@@ -171,13 +171,11 @@ def render_nav(active_page: str):
         """, unsafe_allow_html=True)
 
     with cols[1]:
-        st.page_link("pages/1_Command_Center.py", label="⚡ Command Center")
+        st.page_link("pages/1_Operations.py", label="⚡ Operations")
     with cols[2]:
-        st.page_link("pages/3_Live_Demo.py",      label="📞 Live Demo")
+        st.page_link("pages/2_Lead_List.py",  label="📋 Lead List")
     with cols[3]:
-        st.page_link("pages/2_Lead_List.py",       label="📋 Lead List")
-    with cols[4]:
-        st.page_link("pages/4_Evals.py",           label="📊 Evals")
+        st.page_link("pages/4_Evals.py",      label="📊 Evals")
 
     # 3. LIVE badge + clock — fixed position, outside column flow
     st.markdown("""

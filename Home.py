@@ -1,6 +1,6 @@
 """
 Home.py — PW Voice AI
-Entry point. Redirects immediately to Command Center.
+Entry point. Redirects immediately to Operations page.
 """
 
 import streamlit as st
@@ -12,4 +12,4 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st.switch_page("pages/1_Command_Center.py")
+st.switch_page("pages/1_Operations.py")

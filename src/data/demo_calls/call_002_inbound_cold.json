@@ -1,0 +1,185 @@
+{
+  "call_id": "call_002",
+  "call_type": "inbound",
+  "student": {
+    "name": "Aakash Singh",
+    "city": "Lucknow",
+    "class": "10",
+    "exam": "JEE Main",
+    "lead_source": "Inbound \u2014 PW Helpline"
+  },
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Thank you for calling PhysicsWallah. This is Priya, how can I help you today?",
+      "timestamp": 0.0
+    },
+    {
+      "speaker": "student",
+      "text": "Hi... main JEE ke baare mein kuch jaanna chahta tha. Actually I am just exploring options right now, not sure yet.",
+      "timestamp": 5.833
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! Main aapki help kar sakti hun. Pehle aap apna naam bata sakte hain? Aur aap currently which class mein hain?",
+      "timestamp": 13.677
+    },
+    {
+      "speaker": "student",
+      "text": "Aakash Singh. Main class 10 mein hun abhi.",
+      "timestamp": 21.13
+    },
+    {
+      "speaker": "agent",
+      "text": "Great Aakash! Class 10 se hi JEE ki preparation start karna bahut smart decision hai. Aap kahan se hain?",
+      "timestamp": 24.224
+    },
+    {
+      "speaker": "student",
+      "text": "Lucknow se hun. But main sure nahi hun ki abhi se start karna chahiye ya wait karna chahiye.",
+      "timestamp": 32.037
+    },
+    {
+      "speaker": "agent",
+      "text": "Aakash, early start bilkul right hai! 2 saal ka time milta hai properly prepare karne ke liye. Humare JEE Lakshya 2027 course specially class 10 students ke liye designed hai. Kya aapne koi coaching join ki hai already?",
+      "timestamp": 38.431
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi abhi tak nahi. Bas explore kar raha hun options. Fees kitni hoti hai usually?",
+      "timestamp": 53.444
+    },
+    {
+      "speaker": "agent",
+      "text": "Aakash, humara JEE Lakshya 2027 course 35999 rupees mein hai, lekin tension mat lo - hum 0% EMI provide karte hain sirf 3499 rupees per month. That's less than what most families spend on daily chai! Budget kya concern hai?",
+      "timestamp": 60.138
+    },
+    {
+      "speaker": "student",
+      "text": "Haan thoda budget issue hai. Koi aur option hai jo kam expensive ho?",
+      "timestamp": 76.411
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! JEE Arjuna 2027 hai jo 19999 rupees mein hai, EMI sirf 1999 rupees per month. Isme bhi complete syllabus cover hota hai. Aap ghar pe parents se discuss kar sakte hain?",
+      "timestamp": 81.155
+    },
+    {
+      "speaker": "student",
+      "text": "Haan parents se poochna padega pehle. Main abhi decide nahi kar sakta. Kya main baad mein call kar sakta hun?",
+      "timestamp": 95.988
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course Aakash! Bilkul right approach hai parents se discuss karna. Main aapko apna number de deti hun - 9 1 2 3 4 5 6 7 8 0. Aap jab bhi ready ho, call kar sakte hain. Koi particular doubt hai jo main clear kar sakun?",
+      "timestamp": 103.382
+    },
+    {
+      "speaker": "student",
+      "text": "Bas yeh jaanna tha ki online classes kaisi hoti hain? Main kabhi online nahi padha hun.",
+      "timestamp": 122.415
+    },
+    {
+      "speaker": "agent",
+      "text": "Very good question! Humare classes interactive hoti hain, live doubt solving sessions hote hain, aur recordings bhi mil jaati hain agar kuch miss ho jaaye. Plus study material bhi provide karte hain. Demo class bhi le sakte hain pehle.",
+      "timestamp": 128.109
+    },
+    {
+      "speaker": "student",
+      "text": "Ok... main parents se baat karke call karunga. Abhi ke liye itna hi.",
+      "timestamp": 141.682
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Aakash! Parents se discuss kariye, demo class ke baare mein bhi sochiye. Main wait karungi aapke call ka. All the best, aur koi doubt ho to feel free to call. Have a great day!",
+      "timestamp": 146.476
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you Priya ji. Main jaldi hi call karunga decision ke saath.",
+      "timestamp": 157.529
+    },
+    {
+      "speaker": "agent",
+      "text": "Most welcome Aakash! Take your time, sahi decision lena important hai. PhysicsWallah family mein aapka welcome hai. Bye!",
+      "timestamp": 161.223
+    },
+    {
+      "speaker": "student",
+      "text": "Bye! Thanks for the information.",
+      "timestamp": 169.276
+    },
+    {
+      "speaker": "agent",
+      "text": "Anytime Aakash! Take care and talk to you soon!",
+      "timestamp": 172.42
+    }
+  ],
+  "timestamps": [
+    0,
+    5833,
+    13677,
+    21130,
+    24224,
+    32037,
+    38431,
+    53444,
+    60138,
+    76411,
+    81155,
+    95988,
+    103382,
+    122415,
+    128109,
+    141682,
+    146476,
+    157529,
+    161223,
+    169276,
+    172420
+  ],
+  "duration_seconds": 165.653,
+  "extracted_fields": {
+    "name": "Aakash Singh",
+    "class": "10",
+    "exam": "JEE Main",
+    "city": "Lucknow",
+    "months_to_exam": 24,
+    "budget_concern": true,
+    "decision_maker": "parent_later",
+    "engagement_level": "low"
+  },
+  "rule_based_score": 25,
+  "ml_score": 41,
+  "ml_proba": {
+    "COLD": 40.6,
+    "HOT": 33.8,
+    "WARM": 25.5
+  },
+  "tier": "COLD",
+  "action_cards": {
+    "promised_actions": [
+      "Follow up within 24 hours"
+    ],
+    "recommended_actions": [
+      "Add to drip email campaign",
+      "Schedule follow-up in 3 months"
+    ],
+    "slack_message": {
+      "channel": "#pw-nurture",
+      "preview": "\u2744\ufe0f COLD lead: Aakash Singh, JEE Main, Class 10, Lucknow. Early stage, low urgency. Added to nurture campaign."
+    },
+    "email": {
+      "to": "Aakash Singh",
+      "subject": "Start Your JEE Main Preparation Early \u2014 PhysicsWallah",
+      "preview": "Hi Aakash, thank you for reaching out to PhysicsWallah! Even though your exam is a while away, starting early gives you a real advantage."
+    },
+    "crm_record": {
+      "status": "Nurture Pool \u2014 COLD",
+      "assigned_to": "Drip Campaign",
+      "follow_up": "In 3 months",
+      "lead_source": "Inbound \u2014 PW Helpline",
+      "notes": "Low urgency, budget concern. Long-term nurture via email drip campaign."
+    }
+  }
+}

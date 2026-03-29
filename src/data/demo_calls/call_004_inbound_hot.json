@@ -1,0 +1,185 @@
+{
+  "call_id": "call_004",
+  "call_type": "inbound",
+  "student": {
+    "name": "Ananya Reddy",
+    "city": "Hyderabad",
+    "class": "12",
+    "exam": "NEET",
+    "lead_source": "Inbound \u2014 PW Helpline"
+  },
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Namaste! Thank you for calling PhysicsWallah. This is Priya, how can I help you today?",
+      "timestamp": 0.0
+    },
+    {
+      "speaker": "student",
+      "text": "Hi, namaste! Main NEET preparation ke baare mein jaanna chahti hun. Mera naam Ananya hai.",
+      "timestamp": 5.773
+    },
+    {
+      "speaker": "agent",
+      "text": "Hi Ananya! Nice to meet you. NEET preparation ke liye call kiya hai, that's great! Aap currently which class mein ho?",
+      "timestamp": 12.467
+    },
+    {
+      "speaker": "student",
+      "text": "Main class 12th mein hun. Actually mujhe thoda late realize hua hai ki mujhe proper coaching chahiye NEET ke liye.",
+      "timestamp": 20.58
+    },
+    {
+      "speaker": "agent",
+      "text": "No worries Ananya, it's never too late! Class 12th mein ho toh perfect timing hai. NEET 2025 ke liye prepare kar rahi ho ya 2026?",
+      "timestamp": 28.774
+    },
+    {
+      "speaker": "student",
+      "text": "2025 ke liye! Bas 4 mahine bache hain, isliye main worried hun. Kya itne kam time mein kuch ho sakta hai?",
+      "timestamp": 39.227
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Ananya! 4 months agar properly utilize karoge toh bahut kuch possible hai. Humare paas NEET Yakeen course hai jo specially designed hai intensive preparation ke liye. Current mein koi coaching le rahi ho?",
+      "timestamp": 47.121
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi, main mostly self-study kar rahi thi. But ab lagta hai structured approach chahiye. Yakeen course mein kya included hai?",
+      "timestamp": 61.834
+    },
+    {
+      "speaker": "agent",
+      "text": "NEET Yakeen mein complete syllabus coverage hai with live classes, recorded lectures, test series, doubt solving sessions, and personal mentorship. Price 33999 rupees hai, but EMI option bhi hai 3299 rupees per month.",
+      "timestamp": 70.378
+    },
+    {
+      "speaker": "student",
+      "text": "Okay, price toh reasonable lagta hai. Main independent decision le sakti hun, parents already discuss kar chuke hain. Classes kab start hoti hain?",
+      "timestamp": 86.591
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful Ananya! Classes immediately start ho jaati hain enrollment ke baad. Tumhe live classes, recorded content, everything access mil jaayega instantly. Koi specific subject mein focus chahiye?",
+      "timestamp": 95.985
+    },
+    {
+      "speaker": "student",
+      "text": "Biology mein main strong hun, but Physics and Chemistry mein improvement chahiye. Doubt clearing sessions regularly hote hain na?",
+      "timestamp": 109.378
+    },
+    {
+      "speaker": "agent",
+      "text": "Haan bilkul! Daily doubt clearing sessions hote hain, plus personal mentors bhi assigned hote hain. Physics aur Chemistry ke liye special focus modules bhi hain. 4 months mein targeted preparation kar sakte ho.",
+      "timestamp": 117.122
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Mujhe ye course suitable lagta hai. I want to start immediately \u2014 what is the fastest way to enroll?",
+      "timestamp": 130.155
+    },
+    {
+      "speaker": "agent",
+      "text": "Great decision Ananya! Main abhi enrollment process start kar deti hun. EMI option chahiye ya full payment? EMI mein 0% interest hai through PW Pay.",
+      "timestamp": 137.199
+    },
+    {
+      "speaker": "student",
+      "text": "EMI option sounds good. 3299 per month for how many months exactly?",
+      "timestamp": 147.892
+    },
+    {
+      "speaker": "agent",
+      "text": "10 months ka EMI plan hai at 3299 rupees per month. Main abhi enrollment link send kar deti hun. Aap payment complete karte hi access mil jaayega. Phone number confirm kar sakti ho?",
+      "timestamp": 153.536
+    },
+    {
+      "speaker": "student",
+      "text": "Haan, my number is 9 8 7 6 5 4 3 2 1 0. Link send kar dijiye, main abhi payment kar dungi.",
+      "timestamp": 166.329
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Ananya! Link sending now. Payment complete hone ke baad welcome email aayega with login details. All the best for your NEET preparation! Koi aur questions?",
+      "timestamp": 174.473
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much Priya! Bahut helpful rahi aap. Main link ka wait kar rahi hun. Excited hun start karne ke liye!",
+      "timestamp": 185.526
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Ananya! Link sent! Welcome to PW family. Agar koi help chahiye toh call kar sakti ho. Best of luck, aap definitely crack kar sakti ho NEET!",
+      "timestamp": 193.02
+    }
+  ],
+  "timestamps": [
+    0,
+    5773,
+    12467,
+    20580,
+    28774,
+    39227,
+    47121,
+    61834,
+    70378,
+    86591,
+    95985,
+    109378,
+    117122,
+    130155,
+    137199,
+    147892,
+    153536,
+    166329,
+    174473,
+    185526,
+    193020
+  ],
+  "duration_seconds": 194.233,
+  "extracted_fields": {
+    "name": "Ananya Reddy",
+    "class": "12",
+    "exam": "NEET",
+    "city": "Hyderabad",
+    "months_to_exam": 4,
+    "budget_concern": false,
+    "decision_maker": "self",
+    "engagement_level": "high"
+  },
+  "rule_based_score": 95,
+  "ml_score": 88,
+  "ml_proba": {
+    "COLD": 3.2,
+    "HOT": 88.0,
+    "WARM": 8.8
+  },
+  "tier": "HOT",
+  "action_cards": {
+    "promised_actions": [
+      "Send course details and enrollment link"
+    ],
+    "recommended_actions": [
+      "Assign to senior sales rep",
+      "Schedule parent/student call today"
+    ],
+    "slack_message": {
+      "channel": "#pw-hot-leads",
+      "preview": "\ud83d\udd25 HOT lead: Ananya Reddy, NEET, Class 12, Hyderabad. High intent, ready to enroll. Immediate callback recommended."
+    },
+    "email": {
+      "to": "Ananya Reddy",
+      "subject": "Your NEET Preparation Plan \u2014 PhysicsWallah",
+      "preview": "Hi Ananya, it was great speaking with you today! Based on your preparation goals, I've put together a personalized plan for your NEET journey."
+    },
+    "crm_record": {
+      "status": "Qualified \u2014 HOT",
+      "assigned_to": "Senior Sales Team",
+      "follow_up": "Today",
+      "lead_source": "Inbound \u2014 PW Helpline",
+      "notes": "High engagement, self decision-maker. Likely to convert with one follow-up call."
+    }
+  }
+}

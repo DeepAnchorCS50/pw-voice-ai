@@ -1,0 +1,185 @@
+{
+  "call_id": "call_003",
+  "call_type": "outbound",
+  "student": {
+    "name": "Priya Sharma",
+    "city": "Pune",
+    "class": "11",
+    "exam": "NEET",
+    "lead_source": "Watched NEET free lecture on YouTube"
+  },
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, am I speaking with Priya Sharma? This is Priya from PhysicsWallah. I noticed you watched NEET free lecture on YouTube \u2014 wanted to reach out and see how I can help.",
+      "timestamp": 0.0
+    },
+    {
+      "speaker": "student",
+      "text": "Oh hi! Haan yes, main Priya Sharma bol rahi hun. Maine actually kuch NEET videos dekhe the. But I wasn't expecting a call.",
+      "timestamp": 9.673
+    },
+    {
+      "speaker": "agent",
+      "text": "I hope main aapka time disturb nahi kar rahi! Main bas check karna chahti thi - aap NEET ki preparation kar rahe hain? Aap currently which class mein hain?",
+      "timestamp": 19.117
+    },
+    {
+      "speaker": "student",
+      "text": "Nahi nahi, it's okay. Main class 11 mein hun right now. NEET ka socha hai but abhi properly start nahi kiya preparation.",
+      "timestamp": 28.55
+    },
+    {
+      "speaker": "agent",
+      "text": "That's perfect timing actually! Class 11 se start karna is really good for NEET. Toh aapka target 2027 mein NEET dena hai na? Do you have any specific doubts ya challenges face kar rahe hain preparation mein?",
+      "timestamp": 37.744
+    },
+    {
+      "speaker": "student",
+      "text": "Haan 2027 mein hi dena hai. Main thing is I'm confused about proper structure. YouTube videos dekh rahi hun but systematic approach nahi mil raha. Aur honestly, budget bhi concern hai.",
+      "timestamp": 51.077
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand! YouTube videos are great for concepts but structured approach bohot important hai NEET ke liye. Regarding budget - can you tell me what range you were thinking? Humara NEET Yakeen 2027 course hai jo comprehensive hai.",
+      "timestamp": 63.271
+    },
+    {
+      "speaker": "student",
+      "text": "Actually kitna cost hota hai? Mere parents ne kaha hai not too expensive should be. Main online coaching prefer karungi because Pune mein good institutes are quite far.",
+      "timestamp": 80.504
+    },
+    {
+      "speaker": "agent",
+      "text": "NEET Yakeen 2027 is 33,999 rupees for the complete course - that covers all subjects, doubt solving, test series, everything till your exam. But we offer 0% EMI through PW Pay - that's just 3,299 rupees per month. That's less than what most families spend on daily chai!",
+      "timestamp": 90.498
+    },
+    {
+      "speaker": "student",
+      "text": "33,999 rupees... that sounds reasonable compared to other institutes. EMI option is good. But what exactly is included? Aur kya guarantee hai ki results milenge?",
+      "timestamp": 112.351
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question! Yakeen 2027 mein you get complete video lectures by top faculty, daily practice problems, weekly tests, monthly mocks, doubt clearing sessions, and personal mentorship. Humare students ka track record excellent hai - 95% students improve their scores significantly.",
+      "timestamp": 124.595
+    },
+    {
+      "speaker": "student",
+      "text": "That sounds comprehensive. Faculty kaun se hain? Aur main mostly evening time study kar sakti hun - flexible timing hai na?",
+      "timestamp": 144.528
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul! It's completely flexible - aap apne time se kar sakti hain. Faculty mein Alakh Sir, Pankaj Sir for Physics, Arvind Sir for Chemistry, and Vipin Sir for Biology hain. All videos are recorded so you can study anytime. Live doubt sessions bhi evening mein hote hain.",
+      "timestamp": 151.972
+    },
+    {
+      "speaker": "student",
+      "text": "Okay that's good. Alakh sir ko main YouTube pe dekha hai, he explains really well. But I am interested but I need to discuss with my parents first. Can I get some time to think?",
+      "timestamp": 169.745
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! That's completely understandable. Let me share my number - 9 8 7 6 5 4 3 2 1 0. You can WhatsApp me anytime. Also, we have a 7-day free trial available - would you like me to activate that so you can show your parents the course quality?",
+      "timestamp": 179.839
+    },
+    {
+      "speaker": "student",
+      "text": "7-day free trial sounds perfect! That way main parents ko bhi dikhau sakti hun. How do I access it? Aur agar enroll karna hai toh process kya hai?",
+      "timestamp": 199.532
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! I'll send you the trial access link on WhatsApp right now. For enrollment, you can do it online through our app or website. EMI setup bhi online ho jata hai through PW Pay - very simple process. Shall I send you the trial access?",
+      "timestamp": 209.626
+    },
+    {
+      "speaker": "student",
+      "text": "Yes please! Send me the trial access. Main try karungi this week aur parents se discuss karungi. If everything looks good, I'll contact you for enrollment.",
+      "timestamp": 224.579
+    },
+    {
+      "speaker": "agent",
+      "text": "Wonderful! Main abhi WhatsApp kar deti hun with trial access and course details. Remember, early start gives you a huge advantage for NEET 2027. Feel free to call me anytime if you have questions. All the best for your preparation, Priya!",
+      "timestamp": 235.073
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you so much for calling! Main definitely try karungi the course this week. Aur koi doubts hain toh I'll WhatsApp you. Thanks again!",
+      "timestamp": 251.526
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome! I'm excited to help you with your NEET journey. Take care and talk to you soon. Bye!",
+      "timestamp": 259.77
+    }
+  ],
+  "timestamps": [
+    0,
+    9673,
+    19117,
+    28550,
+    37744,
+    51077,
+    63271,
+    80504,
+    90498,
+    112351,
+    124595,
+    144528,
+    151972,
+    169745,
+    179839,
+    199532,
+    209626,
+    224579,
+    235073,
+    251526,
+    259770
+  ],
+  "duration_seconds": 256.303,
+  "extracted_fields": {
+    "name": "Priya Sharma",
+    "class": "11",
+    "exam": "NEET",
+    "city": "Pune",
+    "months_to_exam": 12,
+    "budget_concern": true,
+    "decision_maker": "self",
+    "engagement_level": "medium"
+  },
+  "rule_based_score": 55,
+  "ml_score": 43,
+  "ml_proba": {
+    "COLD": 22.2,
+    "HOT": 34.5,
+    "WARM": 43.3
+  },
+  "tier": "WARM",
+  "action_cards": {
+    "promised_actions": [
+      "Send course details and enrollment link"
+    ],
+    "recommended_actions": [
+      "Send course brochure",
+      "Schedule callback in 48 hours"
+    ],
+    "slack_message": {
+      "channel": "#pw-warm-leads",
+      "preview": "\ud83d\udd36 WARM lead: Priya Sharma, NEET, Class 11, Pune. Interested but needs nurturing. Follow up in 2 days."
+    },
+    "email": {
+      "to": "Priya Sharma",
+      "subject": "Continuing Your NEET Journey \u2014 PhysicsWallah",
+      "preview": "Hi Priya, thank you for your time today. I understand you'd like to discuss with your family \u2014 I've attached our course guide to help with that conversation."
+    },
+    "crm_record": {
+      "status": "Nurturing \u2014 WARM",
+      "assigned_to": "Standard Sales Team",
+      "follow_up": "In 48 hours",
+      "lead_source": "Watched NEET free lecture on YouTube",
+      "notes": "Interested but needs parental approval. Send materials, follow up in 2 days."
+    }
+  }
+}

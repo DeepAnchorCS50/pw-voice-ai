@@ -1,0 +1,155 @@
+{
+  "call_id": "call_005",
+  "call_type": "outbound",
+  "student": {
+    "name": "Suresh Yadav",
+    "city": "Patna",
+    "class": "10",
+    "exam": "JEE Main",
+    "lead_source": "Downloaded study material from PW app"
+  },
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, am I speaking with Suresh Yadav? This is Priya from PhysicsWallah. I noticed you Downloaded study material from PW app \u2014 wanted to reach out and see how I can help.",
+      "timestamp": 0.0
+    },
+    {
+      "speaker": "student",
+      "text": "Haan ji, main Suresh bol raha hun. Actually maine kuch material download kiya tha apne bete ke liye.",
+      "timestamp": 10.573
+    },
+    {
+      "speaker": "agent",
+      "text": "That's great Suresh ji! Main aapki help kar sakti hun. Aapka beta kitni class mein hai aur kya prepare kar raha hai?",
+      "timestamp": 16.917
+    },
+    {
+      "speaker": "student",
+      "text": "Woh class 10 mein hai abhi. JEE ki preparation karna chahta hai but hum thoda confused hain ki kaise start karein.",
+      "timestamp": 24.13
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect timing hai Suresh ji! Class 10 se JEE preparation start karna bahut achha decision hai. 2027 mein exam hoga uska matlab? Abhi 20 months ka time hai preparation ke liye.",
+      "timestamp": 31.924
+    },
+    {
+      "speaker": "student",
+      "text": "Haan bilkul. But sir, fees ka kya scene hai? Humara budget limited hai.",
+      "timestamp": 43.997
+    },
+    {
+      "speaker": "agent",
+      "text": "Main samajh sakti hun aapki concern. PhysicsWallah mein humara focus affordable education par hai. JEE ke liye hamare paas different courses hain. JEE Arjuna 2027 batch 19,999 rupees mein hai, aur JEE Lakshya 2027 35,999 rupees mein.",
+      "timestamp": 49.091
+    },
+    {
+      "speaker": "student",
+      "text": "Ye thoda zyada lag raha hai. Koi aur option hai kya? Aur EMI facility hai?",
+      "timestamp": 68.064
+    },
+    {
+      "speaker": "agent",
+      "text": "Bilkul hai Suresh ji! Hum 0% EMI offer karte hain PW Pay ke through. JEE Arjuna course ke liye sirf 1,999 rupees per month - ye toh daily chai-paani se bhi kam hai! Aur quality top-notch hai.",
+      "timestamp": 73.508
+    },
+    {
+      "speaker": "student",
+      "text": "EMI achhi baat hai. But decision lene se pehle mere bete se aur wife se baat karni padegi. Kya guarantee hai ki course achha hoga?",
+      "timestamp": 87.321
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely Suresh ji, family decision hai. PW mein lakhs of students successfully clear kar chuke hain JEE. Live classes, doubt clearing, test series sab kuch included hai. Demo class bhi de sakte hain pehle.",
+      "timestamp": 97.265
+    },
+    {
+      "speaker": "student",
+      "text": "Demo class ka option achha hai. Mere paas aapka number hai, main 2-3 din mein call back kar sakta hun decision ke saath?",
+      "timestamp": 111.678
+    },
+    {
+      "speaker": "agent",
+      "text": "Of course! Aap demo class book kar sakte hain app se, ya main aapke liye arrange kar deti hun. Mera number hai 9 8 7 6 5 4 3 2 1 0. Call kar sakte hain anytime doubts ke liye.",
+      "timestamp": 119.122
+    },
+    {
+      "speaker": "student",
+      "text": "Theek hai Priya ji. Demo class arrange kar dijiye. Uske baad hum decide karenge family ke saath milkar.",
+      "timestamp": 131.315
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Suresh ji! Main demo class arrange kar deti hun aapke beta ke liye. WhatsApp par details bhej dungi. Aur koi question ho toh please call kar lena. Thank you for your time!",
+      "timestamp": 138.409
+    },
+    {
+      "speaker": "student",
+      "text": "Dhanyawad Priya ji. WhatsApp par details ka wait karunga. Good day!",
+      "timestamp": 149.402
+    }
+  ],
+  "timestamps": [
+    0,
+    10573,
+    16917,
+    24130,
+    31924,
+    43997,
+    49091,
+    68064,
+    73508,
+    87321,
+    97265,
+    111678,
+    119122,
+    131315,
+    138409,
+    149402
+  ],
+  "duration_seconds": 146.046,
+  "extracted_fields": {
+    "name": "Suresh Yadav",
+    "class": "10",
+    "exam": "JEE Main",
+    "city": "Patna",
+    "months_to_exam": 20,
+    "budget_concern": true,
+    "decision_maker": "parent_present",
+    "engagement_level": "low"
+  },
+  "rule_based_score": 25,
+  "ml_score": 50,
+  "ml_proba": {
+    "COLD": 31.9,
+    "HOT": 50.0,
+    "WARM": 18.1
+  },
+  "tier": "HOT",
+  "action_cards": {
+    "promised_actions": [
+      "Send course details and enrollment link"
+    ],
+    "recommended_actions": [
+      "Assign to senior sales rep",
+      "Schedule parent/student call today"
+    ],
+    "slack_message": {
+      "channel": "#pw-hot-leads",
+      "preview": "\ud83d\udd25 HOT lead: Suresh Yadav, JEE Main, Class 10, Patna. High intent, ready to enroll. Immediate callback recommended."
+    },
+    "email": {
+      "to": "Suresh Yadav",
+      "subject": "Your JEE Main Preparation Plan \u2014 PhysicsWallah",
+      "preview": "Hi Suresh, it was great speaking with you today! Based on your preparation goals, I've put together a personalized plan for your JEE Main journey."
+    },
+    "crm_record": {
+      "status": "Qualified \u2014 HOT",
+      "assigned_to": "Senior Sales Team",
+      "follow_up": "Today",
+      "lead_source": "Downloaded study material from PW app",
+      "notes": "High engagement, self decision-maker. Likely to convert with one follow-up call."
+    }
+  }
+}

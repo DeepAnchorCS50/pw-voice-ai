@@ -1,0 +1,185 @@
+{
+  "call_id": "call_001",
+  "call_type": "outbound",
+  "student": {
+    "name": "Rahul Kumar",
+    "city": "Delhi",
+    "class": "12",
+    "exam": "JEE Main",
+    "lead_source": "Downloaded JEE prep guide from PW website"
+  },
+  "transcript": [
+    {
+      "speaker": "agent",
+      "text": "Hi, am I speaking with Rahul Kumar? This is Priya from PhysicsWallah. I noticed you Downloaded JEE prep guide from PW website \u2014 wanted to reach out and see how I can help.",
+      "timestamp": 0.0
+    },
+    {
+      "speaker": "student",
+      "text": "Oh hi! Haan main Rahul bol raha hun. Actually I was just going through that guide. Main JEE ki preparation kar raha hun and I really need proper guidance right now.",
+      "timestamp": 11.113
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful Rahul! Main bilkul help kar sakti hun. Can you tell me which class mein you are currently?",
+      "timestamp": 21.357
+    },
+    {
+      "speaker": "student",
+      "text": "Main class 12 mein hun. Actually bas 3 months left hain JEE Main ke liye and main thoda nervous feel kar raha hun. Mujhe lagta hai ki structured course chahiye.",
+      "timestamp": 27.73
+    },
+    {
+      "speaker": "agent",
+      "text": "I completely understand Rahul. 3 months is actually a good time agar proper strategy ke saath padho. Tell me, what's your current preparation level? Have you covered most of the syllabus?",
+      "timestamp": 38.024
+    },
+    {
+      "speaker": "student",
+      "text": "Haan mostly covered hai but revision and practice mein problem ho rahi hai. Main bohot confused hun ki kya karna chahiye. What courses do you have for JEE aspirants like me?",
+      "timestamp": 48.657
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect! For JEE preparation, we have two excellent courses. JEE Lakshya 2027 which is our premium course at 35999 rupees, and JEE Arjuna 2027 at 19999 rupees. Dono mein comprehensive study material, live classes, and doubt solving sessions hain.",
+      "timestamp": 59.301
+    },
+    {
+      "speaker": "student",
+      "text": "Arjuna batch sounds interesting! Can you tell me more about what exactly is included in this course? Like faculty kaun hain, kitne hours ki classes hain?",
+      "timestamp": 78.634
+    },
+    {
+      "speaker": "agent",
+      "text": "Great question Rahul! JEE Arjuna 2027 mein you get daily live classes by expert faculty, recorded lectures for revision, comprehensive test series, doubt clearing sessions, and study material. Classes are around 4-5 hours daily with proper breaks.",
+      "timestamp": 87.728
+    },
+    {
+      "speaker": "student",
+      "text": "Wow that sounds comprehensive! And the faculty experienced hain na? Main chahta hun ki jo bhi padhaye woh concept clear kare properly. Test series kitni detailed hai?",
+      "timestamp": 105.081
+    },
+    {
+      "speaker": "agent",
+      "text": "Absolutely! Hamare faculty members are highly experienced with years of JEE coaching background. Test series mein weekly tests, monthly full syllabus tests, and JEE Main pattern tests included hain with detailed analysis and ranking system.",
+      "timestamp": 116.675
+    },
+    {
+      "speaker": "student",
+      "text": "This is exactly what I was looking for! The price 19999 rupees sounds reasonable bhi hai. Can I pay in installments ya full payment karna hoga?",
+      "timestamp": 131.928
+    },
+    {
+      "speaker": "agent",
+      "text": "Great news Rahul! You can pay through EMI at just 1999 rupees per month through PW Pay with 0% interest. That's less than what most families spend on daily chai! Very affordable option hai.",
+      "timestamp": 141.322
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! EMI option se it becomes very easy for me. Main apne parents se discuss nahi karna padega, I can decide myself. When can I start the classes?",
+      "timestamp": 154.355
+    },
+    {
+      "speaker": "agent",
+      "text": "That's wonderful that you can make the decision yourself! Classes start immediately after enrollment. You'll get access to all recorded lectures instantly and can join live classes from tomorrow itself.",
+      "timestamp": 164.899
+    },
+    {
+      "speaker": "student",
+      "text": "Amazing! I'm really excited about this. I want to enroll in Arjuna batch \u2014 how do I proceed? What's the next step for enrollment?",
+      "timestamp": 177.092
+    },
+    {
+      "speaker": "agent",
+      "text": "I'm so happy to hear your enthusiasm Rahul! I'll send you the enrollment link right now on your registered mobile number. You can complete the payment there and get instant access to everything.",
+      "timestamp": 185.486
+    },
+    {
+      "speaker": "student",
+      "text": "Perfect! Should I expect any call for verification or something? And will I get confirmation immediately after payment?",
+      "timestamp": 196.779
+    },
+    {
+      "speaker": "agent",
+      "text": "Yes, you'll get instant confirmation message and email with all login details. Our support team might call within 24 hours to ensure everything is set up properly and you're able to access all features.",
+      "timestamp": 203.373
+    },
+    {
+      "speaker": "student",
+      "text": "Excellent! Thank you so much Priya for explaining everything clearly. Main abhi enroll kar raha hun. Really looking forward to starting my JEE preparation with PW!",
+      "timestamp": 215.146
+    },
+    {
+      "speaker": "agent",
+      "text": "You're most welcome Rahul! I'm confident you'll do great with our Arjuna batch. All the best for your JEE preparation! Feel free to call if you need any help during the enrollment process.",
+      "timestamp": 225.69
+    }
+  ],
+  "timestamps": [
+    0,
+    11113,
+    21357,
+    27730,
+    38024,
+    48657,
+    59301,
+    78634,
+    87728,
+    105081,
+    116675,
+    131928,
+    141322,
+    154355,
+    164899,
+    177092,
+    185486,
+    196779,
+    203373,
+    215146,
+    225690
+  ],
+  "duration_seconds": 224.863,
+  "extracted_fields": {
+    "name": "Rahul Kumar",
+    "class": "12",
+    "exam": "JEE Main",
+    "city": "Delhi",
+    "months_to_exam": 3,
+    "budget_concern": false,
+    "decision_maker": "self",
+    "engagement_level": "very_high"
+  },
+  "rule_based_score": 100,
+  "ml_score": 76,
+  "ml_proba": {
+    "COLD": 8.2,
+    "HOT": 76.5,
+    "WARM": 15.4
+  },
+  "tier": "HOT",
+  "action_cards": {
+    "promised_actions": [
+      "Send course details and enrollment link"
+    ],
+    "recommended_actions": [
+      "Assign to senior sales rep",
+      "Schedule parent/student call today"
+    ],
+    "slack_message": {
+      "channel": "#pw-hot-leads",
+      "preview": "\ud83d\udd25 HOT lead: Rahul Kumar, JEE Main, Class 12, Delhi. High intent, ready to enroll. Immediate callback recommended."
+    },
+    "email": {
+      "to": "Rahul Kumar",
+      "subject": "Your JEE Main Preparation Plan \u2014 PhysicsWallah",
+      "preview": "Hi Rahul, it was great speaking with you today! Based on your preparation goals, I've put together a personalized plan for your JEE Main journey."
+    },
+    "crm_record": {
+      "status": "Qualified \u2014 HOT",
+      "assigned_to": "Senior Sales Team",
+      "follow_up": "Today",
+      "lead_source": "Downloaded JEE prep guide from PW website",
+      "notes": "High engagement, self decision-maker. Likely to convert with one follow-up call."
+    }
+  }
+}
