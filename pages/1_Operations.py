@@ -21,6 +21,7 @@ from ui_utils import render_nav
 
 st.set_page_config(page_title="Operations — PW Voice AI", page_icon="⚡", layout="wide")
 render_nav("Operations")
+st.cache_data.clear()
 
 # ── Load CSV leads ─────────────────────────────────────────────────────────────
 @st.cache_data
@@ -251,7 +252,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 .ai-badge{font-size:10px;color:var(--brand);background:#6366f114;border:1px solid #6366f133;border-radius:20px;padding:3px 12px;white-space:nowrap;}
 .branches{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;width:100%;}
 .branch{display:flex;flex-direction:column;align-items:center;gap:3px;}
-.branch-header{width:100%;text-align:center;padding:8px;border-radius:8px;border:1.5px solid;cursor:default;}
+.branch-header{width:100%;text-align:center;padding:8px;border-radius:8px;border:1.5px solid;cursor:pointer;transition:opacity 150ms;}
+.branch-header:hover{opacity:0.8;}
 .bh-hot {background:#ef444414;border-color:#ef444433;}
 .bh-warm{background:#f59e0b14;border-color:#f59e0b33;}
 .bh-cold{background:#3b82f614;border-color:#3b82f633;}
@@ -404,6 +406,25 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 ::-webkit-scrollbar{width:4px;}
 ::-webkit-scrollbar-track{background:var(--bg);}
 ::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+
+/* ── Call controls bar ── */
+.call-controls{display:none;align-items:center;gap:8px;padding:10px 18px;border-top:1px solid var(--border);background:var(--card);}
+.call-controls.visible{display:flex;}
+.ctrl-btn{padding:5px 14px;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;border:1px solid;font-family:var(--font);transition:all 150ms;}
+.ctrl-skip{background:#6366f114;border-color:#6366f133;color:var(--brand);}
+.ctrl-skip:hover{background:#6366f122;}
+.ctrl-end{background:#ef444414;border-color:#ef444433;color:var(--hot);}
+.ctrl-end:hover{background:#ef444422;}
+.ctrl-idle{background:#2d314822;border-color:var(--border);color:var(--muted);}
+.ctrl-idle:hover{color:var(--text);border-color:var(--muted);}
+.ctrl-idle.requested{color:var(--warm);border-color:var(--warm);background:#f59e0b14;}
+
+/* ── New lead toast ── */
+.new-lead-toast{position:absolute;top:10px;left:50%;transform:translateX(-50%) translateY(-60px);background:var(--card);border:1px solid #22c55e44;border-radius:10px;padding:10px 16px;display:flex;align-items:center;gap:10px;z-index:100;transition:transform 400ms ease,opacity 400ms ease;opacity:0;pointer-events:none;white-space:nowrap;}
+.new-lead-toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
+.nlt-dot{width:8px;height:8px;border-radius:50%;background:var(--success);animation:pulse 1s infinite;}
+.nlt-name{font-size:12px;font-weight:600;color:var(--text);}
+.nlt-meta{font-size:10px;color:var(--muted);}
 </style>
 </head>
 <body>
@@ -430,7 +451,12 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 <!-- Command Center tab -->
 <div class="tab-panel active" id="panel-cc">
   <div class="cc-layout">
-    <div class="cc-left">
+    <div class="cc-left" style="position:relative">
+      <!-- New lead toast -->
+      <div class="new-lead-toast" id="new-lead-toast">
+        <div class="nlt-dot"></div>
+        <div><div class="nlt-name" id="nlt-name">New Lead</div><div class="nlt-meta" id="nlt-meta">Added to queue</div></div>
+      </div>
 
       <!-- Outbound Queue -->
       <div class="sec-title">Outbound Queue — Today</div>
@@ -534,6 +560,11 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
           </div>
         </div>
         <div class="transcript-box" id="transcript-box"></div>
+        <div class="call-controls" id="call-controls">
+          <button class="ctrl-btn ctrl-skip" onclick="skipToEnd()">⏩ Skip to End</button>
+          <button class="ctrl-btn ctrl-end"  onclick="endCall()">✕ End Call</button>
+          <button class="ctrl-btn ctrl-idle" id="idle-btn" onclick="goIdle()">⏸ Go Idle</button>
+        </div>
       </div>
 
       <!-- Analyzing -->
@@ -630,6 +661,16 @@ let timerSecs  = 0;
 let transcriptInterval = null;
 let completedCalls = [];
 const seq = D.demo_sequence;  // [0, 1]
+let idleRequested  = false;
+let outboundQueueIdx = 2;  // queue leads 0,1 used in fixed seq; extras start at 2
+let newLeadPool = [
+  {name:'Sneha Iyer',    city:'Chennai',   exam:'NEET',     source:'Watched free lecture'},
+  {name:'Rohan Gupta',   city:'Jaipur',    exam:'JEE Main', source:'Downloaded mock test'},
+  {name:'Meera Nair',    city:'Bangalore', exam:'NEET',     source:'Visited pricing page'},
+  {name:'Aditya Shah',   city:'Surat',     exam:'JEE Adv',  source:'Referral from friend'},
+  {name:'Pooja Verma',   city:'Patna',     exam:'NEET',     source:'YouTube ad click'},
+  {name:'Karthik Rao',   city:'Vizag',     exam:'JEE Main', source:'Free mock test signup'},
+];
 
 // ── Clock ──────────────────────────────────────────────────────────────────────
 function updateClock() {
@@ -712,6 +753,7 @@ function buildFunnel() {
     const hdr = document.createElement('div');
     hdr.className = `branch-header bh-${cfg.cls}`;
     hdr.innerHTML = `<div class="bh-tier">${cfg.emoji} ${tier}</div><div class="bh-count" id="bcount-${tier}">${count}</div><div class="bh-pct">${pct}% of scored</div>`;
+    hdr.onclick = () => { window.top.location.href = '/Lead_List'; };
     branch.appendChild(hdr);
 
     stages.filter(s => !s.terminal).forEach(s => {
@@ -753,6 +795,8 @@ function restartDemo() {
 
   callsProcessed = 0;
   completedCalls = [];
+  idleRequested  = false;
+  outboundQueueIdx = 2;
   state = STATES.IDLE;
 
   buildQueue();
@@ -768,6 +812,8 @@ function restartDemo() {
   document.getElementById('go-live-btn').disabled = false;
   document.getElementById('go-live-btn').style.display = 'block';
   document.getElementById('restart-btn').style.display = 'none';
+  const idleBtn = document.getElementById('idle-btn');
+  if (idleBtn) { idleBtn.classList.remove('requested'); idleBtn.textContent = '⏸ Go Idle'; }
 
   showAcState('idle');
 }
@@ -809,6 +855,10 @@ function onLive() {
 }
 
 function onCallActive(callIdx) {
+  onCallActiveWith(callIdx, callIdx === seq[0] ? STATES.OUTBOUND_DONE : STATES.INBOUND_DONE);
+}
+
+function onCallActiveWith(callIdx, nextState) {
   const call = D.demo_calls[callIdx];
   if (!call) { setState(STATES.COMPLETE); return; }
 
@@ -848,10 +898,7 @@ function onCallActive(callIdx) {
       clearInterval(timerInterval);
       clearInterval(transcriptInterval);
       showSpeaking(null);
-      setTimeout(() => {
-        if (callIdx === seq[0]) setState(STATES.OUTBOUND_DONE);
-        else setState(STATES.INBOUND_DONE);
-      }, 500);
+      setTimeout(() => setState(nextState), 500);
     });
     // Transcript sync
     const msgs = call.transcript || [];
@@ -868,11 +915,11 @@ function onCallActive(callIdx) {
     }, 100);
   } else {
     // No audio — simulate with timing
-    simulateCall(call, callIdx);
+    simulateCall(call, nextState);
   }
 }
 
-function simulateCall(call, callIdx) {
+function simulateCall(call, nextState) {
   const msgs  = call.transcript || [];
   const tss   = call.timestamps || msgs.map((_, i) => i * 3500);
   const total = (tss[tss.length-1] || (msgs.length * 3500)) + 3000;
@@ -887,8 +934,7 @@ function simulateCall(call, callIdx) {
   setTimeout(() => {
     clearInterval(timerInterval);
     showSpeaking(null);
-    if (callIdx === seq[0]) setState(STATES.OUTBOUND_DONE);
-    else setState(STATES.INBOUND_DONE);
+    setState(nextState);
   }, total);
 }
 
@@ -1000,11 +1046,8 @@ function onComplete() {
   document.getElementById('inbound-empty').style.display  = 'flex';
   document.getElementById('inbound-active').style.display = 'none';
   document.getElementById('inbound-banner').style.display = 'none';
-  document.getElementById('status-text').textContent = 'Agent Idle — Queue Complete';
-  document.getElementById('restart-btn').style.display = 'block';
-  document.getElementById('go-live-btn').style.display = 'none';
 
-  // Update funnel counts
+  // Update funnel counts for all completed calls
   completedCalls.forEach(call => {
     const tier = call.tier;
     const el   = document.getElementById('bcount-' + tier);
@@ -1012,8 +1055,36 @@ function onComplete() {
   });
   document.getElementById('funnel-badge').style.display = 'block';
 
-  showAcState('idle');
-  document.getElementById('idle-state').querySelector('.idle-text').textContent = 'All calls processed. Click ↺ Restart to run again.';
+  // If idle was requested or queue exhausted, stop
+  const queue = D.outbound_queue;
+  if (idleRequested || outboundQueueIdx >= queue.length) {
+    document.getElementById('status-text').textContent = idleRequested ? 'Agent Idle — Stopped by operator' : 'Agent Idle — Queue Complete';
+    document.getElementById('restart-btn').style.display = 'block';
+    document.getElementById('go-live-btn').style.display = 'none';
+    showAcState('idle');
+    document.getElementById('idle-state').querySelector('.idle-text').textContent = 'All calls processed. Click ↺ Restart to run again.';
+    return;
+  }
+
+  // Pick next queue lead, synthesize a call using a template demo call
+  const nextLead = queue[outboundQueueIdx];
+  outboundQueueIdx++;
+  const template  = D.demo_calls[outboundQueueIdx % D.demo_calls.length];
+  const synthCall = Object.assign({}, template, {
+    call_id:   'call_extra_' + outboundQueueIdx,
+    call_type: 'outbound',
+    student:   { name: nextLead.name, city: nextLead.city, exam: nextLead.exam, class: '12', lead_source: nextLead.source },
+    audio_base64: '',  // simulate, no audio
+  });
+  D.demo_calls.push(synthCall);
+  const newIdx = D.demo_calls.length - 1;
+
+  document.getElementById('status-text').textContent = 'Agent Live — Processing Calls';
+  updateQueueStatus(outboundQueueIdx - 1, 'inprogress', '● In Progress');
+
+  // Override state machine to go directly to outbound active with new index
+  showAcState('call');
+  setTimeout(() => onCallActiveWith(newIdx, STATES.OUTBOUND_DONE), 800);
 }
 
 // ── UI helpers ─────────────────────────────────────────────────────────────────
@@ -1022,6 +1093,8 @@ function showAcState(which) {
   document.getElementById('call-card').style.display      = which === 'call'      ? 'block' : 'none';
   document.getElementById('analyzing-card').style.display = which === 'analyzing' ? 'flex'  : 'none';
   document.getElementById('scoring-card').style.display   = which === 'scoring'   ? 'block' : 'none';
+  const ctrl = document.getElementById('call-controls');
+  if (ctrl) ctrl.classList.toggle('visible', which === 'call');
 }
 
 function updateQueueStatus(idx, cls, label) {
@@ -1087,9 +1160,76 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeDetail();
 });
 
+// ── Call controls ──────────────────────────────────────────────────────────────
+function skipToEnd() {
+  const isOutbound = state === STATES.OUTBOUND_ACTIVE;
+  const callIdx    = isOutbound ? seq[0] : seq[1];
+  const call       = D.demo_calls[callIdx] || D.demo_calls[D.demo_calls.length - 1];
+  if (!call) return;
+  clearInterval(transcriptInterval);
+  (call.transcript || []).forEach(msg => addTranscriptMsg(msg));
+  showSpeaking(null);
+  if (audio) { try { audio.currentTime = audio.duration || 9999; } catch(e) {} }
+}
+
+function endCall() {
+  if (audio) { audio.pause(); audio = null; }
+  clearInterval(timerInterval);
+  clearInterval(transcriptInterval);
+  showSpeaking(null);
+  if (state === STATES.OUTBOUND_ACTIVE) setState(STATES.OUTBOUND_DONE);
+  else if (state === STATES.INBOUND_ACTIVE) setState(STATES.INBOUND_DONE);
+}
+
+function goIdle() {
+  idleRequested = !idleRequested;
+  const btn = document.getElementById('idle-btn');
+  if (btn) {
+    btn.classList.toggle('requested', idleRequested);
+    btn.textContent = idleRequested ? '⏸ Idle Requested' : '⏸ Go Idle';
+  }
+}
+
+// ── New lead ticker ────────────────────────────────────────────────────────────
+let newLeadPoolIdx = 0;
+let newLeadCount   = D.pipeline_summary.new;
+
+function startNewLeadTicker() {
+  setInterval(() => {
+    const lead = newLeadPool[newLeadPoolIdx % newLeadPool.length];
+    newLeadPoolIdx++;
+
+    // Show toast
+    const toast = document.getElementById('new-lead-toast');
+    document.getElementById('nlt-name').textContent = lead.name + ' — ' + lead.exam;
+    document.getElementById('nlt-meta').textContent = lead.city + ' · ' + lead.source;
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 3000);
+
+    // Update New Leads counter
+    newLeadCount++;
+    const el = document.getElementById('fn-new');
+    if (el) el.textContent = newLeadCount;
+
+    // Append to queue
+    const body = document.getElementById('queue-body');
+    const row  = document.createElement('div');
+    row.className = 'queue-row';
+    row.style.animation = 'slideDown 300ms ease';
+    row.innerHTML = `
+      <div><div class="qr-name">${lead.name}</div></div>
+      <div><div class="qr-city">${lead.city}</div></div>
+      <div><span class="qr-exam">${lead.exam}</span></div>
+      <div><div class="qr-source">${lead.source}</div></div>
+      <div><span class="q-status qs-queued">Queued</span></div>`;
+    body.appendChild(row);
+  }, 30000);
+}
+
 // ── Init ───────────────────────────────────────────────────────────────────────
 buildQueue();
 buildFunnel();
+startNewLeadTicker();
 </script>
 </body>
 </html>"""
