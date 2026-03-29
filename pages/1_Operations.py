@@ -21,7 +21,6 @@ from ui_utils import render_nav
 
 st.set_page_config(page_title="Operations — PW Voice AI", page_icon="⚡", layout="wide")
 render_nav("Operations")
-st.cache_data.clear()
 
 # ── Load CSV leads ─────────────────────────────────────────────────────────────
 @st.cache_data
@@ -662,7 +661,9 @@ let transcriptInterval = null;
 let completedCalls = [];
 const seq = D.demo_sequence;  // [0, 1]
 let idleRequested  = false;
-let outboundQueueIdx = 2;  // queue leads 0,1 used in fixed seq; extras start at 2
+let outboundQueueIdx = 2;
+let activeCallIdx  = 0;  // tracks current call index for controls
+let activeNextState = STATES.OUTBOUND_DONE;
 let newLeadPool = [
   {name:'Sneha Iyer',    city:'Chennai',   exam:'NEET',     source:'Watched free lecture'},
   {name:'Rohan Gupta',   city:'Jaipur',    exam:'JEE Main', source:'Downloaded mock test'},
@@ -861,6 +862,8 @@ function onCallActive(callIdx) {
 function onCallActiveWith(callIdx, nextState) {
   const call = D.demo_calls[callIdx];
   if (!call) { setState(STATES.COMPLETE); return; }
+  activeCallIdx  = callIdx;
+  activeNextState = nextState;
 
   showAcState('call');
   const isOutbound = call.call_type === 'outbound';
@@ -877,12 +880,16 @@ function onCallActiveWith(callIdx, nextState) {
   document.getElementById('stu-meta').textContent   = `${s.city} · Class ${s.class} · ${s.exam} · ${s.lead_source}`;
   document.getElementById('spk-student-name').textContent = s.name.split(' ')[0];
 
+  // Stop any previous audio/timers
+  if (audio) { audio.pause(); audio = null; }
+  if (timerInterval) clearInterval(timerInterval);
+  if (transcriptInterval) clearInterval(transcriptInterval);
+
   // Clear transcript
   document.getElementById('transcript-box').innerHTML = '';
 
   // Timer
   timerSecs = 0;
-  if (timerInterval) clearInterval(timerInterval);
   timerInterval = setInterval(() => {
     timerSecs++;
     const m = Math.floor(timerSecs/60);
@@ -1047,12 +1054,12 @@ function onComplete() {
   document.getElementById('inbound-active').style.display = 'none';
   document.getElementById('inbound-banner').style.display = 'none';
 
-  // Update funnel counts for all completed calls
-  completedCalls.forEach(call => {
-    const tier = call.tier;
-    const el   = document.getElementById('bcount-' + tier);
+  // Update funnel count for the just-completed call only
+  const lastCall = completedCalls[completedCalls.length - 1];
+  if (lastCall) {
+    const el = document.getElementById('bcount-' + lastCall.tier);
     if (el) el.textContent = parseInt(el.textContent) + 1;
-  });
+  }
   document.getElementById('funnel-badge').style.display = 'block';
 
   // If idle was requested or queue exhausted, stop
@@ -1162,9 +1169,7 @@ document.addEventListener('keydown', e => {
 
 // ── Call controls ──────────────────────────────────────────────────────────────
 function skipToEnd() {
-  const isOutbound = state === STATES.OUTBOUND_ACTIVE;
-  const callIdx    = isOutbound ? seq[0] : seq[1];
-  const call       = D.demo_calls[callIdx] || D.demo_calls[D.demo_calls.length - 1];
+  const call = D.demo_calls[activeCallIdx];
   if (!call) return;
   clearInterval(transcriptInterval);
   (call.transcript || []).forEach(msg => addTranscriptMsg(msg));
@@ -1177,8 +1182,7 @@ function endCall() {
   clearInterval(timerInterval);
   clearInterval(transcriptInterval);
   showSpeaking(null);
-  if (state === STATES.OUTBOUND_ACTIVE) setState(STATES.OUTBOUND_DONE);
-  else if (state === STATES.INBOUND_ACTIVE) setState(STATES.INBOUND_DONE);
+  setState(activeNextState);
 }
 
 function goIdle() {
