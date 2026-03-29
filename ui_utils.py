@@ -87,7 +87,7 @@ def render_nav(active_page: str):
         padding: 0 12px !important;
         font-size: 12px !important;
         font-weight: 500 !important;
-        color: #8b8fa3 !important;
+        color: #c8cad6 !important;
         text-decoration: none !important;
         border-radius: 6px !important;
         border-bottom: 2px solid transparent !important;
