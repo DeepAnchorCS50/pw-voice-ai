@@ -41,7 +41,7 @@ def load_demo_calls():
     calls = []
     json_files = sorted(glob.glob(os.path.join(DEMO_DIR, "*.json")))
     for jf in json_files:
-        with open(jf) as f:
+        with open(jf, encoding='utf-8') as f:
             call = json.load(f)
         wav_path = jf.replace(".json", ".wav")
         if os.path.exists(wav_path):
@@ -214,6 +214,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 .queue-wrap{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:16px;}
 .queue-header{display:grid;grid-template-columns:140px 80px 90px 1fr 110px;gap:0;padding:8px 14px;border-bottom:1px solid var(--border);}
 .qh{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:0.8px;color:var(--muted);}
+.queue-body-scroll{max-height:220px;overflow-y:auto;}
 .queue-row{display:grid;grid-template-columns:140px 80px 90px 1fr 110px;gap:0;padding:10px 14px;border-bottom:1px solid var(--border);transition:background 120ms;cursor:pointer;}
 .queue-row:last-child{border-bottom:none;}
 .queue-row:hover{background:var(--card-h);}
@@ -228,6 +229,14 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 .qs-warm      {background:#f59e0b22;color:var(--warm);}
 .qs-cold      {background:#3b82f622;color:var(--cold);}
 @keyframes qpulse{0%,100%{opacity:1}50%{opacity:0.6}}
+
+/* ── Today badges ── */
+.today-badge{font-size:9px;font-weight:700;padding:1px 6px;border-radius:8px;margin-left:6px;display:none;}
+.today-badge.visible{display:inline-block;}
+.tb-hot-today {background:#ef444422;color:var(--hot);}
+.tb-warm-today{background:#f59e0b22;color:var(--warm);}
+.tb-cold-today{background:#3b82f622;color:var(--cold);}
+.stage-today{font-size:9px;color:var(--success);font-weight:600;margin-left:4px;}
 
 /* ── Inbound queue ── */
 .inbound-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px;margin-bottom:16px;transition:all 300ms;}
@@ -418,7 +427,6 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
 .ctrl-idle:hover{color:var(--text);border-color:var(--muted);}
 .ctrl-idle.requested{color:var(--warm);border-color:var(--warm);background:#f59e0b14;}
 
-/* ── New lead toast ── */
 .new-lead-toast{position:absolute;top:10px;left:50%;transform:translateX(-50%) translateY(-60px);background:var(--card);border:1px solid #22c55e44;border-radius:10px;padding:10px 16px;display:flex;align-items:center;gap:10px;z-index:100;transition:transform 400ms ease,opacity 400ms ease;opacity:0;pointer-events:none;white-space:nowrap;}
 .new-lead-toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
 .nlt-dot{width:8px;height:8px;border-radius:50%;background:var(--success);animation:pulse 1s infinite;}
@@ -467,7 +475,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
           <div class="qh">Lead Source</div>
           <div class="qh">Status</div>
         </div>
-        <div id="queue-body"></div>
+        <div id="queue-body" class="queue-body-scroll"></div>
       </div>
 
       <!-- Inbound Queue -->
@@ -627,6 +635,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);font-size:13
         <div class="dp-section-title">Score</div>
         <div id="dp-scores" style="display:flex;gap:10px"></div>
       </div>
+      <div id="dp-audio-wrap" style="display:none"></div>
       <div>
         <div class="dp-section-title">Conversation</div>
         <div class="dp-transcript" id="dp-transcript"></div>
@@ -663,7 +672,10 @@ const seq = D.demo_sequence;  // [0, 1]
 let idleRequested  = false;
 let outboundQueueIdx = 2;
 let activeCallIdx  = 0;  // tracks current call index for controls
-let activeNextState = STATES.OUTBOUND_DONE;
+let activeNextState = STATES.PAUSE;
+let simulateTimeouts = [];  // transcript message timeouts — safe to cancel
+let transitionTimeouts = [];  // state transition timeouts — cleared only on restart
+let todayTierCounts = {HOT:0, WARM:0, COLD:0};
 let newLeadPool = [
   {name:'Sneha Iyer',    city:'Chennai',   exam:'NEET',     source:'Watched free lecture'},
   {name:'Rohan Gupta',   city:'Jaipur',    exam:'JEE Main', source:'Downloaded mock test'},
@@ -726,16 +738,12 @@ function buildFunnel() {
     <div class="top-node"><div class="top-node-label">Attempting</div><div class="top-node-count" id="fn-att">${D.pipeline_summary.attempting}</div><div class="top-node-sub">AI Call Queued</div></div>`;
   wrap.appendChild(topDiv);
 
-  const divider = document.createElement('div');
-  divider.className = 'ai-divider';
-  divider.innerHTML = `<div class="ai-line"></div><div class="ai-badge">🤖 AI Scored ${D.pipeline_summary.scored} Leads</div><div class="ai-line"></div>`;
-  wrap.appendChild(divider);
-
   const TIER_CFG = {
     HOT:  {cls:'hot', emoji:'🔥', key:'hot'},
     WARM: {cls:'warm',emoji:'🔶',key:'warm'},
     COLD: {cls:'cold',emoji:'❄️',key:'cold'},
   };
+  const TIER_DEFAULT_STAGE = {HOT:'Senior Sales Assigned', WARM:'Follow-up Scheduled', COLD:'Drip Campaign'};
   const TERM_COLORS = {enrolled:'term-enrolled',nurture:'term-nurture',lost:'term-lost'};
   const TERM_LABELS = {enrolled:'✅ Enrolled',nurture:'🔄 Nurture',lost:'❌ Lost'};
 
@@ -753,15 +761,16 @@ function buildFunnel() {
 
     const hdr = document.createElement('div');
     hdr.className = `branch-header bh-${cfg.cls}`;
-    hdr.innerHTML = `<div class="bh-tier">${cfg.emoji} ${tier}</div><div class="bh-count" id="bcount-${tier}">${count}</div><div class="bh-pct">${pct}% of scored</div>`;
+    hdr.innerHTML = `<div class="bh-tier">${cfg.emoji} ${tier}</div><div class="bh-count" id="bcount-${tier}">${count}</div><span class="today-badge tb-${cfg.cls}-today" id="today-tier-${tier}">+0 today</span><div class="bh-pct">${pct}% of scored</div>`;
     hdr.onclick = () => { window.top.location.href = '/Lead_List'; };
     branch.appendChild(hdr);
 
     stages.filter(s => !s.terminal).forEach(s => {
       const a = document.createElement('div'); a.className='arr'; a.textContent='↓';
       branch.appendChild(a);
+      const isDefaultStage = s.stage === TIER_DEFAULT_STAGE[tier];
       const r = document.createElement('div'); r.className='stage-row';
-      r.innerHTML=`<div class="sn-name">${s.stage}</div><div class="sn-right"><div class="sn-count">${s.count}</div><div class="sn-pct">${s.pct}</div></div>`;
+      r.innerHTML=`<div class="sn-name">${s.stage}${isDefaultStage ? `<span class="stage-today" id="today-stage-${tier}" style="display:none">+0 today</span>` : ''}</div><div class="sn-right"><div class="sn-count" id="scount-${tier}-${s.stage.replace(/\s/g,'_')}">${s.count}</div><div class="sn-pct">${s.pct}</div></div>`;
       branch.appendChild(r);
     });
 
@@ -799,6 +808,13 @@ function restartDemo() {
   idleRequested  = false;
   outboundQueueIdx = 2;
   state = STATES.IDLE;
+  simulateTimeouts.forEach(id => clearTimeout(id)); simulateTimeouts = [];
+  transitionTimeouts.forEach(id => clearTimeout(id)); transitionTimeouts = [];
+  todayTierCounts = {HOT:0, WARM:0, COLD:0};
+  newLeadPoolIdx = 0;
+  newLeadCount = D.pipeline_summary.new;
+  if (newLeadTickerInterval) { clearInterval(newLeadTickerInterval); newLeadTickerInterval = null; }
+  startNewLeadTicker();
 
   buildQueue();
   buildFunnel();
@@ -831,16 +847,12 @@ function renderState() {
       onLive(); break;
     case STATES.OUTBOUND_ACTIVE:
       onCallActive(seq[0]); break;
-    case STATES.OUTBOUND_DONE:
-      onCallDone(seq[0], STATES.PAUSE); break;
     case STATES.PAUSE:
       onPause(); break;
     case STATES.INBOUND_ALERT:
       onInboundAlert(); break;
     case STATES.INBOUND_ACTIVE:
       onCallActive(seq[1]); break;
-    case STATES.INBOUND_DONE:
-      onCallDone(seq[1], STATES.COMPLETE); break;
     case STATES.COMPLETE:
       onComplete(); break;
   }
@@ -856,7 +868,7 @@ function onLive() {
 }
 
 function onCallActive(callIdx) {
-  onCallActiveWith(callIdx, callIdx === seq[0] ? STATES.OUTBOUND_DONE : STATES.INBOUND_DONE);
+  onCallActiveWith(callIdx, callIdx === seq[0] ? STATES.PAUSE : STATES.COMPLETE);
 }
 
 function onCallActiveWith(callIdx, nextState) {
@@ -884,6 +896,8 @@ function onCallActiveWith(callIdx, nextState) {
   if (audio) { audio.pause(); audio = null; }
   if (timerInterval) clearInterval(timerInterval);
   if (transcriptInterval) clearInterval(transcriptInterval);
+  simulateTimeouts.forEach(id => clearTimeout(id));
+  simulateTimeouts = [];
 
   // Clear transcript
   document.getElementById('transcript-box').innerHTML = '';
@@ -905,7 +919,7 @@ function onCallActiveWith(callIdx, nextState) {
       clearInterval(timerInterval);
       clearInterval(transcriptInterval);
       showSpeaking(null);
-      setTimeout(() => setState(nextState), 500);
+      setTimeout(() => onCallDoneWith(activeCallIdx, nextState), 500);
     });
     // Transcript sync
     const msgs = call.transcript || [];
@@ -932,17 +946,19 @@ function simulateCall(call, nextState) {
   const total = (tss[tss.length-1] || (msgs.length * 3500)) + 3000;
 
   msgs.forEach((msg, i) => {
-    setTimeout(() => {
+    const id = setTimeout(() => {
       addTranscriptMsg(msg);
       showSpeaking(msg.speaker);
     }, tss[i] || i * 3500);
+    simulateTimeouts.push(id);
   });
 
-  setTimeout(() => {
+  const id = setTimeout(() => {
     clearInterval(timerInterval);
     showSpeaking(null);
-    setState(nextState);
+    onCallDoneWith(activeCallIdx, nextState);
   }, total);
+  simulateTimeouts.push(id);
 }
 
 function addTranscriptMsg(msg) {
@@ -965,25 +981,54 @@ function showSpeaking(who) {
 }
 
 function onCallDone(callIdx, nextState) {
+  onCallDoneWith(callIdx, nextState);
+}
+
+function onCallDoneWith(callIdx, nextState) {
   const call = D.demo_calls[callIdx];
+  if (!call) return;
   callsProcessed++;
   completedCalls.push(call);
 
-  // Update queue
+  // Update funnel count immediately after each call
+  const fEl = document.getElementById('bcount-' + call.tier);
+  if (fEl) fEl.textContent = parseInt(fEl.textContent) + 1;
+  document.getElementById('funnel-badge').style.display = 'block';
+
+  // Update today badges + stage count
+  todayTierCounts[call.tier]++;
+  const tierBadge = document.getElementById('today-tier-' + call.tier);
+  if (tierBadge) { tierBadge.textContent = '+' + todayTierCounts[call.tier] + ' today'; tierBadge.classList.add('visible'); }
+  const stageBadge = document.getElementById('today-stage-' + call.tier);
+  if (stageBadge) { stageBadge.textContent = '+' + todayTierCounts[call.tier] + ' today'; stageBadge.style.display = 'inline'; }
+
+  // Increment default stage row count
+  const TIER_STAGE_ID = {HOT:'Senior_Sales_Assigned', WARM:'Follow-up_Scheduled', COLD:'Drip_Campaign'};
+  const scEl = document.getElementById('scount-' + call.tier + '-' + TIER_STAGE_ID[call.tier]);
+  if (scEl) scEl.textContent = parseInt(scEl.textContent) + 1;
+
+  // Update queue status for this specific call
   const tier = call.tier;
-  if (callIdx === seq[0]) {
-    updateQueueStatus(0, tier.toLowerCase(), `${tier === 'HOT' ? '🔥' : tier === 'WARM' ? '🔶' : '❄️'} ${tier}`);
-  }
+  const qIdx = callIdx <= seq[1] ? callIdx : outboundQueueIdx - 1;
+  updateQueueStatus(qIdx, tier.toLowerCase(), `${tier === 'HOT' ? '🔥' : tier === 'WARM' ? '🔶' : '❄️'} ${tier}`);
 
   // Show analyzing
   showAcState('analyzing');
   document.getElementById('status-meta').textContent = `${callsProcessed} call${callsProcessed > 1 ? 's' : ''} processed today`;
 
-  setTimeout(() => {
+  const doneId = setTimeout(() => {
     showScoringReveal(call);
     addRecentCall(call);
-    setTimeout(() => setState(nextState), 4000);
+    const nextId = setTimeout(() => {
+      if (nextState === 'LOOP_DONE') {
+        onComplete();
+      } else {
+        setState(nextState);
+      }
+    }, 4000);
+    transitionTimeouts.push(nextId);
   }, 2500);
+  transitionTimeouts.push(doneId);
 }
 
 function showScoringReveal(call) {
@@ -1049,49 +1094,44 @@ function onInboundAlert() {
   setTimeout(() => setState(STATES.INBOUND_ACTIVE), 2000);
 }
 
+// ── Sync params for cross-page update ─────────────────────────────────────────
+function writeSyncParams() {
+  // Show a "View Results" button inside the idle state
+  const idleText = document.querySelector('#idle-state .idle-text');
+  if (idleText) {
+    idleText.innerHTML = `All calls processed.<br>
+      <a href="/Lead_List?pw_synced=1&pw_calls=${callsProcessed}&pw_hot=${todayTierCounts.HOT}&pw_warm=${todayTierCounts.WARM}&pw_cold=${todayTierCounts.COLD}"
+         style="display:inline-block;margin-top:12px;padding:8px 20px;background:var(--brand);color:#fff;border-radius:6px;font-size:12px;font-weight:600;text-decoration:none;">
+        📋 View Results in Lead List →
+      </a>`;
+  }
+}
+
 function onComplete() {
   document.getElementById('inbound-empty').style.display  = 'flex';
   document.getElementById('inbound-active').style.display = 'none';
   document.getElementById('inbound-banner').style.display = 'none';
 
-  // Update funnel count for the just-completed call only
-  const lastCall = completedCalls[completedCalls.length - 1];
-  if (lastCall) {
-    const el = document.getElementById('bcount-' + lastCall.tier);
-    if (el) el.textContent = parseInt(el.textContent) + 1;
-  }
-  document.getElementById('funnel-badge').style.display = 'block';
-
   // If idle was requested or queue exhausted, stop
   const queue = D.outbound_queue;
   if (idleRequested || outboundQueueIdx >= queue.length) {
+    writeSyncParams();
     document.getElementById('status-text').textContent = idleRequested ? 'Agent Idle — Stopped by operator' : 'Agent Idle — Queue Complete';
     document.getElementById('restart-btn').style.display = 'block';
     document.getElementById('go-live-btn').style.display = 'none';
     showAcState('idle');
-    document.getElementById('idle-state').querySelector('.idle-text').textContent = 'All calls processed. Click ↺ Restart to run again.';
     return;
   }
 
-  // Pick next queue lead, synthesize a call using a template demo call
-  const nextLead = queue[outboundQueueIdx];
+  // Use next real demo call directly (calls 2, 3, 4)
+  const nextCallIdx = outboundQueueIdx;  // starts at 2
   outboundQueueIdx++;
-  const template  = D.demo_calls[outboundQueueIdx % D.demo_calls.length];
-  const synthCall = Object.assign({}, template, {
-    call_id:   'call_extra_' + outboundQueueIdx,
-    call_type: 'outbound',
-    student:   { name: nextLead.name, city: nextLead.city, exam: nextLead.exam, class: '12', lead_source: nextLead.source },
-    audio_base64: '',  // simulate, no audio
-  });
-  D.demo_calls.push(synthCall);
-  const newIdx = D.demo_calls.length - 1;
 
   document.getElementById('status-text').textContent = 'Agent Live — Processing Calls';
-  updateQueueStatus(outboundQueueIdx - 1, 'inprogress', '● In Progress');
+  updateQueueStatus(nextCallIdx, 'inprogress', '● In Progress');
 
-  // Override state machine to go directly to outbound active with new index
   showAcState('call');
-  setTimeout(() => onCallActiveWith(newIdx, STATES.OUTBOUND_DONE), 800);
+  setTimeout(() => onCallActiveWith(nextCallIdx, 'LOOP_DONE'), 800);
 }
 
 // ── UI helpers ─────────────────────────────────────────────────────────────────
@@ -1110,13 +1150,23 @@ function updateQueueStatus(idx, cls, label) {
 }
 
 function addRecentCall(call) {
-  const TIER_COLOR = {HOT:'var(--hot)',WARM:'var(--warm)',COLD:'var(--cold)'};
-  const html = `<div class="recent-call" onclick='openDetail(${JSON.stringify(call).replace(/'/g, "&#39;")})'>
+  const TIER_STAGE = {HOT:'Senior Sales Assigned', WARM:'Follow-up Scheduled', COLD:'Drip Campaign'};
+  const TIER_NEXT  = {
+    HOT:  'Schedule callback today. Share fee structure and enrollment link.',
+    WARM: 'Send info pack. Follow up in 3 days.',
+    COLD: 'Add to drip campaign. Re-engage in 4 weeks.',
+  };
+  const enriched = Object.assign({}, call, {
+    pipeline_stage: TIER_STAGE[call.tier] || '—',
+    next_steps:     TIER_NEXT[call.tier]  || '—',
+  });
+  const html = `<div class="recent-call" onclick='openDetail(${JSON.stringify(enriched).replace(/'/g, "&#39;")})'>
     <div class="rc-top">
-      <div class="rc-name">${call.student?.name || 'Student'}</div>
-      <span class="tier-badge tb-${call.tier}">${call.tier}</span>
+      <div class="rc-name">${enriched.student?.name || 'Student'}</div>
+      <span class="tier-badge tb-${enriched.tier}">${enriched.tier}</span>
     </div>
-    <div class="rc-meta">${call.student?.city || ''} · ${call.student?.exam || ''} · Score: ${call.ml_score}</div>
+    <div class="rc-meta">${enriched.student?.city || ''} · ${enriched.student?.exam || ''} · Score: ${enriched.ml_score}</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:3px">${enriched.pipeline_stage}</div>
   </div>`;
 
   // Update both panels
@@ -1142,7 +1192,9 @@ function openDetail(call) {
     <div class="dp-field"><div class="dpf-label">Decision Maker</div><div class="dpf-val">${dm_labels[ef.decision_maker] || ef.decision_maker || '—'}</div></div>
     <div class="dp-field"><div class="dpf-label">Months to Exam</div><div class="dpf-val">${ef.months_to_exam || '—'}</div></div>
     <div class="dp-field"><div class="dpf-label">ML Score</div><div class="dpf-val" style="color:var(--brand)">${call.ml_score}</div></div>
-    <div class="dp-field"><div class="dpf-label">QA Validated</div><div class="dpf-val" style="color:var(--success)">✓ Yes</div></div>`;
+    <div class="dp-field"><div class="dpf-label">QA Validated</div><div class="dpf-val" style="color:var(--success)">✓ Yes</div></div>
+    <div class="dp-field" style="grid-column:span 2"><div class="dpf-label">Pipeline Stage</div><div class="dpf-val">${call.pipeline_stage || '—'}</div></div>
+    <div class="dp-field" style="grid-column:span 2"><div class="dpf-label">Next Steps</div><div class="dpf-val" style="color:var(--success)">${call.next_steps || '—'}</div></div>`;
 
   const tc = {HOT:'var(--hot)',WARM:'var(--warm)',COLD:'var(--cold)'};
   document.getElementById('dp-scores').innerHTML = `
@@ -1155,6 +1207,20 @@ function openDetail(call) {
       <div style="font-size:9px;font-weight:600;text-transform:uppercase;width:50px;color:${m.speaker==='agent'?'var(--brand)':'var(--warm)'};">${m.speaker}</div>
       <div style="font-size:11px;color:var(--text);line-height:1.5">${m.text}</div>
     </div>`).join('');
+
+  // Audio player — shown only if call has audio
+  const audioWrap = document.getElementById('dp-audio-wrap');
+  if (call.audio_base64 && call.audio_base64.length > 100) {
+    audioWrap.style.display = 'block';
+    audioWrap.innerHTML = `
+      <div class="dp-section-title" style="margin-bottom:8px">Recording</div>
+      <audio controls style="width:100%;height:36px;border-radius:6px;outline:none;">
+        <source src="data:audio/wav;base64,${call.audio_base64}" type="audio/wav">
+      </audio>`;
+  } else {
+    audioWrap.style.display = 'none';
+    audioWrap.innerHTML = '';
+  }
 
   document.getElementById('detail-overlay').classList.add('visible');
 }
@@ -1180,9 +1246,11 @@ function skipToEnd() {
 function endCall() {
   if (audio) { audio.pause(); audio = null; }
   clearInterval(timerInterval);
+  simulateTimeouts.forEach(id => clearTimeout(id));
+  simulateTimeouts = [];
   clearInterval(transcriptInterval);
   showSpeaking(null);
-  setState(activeNextState);
+  onCallDoneWith(activeCallIdx, activeNextState);
 }
 
 function goIdle() {
@@ -1197,9 +1265,12 @@ function goIdle() {
 // ── New lead ticker ────────────────────────────────────────────────────────────
 let newLeadPoolIdx = 0;
 let newLeadCount   = D.pipeline_summary.new;
+let newLeadTickerInterval = null;
 
 function startNewLeadTicker() {
-  setInterval(() => {
+  newLeadTickerInterval = setInterval(() => {
+    const body = document.getElementById('queue-body');
+    if (body.children.length >= 20) return;  // cap at 20
     const lead = newLeadPool[newLeadPoolIdx % newLeadPool.length];
     newLeadPoolIdx++;
 
@@ -1216,7 +1287,6 @@ function startNewLeadTicker() {
     if (el) el.textContent = newLeadCount;
 
     // Append to queue
-    const body = document.getElementById('queue-body');
     const row  = document.createElement('div');
     row.className = 'queue-row';
     row.style.animation = 'slideDown 300ms ease';

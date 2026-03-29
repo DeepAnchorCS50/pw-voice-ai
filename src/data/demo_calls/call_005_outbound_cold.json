@@ -16,99 +16,129 @@
     },
     {
       "speaker": "student",
-      "text": "Haan ji, main Suresh bol raha hun. Actually maine kuch material download kiya tha apne bete ke liye.",
+      "text": "Haan ji, main Suresh bol raha hun. Actually maine sirf dekha tha app pe, but abhi kuch decide nahi kiya hai.",
       "timestamp": 10.573
     },
     {
       "speaker": "agent",
-      "text": "That's great Suresh ji! Main aapki help kar sakti hun. Aapka beta kitni class mein hai aur kya prepare kar raha hai?",
-      "timestamp": 16.917
+      "text": "Bilkul Suresh ji, no pressure at all! Main bas janana chahti thi ki aap kis class mein hain aur kya preparation kar rahe hain? Maybe main kuch help kar sakun.",
+      "timestamp": 17.667
     },
     {
       "speaker": "student",
-      "text": "Woh class 10 mein hai abhi. JEE ki preparation karna chahta hai but hum thoda confused hain ki kaise start karein.",
-      "timestamp": 24.13
+      "text": "Main class 10th mein hun. JEE ke baare mein soch raha hun but thoda confused hun ki kaise start karun.",
+      "timestamp": 27.46
     },
     {
       "speaker": "agent",
-      "text": "Perfect timing hai Suresh ji! Class 10 se JEE preparation start karna bahut achha decision hai. 2027 mein exam hoga uska matlab? Abhi 20 months ka time hai preparation ke liye.",
-      "timestamp": 31.924
+      "text": "Great choice Suresh ji! JEE ki preparation class 10th se start karna bahut smart decision hai. Aapka target JEE Main 2027 hai na? Woh perfect timing hai - 20 months ka time mil jayega proper preparation ke liye.",
+      "timestamp": 34.554
     },
     {
       "speaker": "student",
-      "text": "Haan bilkul. But sir, fees ka kya scene hai? Humara budget limited hai.",
-      "timestamp": 43.997
+      "text": "Haan, but papa kehte hain ki pehle budget dekh lete hain. Woh bhi phone pe hain... Papa, aap baat kar lijiye.",
+      "timestamp": 49.207
     },
     {
       "speaker": "agent",
-      "text": "Main samajh sakti hun aapki concern. PhysicsWallah mein humara focus affordable education par hai. JEE ke liye hamare paas different courses hain. JEE Arjuna 2027 batch 19,999 rupees mein hai, aur JEE Lakshya 2027 35,999 rupees mein.",
-      "timestamp": 49.091
+      "text": "Namaste uncle ji! Main Priya hun PhysicsWallah se. Suresh ji ne bataya ki aap JEE preparation ke baare mein discuss kar rahe hain. Main aapko proper details de sakti hun courses aur fees ke baare mein.",
+      "timestamp": 56.751
     },
     {
       "speaker": "student",
-      "text": "Ye thoda zyada lag raha hai. Koi aur option hai kya? Aur EMI facility hai?",
-      "timestamp": 68.064
+      "text": "Namaste beta. Haan, mera beta prepare karna chahta hai but humein budget ka bhi dhyan rakhna padta hai. Kya rates hain aapke?",
+      "timestamp": 69.904
     },
     {
       "speaker": "agent",
-      "text": "Bilkul hai Suresh ji! Hum 0% EMI offer karte hain PW Pay ke through. JEE Arjuna course ke liye sirf 1,999 rupees per month - ye toh daily chai-paani se bhi kam hai! Aur quality top-notch hai.",
-      "timestamp": 73.508
+      "text": "Bilkul samajh sakti hun uncle ji. Hamare paas different options hain. JEE ke liye humara most popular course hai JEE Arjuna 2027 - jo hai 19,999 rupees ka. But main bata dun ki humara EMI option bhi hai - sirf 1,999 rupees per month through PW Pay.",
+      "timestamp": 78.098
     },
     {
       "speaker": "student",
-      "text": "EMI achhi baat hai. But decision lene se pehle mere bete se aur wife se baat karni padegi. Kya guarantee hai ki course achha hoga?",
-      "timestamp": 87.321
+      "text": "1,999 rupees monthly... thoda zyada lag raha hai. Koi aur cheaper option hai kya? Aur yeh course mein kya milta hai exactly?",
+      "timestamp": 96.591
     },
     {
       "speaker": "agent",
-      "text": "Absolutely Suresh ji, family decision hai. PW mein lakhs of students successfully clear kar chuke hain JEE. Live classes, doubt clearing, test series sab kuch included hai. Demo class bhi de sakte hain pehle.",
-      "timestamp": 97.265
+      "text": "Uncle ji, yeh 1,999 rupees per month matlab daily sirf 66 rupees - jo aap chai pe spend karte hain usse bhi kam! Course mein milta hai complete JEE syllabus, live classes, doubt solving, practice tests, aur recorded lectures bhi. 0% interest hai EMI pe.",
+      "timestamp": 105.235
     },
     {
       "speaker": "student",
-      "text": "Demo class ka option achha hai. Mere paas aapka number hai, main 2-3 din mein call back kar sakta hun decision ke saath?",
-      "timestamp": 111.678
+      "text": "Hmm... beta sab samjha rahe hain but hum abhi decide nahi kar sakte. Kya kuch din time mil sakta hai sochne ke liye?",
+      "timestamp": 123.728
     },
     {
       "speaker": "agent",
-      "text": "Of course! Aap demo class book kar sakte hain app se, ya main aapke liye arrange kar deti hun. Mera number hai 9 8 7 6 5 4 3 2 1 0. Call kar sakte hain anytime doubts ke liye.",
-      "timestamp": 119.122
+      "text": "Bilkul uncle ji, koi jaldi nahi hai! But main suggest karungi ki Suresh ji ko free trial de dete hain 7 days ka. Usse pata chal jayega ki quality kaisi hai, teachers kaise padhate hain. Phir aap decide kar sakte hain comfortably.",
+      "timestamp": 131.322
     },
     {
       "speaker": "student",
-      "text": "Theek hai Priya ji. Demo class arrange kar dijiye. Uske baad hum decide karenge family ke saath milkar.",
-      "timestamp": 131.315
+      "text": "Free trial ka matlab kya hai? Kuch hidden charges toh nahi hain? Aur agar pasand nahi aaya toh?",
+      "timestamp": 145.855
     },
     {
       "speaker": "agent",
-      "text": "Perfect Suresh ji! Main demo class arrange kar deti hun aapke beta ke liye. WhatsApp par details bhej dungi. Aur koi question ho toh please call kar lena. Thank you for your time!",
-      "timestamp": 138.409
+      "text": "Bilkul koi hidden charges nahi uncle ji! 7 days completely free - live classes attend kar sakte hain, material download kar sakte hain. Agar pasand nahi aaya toh bas cancel kar dena, koi paisa nahi katega. Main aapka number register kar dun trial ke liye?",
+      "timestamp": 151.799
     },
     {
       "speaker": "student",
-      "text": "Dhanyawad Priya ji. WhatsApp par details ka wait karunga. Good day!",
-      "timestamp": 149.402
+      "text": "Thik hai, trial le sakte hain. But confirm kar dena ki free hai. Number hai 9 1 2 3 4 5 6 7 8 0. Suresh, tu bhi sun raha hai na beta?",
+      "timestamp": 167.892
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect uncle ji! 9 1 2 3 4 5 6 7 8 0 noted. Main abhi activate kar deti hun. Suresh ji, aap app download kar lijiye, credentials SMS se aa jayenge. Koi doubt ho toh call kar lena. Deal?",
+      "timestamp": 178.586
+    },
+    {
+      "speaker": "student",
+      "text": "Haan thik hai didi. Main try karunga 7 days. Agar achha laga toh papa se baat karunga fees ke baare mein.",
+      "timestamp": 196.719
+    },
+    {
+      "speaker": "agent",
+      "text": "Perfect Suresh ji! Main personally follow up karungi 3 days baad ki kaisa lag raha hai. Uncle ji, thank you itna patiently sunne ke liye. All the best Suresh ji for your JEE preparation!",
+      "timestamp": 204.013
+    },
+    {
+      "speaker": "student",
+      "text": "Thank you didi. Umeed hai achha experience hoga. Papa bhi satisfied hain trial ke saath. Phir baat karte hain.",
+      "timestamp": 215.846
+    },
+    {
+      "speaker": "agent",
+      "text": "Thank you so much! Take care uncle ji aur Suresh ji. Happy learning! Jai Hind!",
+      "timestamp": 223.19
     }
   ],
   "timestamps": [
     0,
     10573,
-    16917,
-    24130,
-    31924,
-    43997,
-    49091,
-    68064,
-    73508,
-    87321,
-    97265,
-    111678,
-    119122,
-    131315,
-    138409,
-    149402
+    17667,
+    27460,
+    34554,
+    49207,
+    56751,
+    69904,
+    78098,
+    96591,
+    105235,
+    123728,
+    131322,
+    145855,
+    151799,
+    167892,
+    178586,
+    196719,
+    204013,
+    215846,
+    223190
   ],
-  "duration_seconds": 146.046,
+  "duration_seconds": 218.163,
   "extracted_fields": {
     "name": "Suresh Yadav",
     "class": "10",
@@ -129,7 +159,7 @@
   "tier": "HOT",
   "action_cards": {
     "promised_actions": [
-      "Send course details and enrollment link"
+      "Follow up within 24 hours"
     ],
     "recommended_actions": [
       "Assign to senior sales rep",

@@ -16,129 +16,129 @@
     },
     {
       "speaker": "student",
-      "text": "Hi, namaste! Main NEET preparation ke baare mein jaanna chahti hun. Mera naam Ananya hai.",
-      "timestamp": 5.773
+      "text": "Hi Priya! Main NEET ki preparation kar rahi hun aur main apne courses ke baare mein jaanna chahti hun. Kya aap mujhe bata sakti hain ki kya options available hain?",
+      "timestamp": 5.353
     },
     {
       "speaker": "agent",
-      "text": "Hi Ananya! Nice to meet you. NEET preparation ke liye call kiya hai, that's great! Aap currently which class mein ho?",
-      "timestamp": 12.467
+      "text": "Bilkul! Main aapki help kar sakti hun. Pehle aap mujhe apna naam bata dijiye aur aap currently kaun se class mein hain?",
+      "timestamp": 15.597
     },
     {
       "speaker": "student",
-      "text": "Main class 12th mein hun. Actually mujhe thoda late realize hua hai ki mujhe proper coaching chahiye NEET ke liye.",
-      "timestamp": 20.58
+      "text": "Mera naam Ananya Reddy hai aur main Class 12 mein hun. Main Hyderabad se hun.",
+      "timestamp": 22.81
     },
     {
       "speaker": "agent",
-      "text": "No worries Ananya, it's never too late! Class 12th mein ho toh perfect timing hai. NEET 2025 ke liye prepare kar rahi ho ya 2026?",
-      "timestamp": 28.774
+      "text": "Great Ananya! Toh aap NEET 2025 ke liye prepare kar rahi hain ya next year ke liye? Matlab kitne months hain aapke paas exam tak?",
+      "timestamp": 28.504
     },
     {
       "speaker": "student",
-      "text": "2025 ke liye! Bas 4 mahine bache hain, isliye main worried hun. Kya itne kam time mein kuch ho sakta hai?",
-      "timestamp": 39.227
+      "text": "Actually main NEET 2025 ke liye kar rahi hun aur sirf 4 months left hain. Isliye main thoda worried hun ki itne kam time mein kya proper preparation ho payegi.",
+      "timestamp": 36.857
     },
     {
       "speaker": "agent",
-      "text": "Absolutely Ananya! 4 months agar properly utilize karoge toh bahut kuch possible hai. Humare paas NEET Yakeen course hai jo specially designed hai intensive preparation ke liye. Current mein koi coaching le rahi ho?",
-      "timestamp": 47.121
+      "text": "Don't worry Ananya! 4 months mein bhi acchi preparation ho sakti hai agar right guidance aur strategy ho. Hamare paas NEET Yakeen 2027 course hai jo comprehensive hai, lekin aapke liye main suggest karungi ki hum current batch mein enroll karein. Kya aapka budget fix hai ya flexible hai?",
+      "timestamp": 46.851
     },
     {
       "speaker": "student",
-      "text": "Nahi, main mostly self-study kar rahi thi. But ab lagta hai structured approach chahiye. Yakeen course mein kya included hai?",
-      "timestamp": 61.834
+      "text": "Budget ke liye main worry nahi kar rahi, quality education mil jaaye bas. Aur main khud decide kar sakti hun, parents ne already permission de diya hai.",
+      "timestamp": 64.024
     },
     {
       "speaker": "agent",
-      "text": "NEET Yakeen mein complete syllabus coverage hai with live classes, recorded lectures, test series, doubt solving sessions, and personal mentorship. Price 33999 rupees hai, but EMI option bhi hai 3299 rupees per month.",
-      "timestamp": 70.378
+      "text": "Perfect! Toh main aapko recommend karungi NEET Yakeen course. Isme live classes, recorded lectures, doubt solving sessions, aur regular tests sab included hai. Price hai 33999 rupees, lekin hum 0% EMI bhi offer karte hain 3299 rupees per month mein.",
+      "timestamp": 73.218
     },
     {
       "speaker": "student",
-      "text": "Okay, price toh reasonable lagta hai. Main independent decision le sakti hun, parents already discuss kar chuke hain. Classes kab start hoti hain?",
-      "timestamp": 86.591
+      "text": "Ye toh reasonable hai. Kya isme crash course format mein intense preparation hogi? Kyunki mujhe lagta hai main already late hun.",
+      "timestamp": 91.891
     },
     {
       "speaker": "agent",
-      "text": "That's wonderful Ananya! Classes immediately start ho jaati hain enrollment ke baad. Tumhe live classes, recorded content, everything access mil jaayega instantly. Koi specific subject mein focus chahiye?",
-      "timestamp": 95.985
+      "text": "Haan bilkul! Hamare teachers specially short duration ke liye strategy banate hain. High-yield topics pe focus karenge, previous year questions solve karenge, aur weekly mock tests honge. Alok Sir aur other experienced teachers handle karte hain ye batches.",
+      "timestamp": 100.185
     },
     {
       "speaker": "student",
-      "text": "Biology mein main strong hun, but Physics and Chemistry mein improvement chahiye. Doubt clearing sessions regularly hote hain na?",
-      "timestamp": 109.378
+      "text": "Sounds perfect! Main interested hun. Kya main study material physical form mein bhi milega ya sirf online hai?",
+      "timestamp": 116.158
     },
     {
       "speaker": "agent",
-      "text": "Haan bilkul! Daily doubt clearing sessions hote hain, plus personal mentors bhi assigned hote hain. Physics aur Chemistry ke liye special focus modules bhi hain. 4 months mein targeted preparation kar sakte ho.",
-      "timestamp": 117.122
+      "text": "Ananya, aapko dono milega! Online access toh immediate mil jaayega, aur physical books bhi courier se 3-4 days mein deliver ho jaayengi. Plus mobile app mein offline download kar sakti hain lectures.",
+      "timestamp": 123.352
     },
     {
       "speaker": "student",
-      "text": "Perfect! Mujhe ye course suitable lagta hai. I want to start immediately \u2014 what is the fastest way to enroll?",
-      "timestamp": 130.155
+      "text": "Excellent! I want to start immediately \u2014 what is the fastest way to enroll? Main aaj hi shuru karna chahti hun preparation.",
+      "timestamp": 136.025
     },
     {
       "speaker": "agent",
-      "text": "Great decision Ananya! Main abhi enrollment process start kar deti hun. EMI option chahiye ya full payment? EMI mein 0% interest hai through PW Pay.",
-      "timestamp": 137.199
+      "text": "Great decision Ananya! Main abhi aapka enrollment process start kar deti hun. Aap PW Pay se payment kar sakti hain, ya fir EMI option choose kar sakti hain. Kya prefer karogi?",
+      "timestamp": 143.869
     },
     {
       "speaker": "student",
-      "text": "EMI option sounds good. 3299 per month for how many months exactly?",
-      "timestamp": 147.892
+      "text": "Main full payment kar dungi. EMI ki zarurat nahi. Aap process bata dijiye, main ready hun.",
+      "timestamp": 154.682
     },
     {
       "speaker": "agent",
-      "text": "10 months ka EMI plan hai at 3299 rupees per month. Main abhi enrollment link send kar deti hun. Aap payment complete karte hi access mil jaayega. Phone number confirm kar sakti ho?",
-      "timestamp": 153.536
+      "text": "Perfect! Main aapko payment link share kar rahi hun WhatsApp pe. Aapka mobile number confirm kar dijiye - aur payment complete hone ke baad immediately access mil jaayega. Koi aur questions hain?",
+      "timestamp": 161.676
     },
     {
       "speaker": "student",
-      "text": "Haan, my number is 9 8 7 6 5 4 3 2 1 0. Link send kar dijiye, main abhi payment kar dungi.",
-      "timestamp": 166.329
+      "text": "Mobile number hai 9 8 7 6 5 4 3 2 1 0. Bas ek question - agar koi doubt ho toh teachers directly accessible hain?",
+      "timestamp": 173.389
     },
     {
       "speaker": "agent",
-      "text": "Perfect Ananya! Link sending now. Payment complete hone ke baad welcome email aayega with login details. All the best for your NEET preparation! Koi aur questions?",
-      "timestamp": 174.473
+      "text": "Haan bilkul! Doubt solving sessions daily hote hain aur app mein doubt section hai where you can post questions. Teachers 24 hours mein respond karte hain. Main abhi link send kar rahi hun aapke number pe.",
+      "timestamp": 184.483
     },
     {
       "speaker": "student",
-      "text": "Thank you so much Priya! Bahut helpful rahi aap. Main link ka wait kar rahi hun. Excited hun start karne ke liye!",
-      "timestamp": 185.526
+      "text": "Thank you so much Priya! Aap bahut helpful hain. Main payment kar dungi aur aaj se hi start kar dungi. Really excited hun!",
+      "timestamp": 198.476
     },
     {
       "speaker": "agent",
-      "text": "You're most welcome Ananya! Link sent! Welcome to PW family. Agar koi help chahiye toh call kar sakti ho. Best of luck, aap definitely crack kar sakti ho NEET!",
-      "timestamp": 193.02
+      "text": "You're most welcome Ananya! Main sure hun aap accha perform karogi. Payment ke baad welcome call bhi ayega orientation ke liye. All the best for your NEET preparation! Koi bhi help chahiye toh call kar dena.",
+      "timestamp": 206.62
     }
   ],
   "timestamps": [
     0,
-    5773,
-    12467,
-    20580,
-    28774,
-    39227,
-    47121,
-    61834,
-    70378,
-    86591,
-    95985,
-    109378,
-    117122,
-    130155,
-    137199,
-    147892,
-    153536,
-    166329,
-    174473,
-    185526,
-    193020
+    5353,
+    15597,
+    22810,
+    28504,
+    36857,
+    46851,
+    64024,
+    73218,
+    91891,
+    100185,
+    116158,
+    123352,
+    136025,
+    143869,
+    154682,
+    161676,
+    173389,
+    184483,
+    198476,
+    206620
   ],
-  "duration_seconds": 194.233,
+  "duration_seconds": 208.193,
   "extracted_fields": {
     "name": "Ananya Reddy",
     "class": "12",

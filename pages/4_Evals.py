@@ -26,6 +26,17 @@ def load_metrics():
         return json.load(f)
 
 metrics   = load_metrics()
+
+# ── Inject today's demo results if arriving from Operations ───────────────────
+today_additions = None
+if st.query_params.get("pw_synced") == "1":
+    today_additions = {
+        "HOT":   int(st.query_params.get("pw_hot",   0)),
+        "WARM":  int(st.query_params.get("pw_warm",  0)),
+        "COLD":  int(st.query_params.get("pw_cold",  0)),
+        "total": int(st.query_params.get("pw_calls", 0)),
+    }
+
 page_data = {
     "model_performance": {
         "accuracy":       metrics["model_performance"]["cv_accuracy"],
@@ -41,6 +52,7 @@ page_data = {
     },
     "conversation_quality": metrics["conversation_quality"],
     "business_impact":      metrics["business_impact"],
+    "today_additions":      today_additions,
 }
 
 HTML = """<!DOCTYPE html>
@@ -413,6 +425,18 @@ document.getElementById('acc-model').textContent   = MP.model_type;
 document.getElementById('acc-est').textContent     = MP.n_estimators;
 document.getElementById('acc-folds').textContent   = MP.cv_folds + '-fold';
 document.getElementById('acc-correct').textContent = MP.correct + ' / ' + MP.total;
+
+// Today's additions banner
+if (D.today_additions && D.today_additions.total > 0) {
+  const ta = D.today_additions;
+  const banner = document.createElement('div');
+  banner.style.cssText = 'margin-top:10px;padding:8px 12px;background:#6366f114;border:1px solid #6366f133;border-radius:8px;font-size:11px;color:var(--brand);display:flex;gap:16px;align-items:center;';
+  banner.innerHTML = `<span style="font-weight:600">+${ta.total} calls today</span>
+    <span style="color:var(--hot)">🔥 +${ta.HOT} HOT</span>
+    <span style="color:var(--warm)">🔶 +${ta.WARM} WARM</span>
+    <span style="color:var(--cold)">❄️ +${ta.COLD} COLD</span>`;
+  document.getElementById('acc-correct').closest('.acc-meta').appendChild(banner);
+}
 
 // Animate arc: circumference = 2π×40 = 251.2
 const arc = document.getElementById('acc-arc');

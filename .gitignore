@@ -14,7 +14,6 @@ secrets/
 *.model
 
 # ── Generated audio files ─────────────────────────────────────────────────────
-*.wav
 *.mp3
 *.ogg
 audio_cache/

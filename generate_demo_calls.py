@@ -162,11 +162,19 @@ def get_student_voice(name):
 def synthesize_wav(tts_client, text, voice_name, speed=1.0):
     from google.cloud import texttospeech
 
-    text = text.replace("PhysicsWallah", "Physics Wallah")
-    text = re.sub(r'\bPW\b',   'P W',     text)
-    text = re.sub(r'\bJEE\b',  'J E E',   text)
-    text = re.sub(r'\bNEET\b', 'N E E T', text)
-    text = re.sub(r'\bJEE\b\s*Main', 'J E E Main', text)
+    text = text.replace("PhysicsWallah", "Physics Waala")
+    text = re.sub(r'\bPW\b', 'P W', text)
+    text = re.sub(r'\bJEE\b', 'J E E', text)
+    text = re.sub(r'J E E\s*Main', 'J E E Main', text)
+    text = re.sub(r'\bNEET\b', 'Neat', text)
+
+    # Pronunciation fixes
+    text = re.sub(r'(?<!J E E )\bmain\b', 'mein', text)   # Hindi main → mein, except JEE Main
+    text = re.sub(r'(?<!J E E )\bMain\b', 'Mein', text)   # Capitalized version
+    text = text.replace(' - ', ', ')                        # Hyphen-dash
+    text = text.replace(' — ', ', ')                        # Em-dash (ASCII)
+    text = text.replace(' \u2014 ', ', ')                   # Em-dash (unicode)
+    text = text.replace('\u2014', ', ')                     # Em-dash without spaces
 
     def fix_price(m):
         num = int(m.group(1).replace(',',''))

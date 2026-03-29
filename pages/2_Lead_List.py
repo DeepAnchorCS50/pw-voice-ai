@@ -84,7 +84,14 @@ def load_leads():
         days_ago  = rnd.randint(0, 13)
         call_date = (base_date - datetime.timedelta(days=days_ago)).strftime('%b %d')
         call_type = 'Inbound' if rnd.random() > 0.4 else 'Outbound'
-        snippet   = rnd.choice(SNIPPETS[tier])
+        conv_path = os.path.join(SRC, 'data', 'conversations', f"{row['conversation_id']}.json")
+        if os.path.exists(conv_path):
+            with open(conv_path, encoding='utf-8') as cf:
+                conv = json.load(cf)
+            snippet = [{'role': m['speaker'].capitalize(), 'text': m['text']}
+                       for m in conv.get('messages', [])]
+        else:
+            snippet = rnd.choice(SNIPPETS[tier])
         score     = int(row['score'])
         leads.append({
             'id':             row['conversation_id'],
@@ -109,6 +116,7 @@ def load_leads():
             'action_slack':   tier == 'HOT',
             'action_email':   tier in ('HOT', 'WARM'),
             'action_crm':     True,
+            'is_new':         False,
         })
     return leads
 
@@ -116,6 +124,51 @@ leads     = load_leads()
 hot_count = sum(1 for l in leads if l['tier']=='HOT')
 warm_count= sum(1 for l in leads if l['tier']=='WARM')
 cold_count= sum(1 for l in leads if l['tier']=='COLD')
+
+# ── Inject demo results if arriving from Operations via View Results ───────────
+if st.query_params.get("pw_synced") == "1":
+    import glob
+    DEMO_DIR = os.path.join(SRC, "data", "demo_calls")
+    calls_count = int(st.query_params.get("pw_calls", 0))
+    call_files = sorted(glob.glob(os.path.join(DEMO_DIR, "*.json")))[:calls_count]
+    new_leads = []
+    for jf in call_files:
+        try:
+            with open(jf) as f:
+                cd = json.load(f)
+            s = cd.get("student", {})
+            new_leads.append({
+                'id':             cd.get("call_id", "demo"),
+                'name':           s.get("name", "Student"),
+                'class':          s.get("class", "12"),
+                'exam':           s.get("exam", "JEE"),
+                'exam_year':      "2026",
+                'city':           s.get("city", "—"),
+                'tier':           cd.get("tier", "WARM"),
+                'score':          cd.get("ml_score", 50),
+                'stage':          {"HOT":"Senior Sales Assigned","WARM":"Follow-up Scheduled","COLD":"Drip Campaign"}.get(cd.get("tier","WARM"),"—"),
+                'engagement':     cd.get("extracted_fields", {}).get("engagement_level", "medium"),
+                'budget_concern': str(cd.get("extracted_fields", {}).get("budget_concern", False)),
+                'decision_maker': cd.get("extracted_fields", {}).get("decision_maker", "self"),
+                'urgency':        "high" if cd.get("tier") == "HOT" else "medium",
+                'date':           "Today",
+                'call_type':      cd.get("call_type", "outbound").capitalize(),
+                'rule_score':     cd.get("rule_based_score", 50),
+                'ml_score':       cd.get("ml_score", 50),
+                'qa_score':       95,
+                'snippet':        [{'role': m['speaker'].capitalize(), 'text': m['text']} for m in cd.get("transcript", [])[:4]],
+                'action_slack':   cd.get("tier") == "HOT",
+                'action_email':   cd.get("tier") in ("HOT", "WARM"),
+                'action_crm':     True,
+                'is_new':         True,
+            })
+        except Exception:
+            pass
+    if new_leads:
+        leads = new_leads + leads
+        hot_count  += sum(1 for l in new_leads if l['tier']=='HOT')
+        warm_count += sum(1 for l in new_leads if l['tier']=='WARM')
+        cold_count += sum(1 for l in new_leads if l['tier']=='COLD')
 
 cities = sorted(set(l['city'] for l in leads if l['city'] != 'unknown'))
 exams  = sorted(set(l['exam'] for l in leads))
@@ -207,6 +260,7 @@ tr.lead-row.expanded td{background:var(--card);border-bottom:none;}
 
 /* Call type badge */
 .call-badge{font-size:9px;padding:2px 7px;border-radius:4px;border:1px solid var(--border);color:var(--muted);}
+.new-badge{font-size:9px;font-weight:700;background:#6366f118;color:var(--brand);border:1px solid #6366f133;padding:1px 6px;border-radius:8px;margin-left:6px;vertical-align:middle;}
 
 /* Accordion detail row */
 tr.detail-row td{padding:0;border-bottom:1px solid var(--border);}
@@ -215,7 +269,7 @@ tr.detail-row td{padding:0;border-bottom:1px solid var(--border);}
   transition:max-height 300ms ease;
   background:var(--bg);
 }
-.detail-inner.open{max-height:600px;}
+.detail-inner.open{max-height:600px;overflow-y:auto;}
 .detail-content{padding:20px 24px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
 
 .detail-section-title{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:10px;}
@@ -232,7 +286,7 @@ tr.detail-row td{padding:0;border-bottom:1px solid var(--border);}
 .field-val{font-size:11px;color:var(--text);font-weight:500;}
 
 /* Conversation snippet */
-.snippet{background:var(--card);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px;}
+.snippet{background:var(--card);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px;max-height:300px;overflow-y:auto;}
 .msg{display:flex;gap:8px;}
 .msg-role{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;width:46px;flex-shrink:0;padding-top:2px;}
 .msg-role.agent{color:var(--brand);}
@@ -416,7 +470,7 @@ function renderTable() {
     tr.dataset.id = lead.id;
     tr.onclick = () => toggleDetail(lead.id);
     tr.innerHTML = `
-      <td style="font-weight:500">${lead.name}</td>
+      <td style="font-weight:500">${lead.name}${lead.is_new ? ' <span class="new-badge">🆕 New</span>' : ''}</td>
       <td style="color:var(--muted)">${lead.city}</td>
       <td>Class ${lead.class}</td>
       <td><span style="font-size:10px;background:var(--card-h);padding:2px 8px;border-radius:4px">${lead.exam}</span></td>

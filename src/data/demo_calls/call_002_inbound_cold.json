@@ -16,129 +16,117 @@
     },
     {
       "speaker": "student",
-      "text": "Hi... main JEE ke baare mein kuch jaanna chahta tha. Actually I am just exploring options right now, not sure yet.",
-      "timestamp": 5.833
+      "text": "Hi... main JEE ke baare mein jaanna chahta tha. Kuch courses ke baare mein information chahiye thi.",
+      "timestamp": 5.473
     },
     {
       "speaker": "agent",
-      "text": "Bilkul! Main aapki help kar sakti hun. Pehle aap apna naam bata sakte hain? Aur aap currently which class mein hain?",
-      "timestamp": 13.677
+      "text": "Bilkul! Main aapki help kar sakti hun. Pehle aap apna naam bata sakte hain? Aur aap currently kis class mein hain?",
+      "timestamp": 11.717
     },
     {
       "speaker": "student",
-      "text": "Aakash Singh. Main class 10 mein hun abhi.",
-      "timestamp": 21.13
+      "text": "Main Aakash hun, Aakash Singh. Abhi Class 10 mein hun.",
+      "timestamp": 18.33
     },
     {
       "speaker": "agent",
-      "text": "Great Aakash! Class 10 se hi JEE ki preparation start karna bahut smart decision hai. Aap kahan se hain?",
-      "timestamp": 24.224
+      "text": "Nice to meet you Aakash! Class 10 se hi JEE ki preparation start karna bahut accha decision hai. Aap kab tak JEE dena chahte hain? 2027 mein?",
+      "timestamp": 22.424
     },
     {
       "speaker": "student",
-      "text": "Lucknow se hun. But main sure nahi hun ki abhi se start karna chahiye ya wait karna chahiye.",
-      "timestamp": 32.037
+      "text": "Haan... 2027 mein. But main abhi sirf explore kar raha hun options. Sure nahi hun ki kya karna hai.",
+      "timestamp": 33.297
     },
     {
       "speaker": "agent",
-      "text": "Aakash, early start bilkul right hai! 2 saal ka time milta hai properly prepare karne ke liye. Humare JEE Lakshya 2027 course specially class 10 students ke liye designed hai. Kya aapne koi coaching join ki hai already?",
-      "timestamp": 38.431
+      "text": "That's completely fine Aakash! Smart approach hai explore karna. Hamare paas Class 10 se JEE ke liye perfect courses hain. JEE Lakshya 2027 aur JEE Arjuna 2027 - dono hi 2 saal ka comprehensive program hai. Kya aap online classes prefer karenge ya offline?",
+      "timestamp": 40.641
     },
     {
       "speaker": "student",
-      "text": "Nahi abhi tak nahi. Bas explore kar raha hun options. Fees kitni hoti hai usually?",
-      "timestamp": 53.444
+      "text": "Online hi better rahega. But... pricing kya hai? Budget ki thodi problem hai.",
+      "timestamp": 60.094
     },
     {
       "speaker": "agent",
-      "text": "Aakash, humara JEE Lakshya 2027 course 35999 rupees mein hai, lekin tension mat lo - hum 0% EMI provide karte hain sirf 3499 rupees per month. That's less than what most families spend on daily chai! Budget kya concern hai?",
-      "timestamp": 60.138
+      "text": "Main samajh sakti hun Aakash. Dekho, JEE Arjuna 2027 sirf 19,999 rupees mein hai - complete 2 years ka. Aur agar EMI chahiye toh 1,999 rupees per month. That's like daily chai-nashta se bhi kam!",
+      "timestamp": 65.638
     },
     {
       "speaker": "student",
-      "text": "Haan thoda budget issue hai. Koi aur option hai jo kam expensive ho?",
-      "timestamp": 76.411
+      "text": "Hmm... 20,000 rupees... thoda zyada lag raha hai. Koi aur option hai kya?",
+      "timestamp": 81.311
     },
     {
       "speaker": "agent",
-      "text": "Haan bilkul! JEE Arjuna 2027 hai jo 19999 rupees mein hai, EMI sirf 1999 rupees per month. Isme bhi complete syllabus cover hota hai. Aap ghar pe parents se discuss kar sakte hain?",
-      "timestamp": 81.155
+      "text": "Haan bilkul! JEE Arjuna mein sab kuch included hai - live classes, recorded lectures, doubt solving, test series. Lekin main samajh rahi hun budget concern. 0% EMI hai hamare paas - PW Pay se sirf 1,999 rupees monthly. Kya aap parents se discuss kar sakte hain?",
+      "timestamp": 86.005
     },
     {
       "speaker": "student",
-      "text": "Haan parents se poochna padega pehle. Main abhi decide nahi kar sakta. Kya main baad mein call kar sakta hun?",
-      "timestamp": 95.988
+      "text": "Haan... mujhe parents se baat karni padegi. Main decide nahi kar sakta abhi. Aur kya included hai exactly?",
+      "timestamp": 106.118
     },
     {
       "speaker": "agent",
-      "text": "Of course Aakash! Bilkul right approach hai parents se discuss karna. Main aapko apna number de deti hun - 9 1 2 3 4 5 6 7 8 0. Aap jab bhi ready ho, call kar sakte hain. Koi particular doubt hai jo main clear kar sakun?",
-      "timestamp": 103.382
+      "text": "Sure Aakash! JEE Arjuna mein aapko milta hai - daily live classes by expert teachers, unlimited doubt support, weekly tests, previous year questions, aur complete study material. Sab kuch 2 saal ke liye. Main aapka number le sakti hun? Parents se discuss karne ke baad call back kar denge?",
+      "timestamp": 113.412
     },
     {
       "speaker": "student",
-      "text": "Bas yeh jaanna tha ki online classes kaisi hoti hain? Main kabhi online nahi padha hun.",
-      "timestamp": 122.415
+      "text": "Abhi number nahi dena chahta... main khud call kar lunga. Koi aur information hai jo main parents ko bata sakun?",
+      "timestamp": 132.505
     },
     {
       "speaker": "agent",
-      "text": "Very good question! Humare classes interactive hoti hain, live doubt solving sessions hote hain, aur recordings bhi mil jaati hain agar kuch miss ho jaaye. Plus study material bhi provide karte hain. Demo class bhi le sakte hain pehle.",
-      "timestamp": 128.109
+      "text": "Of course! Aap parents ko bata sakte hain ki PhysicsWallah India ka most affordable platform hai. Alakh Sir khud padhate hain, success rate bahut high hai. Aur 0% EMI facility bhi hai. Kab tak call back kar paoge approximately?",
+      "timestamp": 139.299
     },
     {
       "speaker": "student",
-      "text": "Ok... main parents se baat karke call karunga. Abhi ke liye itna hi.",
-      "timestamp": 141.682
+      "text": "2-3 din mein... maybe. Abhi confirm nahi kar sakta. Main bas explore kar raha hun different options.",
+      "timestamp": 153.112
     },
     {
       "speaker": "agent",
-      "text": "Perfect Aakash! Parents se discuss kariye, demo class ke baare mein bhi sochiye. Main wait karungi aapke call ka. All the best, aur koi doubt ho to feel free to call. Have a great day!",
-      "timestamp": 146.476
+      "text": "Perfect Aakash! No pressure at all. Jab bhi ready ho, hum yahan hain. Agar koi aur questions hain toh feel free to call. PhysicsWallah mein admission lene ke liye main personally help kar sakti hun. All the best for your preparation!",
+      "timestamp": 160.056
     },
     {
       "speaker": "student",
-      "text": "Thank you Priya ji. Main jaldi hi call karunga decision ke saath.",
-      "timestamp": 157.529
+      "text": "Thanks Priya. Main parents se baat karke definitely consider karunga. Bye.",
+      "timestamp": 174.109
     },
     {
       "speaker": "agent",
-      "text": "Most welcome Aakash! Take your time, sahi decision lena important hai. PhysicsWallah family mein aapka welcome hai. Bye!",
-      "timestamp": 161.223
-    },
-    {
-      "speaker": "student",
-      "text": "Bye! Thanks for the information.",
-      "timestamp": 169.276
-    },
-    {
-      "speaker": "agent",
-      "text": "Anytime Aakash! Take care and talk to you soon!",
-      "timestamp": 172.42
+      "text": "Most welcome Aakash! Take your time, parents se discuss karna. Jab bhi call karoge, hum ready hain aapki help karne ke liye. Have a great day!",
+      "timestamp": 179.203
     }
   ],
   "timestamps": [
     0,
-    5833,
-    13677,
-    21130,
-    24224,
-    32037,
-    38431,
-    53444,
-    60138,
-    76411,
-    81155,
-    95988,
-    103382,
-    122415,
-    128109,
-    141682,
-    146476,
-    157529,
-    161223,
-    169276,
-    172420
+    5473,
+    11717,
+    18330,
+    22424,
+    33297,
+    40641,
+    60094,
+    65638,
+    81311,
+    86005,
+    106118,
+    113412,
+    132505,
+    139299,
+    153112,
+    160056,
+    174109,
+    179203
   ],
-  "duration_seconds": 165.653,
+  "duration_seconds": 178.956,
   "extracted_fields": {
     "name": "Aakash Singh",
     "class": "10",
