@@ -23,11 +23,25 @@ COLORS = {
 HIDE_STREAMLIT_CSS = """
 <style>
     #MainMenu                        { visibility: hidden; }
-    header                           { visibility: hidden; }
     footer                           { visibility: hidden; }
     .stDeployButton                  { display: none; }
-    [data-testid="stSidebar"]        { display: none; }
-    [data-testid="collapsedControl"] { display: none; }
+
+    /* ── Hide ALL known Streamlit header / nav variants ── */
+    header                                        { display: none !important; }
+    [data-testid="stHeader"]                      { display: none !important; }
+    [data-testid="stTopNavigation"]               { display: none !important; }
+    [data-testid="stSidebarNav"]                  { display: none !important; }
+    [data-testid="stSidebar"]                     { display: none !important; }
+    [data-testid="collapsedControl"]              { display: none !important; }
+    [data-testid="stNavSectionHeader"]            { display: none !important; }
+    nav[data-testid="stBottomNavigation"]         { display: none !important; }
+
+    /* ── Emotion-cache classes Streamlit Cloud uses for top nav ── */
+    .st-emotion-cache-1itdyc2                     { display: none !important; }
+    .st-emotion-cache-czk5ss                      { display: none !important; }
+    .st-emotion-cache-1dp5vir                     { display: none !important; }
+
+    /* ── Block container: full-width, no padding ── */
     .block-container {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
